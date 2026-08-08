@@ -270,6 +270,10 @@ test("textbook course builder keeps vocabulary within its source and schedule", 
   assert.ok(textbook.vocabulary.every((item) => item.sourceKind === "textbook-vocabulary"));
   assert.ok(textbook.vocabulary.every((item) => item.firstExposureDay >= 1 && item.firstExposureDay <= 84));
   assert.ok(textbook.vocabulary.every((item) => item.meaning && item.partOfSpeech));
+  const content = textbook.vocabulary.find((item) => item.headword === "content");
+  assert.equal(content.meaning, "满足的；满意的；内容；所含之物");
+  assert.equal(content.exampleTranslation, "他想让它们感到满足。");
+  assert.doesNotMatch(JSON.stringify(textbook), /户斤容纳之物|居ij痛|口 liked more/);
   assert.ok(textbook.audit.maxNewWordsPerDay <= 30);
   assert.equal(textbook.phrases.length, 0);
 });

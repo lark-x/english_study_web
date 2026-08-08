@@ -41,7 +41,7 @@ for (const lesson of lessons) {
     if (!courseDictionary.has(key)) courseDictionary.set(key, {
       word: item.word, phonetic: item.phonetic, audio: "",
       meanings: [{ partOfSpeech: item.partOfSpeech, definition: item.meaning }],
-      examples: [item.example], source: "course",
+      examples: [item.exampleTranslation ? `${item.example}\n中文译文：${item.exampleTranslation}` : item.example], source: "course",
     });
   }
 }

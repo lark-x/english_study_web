@@ -75,6 +75,7 @@ export interface VocabularyEntry {
   partOfSpeech: string;
   meaning: string;
   example: string;
+  exampleTranslation?: string;
   status?: "new" | "learning" | "recognised" | "mastered";
 }
 

@@ -30,6 +30,7 @@ export interface NormalizedVocabularyItem {
   partOfSpeech: string;
   meaning: string;
   example: string;
+  exampleTranslation?: string;
   sourceLine: string;
   sourceKind: "textbook-vocabulary";
   firstExposureDay: number;

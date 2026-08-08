@@ -17,6 +17,7 @@ export interface MasterVocabularyEntry {
   chineseMeanings: string[];
   conciseEnglishDefinition: string;
   exampleSentences: string[];
+  exampleTranslation?: string;
   collocations: string[];
   wordFamily: string[];
   difficulty: 1 | 2 | 3;
@@ -60,6 +61,7 @@ export const vocabularyMaster: MasterVocabularyEntry[] = normalizedCourse.vocabu
     chineseMeanings: [item.meaning || "教材释义待核对"],
     conciseEnglishDefinition: "",
     exampleSentences: findContext(item.headword) ? [findContext(item.headword)] : [],
+    exampleTranslation: item.exampleTranslation,
     collocations: [],
     wordFamily: [],
     difficulty: priorityBand === "A" ? 1 : priorityBand === "B" ? 2 : 3,
@@ -128,6 +130,7 @@ export function toVocabularyEntry(item: MasterVocabularyEntry, stageId: StageId)
     // A vocabulary card must always provide renderable text. Some appendix entries
     // do not occur in the extracted unit sentences, so retain the textbook headword.
     example: item.exampleSentences[0] ?? item.headword,
+    exampleTranslation: item.exampleTranslation,
     status: "new",
   };
 }

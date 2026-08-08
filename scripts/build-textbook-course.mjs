@@ -19,6 +19,29 @@ const cleanMeaning = (value = "") => value
   .filter(Boolean)
   .join("；")
   .replace(/[；;，,、\s]+$/, "");
+const curatedMeanings = {
+  content: "满足的；满意的；内容；所含之物",
+  identify: "识别；鉴定；确认；认出",
+  please: "请；使高兴；使满意",
+  remove: "移开；去除；搬走；开除；删除",
+  survive: "生存；幸存；比……活得久",
+  anguish: "极度痛苦；苦恼",
+  imagine: "想象；设想；认为",
+  favorite: "最喜欢的；特别喜爱的",
+  contain: "包含；容纳；控制；抑制",
+  goodwill: "善意；友好；亲善",
+  pensive: "沉思的；忧思的",
+  stable: "稳定的；牢固的；马厩",
+  push: "推；推动；促进；努力争取",
+  consume: "消耗；消费；吃；喝",
+  subside: "减弱；平息；消退；下沉",
+  ethnic: "种族的；民族的；具有民族特色的",
+};
+const curatedExampleTranslations = {
+  content: "他想让它们感到满足。",
+  baggage: "我只带着自己和一点点行李。",
+  goodwill: "你的微笑是你善意的使者。",
+};
 
 function extractEnglishSentences(text, limit = 36) {
   const candidates = text.replace(/--- Page \d+ ---/g, " ").match(/[A-Z][A-Za-z0-9,;:'’"()\- ]{18,320}[.!?]/g) ?? [];
@@ -69,8 +92,9 @@ const vocabulary = extractedVocabulary
       headword,
       phonetic: entry.phonetic || "发音待核对",
       partOfSpeech: entry.partOfSpeech || "词性待核对",
-      meaning: cleanMeaning(appendixEntry?.translation || entry.meaning),
+      meaning: curatedMeanings[headword] || cleanMeaning(appendixEntry?.translation || entry.meaning),
       example: allSentences.find((sentence) => pattern.test(sentence)) || "",
+      exampleTranslation: curatedExampleTranslations[headword] || "",
       sourceLine: `教材词汇提取：${headword}`,
       sourceKind: "textbook-vocabulary",
       firstExposureDay: Math.floor(index / 30) + 1,

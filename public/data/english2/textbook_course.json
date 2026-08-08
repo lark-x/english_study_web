@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-08T12:08:30.262Z",
+  "generatedAt": "2026-08-08T12:28:34.169Z",
   "sourceDirectory": "app/study/textbook-units",
   "sourceRule": "课程内容仅来自《英语（二）自学教程（2012年版，00015，张敬源、张虹主编）》的本地提取文件。",
   "documentCount": 14,
@@ -1278,6 +1278,7 @@
       "partOfSpeech": "adj.",
       "meaning": "足够的；充足的",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：sufficient",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 1
@@ -1288,6 +1289,7 @@
       "partOfSpeech": "n.",
       "meaning": "n. 权力, 当权者, 当局, 权威, 专家；代理权, 授权, 权威",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：authority",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 1
@@ -1298,6 +1300,7 @@
       "partOfSpeech": "adj.",
       "meaning": "相符的；符合的",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：consistent",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 1
@@ -1308,6 +1311,7 @@
       "partOfSpeech": "adv.",
       "meaning": "直接地；径直地",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：directly",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 1
@@ -1316,8 +1320,9 @@
       "headword": "identify",
       "phonetic": "/ai'dentifai/",
       "partOfSpeech": "v.",
-      "meaning": "vt. 识别, 认为...等同于, 确定, 使参与；vi. 一致, 认同",
+      "meaning": "识别；鉴定；确认；认出",
       "example": "This means you must read carefully in order to identify any assumptions.",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：identify",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 1
@@ -1328,6 +1333,7 @@
       "partOfSpeech": "adj.",
       "meaning": "符合逻辑的；合理的",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：valid",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 1
@@ -1338,6 +1344,7 @@
       "partOfSpeech": "adj.",
       "meaning": "可信的；可靠的",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：credible",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 1
@@ -1348,6 +1355,7 @@
       "partOfSpeech": "adj.",
       "meaning": "n. 涌流, 趋势, 流；a. 流通的, 现在的, 当前的, 流行的；当前的",
       "example": "English in their current job.",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：current",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 1
@@ -1358,6 +1366,7 @@
       "partOfSpeech": "adv.",
       "meaning": "非常；很；相当多地",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：considerably",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 1
@@ -1368,6 +1377,7 @@
       "partOfSpeech": "n.",
       "meaning": "n. 信心；可靠",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：confidence",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 1
@@ -1378,6 +1388,7 @@
       "partOfSpeech": "n.",
       "meaning": "控制；驾驭",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：mastery",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 1
@@ -1388,6 +1399,7 @@
       "partOfSpeech": "adv.",
       "meaning": "巨大地；惊人",
       "example": "Our world is changed dramatically by technology over the past few decades.",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：dramatically",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 1
@@ -1396,8 +1408,9 @@
       "headword": "please",
       "phonetic": "/pliiz/",
       "partOfSpeech": "v.",
-      "meaning": "adv. 请；vt. 使高兴, 合...的心意, 取悦；vi. 使人满意, 讨好, 愿意, 敬请",
+      "meaning": "请；使高兴；使满意",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：please",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 1
@@ -1408,6 +1421,7 @@
       "partOfSpeech": "n.",
       "meaning": "给人或云力物",
       "example": "We can knowingly make our command carried out without using a word.",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：command",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 1
@@ -1418,6 +1432,7 @@
       "partOfSpeech": "n.",
       "meaning": "对重大事情的）",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：sense",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 1
@@ -1428,6 +1443,7 @@
       "partOfSpeech": "v.",
       "meaning": "排除；清",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：eliminate",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 1
@@ -1438,6 +1454,7 @@
       "partOfSpeech": "adj.",
       "meaning": "极大的；无法衡量的",
       "example": "It limits our infinite abilities and stifles creativity.",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：infinite",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 1
@@ -1448,6 +1465,7 @@
       "partOfSpeech": "v.",
       "meaning": "压制；扼杀；阻止",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：stifle",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 1
@@ -1458,6 +1476,7 @@
       "partOfSpeech": "adj.",
       "meaning": "内心的；头脑中的",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：internal",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 1
@@ -1468,6 +1487,7 @@
       "partOfSpeech": "adv.",
       "meaning": "通常；常常",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：commonly",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 1
@@ -1478,6 +1498,7 @@
       "partOfSpeech": "adj.",
       "meaning": "极好的；绝妙的",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：fabulous",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 1
@@ -1488,6 +1509,7 @@
       "partOfSpeech": "v.",
       "meaning": "发生；出现",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：occur",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 1
@@ -1496,8 +1518,9 @@
       "headword": "remove",
       "phonetic": "/ri'muiv/",
       "partOfSpeech": "v.",
-      "meaning": "vt. 移动, 调动, 除去, 迁移, 开除, 移交；vi. 迁移, 移动, 搬家；n. 班级, 升级, 移动, 搬家, 间距；删除",
+      "meaning": "移开；去除；搬走；开除；删除",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：remove",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 1
@@ -1508,6 +1531,7 @@
       "partOfSpeech": "n.",
       "meaning": "紧握",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：grip",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 1
@@ -1516,8 +1540,9 @@
       "headword": "content",
       "phonetic": "/'kontent/",
       "partOfSpeech": "n.",
-      "meaning": "戶斤容纳之物",
+      "meaning": "满足的；满意的；内容；所含之物",
       "example": "He wanted them to be content.",
+      "exampleTranslation": "他想让它们感到满足。",
       "sourceLine": "教材词汇提取：content",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 1
@@ -1528,6 +1553,7 @@
       "partOfSpeech": "n.",
       "meaning": "航脏；杂乱；不整洁",
       "example": "But Cindy wasn't thinking about the mess.",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：mess",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 1
@@ -1538,6 +1564,7 @@
       "partOfSpeech": "adv.",
       "meaning": "adv. 很少地, 罕有地",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：rarely",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 1
@@ -1548,6 +1575,7 @@
       "partOfSpeech": "adv.",
       "meaning": "最后",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：eventually",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 1
@@ -1558,6 +1586,7 @@
       "partOfSpeech": "adj.",
       "meaning": "极小的；微小的",
       "example": "I just carry myself and my tiny baggage.",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：tiny",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 1
@@ -1568,6 +1597,7 @@
       "partOfSpeech": "v.",
       "meaning": "抓紧；抓牢",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：grasp",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 1
@@ -1578,6 +1608,7 @@
       "partOfSpeech": "adj.",
       "meaning": "有名的；闻名的；受尊敬的",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：renowned",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 2
@@ -1588,6 +1619,7 @@
       "partOfSpeech": "adj.",
       "meaning": "科学（上）的；关于科学的",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：scientific",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 2
@@ -1598,6 +1630,7 @@
       "partOfSpeech": "adj.",
       "meaning": "很有用的；很重要的：宝贵的",
       "example": "A valuable skill to have in business is how to negotiate.",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：valuable",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 2
@@ -1608,6 +1641,7 @@
       "partOfSpeech": "u.",
       "meaning": "瞥一眼；匆匆",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：glance",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 2
@@ -1618,6 +1652,7 @@
       "partOfSpeech": "v.",
       "meaning": "给（糕饼）覆上糖霜",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：frost",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 2
@@ -1628,6 +1663,7 @@
       "partOfSpeech": "n.",
       "meaning": "巨大成功；伟",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：triumph",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 2
@@ -1638,6 +1674,7 @@
       "partOfSpeech": "adj.",
       "meaning": "多块状物的；为块状物覆盖的",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：lumpy",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 2
@@ -1648,6 +1685,7 @@
       "partOfSpeech": "n.",
       "meaning": "电",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：blender",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 2
@@ -1658,6 +1696,7 @@
       "partOfSpeech": "adj.",
       "meaning": "必需的；必备的",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：requisite",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 2
@@ -1668,6 +1707,7 @@
       "partOfSpeech": "n.",
       "meaning": "家庭）用具，器皿",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：utensil",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 2
@@ -1678,6 +1718,7 @@
       "partOfSpeech": "v.",
       "meaning": "安",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：position",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 2
@@ -1688,6 +1729,7 @@
       "partOfSpeech": "v.",
       "meaning": "突然爆发，迸发（感情）",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：explode",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 2
@@ -1698,6 +1740,7 @@
       "partOfSpeech": "v.",
       "meaning": "发出哪日八声",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：trumpet",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 2
@@ -1708,6 +1751,7 @@
       "partOfSpeech": "adv.",
       "meaning": "略微；稍微",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：slightly",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 2
@@ -1718,6 +1762,7 @@
       "partOfSpeech": "adj.",
       "meaning": "不平衡的；不",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：off-balance",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 2
@@ -1728,6 +1773,7 @@
       "partOfSpeech": "adv.",
       "meaning": "温柔地；温和地；和缓地",
       "example": "Honey,\" Cindy's father interjected gently, \"take a look at the table.",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：gently",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 2
@@ -1738,6 +1784,7 @@
       "partOfSpeech": "adv.",
       "meaning": "悄梢地；静静地",
       "example": "For a few moments Cindy and her father stood silently, neither one knowing what to say.",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：silently",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 2
@@ -1748,6 +1795,7 @@
       "partOfSpeech": "adj.",
       "meaning": "微湿的：湿润的",
       "example": "At last she looked up at him, her eyes moist and red.",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：moist",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 2
@@ -1758,6 +1806,7 @@
       "partOfSpeech": "adj.",
       "meaning": "偶然的",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：occasional",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 2
@@ -1768,6 +1817,7 @@
       "partOfSpeech": "adv.",
       "meaning": "非常；极其",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：awfully",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 2
@@ -1778,6 +1828,7 @@
       "partOfSpeech": "n.",
       "meaning": "令人懊丧",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：frustration",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 2
@@ -1788,6 +1839,7 @@
       "partOfSpeech": "v.",
       "meaning": "露头；显现",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：emerge",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 2
@@ -1798,6 +1850,7 @@
       "partOfSpeech": "n.",
       "meaning": "自豪；自尊",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：dignity",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 2
@@ -1808,6 +1861,7 @@
       "partOfSpeech": "adj.",
       "meaning": "易损坏的；纤弱的；脆弱的",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：tender",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 2
@@ -1818,6 +1872,7 @@
       "partOfSpeech": "adv.",
       "meaning": "偶然；偶尔；有时候",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：occasionally",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 2
@@ -1828,6 +1883,7 @@
       "partOfSpeech": "n.",
       "meaning": "n. 结果, 重要性；结果, 后果, 推断",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：consequence",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 2
@@ -1838,6 +1894,7 @@
       "partOfSpeech": "adv.",
       "meaning": "其实；实际上",
       "example": "But it is indeed the answer.",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：indeed",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 2
@@ -1848,6 +1905,7 @@
       "partOfSpeech": "adj.",
       "meaning": "时毫的；赶时擊的",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：trendy",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 2
@@ -1858,6 +1916,7 @@
       "partOfSpeech": "n.",
       "meaning": "众多",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：multitude",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 2
@@ -1868,6 +1927,7 @@
       "partOfSpeech": "adj.",
       "meaning": "共有的；共同的",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：mutual",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 2
@@ -1878,6 +1938,7 @@
       "partOfSpeech": "v.",
       "meaning": "丧失；理灭；毁灭",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：perish",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 3
@@ -1888,6 +1949,7 @@
       "partOfSpeech": "n.",
       "meaning": "想法；看法",
       "example": "Language is the dress of thought.",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：thought",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 3
@@ -1898,6 +1960,7 @@
       "partOfSpeech": "adj.",
       "meaning": "相似的；类似的",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：akin",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 3
@@ -1908,6 +1971,7 @@
       "partOfSpeech": "n.",
       "meaning": "存款",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：deposit",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 3
@@ -1918,6 +1982,7 @@
       "partOfSpeech": "n.",
       "meaning": "健康；安乐；康乐",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：well-being",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 3
@@ -1928,6 +1993,7 @@
       "partOfSpeech": "v.",
       "meaning": "寻找",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：seek",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 3
@@ -1938,6 +2004,7 @@
       "partOfSpeech": "n.",
       "meaning": "恶名;坏名声",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：notoriety",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 3
@@ -1948,6 +2015,7 @@
       "partOfSpeech": "v.",
       "meaning": "再联系；再联络",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：reconnect",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 3
@@ -1958,6 +2026,7 @@
       "partOfSpeech": "n.",
       "meaning": "歌词",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：lyric",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 3
@@ -1968,6 +2037,7 @@
       "partOfSpeech": "adj.",
       "meaning": "肯定的",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：absolute",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 3
@@ -1978,6 +2048,7 @@
       "partOfSpeech": "v.",
       "meaning": "抛弃，离",
       "example": "When all other friends desert, he remains.",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：desert",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 3
@@ -1988,6 +2059,7 @@
       "partOfSpeech": "adj.",
       "meaning": "不可信",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：treacherous",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 3
@@ -1998,6 +2070,7 @@
       "partOfSpeech": "n.",
       "meaning": "贫穷；贫困",
       "example": "A man's dog stands by him in prosperity and in poverty, in health and in sickness.",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：poverty",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 3
@@ -2008,6 +2081,7 @@
       "partOfSpeech": "n.",
       "meaning": "疾病；不健康",
       "example": "A man's dog stands by him in prosperity and in poverty, in health and in sickness.",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：sickness",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 3
@@ -2018,6 +2092,7 @@
       "partOfSpeech": "adj.",
       "meaning": "冬天的；寒冷的",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：wintry",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 3
@@ -2028,6 +2103,7 @@
       "partOfSpeech": "adv.",
       "meaning": "猛烈地",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：fiercely",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 3
@@ -2038,6 +2114,7 @@
       "partOfSpeech": "n.",
       "meaning": "艰辛；艰难",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：roughness",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 3
@@ -2048,6 +2125,7 @@
       "partOfSpeech": "n.",
       "meaning": "穷人；贫民；乞丐",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：pauper",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 3
@@ -2058,6 +2136,7 @@
       "partOfSpeech": "adj.",
       "meaning": "不变的；固定的；恒定的",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：constant",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 3
@@ -2068,6 +2147,7 @@
       "partOfSpeech": "n.",
       "meaning": "天空",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：heaven",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 3
@@ -2078,6 +2158,7 @@
       "partOfSpeech": "adj.",
       "meaning": "没有朋友的",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：friendless",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 3
@@ -2088,6 +2169,7 @@
       "partOfSpeech": "adj.",
       "meaning": "无家的",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：homeless",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 3
@@ -2098,6 +2180,7 @@
       "partOfSpeech": "v.",
       "meaning": "陪同；陪伴",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：accompany",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 3
@@ -2108,6 +2191,7 @@
       "partOfSpeech": "n.",
       "meaning": "动物的）爪",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：paw",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 3
@@ -2118,6 +2202,7 @@
       "partOfSpeech": "adj.",
       "meaning": "警觉的",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：alert",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 3
@@ -2128,6 +2213,7 @@
       "partOfSpeech": "n.",
       "meaning": "警惕",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：watchfulness",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 3
@@ -2138,6 +2224,7 @@
       "partOfSpeech": "n.",
       "meaning": "好事；有益之事",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：blessing",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 3
@@ -2148,6 +2235,7 @@
       "partOfSpeech": "n.",
       "meaning": "现金",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：cash",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 3
@@ -2158,6 +2246,7 @@
       "partOfSpeech": "adj.",
       "meaning": "不合法的；非法的；违法的",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：illegal",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 3
@@ -2168,6 +2257,7 @@
       "partOfSpeech": "n.",
       "meaning": "非法交易",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：trafficking",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 3
@@ -2178,6 +2268,7 @@
       "partOfSpeech": "n.",
       "meaning": "贩毒者；毒品贩子",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：dealer",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 4
@@ -2188,6 +2279,7 @@
       "partOfSpeech": "v.",
       "meaning": "呂增力□;增进",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：contribute",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 4
@@ -2198,6 +2290,7 @@
       "partOfSpeech": "n.",
       "meaning": "n. 动机, 刺激, 推动；促动, 推动, 诱导",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：motivation",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 4
@@ -2208,6 +2301,7 @@
       "partOfSpeech": "adv.",
       "meaning": "仅；只",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：solely",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 4
@@ -2218,6 +2312,7 @@
       "partOfSpeech": "adj.",
       "meaning": "独特的；罕见的",
       "example": "Internet company, research the requirements for your own unique Web presence.",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：unique",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 4
@@ -2226,8 +2321,9 @@
       "headword": "survive",
       "phonetic": "/ss'vaiv/",
       "partOfSpeech": "v.",
-      "meaning": "vt. 比...活得长, 生存, 生还, 幸免于；vi. 活下来, 幸存",
+      "meaning": "生存；幸存；比……活得久",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：survive",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 4
@@ -2238,6 +2334,7 @@
       "partOfSpeech": "v.",
       "meaning": "n. 购买, 购买品, 紧握, 绞辘；vt. 购买, 赢得, 努力取得, 用滑轮起(锚等)",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：purchase",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 4
@@ -2248,6 +2345,7 @@
       "partOfSpeech": "n.",
       "meaning": "vt. 装罐；n. 罐头, 容器；aux. 能, 可以；作废字符",
       "example": "Directions: Give your friends some suggestions on a place where you can spend your vacation.",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：can",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 4
@@ -2258,6 +2356,7 @@
       "partOfSpeech": "v.",
       "meaning": "超过",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：exceed",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 4
@@ -2268,6 +2367,7 @@
       "partOfSpeech": "v.",
       "meaning": "减轻；缓和；缓解",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：alleviate",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 4
@@ -2278,6 +2378,7 @@
       "partOfSpeech": "adj.",
       "meaning": "富有",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：seasoned",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 4
@@ -2288,6 +2389,7 @@
       "partOfSpeech": "adj.",
       "meaning": "各种不同的；各种各样的",
       "example": "People tend to change jobs fairly often, for various reasons.",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：various",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 4
@@ -2298,6 +2400,7 @@
       "partOfSpeech": "n.",
       "meaning": "耳只",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：career",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 4
@@ -2308,6 +2411,7 @@
       "partOfSpeech": "v.",
       "meaning": "满足（希",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：feed",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 4
@@ -2318,6 +2422,7 @@
       "partOfSpeech": "v.",
       "meaning": "超出",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：transcend",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 4
@@ -2328,6 +2433,7 @@
       "partOfSpeech": "adv.",
       "meaning": "不停地；持续不断地",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：incessantly",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 4
@@ -2338,6 +2444,7 @@
       "partOfSpeech": "adv.",
       "meaning": "喧闹地",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：noisily",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 4
@@ -2348,6 +2455,7 @@
       "partOfSpeech": "adv.",
       "meaning": "不易",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：subtly",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 4
@@ -2358,6 +2466,7 @@
       "partOfSpeech": "n.",
       "meaning": "折磨；痛苦",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：affliction",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 4
@@ -2368,6 +2477,7 @@
       "partOfSpeech": "v.",
       "meaning": "处理，解",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：confront",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 4
@@ -2376,8 +2486,9 @@
       "headword": "anguish",
       "phonetic": "/'aeggwij/",
       "partOfSpeech": "n.",
-      "meaning": "居ij痛；极",
+      "meaning": "极度痛苦；苦恼",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：anguish",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 4
@@ -2388,6 +2499,7 @@
       "partOfSpeech": "n.",
       "meaning": "绝望",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：despair",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 4
@@ -2398,6 +2510,7 @@
       "partOfSpeech": "v.",
       "meaning": "产生，引起（某种",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：engender",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 4
@@ -2408,6 +2521,7 @@
       "partOfSpeech": "adv.",
       "meaning": "精神上；智",
       "example": "By late afternoon, I was back at it, refreshed physically, mentally and emotionally.",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：mentally",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 4
@@ -2418,6 +2532,7 @@
       "partOfSpeech": "adv.",
       "meaning": "故意",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：deliberately",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 4
@@ -2428,6 +2543,7 @@
       "partOfSpeech": "adv.",
       "meaning": "最近：新近；近来；不久前",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：lately",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 4
@@ -2438,6 +2554,7 @@
       "partOfSpeech": "n.",
       "meaning": "绝望；拼命；链而走险",
       "example": "It is desperation that causes the author's friends to turn to him for advice.",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：desperation",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 4
@@ -2448,6 +2565,7 @@
       "partOfSpeech": "v.",
       "meaning": "重视",
       "example": "Don't accept what is written at face value.",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：value",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 4
@@ -2458,6 +2576,7 @@
       "partOfSpeech": "adv.",
       "meaning": "快",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：cheerfully",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 4
@@ -2466,8 +2585,9 @@
       "headword": "imagine",
       "phonetic": "/i'maed3in/",
       "partOfSpeech": "v.",
-      "meaning": "vt. 想像, 设想, 猜测；vi. 想像起来",
+      "meaning": "想象；设想；认为",
       "example": "Imagine life as a game in which you are juggling some five balls in the air.",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：imagine",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 4
@@ -2478,6 +2598,7 @@
       "partOfSpeech": "adj.",
       "meaning": "可能致命的；威胁着生",
       "example": "A life-threatening disease does not mean giving up.",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：life-threatening",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 5
@@ -2488,6 +2609,7 @@
       "partOfSpeech": "n.",
       "meaning": "课间休息",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：recess",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 5
@@ -2498,6 +2620,7 @@
       "partOfSpeech": "n.",
       "meaning": "兄；弟；姐；妹",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：sibling",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 5
@@ -2508,6 +2631,7 @@
       "partOfSpeech": "n.",
       "meaning": "计",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：scheme",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 5
@@ -2518,6 +2642,7 @@
       "partOfSpeech": "n.",
       "meaning": "幼儿园",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：kindergarten",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 5
@@ -2528,6 +2653,7 @@
       "partOfSpeech": "adj.",
       "meaning": "n. 月刊；a. 每月的, 每月一次的",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：monthly",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 5
@@ -2538,6 +2664,7 @@
       "partOfSpeech": "adv.",
       "meaning": "经济上",
       "example": "Well, how do you expect to become a success financially if you believe these things?",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：financially",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 5
@@ -2548,6 +2675,7 @@
       "partOfSpeech": "adv.",
       "meaning": "快捷地；轻而易举地",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：readily",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 5
@@ -2558,6 +2686,7 @@
       "partOfSpeech": "adj.",
       "meaning": "a. 可利用的, 可获得的, 有效的；有效的, 可得的",
       "example": "Learning about the different options available to them is the first step in the process.",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：available",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 5
@@ -2568,6 +2697,7 @@
       "partOfSpeech": "adj.",
       "meaning": "大量的",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：abundant",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 5
@@ -2578,6 +2708,7 @@
       "partOfSpeech": "n.",
       "meaning": "宇宙；天地万物",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：universe",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 5
@@ -2586,8 +2717,9 @@
       "headword": "favorite",
       "phonetic": "/'feivarit/",
       "partOfSpeech": "adj.",
-      "meaning": "口 liked more than others of the same kind",
+      "meaning": "最喜欢的；特别喜爱的",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：favorite",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 5
@@ -2598,6 +2730,7 @@
       "partOfSpeech": "n.",
       "meaning": "慈善机构",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：charity",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 5
@@ -2608,6 +2741,7 @@
       "partOfSpeech": "n.",
       "meaning": "大量；丰盛",
       "example": "Abundance thinking has negative influence on the way you live.",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：abundance",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 5
@@ -2618,6 +2752,7 @@
       "partOfSpeech": "conj.",
       "meaning": "凭此；藉W;由于",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：whereby",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 5
@@ -2628,6 +2763,7 @@
       "partOfSpeech": "adv.",
       "meaning": "快乐地",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：joyfully",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 5
@@ -2638,6 +2774,7 @@
       "partOfSpeech": "adv.",
       "meaning": "准确地；恰巧地",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：precisely",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 5
@@ -2648,6 +2785,7 @@
       "partOfSpeech": "adj.",
       "meaning": "令人害怕的；可怕的",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：dreaded",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 5
@@ -2658,6 +2796,7 @@
       "partOfSpeech": "n.",
       "meaning": "犹豫",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：hesitation",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 5
@@ -2668,6 +2807,7 @@
       "partOfSpeech": "adj.",
       "meaning": "无",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：feeble",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 5
@@ -2678,6 +2818,7 @@
       "partOfSpeech": "adv.",
       "meaning": "大量地；连连地",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：profusely",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 5
@@ -2688,6 +2829,7 @@
       "partOfSpeech": "v.",
       "meaning": "手己…固定，手己…",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：attach",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 5
@@ -2696,8 +2838,9 @@
       "headword": "contain",
       "phonetic": "/ksn'tem/",
       "partOfSpeech": "v.",
-      "meaning": "控制，克串ij，抑制",
+      "meaning": "包含；容纳；控制；抑制",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：contain",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 5
@@ -2708,6 +2851,7 @@
       "partOfSpeech": "adj.",
       "meaning": "令人高兴的；令",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：pleasing",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 5
@@ -2718,6 +2862,7 @@
       "partOfSpeech": "adj.",
       "meaning": "些许的；不",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：modest",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 5
@@ -2728,6 +2873,7 @@
       "partOfSpeech": "n.",
       "meaning": "大笔的钱；巨款",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：fortune",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 5
@@ -2738,6 +2884,7 @@
       "partOfSpeech": "v.",
       "meaning": "流露；面带",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：wear",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 5
@@ -2748,6 +2895,7 @@
       "partOfSpeech": "n.",
       "meaning": "很受欢迎的人（或",
       "example": "That is why dogs make such a hit.",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：hit",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 5
@@ -2758,6 +2906,7 @@
       "partOfSpeech": "adj.",
       "meaning": "忧郁的；闷闷不乐的",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：glum",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 5
@@ -2768,6 +2917,7 @@
       "partOfSpeech": "n.",
       "meaning": "小猫",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：kitten",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 5
@@ -2778,6 +2928,7 @@
       "partOfSpeech": "adj.",
       "meaning": "典",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：characteristic",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 6
@@ -2786,8 +2937,9 @@
       "headword": "goodwill",
       "phonetic": "/.gud'wil/",
       "partOfSpeech": "n.",
-      "meaning": "呂es to people as a job 由[3递员；信使",
+      "meaning": "善意；友好；亲善",
       "example": "Your smile is a messenger of your goodwill.",
+      "exampleTranslation": "你的微笑是你善意的使者。",
       "sourceLine": "教材词汇提取：goodwill",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 6
@@ -2798,6 +2950,7 @@
       "partOfSpeech": "n.",
       "meaning": "怀孕；妊娠；孕期",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：pregnancy",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 6
@@ -2808,6 +2961,7 @@
       "partOfSpeech": "adj.",
       "meaning": "巨大的；非常严重的",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：massive",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 6
@@ -2818,6 +2972,7 @@
       "partOfSpeech": "adj.",
       "meaning": "无四肢的",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：limbless",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 6
@@ -2828,6 +2983,7 @@
       "partOfSpeech": "v.",
       "meaning": "完成",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：accomplish",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 6
@@ -2838,6 +2994,7 @@
       "partOfSpeech": "n.",
       "meaning": "肢；营；腿",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：limb",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 6
@@ -2848,6 +3005,7 @@
       "partOfSpeech": "adj.",
       "meaning": "鼓舞的",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：motivational",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 6
@@ -2858,6 +3016,7 @@
       "partOfSpeech": "adv.",
       "meaning": "全心全意地",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：wholeheartedly",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 6
@@ -2868,6 +3027,7 @@
       "partOfSpeech": "n.",
       "meaning": "海拔；海拔高度",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：altitude",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 6
@@ -2878,6 +3038,7 @@
       "partOfSpeech": "n.",
       "meaning": "态度；观点",
       "example": "They can help you put things into perspective as well as provide inspiration.",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：perspective",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 6
@@ -2888,6 +3049,7 @@
       "partOfSpeech": "adj.",
       "meaning": "巨大的；深",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：profound",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 6
@@ -2898,6 +3060,7 @@
       "partOfSpeech": "adv.",
       "meaning": "常常",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：oftentimes",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 6
@@ -2908,6 +3071,7 @@
       "partOfSpeech": "n.",
       "meaning": "不",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：biend",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 6
@@ -2918,6 +3082,7 @@
       "partOfSpeech": "v.",
       "meaning": "vt. 定义, 规定, 使明确；定义",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：define",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 6
@@ -2928,6 +3093,7 @@
       "partOfSpeech": "adj.",
       "meaning": "不能相信的；难",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：incredible",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 6
@@ -2938,6 +3104,7 @@
       "partOfSpeech": "adj.",
       "meaning": "未婚的",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：unwed",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 6
@@ -2948,6 +3115,7 @@
       "partOfSpeech": "v.",
       "meaning": "己起；回'区起；回想、起",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：recall",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 6
@@ -2958,6 +3126,7 @@
       "partOfSpeech": "n.",
       "meaning": "具有；拥有",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：possession",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 6
@@ -2968,6 +3137,7 @@
       "partOfSpeech": "v.",
       "meaning": "减弱；减少",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：sag",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 6
@@ -2978,6 +3148,7 @@
       "partOfSpeech": "adj.",
       "meaning": "连续的；接",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：successive",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 6
@@ -2988,6 +3159,7 @@
       "partOfSpeech": "adv.",
       "meaning": "十分；非常",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：insanely",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 6
@@ -2998,6 +3170,7 @@
       "partOfSpeech": "adj.",
       "meaning": "令人心",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：heartbreaking",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 6
@@ -3008,6 +3181,7 @@
       "partOfSpeech": "adj.",
       "meaning": "立即的；立刻的",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：instant",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 6
@@ -3018,6 +3192,7 @@
       "partOfSpeech": "adj.",
       "meaning": "极大的；巨大的",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：immense",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 6
@@ -3028,6 +3203,7 @@
       "partOfSpeech": "v.",
       "meaning": "说月良，劝说",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：convince",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 6
@@ -3038,6 +3214,7 @@
       "partOfSpeech": "n.",
       "meaning": "催化剂",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：catalyst",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 6
@@ -3048,6 +3225,7 @@
       "partOfSpeech": "adv.",
       "meaning": "开始；最初；起初",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：initially",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 6
@@ -3058,6 +3236,7 @@
       "partOfSpeech": "adj.",
       "meaning": "小的；琐巧的；次要的",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：petty",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 6
@@ -3068,6 +3247,7 @@
       "partOfSpeech": "n.",
       "meaning": "地点；场戶斤；处戶斤",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：spot",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 6
@@ -3078,6 +3258,7 @@
       "partOfSpeech": "v.",
       "meaning": "象征；是…的象征；代表",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：symbolize",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 7
@@ -3088,6 +3269,7 @@
       "partOfSpeech": "adv.",
       "meaning": "极端地；极其’",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：incredibly",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 7
@@ -3098,6 +3280,7 @@
       "partOfSpeech": "adj.",
       "meaning": "良好的；正面的",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：positive",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 7
@@ -3108,6 +3291,7 @@
       "partOfSpeech": "adj.",
       "meaning": "良苦的；艰",
       "example": "A dog will retreat when it encounters tough difficulties.",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：tough",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 7
@@ -3118,6 +3302,7 @@
       "partOfSpeech": "n.",
       "meaning": "很容易的事；小莱",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：cinch",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 7
@@ -3128,6 +3313,7 @@
       "partOfSpeech": "n.",
       "meaning": "双脚规开多夹",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：brace",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 7
@@ -3138,6 +3324,7 @@
       "partOfSpeech": "n.",
       "meaning": "某工作",
       "example": "Application for Federal Student Aid.",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：aid",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 7
@@ -3148,6 +3335,7 @@
       "partOfSpeech": "adv.",
       "meaning": "威",
       "example": "He walks painfully, yet majestically, until he reaches his chair.",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：majestically",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 7
@@ -3158,6 +3346,7 @@
       "partOfSpeech": "v.",
       "meaning": "打",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：undo",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 7
@@ -3168,6 +3357,7 @@
       "partOfSpeech": "adv.",
       "meaning": "恭敬",
       "example": "They remain reverently silent while he undoes the clasps on his legs.",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：reverently",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 7
@@ -3178,6 +3368,7 @@
       "partOfSpeech": "n.",
       "meaning": "纯洁；纯净；纯粹",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：purity",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 7
@@ -3188,6 +3379,7 @@
       "partOfSpeech": "n.",
       "meaning": "感情的）爆",
       "example": "There was an extraordinary outburst of applause from every corner of the auditorium.",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：outburst",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 7
@@ -3198,6 +3390,7 @@
       "partOfSpeech": "adv.",
       "meaning": "自吹自插地；自夸地",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：boastfully",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 7
@@ -3206,8 +3399,9 @@
       "headword": "pensive",
       "phonetic": "/'pensiv/",
       "partOfSpeech": "adj.",
-      "meaning": "吕，especially because",
+      "meaning": "沉思的；忧思的",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：pensive",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 7
@@ -3218,6 +3412,7 @@
       "partOfSpeech": "adj.",
       "meaning": "非常尊敬的；深",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：reverent",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 7
@@ -3228,6 +3423,7 @@
       "partOfSpeech": "adj.",
       "meaning": "不稳固的；不牢靠的；摇",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：shaky",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 7
@@ -3238,6 +3434,7 @@
       "partOfSpeech": "n.",
       "meaning": "费用；价钱",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：expense",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 7
@@ -3248,6 +3445,7 @@
       "partOfSpeech": "adv.",
       "meaning": "年一次地",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：annually",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 7
@@ -3258,6 +3456,7 @@
       "partOfSpeech": "n.",
       "meaning": "家人；家庭",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：household",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 7
@@ -3268,6 +3467,7 @@
       "partOfSpeech": "n.",
       "meaning": "交通车辆；运输工具；旅",
       "example": "Taking public transport contributes to saving the environment.",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：transport",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 7
@@ -3278,6 +3478,7 @@
       "partOfSpeech": "n.",
       "meaning": "碳",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：carbon",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 7
@@ -3288,6 +3489,7 @@
       "partOfSpeech": "n.",
       "meaning": "大音P分",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：majority",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 7
@@ -3298,6 +3500,7 @@
       "partOfSpeech": "n.",
       "meaning": "规则的例外；例外",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：exception",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 7
@@ -3306,8 +3509,9 @@
       "headword": "stable",
       "phonetic": "/'steibl/",
       "partOfSpeech": "adj.",
-      "meaning": "n. 马房, 牛棚；a. 稳定的, 安定的, 坚固的, 坚定的；vt. 赶入马房；vi. 被关在马厩",
+      "meaning": "稳定的；牢固的；马厩",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：stable",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 7
@@ -3318,6 +3522,7 @@
       "partOfSpeech": "adv.",
       "meaning": "因此；戶斤W",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：consequently",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 7
@@ -3328,6 +3533,7 @@
       "partOfSpeech": "adj.",
       "meaning": "有限的",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：iimited",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 7
@@ -3338,6 +3544,7 @@
       "partOfSpeech": "adj.",
       "meaning": "真实的；真正的",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：authentic",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 7
@@ -3348,6 +3555,7 @@
       "partOfSpeech": "adv.",
       "meaning": "有意地；故意地",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：intentionally",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 7
@@ -3358,6 +3566,7 @@
       "partOfSpeech": "adv.",
       "meaning": "恭敬地",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：respectfully",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 7
@@ -3368,6 +3577,7 @@
       "partOfSpeech": "adv.",
       "meaning": "特另U",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：particularly",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 7
@@ -3378,6 +3588,7 @@
       "partOfSpeech": "adj.",
       "meaning": "节俭的",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：economical",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 8
@@ -3388,6 +3599,7 @@
       "partOfSpeech": "adj.",
       "meaning": "异常",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：untoward",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 8
@@ -3396,8 +3608,9 @@
       "headword": "push",
       "phonetic": "/puj/",
       "partOfSpeech": "n.",
-      "meaning": "n. 推, 推动, 奋斗, 攻击, 进取心；vt. 推, 推动, 使伸出, 推行, 逼迫, 增加；vi. 推, 推进, 增加, 努力争取",
+      "meaning": "推；推动；促进；努力争取",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：push",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 8
@@ -3408,6 +3621,7 @@
       "partOfSpeech": "n.",
       "meaning": "同一事物的）",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：variety",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 8
@@ -3418,6 +3632,7 @@
       "partOfSpeech": "n.",
       "meaning": "恋爱；爱情",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：romance",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 8
@@ -3428,6 +3643,7 @@
       "partOfSpeech": "adj.",
       "meaning": "极其怪诞的；异乎寻常的",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：bizarre",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 8
@@ -3438,6 +3654,7 @@
       "partOfSpeech": "adj.",
       "meaning": "最初的；开始的",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：initial",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 8
@@ -3448,6 +3665,7 @@
       "partOfSpeech": "adj.",
       "meaning": "文学的；文学上的",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：literary",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 8
@@ -3458,6 +3676,7 @@
       "partOfSpeech": "n.",
       "meaning": "顷向",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：inclination",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 8
@@ -3468,6 +3687,7 @@
       "partOfSpeech": "adj.",
       "meaning": "满是汗的；汗津津的",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：sweaty",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 8
@@ -3478,6 +3698,7 @@
       "partOfSpeech": "u.",
       "meaning": "相异",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：vary",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 8
@@ -3488,6 +3709,7 @@
       "partOfSpeech": "n.",
       "meaning": "熟悉",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：familiarity",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 8
@@ -3498,6 +3720,7 @@
       "partOfSpeech": "n.",
       "meaning": "强烈；紧张；剧烈",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：intensity",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 8
@@ -3508,6 +3731,7 @@
       "partOfSpeech": "n.",
       "meaning": "通信；通信联系",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：correspondence",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 8
@@ -3518,6 +3742,7 @@
       "partOfSpeech": "conj.",
       "meaning": "尽管；虽然",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：albeit",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 8
@@ -3528,6 +3753,7 @@
       "partOfSpeech": "n.",
       "meaning": "恶魔；魔鬼",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：demon",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 8
@@ -3538,6 +3764,7 @@
       "partOfSpeech": "v.",
       "meaning": "决定",
       "example": "Determine if there is room in the market for your business.",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：determine",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 8
@@ -3548,6 +3775,7 @@
       "partOfSpeech": "adv.",
       "meaning": "传统上；照惯例",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：traditionally",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 8
@@ -3558,6 +3786,7 @@
       "partOfSpeech": "n.",
       "meaning": "可用；可",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：availability",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 8
@@ -3568,6 +3797,7 @@
       "partOfSpeech": "n.",
       "meaning": "n. 通路, 入口, 接近, 进入, 使用权, 发作；vt. 访问, 存取, 接近, 使用；访问, 存取",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：access",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 8
@@ -3578,6 +3808,7 @@
       "partOfSpeech": "n.",
       "meaning": "n. 选择权, 挑选, 选项；选项",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：option",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 8
@@ -3588,6 +3819,7 @@
       "partOfSpeech": "v.",
       "meaning": "减少；下降",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：decline",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 8
@@ -3596,8 +3828,9 @@
       "headword": "consume",
       "phonetic": "/kan'sjuim/",
       "partOfSpeech": "v.",
-      "meaning": "vt. 消耗, 消费, 消灭；vi. 耗尽, 毁灭",
+      "meaning": "消耗；消费；吃；喝",
       "example": "Doctor: You shouldn't consume too much sugar.",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：consume",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 8
@@ -3608,6 +3841,7 @@
       "partOfSpeech": "adj.",
       "meaning": "巨大的；极大的",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：tremendous",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 8
@@ -3618,6 +3852,7 @@
       "partOfSpeech": "v.",
       "meaning": "n. 根据, 证据, 迹象；证据, 凭证",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：evidence",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 8
@@ -3628,6 +3863,7 @@
       "partOfSpeech": "adj.",
       "meaning": "脾气坏的",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：cranky",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 8
@@ -3638,6 +3874,7 @@
       "partOfSpeech": "v.",
       "meaning": "看",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：resemble",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 8
@@ -3646,8 +3883,9 @@
       "headword": "subside",
       "phonetic": "/sab'said/",
       "partOfSpeech": "v.",
-      "meaning": "鲁、；Mil",
+      "meaning": "减弱；平息；消退；下沉",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：subside",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 8
@@ -3658,6 +3896,7 @@
       "partOfSpeech": "v.",
       "meaning": "疼痛；隐痛",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：ache",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 8
@@ -3668,6 +3907,7 @@
       "partOfSpeech": "v.",
       "meaning": "找到解决（难题",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：crack",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 8
@@ -3678,6 +3918,7 @@
       "partOfSpeech": "n.",
       "meaning": "令人厌烦的任务；乏味无",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：chore",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 9
@@ -3688,6 +3929,7 @@
       "partOfSpeech": "v.",
       "meaning": "编造；捏造",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：manufacture",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 9
@@ -3698,6 +3940,7 @@
       "partOfSpeech": "adj.",
       "meaning": "大的；丰盛的",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：hearty",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 9
@@ -3708,6 +3951,7 @@
       "partOfSpeech": "adj.",
       "meaning": "呑草味的",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：vanilla-scented",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 9
@@ -3718,6 +3962,7 @@
       "partOfSpeech": "n.",
       "meaning": "水疗",
       "example": "A spa is usually a resort area providing therapeutic baths or having mineral springs.",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：spa",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 9
@@ -3728,6 +3973,7 @@
       "partOfSpeech": "v.",
       "meaning": "使恢复精",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：refresh",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 9
@@ -3738,6 +3984,7 @@
       "partOfSpeech": "adv.",
       "meaning": "感情上地",
       "example": "By late afternoon, I was back at it, refreshed physically, mentally and emotionally.",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：emotionally",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 9
@@ -3748,6 +3995,7 @@
       "partOfSpeech": "adj.",
       "meaning": "有鬟发（或毛）",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：curly",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 9
@@ -3758,6 +4006,7 @@
       "partOfSpeech": "n.",
       "meaning": "名人",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：celeb",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 9
@@ -3768,6 +4017,7 @@
       "partOfSpeech": "v.",
       "meaning": "成熟；长成",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：mature",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 9
@@ -3778,6 +4028,7 @@
       "partOfSpeech": "adj.",
       "meaning": "胀大的；发起来的",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：bulked-up",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 9
@@ -3788,6 +4039,7 @@
       "partOfSpeech": "adj.",
       "meaning": "伤",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：hurtful",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 9
@@ -3796,8 +4048,9 @@
       "headword": "ethnic",
       "phonetic": "/'e0nik/",
       "partOfSpeech": "adj.",
-      "meaning": "玉2 A 投reak from Life",
+      "meaning": "种族的；民族的；具有民族特色的",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：ethnic",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 9
@@ -3808,6 +4061,7 @@
       "partOfSpeech": "v.",
       "meaning": "核实；查对",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：verify",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 9
@@ -3818,6 +4072,7 @@
       "partOfSpeech": "adv.",
       "meaning": "最终；最后；终归",
       "example": "",
+      "exampleTranslation": "",
       "sourceLine": "教材词汇提取：ultimately",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 9
