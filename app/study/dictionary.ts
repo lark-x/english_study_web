@@ -82,6 +82,11 @@ const saveCache = (word: string, result: DictionaryResult) => {
   } catch { /* Dictionary caching is optional. */ }
 };
 
+const addChineseHint = (example: string, word: string, meaning: string) => {
+  if (!example || !meaning || /[\u4e00-\u9fff]/.test(example)) return example;
+  return `${example}\n中文提示：“${word}”在本句中可理解为：${meaning}`;
+};
+
 const candidatesFor = (word: string) => {
   const values = [word];
   if (word.endsWith("ies") && word.length > 4) values.push(`${word.slice(0, -3)}y`);
@@ -101,7 +106,7 @@ const fromOffline = async (word: string, context: string): Promise<DictionaryRes
     if (entry.translation) meanings.push({ partOfSpeech: "中文释义", definition: entry.translation.replace(/\\n/g, "；") });
     if (entry.definition) meanings.push({ partOfSpeech: "英文释义", definition: entry.definition.replace(/\\n/g, "; ") });
     if (!meanings.length) continue;
-    return { word, phonetic: entry.phonetic ? `/${entry.phonetic.replace(/^\/+|\/+$/g, "")}/` : "", audio: "", meanings, examples: context ? [context] : [], source: "offline" };
+    return { word, phonetic: entry.phonetic ? `/${entry.phonetic.replace(/^\/+|\/+$/g, "")}/` : "", audio: "", meanings, examples: context ? [addChineseHint(context, word, entry.translation)] : [], source: "offline" };
   }
   return null;
 };
@@ -128,7 +133,7 @@ const fromApi = (entries: ApiEntry[], requestedWord: string): DictionaryResult |
 export async function lookupWord(rawWord: string, context = "", signal?: AbortSignal): Promise<DictionaryResult> {
   const word = normalizeWord(rawWord);
   const local = courseDictionary.get(word);
-  if (local) return { ...local, examples: [...new Set([context, ...local.examples].filter(Boolean))].slice(0, 3) };
+  if (local) return { ...local, examples: [...new Set([context, ...local.examples].filter(Boolean))].map((example) => addChineseHint(example, rawWord, local.meanings[0]?.definition ?? "")).slice(0, 3) };
   const textbookAppendixDictionary = await loadTextbookAppendix();
   const textbookEntry = candidatesFor(word).map((candidate) => textbookAppendixDictionary.get(candidate)).find(Boolean);
   if (textbookEntry) return {
@@ -136,7 +141,7 @@ export async function lookupWord(rawWord: string, context = "", signal?: AbortSi
     phonetic: textbookEntry.phonetic || "",
     audio: "",
     meanings: [{ partOfSpeech: "教材词汇", definition: textbookEntry.translation }],
-    examples: context ? [context] : [],
+    examples: context ? [addChineseHint(context, rawWord, textbookEntry.translation)] : [],
     source: "course",
   };
   if (basicMeanings[word]) return { word, phonetic: "", audio: "", meanings: [{ partOfSpeech: "基础词", definition: basicMeanings[word] }], examples: context ? [context] : [], source: "basic" };

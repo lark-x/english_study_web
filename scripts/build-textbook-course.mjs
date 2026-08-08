@@ -8,9 +8,17 @@ const sourceRoot = path.join(projectRoot, "app", "study", "textbook-units");
 const outputFile = path.join(projectRoot, "public", "data", "english2", "textbook_course.json");
 const manifest = JSON.parse(await readFile(path.join(sourceRoot, "main-textbook-manifest.json"), "utf8"));
 const extractedVocabulary = JSON.parse(await readFile(path.join(sourceRoot, "textbook-vocab-extracted.json"), "utf8"));
+const appendixDictionary = JSON.parse(await readFile(path.join(sourceRoot, "pdf-vocab-with-dict.json"), "utf8"));
+const appendixByBase = new Map(appendixDictionary.map((entry) => [String(entry.base || entry.headword).toLowerCase(), entry]));
 
 const sourceTitle = "英语（二）自学教程（2012年版，00015，张敬源、张虹主编）";
 const clean = (value = "") => value.replace(/\r/g, "").replace(/[\u0000-\u0008\u000B\u000C\u000E-\u001F]/g, "").replace(/\s+/g, " ").trim();
+const cleanMeaning = (value = "") => value
+  .split(/\\n|\n/)
+  .map((line) => line.replace(/\[[^\]]+\]\s*/g, "").trim())
+  .filter(Boolean)
+  .join("；")
+  .replace(/[；;，,、\s]+$/, "");
 
 function extractEnglishSentences(text, limit = 36) {
   const candidates = text.replace(/--- Page \d+ ---/g, " ").match(/[A-Z][A-Za-z0-9,;:'’"()\- ]{18,320}[.!?]/g) ?? [];
@@ -55,12 +63,13 @@ const vocabulary = extractedVocabulary
   .filter((entry, index, list) => list.findIndex((candidate) => candidate.headword.toLowerCase() === entry.headword.toLowerCase()) === index)
   .map((entry, index) => {
     const headword = entry.headword.toLowerCase();
+    const appendixEntry = appendixByBase.get(headword);
     const pattern = new RegExp(`\\b${headword.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\b`, "i");
     return {
       headword,
       phonetic: entry.phonetic || "发音待核对",
       partOfSpeech: entry.partOfSpeech || "词性待核对",
-      meaning: clean(entry.meaning),
+      meaning: cleanMeaning(appendixEntry?.translation || entry.meaning),
       example: allSentences.find((sentence) => pattern.test(sentence)) || "",
       sourceLine: `教材词汇提取：${headword}`,
       sourceKind: "textbook-vocabulary",
