@@ -69,6 +69,37 @@ npm run dev
 
 打开终端显示的本地地址。默认一键启动使用 `localhost:4173`。
 
+## Docker 生产部署（静态 Nginx + PostgreSQL API）
+
+服务器需要先加入现有 PostgreSQL 容器所在的 Docker 网络。当前项目默认使用 `nekro_network` 和数据库容器 `nekro_postgres`。
+
+在项目目录创建仅存在于服务器的 `.env`：
+
+```bash
+cp .env.example .env
+sed -i 's/^APP_PASSWORD=.*/APP_PASSWORD=请替换为学习空间访问密码/' .env
+sed -i 's/^PGPASSWORD=.*/PGPASSWORD=请替换为PostgreSQL密码/' .env
+```
+
+确认 `.env` 没有被提交后启动：
+
+```bash
+docker compose up -d --build
+docker compose ps
+docker compose logs -f --tail=100
+```
+
+访问 `http://服务器IP:4173`。页面由 Nginx 提供，`/api` 请求转发到单用户 API，学习状态同时保存在 PostgreSQL 和浏览器 IndexedDB 中。第一次登录使用 `.env` 中的 `APP_PASSWORD`。
+
+更新版本：
+
+```bash
+git pull origin main
+docker compose up -d --build
+```
+
+数据只保存在数据库中时，`docker compose down` 不会删除数据。不要使用 `docker compose down -v`，也不要删除 `nekro_postgres` 的数据卷。
+
 ## 验证
 
 ```bash
