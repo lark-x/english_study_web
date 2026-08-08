@@ -17,7 +17,8 @@
     "lint": "eslint . --ignore-pattern dist --ignore-pattern dist-static --ignore-pattern .next",
     "db:generate": "drizzle-kit generate",
     "content:build": "node scripts/build-textbook-course.mjs",
-    "vocab:audit": "node scripts/audit-vocabulary-source.mjs"
+    "vocab:audit": "node scripts/audit-vocabulary-source.mjs",
+    "content:audit": "node scripts/audit-textbook-coverage.mjs"
   },
   "dependencies": {
     "@types/pg": "^8.15.5",

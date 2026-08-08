@@ -36,6 +36,8 @@ const curatedMeanings = {
   consume: "消耗；消费；吃；喝",
   subside: "减弱；平息；消退；下沉",
   ethnic: "种族的；民族的；具有民族特色的",
+  spot: "地点；场所；斑点；发现；认出",
+  consequently: "因此；所以；结果",
 };
 const curatedExampleTranslations = {
   content: "他想让它们感到满足。",
