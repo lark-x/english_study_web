@@ -12,6 +12,8 @@ const appendixDictionary = JSON.parse(await readFile(path.join(sourceRoot, "pdf-
 const appendixByBase = new Map(appendixDictionary.map((entry) => [String(entry.base || entry.headword).toLowerCase(), entry]));
 const coreVocabulary = JSON.parse(await readFile(path.join(projectRoot, "public", "data", "exam", "vocabulary_candidates", "textbook_english2_core.json"), "utf8")).words;
 const coreByHeadword = new Map(coreVocabulary.map((entry) => [String(entry.headword).toLowerCase(), entry]));
+const referenceVocabulary = JSON.parse(await readFile(path.join(projectRoot, "public", "data", "exam", "vocabulary_candidates", "user_english2_1800.json"), "utf8")).words;
+const referenceByHeadword = new Map(referenceVocabulary.map((entry) => [String(entry.headword).toLowerCase(), entry]));
 
 const sourceTitle = "英语（二）自学教程（2012年版，00015，张敬源、张虹主编）";
 const clean = (value = "") => value.replace(/\r/g, "").replace(/[\u0000-\u0008\u000B\u000C\u000E-\u001F]/g, "").replace(/\s+/g, " ").trim();
@@ -165,17 +167,21 @@ const vocabulary = extractedVocabulary
     const headword = entry.headword.toLowerCase();
     const appendixEntry = appendixByBase.get(headword);
     const coreEntry = coreByHeadword.get(headword);
+    const referenceEntry = referenceByHeadword.get(headword);
     const pattern = new RegExp(`\\b${headword.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\b`, "i");
     const coreExample = coreEntry?.exampleSentences?.[0] ?? "";
     const coreEnglishExample = coreExample.split(/[\u4e00-\u9fff]/)[0].trim().replace(/[。；，、,;]+$/, "");
     const coreChineseExample = coreExample.match(/[\u4e00-\u9fff].*$/)?.[0]?.replace(/[（(].*$/, "") || "";
+    const referenceExample = referenceEntry?.exampleSentences?.[0] ?? "";
+    const referenceEnglishExample = referenceExample.split(/[\u4e00-\u9fff]/)[0].trim().replace(/[。；，、,;]+$/, "");
+    const referenceChineseExample = referenceExample.match(/[\u4e00-\u9fff].*$/)?.[0]?.replace(/[（(].*$/, "") || "";
     return {
       headword,
       phonetic: entry.phonetic || "发音待核对",
       partOfSpeech: entry.partOfSpeech || "词性待核对",
       meaning: curatedMeanings[headword] || cleanMeaning(appendixEntry?.translation || entry.meaning),
-      example: allSentences.find((sentence) => pattern.test(sentence)) || coreEnglishExample,
-      exampleTranslation: { ...curatedExampleTranslations, ...additionalCuratedExampleTranslations }[headword] || coreChineseExample,
+      example: allSentences.find((sentence) => pattern.test(sentence)) || coreEnglishExample || referenceEnglishExample,
+      exampleTranslation: { ...curatedExampleTranslations, ...additionalCuratedExampleTranslations }[headword] || coreChineseExample || referenceChineseExample,
       sourceLine: `教材词汇提取：${headword}`,
       sourceKind: "textbook-vocabulary",
       firstExposureDay: Math.floor(index / 30) + 1,

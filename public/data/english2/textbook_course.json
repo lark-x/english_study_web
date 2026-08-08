@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-08T12:53:22.385Z",
+  "generatedAt": "2026-08-08T12:55:05.080Z",
   "sourceDirectory": "app/study/textbook-units",
   "sourceRule": "课程内容仅来自《英语（二）自学教程（2012年版，00015，张敬源、张虹主编）》的本地提取文件。",
   "documentCount": 14,
@@ -2707,8 +2707,8 @@
       "phonetic": "/'juinivsis/",
       "partOfSpeech": "n.",
       "meaning": "宇宙；天地万物",
-      "example": "",
-      "exampleTranslation": "",
+      "example": "The reason Earth different from all the other  planets in  the universe is because of you and me.",
+      "exampleTranslation": "地球之所以不同于宇宙中的其他行星，是因为有你和我。",
       "sourceLine": "教材词汇提取：universe",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 5
@@ -2718,8 +2718,8 @@
       "phonetic": "/'feivarit/",
       "partOfSpeech": "adj.",
       "meaning": "最喜欢的；特别喜爱的",
-      "example": "",
-      "exampleTranslation": "",
+      "example": "In the end, he traded his lunch, his favorite cartoon book, and his new football, his most prized possession for that pen.",
+      "exampleTranslation": "最后，他用他的午餐、他最喜欢的漫画书和他最珍贵的新足球换了那支笔。",
       "sourceLine": "教材词汇提取：favorite",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 5
@@ -2883,8 +2883,8 @@
       "phonetic": "/we9(r)/",
       "partOfSpeech": "v.",
       "meaning": "流露；面带",
-      "example": "",
-      "exampleTranslation": "",
+      "example": "Is Scotland that place where men wear skirts?",
+      "exampleTranslation": "苏格兰是那个男人穿裙子的地方吗?",
       "sourceLine": "教材词汇提取：wear",
       "sourceKind": "textbook-vocabulary",
       "firstExposureDay": 5
