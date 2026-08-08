@@ -1,4 +1,5 @@
 import { lessons } from "./seed";
+import localExtraMeaningData from "./local-extra-meanings.json";
 
 export interface DictionaryMeaning {
   partOfSpeech: string;
@@ -25,10 +26,7 @@ const loadBundledDictionary = () => {
 };
 
 const CACHE_KEY = "daily-english-dictionary-cache-v1";
-const localExtraMeanings: Record<string, string> = {
-  baggage: "行李；随身行李；（精神上的）负担",
-  luggage: "行李；行李箱",
-};
+const localExtraMeanings = localExtraMeaningData as Record<string, string>;
 const localExampleTranslations: Record<string, string> = {
   "i just carry myself and my tiny baggage.": "我只带着自己和一点点行李。",
   "please put your baggage in the trunk.": "请把你的行李放进后备箱。",
@@ -128,6 +126,11 @@ const addChineseHint = (example: string, word: string, meaning: string) => {
 
 const candidatesFor = (word: string) => {
   const values = [word];
+  if (word.endsWith("n't")) values.push(word.slice(0, -3));
+  if (word.endsWith("'ll")) values.push(word.slice(0, -3));
+  if (word.endsWith("'re")) values.push(word.slice(0, -3));
+  if (word.endsWith("'d")) values.push(word.slice(0, -2));
+  if (word.endsWith("'ve")) values.push(word.slice(0, -3));
   if (word.endsWith("ies") && word.length > 4) values.push(`${word.slice(0, -3)}y`);
   if (word.endsWith("ing") && word.length > 5) values.push(word.slice(0, -3), `${word.slice(0, -3)}e`);
   if (word.endsWith("ed") && word.length > 4) values.push(word.slice(0, -2), `${word.slice(0, -1)}`);

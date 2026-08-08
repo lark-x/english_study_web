@@ -1,12 +1,13 @@
 import { readFile } from "node:fs/promises";
 
 const readJson = (path) => readFile(new URL(`../${path}`, import.meta.url), "utf8").then(JSON.parse);
-const [course, offline, appendix, core, localReference] = await Promise.all([
+const [course, offline, appendix, core, localReference, extra] = await Promise.all([
   readJson("public/data/english2/textbook_course.json"),
   readJson("app/study/offline-dictionary.json"),
   readJson("app/study/textbook-units/pdf-vocab-with-dict.json"),
   readJson("public/data/exam/vocabulary_candidates/textbook_english2_core.json"),
   readJson("public/data/exam/vocabulary_candidates/user_english2_1800.json"),
+  readJson("app/study/local-extra-meanings.json"),
 ]);
 
 const vocabulary = new Map(course.vocabulary.map((item) => [item.headword.toLowerCase(), item]));
@@ -22,9 +23,22 @@ for (const document of course.documents) {
 const appendixByWord = new Map(appendix.map((item) => [item.base.toLowerCase(), item]));
 const coreByWord = new Map(core.words.map((item) => [item.headword.toLowerCase(), item]));
 const referenceByWord = new Map(localReference.words.map((item) => [item.headword.toLowerCase(), item]));
+const candidatesFor = (word) => {
+  const candidates = [word];
+  if (word.endsWith("'s")) candidates.push(word.slice(0, -2));
+  if (word.endsWith("n't")) candidates.push(word.slice(0, -3));
+  if (word.endsWith("'ll")) candidates.push(word.slice(0, -3));
+  if (word.endsWith("'re")) candidates.push(word.slice(0, -3));
+  if (word.endsWith("'d")) candidates.push(word.slice(0, -2));
+  if (word.endsWith("ies")) candidates.push(`${word.slice(0, -3)}y`);
+  if (word.endsWith("ing")) candidates.push(word.slice(0, -3), `${word.slice(0, -3)}e`);
+  if (word.endsWith("ed")) candidates.push(word.slice(0, -2), word.slice(0, -1));
+  if (word.endsWith("s") && word.length > 3) candidates.push(word.slice(0, -1));
+  return [...new Set(candidates)];
+};
 const missingLocalMeaning = [...words].filter((word) => {
   const courseItem = vocabulary.get(word);
-  return !courseItem?.meaning && !offline[word]?.translation && !appendixByWord.get(word)?.translation && !coreByWord.get(word)?.chineseMeanings?.length && !referenceByWord.get(word)?.chineseMeanings?.length;
+  return !candidatesFor(word).some((candidate) => courseItem?.meaning || offline[candidate]?.translation || appendixByWord.get(candidate)?.translation || coreByWord.get(candidate)?.chineseMeanings?.length || referenceByWord.get(candidate)?.chineseMeanings?.length || extra[candidate]);
 });
 const suspicious = [...vocabulary.values()].filter((item) => /[户斤鍛ij訖蓹藞|]/.test(item.meaning));
 const withoutExample = [...vocabulary.values()].filter((item) => !item.example);
@@ -39,6 +53,7 @@ const report = {
   textbookAppendixDictionary: appendix.length,
   textbookCoreDictionary: core.words.length,
   localReferenceDictionary: localReference.words.length,
+  localExtraMeanings: Object.keys(extra).length,
   missingLocalMeaning: missingLocalMeaning.length,
   missingLocalMeaningSample: missingLocalMeaning.slice(0, 40),
   suspiciousCurriculumMeanings: suspicious.length,
