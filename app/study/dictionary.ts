@@ -27,6 +27,11 @@ const localExtraMeanings: Record<string, string> = {
   baggage: "行李；随身行李；（精神上的）负担",
   luggage: "行李；行李箱",
 };
+const localExampleTranslations: Record<string, string> = {
+  "i just carry myself and my tiny baggage.": "我只带着自己和一点点行李。",
+  "please put your baggage in the trunk.": "请把你的行李放进后备箱。",
+  "this person has got a lot of emotional baggage.": "这个人背负着很多情感负担。",
+};
 const API_ROOT = "";
 
 const courseDictionary = new Map<string, DictionaryResult>();
@@ -88,6 +93,8 @@ const saveCache = (word: string, result: DictionaryResult) => {
 
 const addChineseHint = (example: string, word: string, meaning: string) => {
   if (!example || !meaning || /[\u4e00-\u9fff]/.test(example)) return example;
+  const translation = localExampleTranslations[example.trim().toLowerCase()];
+  if (translation) return `${example}\n中文译文：${translation}\n词义提示：“${word}”表示：${meaning}`;
   return `${example}\n中文提示：“${word}”在本句中可理解为：${meaning}`;
 };
 
