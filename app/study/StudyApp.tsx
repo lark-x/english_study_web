@@ -30,7 +30,7 @@ import {
   recordWeeklyCheck,
   updateMasteryFromAttempt,
 } from "./planner";
-import { exportState, importState, loadState, saveState } from "./storage";
+import { exportState, importState, loadState, remoteLogin, saveState } from "./storage";
 import { InteractiveText, WordLookupProvider } from "./WordLookup";
 import { getExamCoverage, loadExamData, type ExamDataBundle } from "./exam";
 import { getVocabularyAudit, getVocabularyPlan, toVocabularyEntry, vocabularyMaster } from "./vocabulary";
@@ -388,6 +388,16 @@ function StudySessionView({ state, updateState, exit }: { state: AppState; updat
       {step === "summary" && <section className="step-card summary-step"><span className="success-mark">✓</span><span className="eyebrow">SESSION COMPLETE</span><h1>今天完成的是阶段闭环，不只是打开一篇文章。</h1><div className="summary-grid"><div><strong>{mode}</strong><span>计划分钟</span></div><div><strong>{correct}/{lesson.questions.length}</strong><span>练习正确</span></div><div><strong>{outputWords}</strong><span>输出词数</span></div><div><strong>{visibleVocabulary.length}</strong><span>今日新词上限</span></div></div><div className="tomorrow-note"><span>明天会怎么调</span><p>{getRecommendation(state)}</p></div></section>}
     </main><footer className="session-footer"><button className="text-button" onClick={exit}>退出，暂不计为完成</button><button className="primary" disabled={!canContinue} onClick={next}>{stepIndex === steps.length - 1 ? "完成并返回首页" : "完成这一步"} <span>→</span></button></footer>
   </div></WordLookupProvider>;
+}
+
+function RemoteLogin({ onLogin }: { onLogin: () => void }) {
+  const [password, setPassword] = useState("");
+  const [error, setError] = useState("");
+  const submit = async (event: React.FormEvent) => {
+    event.preventDefault();
+    try { await remoteLogin(password); onLogin(); } catch (reason) { setError(reason instanceof Error ? reason.message : "登录失败"); }
+  };
+  return <main className="onboarding-shell"><div className="form-card" style={{ maxWidth: 440, margin: "12vh auto" }}><Logo/><h1>登录学习空间</h1><p className="muted">登录后可在不同设备间同步学习记录。</p><form onSubmit={submit}><label>访问密码<input autoFocus type="password" value={password} onChange={(event) => setPassword(event.target.value)} /></label>{error && <p className="feedback bad">{error}</p>}<button className="primary wide" type="submit">登录</button></form></div></main>;
 }
 
 export default function StudyApp() {

@@ -11,6 +11,51 @@ const PREVIOUS_FALLBACK_KEY = "daily-english-state-v3";
 const V2_FALLBACK_KEY = "daily-english-state-v2";
 const LEGACY_KEY = "jiangxi-english-study-state-v1";
 
+const remoteState = async (): Promise<AppState | null> => {
+  if (typeof window === "undefined") return null;
+  try {
+    const response = await fetch("/api/state", { credentials: "include" });
+    if (!response.ok) return null;
+    const result = await response.json() as { payload?: unknown };
+    return normalizeState(result.payload);
+  } catch {
+    return null;
+  }
+};
+
+const saveRemoteState = async (state: AppState) => {
+  if (typeof window === "undefined") return;
+  try {
+    await fetch("/api/state", {
+      method: "PUT",
+      credentials: "include",
+      headers: { "content-type": "application/json" },
+      body: JSON.stringify({ payload: state }),
+    });
+  } catch {
+    // Offline use continues through IndexedDB.
+  }
+};
+
+export const remoteLogin = async (password: string) => {
+  const response = await fetch("/api/login", {
+    method: "POST",
+    credentials: "include",
+    headers: { "content-type": "application/json" },
+    body: JSON.stringify({ password }),
+  });
+  if (!response.ok) throw new Error("登录密码不正确");
+};
+
+export const remoteRequiresLogin = async () => {
+  try {
+    const response = await fetch("/api/state", { credentials: "include" });
+    return response.status === 401;
+  } catch {
+    return false;
+  }
+};
+
 const openDatabase = () => new Promise<IDBDatabase>((resolve, reject) => {
   const request = indexedDB.open(DB_NAME, 1);
   request.onupgradeneeded = () => {
@@ -217,6 +262,11 @@ const normalizeState = (value: unknown): AppState | null => {
 };
 
 export const loadState = async (): Promise<AppState> => {
+  const remote = await remoteState();
+  if (remote) {
+    await writeIndexedState(remote);
+    return remote;
+  }
   try {
     const state = normalizeState(await readIndexedState());
     if (state) {
@@ -247,6 +297,7 @@ export const saveState = async (state: AppState) => {
   } catch {
     localStorage.setItem(FALLBACK_KEY, JSON.stringify(state));
   }
+  void saveRemoteState(state);
 };
 
 export const exportState = (state: AppState) => {
