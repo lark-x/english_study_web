@@ -48,7 +48,10 @@ const server = http.createServer(async (request, response) => {
   try {
     const url = new URL(request.url ?? "/", `http://${request.headers.host ?? "localhost"}`);
     if (request.method === "OPTIONS") return send(response, 204, {});
-    if (url.pathname === "/health") return send(response, 200, { ok: true });
+    if (url.pathname === "/health") {
+      await pool.query("SELECT 1");
+      return send(response, 200, { ok: true, database: "connected" });
+    }
     if (url.pathname === "/api/login" && request.method === "POST") {
       const value = await body(request);
       if (value.password !== password) return send(response, 401, { error: "invalid_credentials" });
