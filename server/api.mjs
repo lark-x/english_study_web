@@ -19,6 +19,7 @@ const pool = new Pool({
 });
 
 const sessionMaxAge = 60 * 60 * 24 * 30;
+const maxBodyBytes = 10 * 1024 * 1024;
 
 function sessionToken() {
   const payload = Buffer.from(JSON.stringify({ exp: Math.floor(Date.now() / 1000) + sessionMaxAge })).toString("base64url");
@@ -58,7 +59,12 @@ function authenticated(request) {
 
 async function body(request) {
   let text = "";
-  for await (const chunk of request) text += chunk;
+  let size = 0;
+  for await (const chunk of request) {
+    size += Buffer.byteLength(chunk);
+    if (size > maxBodyBytes) throw Object.assign(new Error("request_too_large"), { statusCode: 413 });
+    text += chunk;
+  }
   return text ? JSON.parse(text) : {};
 }
 
@@ -95,7 +101,7 @@ const server = http.createServer(async (request, response) => {
     return send(response, 404, { error: "not_found" });
   } catch (error) {
     console.error(error);
-    return send(response, 500, { error: "server_error" });
+    return send(response, error?.statusCode ?? 500, { error: error?.statusCode === 413 ? "request_too_large" : "server_error" });
   }
 });
 
