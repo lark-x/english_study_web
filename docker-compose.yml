@@ -1,0 +1,14 @@
+version: "3.8"
+services:
+  english-study:
+    build: .
+    container_name: english-study-site
+    ports:
+      - "4173:4173"
+    environment:
+      - NODE_ENV=production
+    restart: unless-stopped
+    volumes:
+      - study-data:/app/data
+volumes:
+  study-data:
