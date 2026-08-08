@@ -17,6 +17,7 @@ export interface DictionaryResult {
 interface OfflineEntry { phonetic: string; definition: string; translation: string; lemma: string }
 interface TextbookAppendixEntry { headword: string; base: string; phonetic: string; translation: string; definition: string }
 interface TextbookCoreEntry { headword: string; phoneticUK?: string | null; chineseMeanings?: string[]; exampleSentences?: string[]; partOfSpeech?: string[] }
+interface LocalReferenceEntry { headword: string; phoneticUK?: string | null; chineseMeanings?: string[]; exampleSentences?: string[]; partOfSpeech?: string[] }
 let bundledDictionaryPromise: Promise<Record<string, OfflineEntry>> | null = null;
 const loadBundledDictionary = () => {
   bundledDictionaryPromise ??= import("./offline-dictionary.json").then((module) => module.default as Record<string, OfflineEntry>);
@@ -88,6 +89,19 @@ const loadTextbookCore = () => {
     return dictionary;
   });
   return textbookCorePromise;
+};
+
+let localReferencePromise: Promise<Map<string, LocalReferenceEntry>> | null = null;
+const loadLocalReference = () => {
+  localReferencePromise ??= import("../../public/data/exam/vocabulary_candidates/user_english2_1800.json").then((module) => {
+    const dictionary = new Map<string, LocalReferenceEntry>();
+    for (const entry of (module.default as { words: LocalReferenceEntry[] }).words) {
+      const key = normalizeWord(entry.headword);
+      if (key && entry.chineseMeanings?.length) dictionary.set(key, entry);
+    }
+    return dictionary;
+  });
+  return localReferencePromise;
 };
 
 const loadCache = (): Record<string, DictionaryResult> => {
@@ -179,6 +193,16 @@ export async function lookupWord(rawWord: string, context = "", signal?: AbortSi
     meanings: [{ partOfSpeech: coreEntry.partOfSpeech?.join("/") || "教材词汇", definition: coreEntry.chineseMeanings?.join("；") || "" }],
     examples: (coreEntry.exampleSentences ?? []).slice(0, 3).map((example) => example.includes("\u4e00") ? example : addChineseHint(example, rawWord, coreEntry.chineseMeanings?.join("；") || "")),
     source: "course",
+  };
+  const localReference = await loadLocalReference();
+  const referenceEntry = candidatesFor(word).map((candidate) => localReference.get(candidate)).find(Boolean);
+  if (referenceEntry) return {
+    word: rawWord,
+    phonetic: referenceEntry.phoneticUK || "",
+    audio: "",
+    meanings: [{ partOfSpeech: referenceEntry.partOfSpeech?.join("/") || "本地词典", definition: referenceEntry.chineseMeanings?.join("；") || "" }],
+    examples: (referenceEntry.exampleSentences ?? []).slice(0, 3),
+    source: "offline",
   };
   if (localExtraMeanings[word]) return {
     word: rawWord,
