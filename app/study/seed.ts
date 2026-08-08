@@ -182,13 +182,22 @@ function makeLesson(day: number): Lesson {
 export const lessons: Lesson[] = Array.from({ length: 84 }, (_, index) => makeLesson(index + 1));
 export const migratedReadingLessons = lessons.filter((lesson) => lesson.sourceCategory === "past-paper");
 
-export const assessmentQuestions: Question[] = [
+export const curatedAssessmentQuestions: Question[] = [
   q("a-v1", "vocabulary", "What does push mean?", ["推；推动", "天空", "文化", "湖"], 0, "push 来自 normalized 高频词资料。"),
   q("a-p1", "pronunciation", "Which word should be checked with the pronunciation tool?", ["culture", "的", "课程", "复习"], 0, "英文词可以点击查看词典信息并播放发音。"),
   q("a-g1", "grammar", "Choose the correct form: I ___ studying now.", ["am", "is", "are", "be"], 0, "现在进行时使用 be + doing，I 和 am 搭配。"),
   q("a-s1", "sentence", "Choose the complete sentence.", ["She studies English every day.", "Because useful.", "A useful book.", "Very carefully."], 0, "完整句需要清楚的主语和谓语。"),
   q("a-r1", "reading", "What should you do with an OCR error?", ["Check context and the dictionary", "Memorize it immediately", "Ignore every source", "Delete all materials"], 0, "OCR 资料要结合上下文和词典核对。"),
   q("a-t1", "translationWriting", "“每天最多学习30个新词。” is:", ["Learn no more than 30 new words a day.", "Learn 60 words without review.", "Words are no limit.", "Thirty day new word."], 0, "no more than 表示不超过。"),
+];
+
+export const assessmentQuestions: Question[] = [
+  q("a-v1", "vocabulary", "What does push mean?", ["推动", "天空", "文化", "潮湿"], 0, "push 的核心义是“推动”。"),
+  q("a-p1", "pronunciation", "Which word has the /ˈkʌltʃər/ pronunciation?", ["culture", "course", "future", "picture"], 0, "culture 的发音接近 /ˈkʌltʃər/。"),
+  q("a-g1", "grammar", "Choose the correct form: I ___ studying now.", ["am", "is", "are", "be"], 0, "主语 I 与 be 动词 am 搭配，现在进行时为 am studying。"),
+  q("a-s1", "sentence", "Choose the complete sentence.", ["She studies English every day.", "Because useful.", "A useful book.", "Very carefully."], 0, "完整句通常需要明确的主语和谓语。"),
+  q("a-r1", "reading", "Mina studies ten words, reviews yesterday's words, and writes one sentence. What is she doing?", ["She is following a balanced study routine.", "She is avoiding review.", "She is only memorizing spelling.", "She is taking a day off."], 0, "短文同时提到新词、复习和造句，说明她在进行完整的学习闭环。"),
+  q("a-t1", "translationWriting", "“每天最多学习30个新词。” is:", ["Learn no more than 30 new words a day.", "Learn 60 words without review.", "Words are no limit.", "Thirty day new word."], 0, "no more than 表示“不超过”。"),
 ];
 
 export const defaultScores: SkillScores = {
