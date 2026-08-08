@@ -10,10 +10,11 @@
   "scripts": {
     "dev": "vinext dev",
     "build": "vinext build",
+    "build:static": "vite build --config vite.static.config.ts",
     "start": "vinext start",
     "api:start": "node server/api.mjs",
     "test": "npm run build && node --test tests/rendered-html.test.mjs",
-    "lint": "eslint . --ignore-pattern dist --ignore-pattern .next",
+    "lint": "eslint . --ignore-pattern dist --ignore-pattern dist-static --ignore-pattern .next",
     "db:generate": "drizzle-kit generate",
     "content:build": "node scripts/build-normalized-course.mjs",
     "vocab:audit": "node scripts/audit-vocabulary-source.mjs"

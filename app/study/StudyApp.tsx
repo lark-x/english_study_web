@@ -390,7 +390,8 @@ function StudySessionView({ state, updateState, exit }: { state: AppState; updat
   </div></WordLookupProvider>;
 }
 
-function RemoteLogin({ onLogin }: { onLogin: () => void }) {
+// Login screen is wired into the static deployment entry in the next sync step.
+export function RemoteLogin({ onLogin }: { onLogin: () => void }) {
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
   const submit = async (event: React.FormEvent) => {

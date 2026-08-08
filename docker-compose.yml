@@ -1,10 +1,12 @@
 version: "3.8"
 services:
   english-study:
-    build: .
+    build:
+      context: .
+      dockerfile: Dockerfile.static
     container_name: english-study-site
     ports:
-      - "4173:4173"
+      - "4173:80"
     environment:
       - NODE_ENV=production
     restart: unless-stopped
@@ -14,7 +16,9 @@ services:
       - english-study-net
       - nekro_network
   english-study-api:
-    image: node:22-alpine
+    build:
+      context: .
+      dockerfile: Dockerfile.api
     container_name: english-study-api
     working_dir: /app
     command: ["node", "server/api.mjs"]
@@ -23,10 +27,6 @@ services:
     environment:
       - API_PORT=8787
       - PGHOST=nekro_postgres
-    volumes:
-      - ./server:/app/server:ro
-      - ./node_modules:/app/node_modules:ro
-      - ./package.json:/app/package.json:ro
     expose:
       - "8787"
     restart: unless-stopped
