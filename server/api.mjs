@@ -18,7 +18,25 @@ const pool = new Pool({
   idleTimeoutMillis: 30000,
 });
 
-const sessions = new Set();
+const sessionMaxAge = 60 * 60 * 24 * 30;
+
+function sessionToken() {
+  const payload = Buffer.from(JSON.stringify({ exp: Math.floor(Date.now() / 1000) + sessionMaxAge })).toString("base64url");
+  const signature = crypto.createHmac("sha256", password).update(payload).digest("base64url");
+  return `${payload}.${signature}`;
+}
+
+function validSession(token) {
+  const [payload, signature] = token?.split(".") ?? [];
+  if (!payload || !signature) return false;
+  try {
+    const expected = crypto.createHmac("sha256", password).update(payload).digest("base64url");
+    if (signature.length !== expected.length || !crypto.timingSafeEqual(Buffer.from(signature), Buffer.from(expected))) return false;
+    return JSON.parse(Buffer.from(payload, "base64url").toString()).exp > Math.floor(Date.now() / 1000);
+  } catch {
+    return false;
+  }
+}
 
 async function init() {
   await pool.query(`CREATE TABLE IF NOT EXISTS english_study_state (
@@ -35,7 +53,7 @@ function send(response, status, body) {
 
 function authenticated(request) {
   const token = request.headers.cookie?.match(/(?:^|; )session=([^;]+)/)?.[1];
-  return Boolean(token && sessions.has(token));
+  return Boolean(token && validSession(token));
 }
 
 async function body(request) {
@@ -55,14 +73,11 @@ const server = http.createServer(async (request, response) => {
     if (url.pathname === "/api/login" && request.method === "POST") {
       const value = await body(request);
       if (value.password !== password) return send(response, 401, { error: "invalid_credentials" });
-      const token = crypto.randomBytes(32).toString("hex");
-      sessions.add(token);
+      const token = sessionToken();
       response.writeHead(200, { "content-type": "application/json; charset=utf-8", "set-cookie": `session=${token}; HttpOnly; SameSite=Lax; Path=/; Max-Age=2592000` });
       return response.end(JSON.stringify({ ok: true }));
     }
     if (url.pathname === "/api/logout" && request.method === "POST") {
-      const token = request.headers.cookie?.match(/(?:^|; )session=([^;]+)/)?.[1];
-      if (token) sessions.delete(token);
       response.writeHead(204, { "set-cookie": "session=; HttpOnly; SameSite=Lax; Path=/; Max-Age=0" });
       return response.end();
     }
