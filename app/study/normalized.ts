@@ -1,15 +1,6 @@
-import normalizedCourseJson from "../../public/data/english2/normalized_course.json";
+import normalizedCourseJson from "../../public/data/english2/textbook_course.json";
 
-export type NormalizedCategory =
-  | "grammar"
-  | "vocabulary"
-  | "phrase"
-  | "textbook"
-  | "writing"
-  | "strategy"
-  | "exam-review"
-  | "past-paper"
-  | "reference";
+export type NormalizedCategory = "unit" | "vocabulary" | "self-assessment";
 
 export interface NormalizedSection {
   id: string;
@@ -40,7 +31,7 @@ export interface NormalizedVocabularyItem {
   meaning: string;
   example: string;
   sourceLine: string;
-  sourceKind: "explicit-list" | "normalized-corpus";
+  sourceKind: "textbook-vocabulary";
   firstExposureDay: number;
 }
 
@@ -85,15 +76,9 @@ export const normalizedDocuments = normalizedCourse.documents;
 export const normalizedDocumentById = new Map(normalizedDocuments.map((document) => [document.id, document]));
 
 export const NORMALIZED_CATEGORY_LABELS: Record<NormalizedCategory, string> = {
-  grammar: "基础语法",
-  vocabulary: "高频词汇",
-  phrase: "核心词组",
-  textbook: "教材精读",
-  writing: "写作课程",
-  strategy: "题型技巧",
-  "exam-review": "考前训练",
-  "past-paper": "历年真题",
-  reference: "补充资料",
+  unit: "教材单元",
+  vocabulary: "教材附录词汇",
+  "self-assessment": "教材自测",
 };
 
 export function getNormalizedDocument(documentId?: string) {

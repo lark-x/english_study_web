@@ -25,9 +25,12 @@ async function loadStudyModules() {
     return `data:text/javascript;base64,${Buffer.from(js).toString("base64")}`;
   };
   const typesUrl = await transpile("../app/study/types.ts");
-  const normalizedJson = await readFile(new URL("../public/data/english2/normalized_course.json", import.meta.url), "utf8");
+  const normalizedJson = await readFile(new URL("../public/data/english2/textbook_course.json", import.meta.url), "utf8");
   const normalizedJsonUrl = `data:text/javascript;base64,${Buffer.from(`export default ${normalizedJson}`).toString("base64")}`;
-  const normalizedUrl = await transpile("../app/study/normalized.ts", [["../../public/data/english2/normalized_course.json", normalizedJsonUrl]]);
+  const normalizedUrl = await transpile("../app/study/normalized.ts", [[
+    'import normalizedCourseJson from "../../public/data/english2/textbook_course.json";',
+    `import normalizedCourseJson from "${normalizedJsonUrl}";`,
+  ]]);
   const seedUrl = await transpile("../app/study/seed.ts", [
     ['from "./types"', `from "${typesUrl}"`],
     ['from "./normalized"', `from "${normalizedUrl}"`],
@@ -91,16 +94,23 @@ test("the app keeps Web-only persistence, import/export, launch, and clickable w
   assert.doesNotMatch(packageJson, /electron-builder|"desktop:/);
 });
 
-test("curriculum uses all normalized documents across the 12-week route", async () => {
+test("curriculum uses only the specified English II textbook across the 12-week route", async () => {
   const { seed } = await loadStudyModules();
   const { lessons, migratedReadingLessons } = seed;
-  const normalized = JSON.parse(await readFile(new URL("../public/data/english2/normalized_course.json", import.meta.url), "utf8"));
+  const textbook = JSON.parse(await readFile(new URL("../public/data/english2/textbook_course.json", import.meta.url), "utf8"));
   assert.equal(lessons.length, 84);
   assert.ok(migratedReadingLessons.length > 0);
   assert.ok(lessons.slice(0, 21).every((lesson) => lesson.stageId === "stage-1" && lesson.lessonType === "micro"));
   assert.ok(lessons.every((lesson) => lesson.sourceDocumentId && lesson.sourceTitle && lesson.sourceCategory));
   assert.ok(lessons.every((lesson) => lesson.vocabulary.length <= 30));
-  assert.equal(new Set(lessons.map((lesson) => lesson.sourceDocumentId)).size, normalized.documentCount);
+  assert.equal(textbook.documentCount, 14);
+  assert.equal(textbook.audit.includedDocuments, 14);
+  assert.equal(textbook.audit.missingDocuments.length, 0);
+  assert.match(textbook.sourceRule, /00015/);
+  assert.ok(textbook.documents.every((document) => ["unit", "vocabulary", "self-assessment"].includes(document.category)));
+  assert.ok(textbook.documents.every((document) => /英语（二）自学教程|英语\(二\)自学教程/.test(document.source)));
+  assert.ok(textbook.documents.every((document) => !/历年真题|基础语法|english-file/i.test(`${document.title} ${document.source} ${document.filename}`)));
+  assert.equal(new Set(lessons.map((lesson) => lesson.sourceDocumentId)).size, textbook.documentCount);
   assert.ok(lessons.slice(21, 35).every((lesson) => lesson.stageId === "stage-2" && lesson.lessonType === "foundation"));
   assert.deepEqual(lessons.slice(0, 7).map((lesson) => lesson.rhythm), ["new", "new", "new", "new", "integrated", "check", "rest"]);
   for (const lesson of lessons.slice(0, 35)) {
@@ -112,6 +122,7 @@ test("curriculum uses all normalized documents across the 12-week route", async 
     assert.ok(lesson.practiceTasks.some((item) => item.kind === "blank"), `${lesson.id} should train blanks`);
     assert.ok(lesson.practiceTasks.some((item) => item.kind === "imitation"), `${lesson.id} should train imitation`);
     assert.ok(lesson.practiceTasks.some((item) => item.kind === "translation"), `${lesson.id} should train one-sentence translation`);
+    assert.doesNotMatch(JSON.stringify(lesson), /历年真题|基础语法|随机网络文章|旧版通用演示|OCR/i);
   }
 });
 
@@ -240,7 +251,23 @@ test("schema v4 migration preserves history and clears obsolete daily plans", as
   assert.equal(upgraded.sessions[0].id, "kept");
   assert.equal(upgraded.sessions[0].minutes, 73);
   assert.deepEqual(upgraded.dailyPlans, {});
-  assert.equal(upgraded.mastery.contentVersion, "normalized-english2-v1");
+  assert.equal(upgraded.mastery.contentVersion, "textbook-00015-2012-v1");
+});
+
+test("textbook course builder keeps vocabulary within its source and schedule", async () => {
+  const [builder, textbook] = await Promise.all([
+    readFile(new URL("../scripts/build-textbook-course.mjs", import.meta.url), "utf8"),
+    readFile(new URL("../public/data/english2/textbook_course.json", import.meta.url), "utf8").then(JSON.parse),
+  ]);
+  assert.match(builder, /main-textbook-manifest\.json/);
+  assert.match(builder, /textbook-vocab-extracted\.json/);
+  assert.doesNotMatch(builder, /normalized_course\.json|CET4|english-file/);
+  assert.ok(textbook.vocabulary.length > 0);
+  assert.ok(textbook.vocabulary.every((item) => item.sourceKind === "textbook-vocabulary"));
+  assert.ok(textbook.vocabulary.every((item) => item.firstExposureDay >= 1 && item.firstExposureDay <= 84));
+  assert.ok(textbook.vocabulary.every((item) => item.meaning && item.partOfSpeech));
+  assert.ok(textbook.audit.maxNewWordsPerDay <= 30);
+  assert.equal(textbook.phrases.length, 0);
 });
 
 test("offline dictionary remains bundled at 1,286 entries", async () => {
@@ -266,23 +293,23 @@ test("13000 exam center uses traceable facts and never invents exam numbers", as
   assert.ok(syllabus.every((item) => item.verificationStatus === "pending" || item.sourceRefs.length > 0));
 });
 
-test("normalized corpus is complete and every scheduled day stays within 30 new words", async () => {
-  const course = JSON.parse(await readFile(new URL("../public/data/english2/normalized_course.json", import.meta.url), "utf8"));
+test("textbook corpus is complete and every scheduled day stays within 30 new words", async () => {
+  const course = JSON.parse(await readFile(new URL("../public/data/english2/textbook_course.json", import.meta.url), "utf8"));
   const files = new Set(course.documents.map((item) => item.filename));
   const headwords = course.vocabulary.map((item) => item.headword.toLowerCase());
-  assert.equal(course.documentCount, 70);
-  assert.equal(course.audit.expectedDocuments, 70);
-  assert.equal(course.audit.includedDocuments, 70);
+  assert.equal(course.documentCount, 14);
+  assert.equal(course.audit.expectedDocuments, 14);
+  assert.equal(course.audit.includedDocuments, 14);
   assert.equal(course.audit.missingDocuments.length, 0);
-  assert.equal(files.size, 70);
+  assert.equal(files.size, 14);
   assert.equal(new Set(headwords).size, headwords.length, "vocabulary headwords should be unique after normalization");
   assert.ok(course.vocabulary.every((item) => item.firstExposureDay >= 1 && item.firstExposureDay <= 84));
   const dailyCounts = Array.from({ length: 84 }, (_, index) => course.vocabulary.filter((item) => item.firstExposureDay === index + 1).length);
   assert.ok(dailyCounts.every((count) => count <= 30), `daily vocabulary counts: ${dailyCounts.join(",")}`);
   assert.equal(course.audit.maxNewWordsPerDay, Math.max(...dailyCounts));
-  assert.ok(course.totalCharacters > 1_000_000);
-  assert.ok(course.phrases.length > 300);
-  console.log(`normalized documents=${course.documentCount} vocabulary=${course.vocabulary.length} phrases=${course.phrases.length} maxNewWords=${course.audit.maxNewWordsPerDay}`);
+  assert.ok(course.totalCharacters > 100_000);
+  assert.equal(course.phrases.length, 0);
+  console.log(`textbook documents=${course.documentCount} vocabulary=${course.vocabulary.length} maxNewWords=${course.audit.maxNewWordsPerDay}`);
 });
 
 test("the previous workbook no longer drives the active course", async () => {

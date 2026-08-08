@@ -1,0 +1,4509 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-08T11:31:21.099Z",
+  "sourceDirectory": "app/study/textbook-units",
+  "sourceRule": "课程内容仅来自《英语（二）自学教程（2012年版，00015，张敬源、张虹主编）》的本地提取文件。",
+  "documentCount": 14,
+  "totalCharacters": 498356,
+  "documents": [
+    {
+      "id": "textbook-01-unit01",
+      "order": 1,
+      "filename": "01-unit01.txt",
+      "title": "Unit 1 The Power of Language",
+      "category": "unit",
+      "source": "英语（二）自学教程（2012年版，00015，张敬源、张虹主编）",
+      "extractionMethod": "source-pdf-text-extraction",
+      "status": "source-verified",
+      "pages": 17,
+      "checksum": "df3e0af4eb9977abe4568aaa26396d61e70fe692a033b83b870e29059c02fe29",
+      "characterCount": 21905,
+      "sections": [
+        {
+          "id": "extract-1",
+          "title": "教材节选 1",
+          "content": "Language is the dress of thought.\n\nRead the following conversation.\n\nPay attention to how the speakers make suggestions.\n\nSteve: Hi, Jenny, would you like to do something with me this weekend?\n\nSteve: I don't know."
+        },
+        {
+          "id": "extract-2",
+          "title": "教材节选 2",
+          "content": "Do you have any ideas?\n\nJenny: Why don't we see a film?\n\nSteve: That sounds good to me.\n\nWhich film shall we see?\n\nJenny: Let's see Action Man 4."
+        },
+        {
+          "id": "extract-3",
+          "title": "教材节选 3",
+          "content": "Steve: I'd rather not.\n\nI don't like violent films.\n\nSteve: it's at 8 o'clock at the Rex.\n\nShall we have a bite to eat before the film?\n\nJenny: Sure, that sounds great."
+        },
+        {
+          "id": "extract-4",
+          "title": "教材节选 4",
+          "content": "Let's meet there at six.\n\nI'll see you at Michetti's at six.\n\nDirections: Give your friends some suggestions on a place where you can spend your vacation.\n\nUse your own information.\n\nYou may use the following tips to help you."
+        },
+        {
+          "id": "extract-5",
+          "title": "教材节选 5",
+          "content": "Why don't we (you) go .\n\nHow (What) about going .\n\nThanks for the advice.\n\nDo you usually challenge the idea an author represents?\n\nWhat do you think is active reading?"
+        },
+        {
+          "id": "extract-6",
+          "title": "教材节选 6",
+          "content": "What suggestions do you expect the author will give on reading critically?\n\nCritical reading is active reading.\n\nConsider the context of what is written.\n\nQuestion assertions made by the author.\n\nDon't accept what is written at face value."
+        },
+        {
+          "id": "extract-7",
+          "title": "教材节选 7",
+          "content": "Look for facts, examples, and statistics that provide support.\n\nCompare what is written with other written work on the subject.\n\nAnalyze assumptions made by the author.\n\nThis means you must read carefully in order to identify any assumptions.\n\nEvaluate the sources the author uses."
+        },
+        {
+          "id": "extract-8",
+          "title": "教材节选 8",
+          "content": "Also be certain that the sources are relevant."
+        }
+      ],
+      "englishSentences": [
+        "Language is the dress of thought.",
+        "Read the following conversation.",
+        "Pay attention to how the speakers make suggestions.",
+        "Steve: Hi, Jenny, would you like to do something with me this weekend?",
+        "Steve: I don't know.",
+        "Do you have any ideas?",
+        "Jenny: Why don't we see a film?",
+        "Steve: That sounds good to me.",
+        "Which film shall we see?",
+        "Jenny: Let's see Action Man 4.",
+        "Steve: I'd rather not.",
+        "I don't like violent films.",
+        "Steve: it's at 8 o'clock at the Rex.",
+        "Shall we have a bite to eat before the film?",
+        "Jenny: Sure, that sounds great.",
+        "Let's meet there at six.",
+        "I'll see you at Michetti's at six.",
+        "Directions: Give your friends some suggestions on a place where you can spend your vacation.",
+        "Use your own information.",
+        "You may use the following tips to help you.",
+        "Why don't we (you) go .",
+        "How (What) about going .",
+        "Thanks for the advice.",
+        "Do you usually challenge the idea an author represents?",
+        "What do you think is active reading?",
+        "What suggestions do you expect the author will give on reading critically?",
+        "Critical reading is active reading.",
+        "Consider the context of what is written.",
+        "Question assertions made by the author.",
+        "Don't accept what is written at face value.",
+        "Look for facts, examples, and statistics that provide support.",
+        "Compare what is written with other written work on the subject.",
+        "Analyze assumptions made by the author.",
+        "This means you must read carefully in order to identify any assumptions.",
+        "Evaluate the sources the author uses.",
+        "Also be certain that the sources are relevant."
+      ]
+    },
+    {
+      "id": "textbook-02-unit02",
+      "order": 2,
+      "filename": "02-unit02.txt",
+      "title": "Unit 2 Mistakes to Success",
+      "category": "unit",
+      "source": "英语（二）自学教程（2012年版，00015，张敬源、张虹主编）",
+      "extractionMethod": "source-pdf-text-extraction",
+      "status": "source-verified",
+      "pages": 19,
+      "checksum": "8adcd5cf4e570587c21ed6c727e6eda990968e911bfb8c0ae018aff1c1fb524c",
+      "characterCount": 34159,
+      "sections": [
+        {
+          "id": "extract-1",
+          "title": "教材节选 1",
+          "content": "Directions: Fill in the blanks with the wo rds given below.\n\nChange the form where necessary.\n\nDirections: Complete each of the following sentences with a suitable word.\n\nDirections: Fill in the blanks with a word or a phrase that best completes the passage.\n\nLanguage is a very 6 tool."
+        },
+        {
+          "id": "extract-2",
+          "title": "教材节选 2",
+          "content": "How you deliver communication shapes the way the world 9 you.\n\nDirections: Translate the following paragraph into Chinese.\n\nFurthermore, as you read you must challenge yourself to understand the material.\n\nOn the other hand, you could say, \"I get a kick out of that TV show.\n\nDo you agree or disagree with this opinion?"
+        },
+        {
+          "id": "extract-3",
+          "title": "教材节选 3",
+          "content": "Are there any words that make you feel confident or diffident?\n\nDo you believe that language can influence people's thought?\n\nThe language we use programs our brains.\n\nIt is a small word yet it has an amazing impact upon us.\n\nHow often do you use the word try when talking about the things that matter to you?"
+        },
+        {
+          "id": "extract-4",
+          "title": "教材节选 4",
+          "content": "The latter makes you feel better than the first one, doesn't it?\n\nThis is another small word with a big impact.\n\nIt limits our infinite abilities and stifles creativity.\n\nUsing words like this allows you to take back your power and to be in control of your life.\n\nMastering your language gives you the power to live whatever life you desire."
+        },
+        {
+          "id": "extract-5",
+          "title": "教材节选 5",
+          "content": "What words do you use a lot that disempower you?\n\nW, but about life and what you are doing!\n\nUsing our language in the best way is significant for the improvement of our life.\n\nWe can knowingly make our command carried out without using a word.\n\nWe can improve our life by saying the word try in our daily life."
+        },
+        {
+          "id": "extract-6",
+          "title": "教材节选 6",
+          "content": "We can use a word that makes us feel great to help us feel powerful.\n\nThough some words may seem small, they can help us do everything we want.\n\nUsing words like \"I choose .\n\nDirections: Fill in the blanks with the words given below.\n\nEnglish before they start their careers."
+        },
+        {
+          "id": "extract-7",
+          "title": "教材节选 7",
+          "content": "English in their current job.\n\nA valuable skill to have in business is how to negotiate.\n\nDirections: The following sentences are grammatically incorrect or incoherent.\n\nThe captaiji, as well as the other players, were tired.\n\nThe captain, as well as the other players, was tired."
+        },
+        {
+          "id": "extract-8",
+          "title": "教材节选 8",
+          "content": "When dipped in mustard, Sam said the sausage was excellent."
+        }
+      ],
+      "englishSentences": [
+        "Directions: Fill in the blanks with the wo rds given below.",
+        "Change the form where necessary.",
+        "Directions: Complete each of the following sentences with a suitable word.",
+        "Directions: Fill in the blanks with a word or a phrase that best completes the passage.",
+        "Language is a very 6 tool.",
+        "How you deliver communication shapes the way the world 9 you.",
+        "Directions: Translate the following paragraph into Chinese.",
+        "Furthermore, as you read you must challenge yourself to understand the material.",
+        "On the other hand, you could say, \"I get a kick out of that TV show.",
+        "Do you agree or disagree with this opinion?",
+        "Are there any words that make you feel confident or diffident?",
+        "Do you believe that language can influence people's thought?",
+        "The language we use programs our brains.",
+        "It is a small word yet it has an amazing impact upon us.",
+        "How often do you use the word try when talking about the things that matter to you?",
+        "The latter makes you feel better than the first one, doesn't it?",
+        "This is another small word with a big impact.",
+        "It limits our infinite abilities and stifles creativity.",
+        "Using words like this allows you to take back your power and to be in control of your life.",
+        "Mastering your language gives you the power to live whatever life you desire.",
+        "What words do you use a lot that disempower you?",
+        "W, but about life and what you are doing!",
+        "Using our language in the best way is significant for the improvement of our life.",
+        "We can knowingly make our command carried out without using a word.",
+        "We can improve our life by saying the word try in our daily life.",
+        "We can use a word that makes us feel great to help us feel powerful.",
+        "Though some words may seem small, they can help us do everything we want.",
+        "Using words like \"I choose .",
+        "Directions: Fill in the blanks with the words given below.",
+        "English before they start their careers.",
+        "English in their current job.",
+        "A valuable skill to have in business is how to negotiate.",
+        "Directions: The following sentences are grammatically incorrect or incoherent.",
+        "The captaiji, as well as the other players, were tired.",
+        "The captain, as well as the other players, was tired.",
+        "When dipped in mustard, Sam said the sausage was excellent."
+      ]
+    },
+    {
+      "id": "textbook-03-unit03",
+      "order": 3,
+      "filename": "03-unit03.txt",
+      "title": "Unit 3 Friendship and Loyalty",
+      "category": "unit",
+      "source": "英语（二）自学教程（2012年版，00015，张敬源、张虹主编）",
+      "extractionMethod": "source-pdf-text-extraction",
+      "status": "source-verified",
+      "pages": 19,
+      "checksum": "78d35d0082913fa163f644ac19a6d601181039b389175de55da3d5c0a2efb435",
+      "characterCount": 33317,
+      "sections": [
+        {
+          "id": "extract-1",
+          "title": "教材节选 1",
+          "content": "As a popular old saying goes, \"Mistakes are the mother of success\".\n\nI learn too much from them.\n\nWhat can mistakes teach us?\n\nGive reasons and examples to support yourself.\n\nHave you ever been wrongly blamed by your parents?"
+        },
+        {
+          "id": "extract-2",
+          "title": "教材节选 2",
+          "content": "How did you feel at that moment?\n\nWhat suggestions would you give to the parents who are blinded to their children's merits?\n\nCindy glanced nervously at the clock on the kitchen wall.\n\nFive minutes before midnight.\n\nAnd then there was the way the kitchen looked."
+        },
+        {
+          "id": "extract-3",
+          "title": "教材节选 3",
+          "content": "Do you get the idea?\n\nBut Cindy wasn't thinking about the mess.\n\nTHIS CLOSE to exploding.\n\nHer parents tried to slip in quietly, but Cindy would have none of that.\n\nBut her mother's eyes never made it all the way to the table."
+        },
+        {
+          "id": "extract-4",
+          "title": "教材节选 4",
+          "content": "Just look at this mess!\n\nHow many times have I talked to you about cleaning up after yourself?\n\nBut Mom, I was only .\n\nSo you'll do it first thing in the morning.\n\nHoney,\" Cindy's father interjected gently, \"take a look at the table."
+        },
+        {
+          "id": "extract-5",
+          "title": "教材节选 5",
+          "content": "She stormed up the stairs and into her room, slamming the door shut behind her.\n\nFor a few moments Cindy and her father stood silently, neither one knowing what to say.\n\nAt last she looked up at him, her eyes moist and red.\n\nShe never saw the cake,\" she said.\n\nA phoenix is a mythical bird with a colorful plumage and a tail of gold and scarlet."
+        },
+        {
+          "id": "extract-6",
+          "title": "教材节选 6",
+          "content": "Cindy made a delicious fruit cake all by herself the first time in her 12 years.\n\nCindy worried a lot about the mess even though she had created something.\n\nHer parents failed to slip in quietly for Cindy would give them a surprise.\n\nAll parents are suffering from Situational Timbercular Glaucoma all the time.\n\nDirections: Complete the following sentences with the information given in the text."
+        },
+        {
+          "id": "extract-7",
+          "title": "教材节选 7",
+          "content": "Directions: Fill in the blanks with the words given below.\n\nChange the form where necessary.\n\nDirections: Complete each of the following sentences with a suitable word.\n\nDirections: Translate the following paragraph into Chinese.\n\nFirst, successful people don't blame themselves when they fail."
+        },
+        {
+          "id": "extract-8",
+          "title": "教材节选 8",
+          "content": "They take responsibility for each setback, but they don't take the failure personally."
+        }
+      ],
+      "englishSentences": [
+        "As a popular old saying goes, \"Mistakes are the mother of success\".",
+        "I learn too much from them.",
+        "What can mistakes teach us?",
+        "Give reasons and examples to support yourself.",
+        "Have you ever been wrongly blamed by your parents?",
+        "How did you feel at that moment?",
+        "What suggestions would you give to the parents who are blinded to their children's merits?",
+        "Cindy glanced nervously at the clock on the kitchen wall.",
+        "Five minutes before midnight.",
+        "And then there was the way the kitchen looked.",
+        "Do you get the idea?",
+        "But Cindy wasn't thinking about the mess.",
+        "THIS CLOSE to exploding.",
+        "Her parents tried to slip in quietly, but Cindy would have none of that.",
+        "But her mother's eyes never made it all the way to the table.",
+        "Just look at this mess!",
+        "How many times have I talked to you about cleaning up after yourself?",
+        "But Mom, I was only .",
+        "So you'll do it first thing in the morning.",
+        "Honey,\" Cindy's father interjected gently, \"take a look at the table.",
+        "She stormed up the stairs and into her room, slamming the door shut behind her.",
+        "For a few moments Cindy and her father stood silently, neither one knowing what to say.",
+        "At last she looked up at him, her eyes moist and red.",
+        "She never saw the cake,\" she said.",
+        "A phoenix is a mythical bird with a colorful plumage and a tail of gold and scarlet.",
+        "Cindy made a delicious fruit cake all by herself the first time in her 12 years.",
+        "Cindy worried a lot about the mess even though she had created something.",
+        "Her parents failed to slip in quietly for Cindy would give them a surprise.",
+        "All parents are suffering from Situational Timbercular Glaucoma all the time.",
+        "Directions: Complete the following sentences with the information given in the text.",
+        "Directions: Fill in the blanks with the words given below.",
+        "Change the form where necessary.",
+        "Directions: Complete each of the following sentences with a suitable word.",
+        "Directions: Translate the following paragraph into Chinese.",
+        "First, successful people don't blame themselves when they fail.",
+        "They take responsibility for each setback, but they don't take the failure personally."
+      ]
+    },
+    {
+      "id": "textbook-04-unit04",
+      "order": 4,
+      "filename": "04-unit04.txt",
+      "title": "Unit 4 The Joy of Work",
+      "category": "unit",
+      "source": "英语（二）自学教程（2012年版，00015，张敬源、张虹主编）",
+      "extractionMethod": "source-pdf-text-extraction",
+      "status": "source-verified",
+      "pages": 21,
+      "checksum": "709f730da7858e9f8e084b55458c719b522974c13b71ad69bc6520aa6c747786",
+      "characterCount": 35521,
+      "sections": [
+        {
+          "id": "extract-1",
+          "title": "教材节选 1",
+          "content": "Directions: Translate the following paragraph into Chinese.\n\nIt's so easy to take good friends for granted.\n\nWhom are you going to have fun with this weekend?\n\nFrom the start of a friendship, there is a little bit of loyalty to your newly acquired friend.\n\nIn a way, there are levels of loyalty, the way I see it."
+        },
+        {
+          "id": "extract-2",
+          "title": "教材节选 2",
+          "content": "As it does become a closer friendship, the level of trust changes a bit.\n\nYou want to build a bond of trust so that friendship can become better.\n\nYou are relied on more, and you start to be there for your friend.\n\nGive reasons to support your argument.\n\nWhy do many people choose to keep dogs as pets instead of other animals?"
+        },
+        {
+          "id": "extract-3",
+          "title": "教材节选 3",
+          "content": "Why do you think a growing number of Chinese, especially the elderly, prefer to keep pets?\n\nThe best friend a man has in this world may turn against him and become his enemy.\n\nThe money that a man has he may lose.\n\nA man's reputation may be sacrificed in a moment of ill-considered action.\n\nA man's dog stands by him in prosperity and in poverty, in health and in sickness."
+        },
+        {
+          "id": "extract-4",
+          "title": "教材节选 4",
+          "content": "He will kiss the hand that has no food to offer.\n\nWhen all other friends desert, he remains.\n\nThe best friend a man has may be disloyal to him.\n\nThe money a man has may fly away when he needs it.\n\nWhen severe winter sets in, the dog won't stand by its owner."
+        },
+        {
+          "id": "extract-5",
+          "title": "教材节选 5",
+          "content": "A dog will retreat when it encounters tough difficulties.\n\nDirections: Fill in the blanks with the words given below.\n\nChange the form where necessary.\n\nDirections: Complete each of the following sentences with a suitable word.\n\nI dread the coming exams."
+        },
+        {
+          "id": "extract-6",
+          "title": "教材节选 6",
+          "content": "Directions: The following sentences are grammatically incorrect or incoherent.\n\nIf leaving alone on a desert island, what would you do first?\n\nDo you still remember those days when we spent in Hong Kong last year?\n\nIt seems that more and more of my friends are facing great challenges in his lives.\n\nDirectiom: Read the following paragraph carefully."
+        },
+        {
+          "id": "extract-7",
+          "title": "教材节选 7",
+          "content": "My little niece, a ten-month-old baby, is the most lovely child 1 have ever seen.\n\nWhen you carry her in your arms, she likes to put her arms around your neck.\n\nHer father likes to take photos when she smiles.\n\nWhen I did it again, she watched me attentively.\n\nThen she tried to imitate."
+        },
+        {
+          "id": "extract-8",
+          "title": "教材节选 8",
+          "content": "And that was her way to wink."
+        }
+      ],
+      "englishSentences": [
+        "Directions: Translate the following paragraph into Chinese.",
+        "It's so easy to take good friends for granted.",
+        "Whom are you going to have fun with this weekend?",
+        "From the start of a friendship, there is a little bit of loyalty to your newly acquired friend.",
+        "In a way, there are levels of loyalty, the way I see it.",
+        "As it does become a closer friendship, the level of trust changes a bit.",
+        "You want to build a bond of trust so that friendship can become better.",
+        "You are relied on more, and you start to be there for your friend.",
+        "Give reasons to support your argument.",
+        "Why do many people choose to keep dogs as pets instead of other animals?",
+        "Why do you think a growing number of Chinese, especially the elderly, prefer to keep pets?",
+        "The best friend a man has in this world may turn against him and become his enemy.",
+        "The money that a man has he may lose.",
+        "A man's reputation may be sacrificed in a moment of ill-considered action.",
+        "A man's dog stands by him in prosperity and in poverty, in health and in sickness.",
+        "He will kiss the hand that has no food to offer.",
+        "When all other friends desert, he remains.",
+        "The best friend a man has may be disloyal to him.",
+        "The money a man has may fly away when he needs it.",
+        "When severe winter sets in, the dog won't stand by its owner.",
+        "A dog will retreat when it encounters tough difficulties.",
+        "Directions: Fill in the blanks with the words given below.",
+        "Change the form where necessary.",
+        "Directions: Complete each of the following sentences with a suitable word.",
+        "I dread the coming exams.",
+        "Directions: The following sentences are grammatically incorrect or incoherent.",
+        "If leaving alone on a desert island, what would you do first?",
+        "Do you still remember those days when we spent in Hong Kong last year?",
+        "It seems that more and more of my friends are facing great challenges in his lives.",
+        "Directiom: Read the following paragraph carefully.",
+        "My little niece, a ten-month-old baby, is the most lovely child 1 have ever seen.",
+        "When you carry her in your arms, she likes to put her arms around your neck.",
+        "Her father likes to take photos when she smiles.",
+        "When I did it again, she watched me attentively.",
+        "Then she tried to imitate.",
+        "And that was her way to wink."
+      ]
+    },
+    {
+      "id": "textbook-05-unit05",
+      "order": 5,
+      "filename": "05-unit05.txt",
+      "title": "Unit 5 Keeping Your Dreams Alive",
+      "category": "unit",
+      "source": "英语（二）自学教程（2012年版，00015，张敬源、张虹主编）",
+      "extractionMethod": "source-pdf-text-extraction",
+      "status": "source-verified",
+      "pages": 19,
+      "checksum": "1a29532f7fe307a9ec87f8b1d64756553c238ed4ae48fd93d419eaa7ce1aa8a9",
+      "characterCount": 31518,
+      "sections": [
+        {
+          "id": "extract-1",
+          "title": "教材节选 1",
+          "content": "What are my working hours?\n\nWhat are my extra benefits besides wages?\n\nWill I have enough time to hang out with my friends or pursue my hobbies?\n\nGood work attitudes, habits, and skills are learned through successful work experiences.\n\nAfter each cow was milked, I poured the milk from the pail into a 10-gallon can."
+        },
+        {
+          "id": "extract-2",
+          "title": "教材节选 2",
+          "content": "My father and mother quite frequently helped me with milking the cows.\n\nThere is a difference.\n\nHe wanted them to be content.\n\nHe always said that contented cows give good milk.\n\nMilking was not a job for him; it was a service."
+        },
+        {
+          "id": "extract-3",
+          "title": "教材节选 3",
+          "content": "This philosophy is something that helped me as I grew up.\n\nI took pride in my work.\n\nThat’s just the way my father taught me to feel about the cows.\n\nYoung people may be more concerned about leisure time when applying for jobs.\n\nGood work attitudes, habits, and skills are learned at school."
+        },
+        {
+          "id": "extract-4",
+          "title": "教材节选 4",
+          "content": "Before going to school, the author had to milk all the cows in the morning.\n\nUnlike his parents, the young boy seemed not to be glad to see the cows every morning.\n\nAfter each cow was milked, the author would carry the milk to the market.\n\nThe author always milked the cows alone in the barnyard.\n\nTo his father, milking cows was a complicated job."
+        },
+        {
+          "id": "extract-5",
+          "title": "教材节选 5",
+          "content": "The author’s father milked the cows because they needed to be milked.\n\nThe author came to like the job of milking and took pride in it.\n\nAvremel never married, and he shared a house with his brother and his family.\n\nWhen the tragedy occurred, Avremel was age 55, and his friend, Ed Beyea, was age 42.\n\nBlue Shield since his injury."
+        },
+        {
+          "id": "extract-6",
+          "title": "教材节选 6",
+          "content": "Ed was strong and outgoing, while Avremel was the more quiet of the pair.\n\nAmericans during this crisis.\n\nWhat happened to Avremel and Ed during the September 11th terrorist attacks?\n\nAvremel rescued Ed at the cost of his own life.\n\nBoth Avremel and Ed gave up their chance of escape."
+        },
+        {
+          "id": "extract-7",
+          "title": "教材节选 7",
+          "content": "Both Avremel and Ed were finally rescued.\n\nAvremel stayed with Ed and both lost their lives.\n\nWhich of the following statements is true according to the passage?\n\nAvremel took care of Ed’s life after work.\n\nAvremel liked diving when he was young."
+        },
+        {
+          "id": "extract-8",
+          "title": "教材节选 8",
+          "content": "Ed became disabled after a driving accident."
+        }
+      ],
+      "englishSentences": [
+        "What are my working hours?",
+        "What are my extra benefits besides wages?",
+        "Will I have enough time to hang out with my friends or pursue my hobbies?",
+        "Good work attitudes, habits, and skills are learned through successful work experiences.",
+        "After each cow was milked, I poured the milk from the pail into a 10-gallon can.",
+        "My father and mother quite frequently helped me with milking the cows.",
+        "There is a difference.",
+        "He wanted them to be content.",
+        "He always said that contented cows give good milk.",
+        "Milking was not a job for him; it was a service.",
+        "This philosophy is something that helped me as I grew up.",
+        "I took pride in my work.",
+        "That’s just the way my father taught me to feel about the cows.",
+        "Young people may be more concerned about leisure time when applying for jobs.",
+        "Good work attitudes, habits, and skills are learned at school.",
+        "Before going to school, the author had to milk all the cows in the morning.",
+        "Unlike his parents, the young boy seemed not to be glad to see the cows every morning.",
+        "After each cow was milked, the author would carry the milk to the market.",
+        "The author always milked the cows alone in the barnyard.",
+        "To his father, milking cows was a complicated job.",
+        "The author’s father milked the cows because they needed to be milked.",
+        "The author came to like the job of milking and took pride in it.",
+        "Avremel never married, and he shared a house with his brother and his family.",
+        "When the tragedy occurred, Avremel was age 55, and his friend, Ed Beyea, was age 42.",
+        "Blue Shield since his injury.",
+        "Ed was strong and outgoing, while Avremel was the more quiet of the pair.",
+        "Americans during this crisis.",
+        "What happened to Avremel and Ed during the September 11th terrorist attacks?",
+        "Avremel rescued Ed at the cost of his own life.",
+        "Both Avremel and Ed gave up their chance of escape.",
+        "Both Avremel and Ed were finally rescued.",
+        "Avremel stayed with Ed and both lost their lives.",
+        "Which of the following statements is true according to the passage?",
+        "Avremel took care of Ed’s life after work.",
+        "Avremel liked diving when he was young.",
+        "Ed became disabled after a driving accident."
+      ]
+    },
+    {
+      "id": "textbook-06-unit06",
+      "order": 6,
+      "filename": "06-unit06.txt",
+      "title": "Unit 6 The Value of Money",
+      "category": "unit",
+      "source": "英语（二）自学教程（2012年版，00015，张敬源、张虹主编）",
+      "extractionMethod": "source-pdf-text-extraction",
+      "status": "source-verified",
+      "pages": 17,
+      "checksum": "5d306c3d1efe3c1ee2735a768cad60c1cdf8d99080ded776df460fdbeb4528fc",
+      "characterCount": 29297,
+      "sections": [
+        {
+          "id": "extract-1",
+          "title": "教材节选 1",
+          "content": "Directions: Translate the following paragraph into Chinese.\n\nImagine life as a game in which you are juggling some five balls in the air.\n\nIf you drop it, it will bounce back.\n\nYou must understand that and strive for balance in your life.\n\nThe butterfly then emerged easily."
+        },
+        {
+          "id": "extract-2",
+          "title": "教材节选 2",
+          "content": "Then it seemed to stop making any progress.\n\nBut it never was able to fly.\n\nLife is like a journey.\n\nIt is full of ups and downs.\n\nAnd most of the time life is difficult."
+        },
+        {
+          "id": "extract-3",
+          "title": "教材节选 3",
+          "content": "Some just sit back complaining about their misfortune and their life's journey may stick there.\n\nTo which kind of group do you belong?\n\nWhat do you think of the problems and difficulties in your life?\n\nWhat advice do you expect the author will give to people in difficulties?\n\nTo begin again means that you won't give up."
+        },
+        {
+          "id": "extract-4",
+          "title": "教材节选 4",
+          "content": "To begin again means you're trying.\n\nOr spend the rest of your life slowly dying.\n\nIt is never the falling that makes us fail.\n\nIt is never the pain or the crying.\n\nUnless you give up trying."
+        },
+        {
+          "id": "extract-5",
+          "title": "教材节选 5",
+          "content": "All too many have health issues or are battling cancer.\n\nI have often struggled with what to say.\n\nThings will get better!\n\nI have even more people contacting me.\n\nWhat do you suggest?"
+        },
+        {
+          "id": "extract-6",
+          "title": "教材节选 6",
+          "content": "He walked out on me.\n\nMy whole world just ended.\n\nBob, I know both your son and your wife had cancer.\n\nI found out my wife does, too.\n\nWhat did you tell them?"
+        },
+        {
+          "id": "extract-7",
+          "title": "教材节选 7",
+          "content": "It almost sounds too simple.\n\nBut it is indeed the answer.\n\nA failed marriage does not mean you are through loving or being loved.\n\nA life-threatening disease does not mean giving up.\n\nAnd if you are a person of faith, even death does not mean it's over."
+        },
+        {
+          "id": "extract-8",
+          "title": "教材节选 8",
+          "content": "It is desperation that causes the author's friends to turn to him for advice."
+        }
+      ],
+      "englishSentences": [
+        "Directions: Translate the following paragraph into Chinese.",
+        "Imagine life as a game in which you are juggling some five balls in the air.",
+        "If you drop it, it will bounce back.",
+        "You must understand that and strive for balance in your life.",
+        "The butterfly then emerged easily.",
+        "Then it seemed to stop making any progress.",
+        "But it never was able to fly.",
+        "Life is like a journey.",
+        "It is full of ups and downs.",
+        "And most of the time life is difficult.",
+        "Some just sit back complaining about their misfortune and their life's journey may stick there.",
+        "To which kind of group do you belong?",
+        "What do you think of the problems and difficulties in your life?",
+        "What advice do you expect the author will give to people in difficulties?",
+        "To begin again means that you won't give up.",
+        "To begin again means you're trying.",
+        "Or spend the rest of your life slowly dying.",
+        "It is never the falling that makes us fail.",
+        "It is never the pain or the crying.",
+        "Unless you give up trying.",
+        "All too many have health issues or are battling cancer.",
+        "I have often struggled with what to say.",
+        "Things will get better!",
+        "I have even more people contacting me.",
+        "What do you suggest?",
+        "He walked out on me.",
+        "My whole world just ended.",
+        "Bob, I know both your son and your wife had cancer.",
+        "I found out my wife does, too.",
+        "What did you tell them?",
+        "It almost sounds too simple.",
+        "But it is indeed the answer.",
+        "A failed marriage does not mean you are through loving or being loved.",
+        "A life-threatening disease does not mean giving up.",
+        "And if you are a person of faith, even death does not mean it's over.",
+        "It is desperation that causes the author's friends to turn to him for advice."
+      ]
+    },
+    {
+      "id": "textbook-07-unit07",
+      "order": 7,
+      "filename": "07-unit07.txt",
+      "title": "Unit 7 Inner Voice",
+      "category": "unit",
+      "source": "英语（二）自学教程（2012年版，00015，张敬源、张虹主编）",
+      "extractionMethod": "source-pdf-text-extraction",
+      "status": "source-verified",
+      "pages": 17,
+      "checksum": "b2d7e33bb08540fbc286f673c9c95b96a954b5d2a657b7e7d068d6596a3f30b2",
+      "characterCount": 31606,
+      "sections": [
+        {
+          "id": "extract-1",
+          "title": "教材节选 1",
+          "content": "For starters, if you aren't a reader, you should start with that.\n\nSo what are some specific things you can do?\n\nWhat's your opinion about pocket money management?\n\nWell, how do you expect to become a success financially if you believe these things?\n\nYou do not need to know how it is going to happen."
+        },
+        {
+          "id": "extract-2",
+          "title": "教材节选 2",
+          "content": "Starting is already winning.\n\nAnd what about thinking that \"money is the root of all evil\"?\n\nBy the way, that quote is taken out of context in the first place.\n\nSo it has nothing to do with the money itself.\n\nNow that you understand that, you can start to think that money is in fact good."
+        },
+        {
+          "id": "extract-3",
+          "title": "教材节选 3",
+          "content": "You can stimulate the economy with money.\n\nAnd what about thinking that \"all rich people are greedy\"?\n\nThat's why you don't have money, because you're not greedy.\n\nSure, there must be some rich people in the world who are greedy.\n\nThere are both rich and poor people who are very giving as well."
+        },
+        {
+          "id": "extract-4",
+          "title": "教材节选 4",
+          "content": "In fact, a lot of rich people got there by not being greedy.\n\nEnglish as such since the King James Version.\n\nThe author gives many suggestions to children on how to spend money.\n\nAbundance thinking has negative influence on the way you live.\n\nDirections: Complete the following sentences with the information given in the text."
+        },
+        {
+          "id": "extract-5",
+          "title": "教材节选 5",
+          "content": "Directions: Fill in the blanks with the words given below.\n\nChange the form where necessary.\n\nDirections: Complete each of the following sentences with a suitable word.\n\nDirections: Translate the following paragraph into Chinese.\n\nHow do people think about money?"
+        },
+        {
+          "id": "extract-6",
+          "title": "教材节选 6",
+          "content": "They think money is all and believe that \"money is a passport to anything\".\n\nA German is coming to see me.\n\nI made his acquaintance in Hamburg last year.\n\nAny of these problems can be solved by ordinary intelligence and hard work.\n\nThe children felt exhausted."
+        },
+        {
+          "id": "extract-7",
+          "title": "教材节选 7",
+          "content": "They fell asleep at once.\n\nMy wife was using the vacuum cleaner.\n\nI was trying to listen to a broadcast play.\n\nYou promise to behave yourself.\n\nYou shall not go to the party this afternoon."
+        },
+        {
+          "id": "extract-8",
+          "title": "教材节选 8",
+          "content": "Directions: Write a short essay on Students' Pursuit of Famous Brands in about 150 words."
+        }
+      ],
+      "englishSentences": [
+        "For starters, if you aren't a reader, you should start with that.",
+        "So what are some specific things you can do?",
+        "What's your opinion about pocket money management?",
+        "Well, how do you expect to become a success financially if you believe these things?",
+        "You do not need to know how it is going to happen.",
+        "Starting is already winning.",
+        "And what about thinking that \"money is the root of all evil\"?",
+        "By the way, that quote is taken out of context in the first place.",
+        "So it has nothing to do with the money itself.",
+        "Now that you understand that, you can start to think that money is in fact good.",
+        "You can stimulate the economy with money.",
+        "And what about thinking that \"all rich people are greedy\"?",
+        "That's why you don't have money, because you're not greedy.",
+        "Sure, there must be some rich people in the world who are greedy.",
+        "There are both rich and poor people who are very giving as well.",
+        "In fact, a lot of rich people got there by not being greedy.",
+        "English as such since the King James Version.",
+        "The author gives many suggestions to children on how to spend money.",
+        "Abundance thinking has negative influence on the way you live.",
+        "Directions: Complete the following sentences with the information given in the text.",
+        "Directions: Fill in the blanks with the words given below.",
+        "Change the form where necessary.",
+        "Directions: Complete each of the following sentences with a suitable word.",
+        "Directions: Translate the following paragraph into Chinese.",
+        "How do people think about money?",
+        "They think money is all and believe that \"money is a passport to anything\".",
+        "A German is coming to see me.",
+        "I made his acquaintance in Hamburg last year.",
+        "Any of these problems can be solved by ordinary intelligence and hard work.",
+        "The children felt exhausted.",
+        "They fell asleep at once.",
+        "My wife was using the vacuum cleaner.",
+        "I was trying to listen to a broadcast play.",
+        "You promise to behave yourself.",
+        "You shall not go to the party this afternoon.",
+        "Directions: Write a short essay on Students' Pursuit of Famous Brands in about 150 words."
+      ]
+    },
+    {
+      "id": "textbook-08-unit08",
+      "order": 8,
+      "filename": "08-unit08.txt",
+      "title": "Unit 8 The Great Minds",
+      "category": "unit",
+      "source": "英语（二）自学教程（2012年版，00015，张敬源、张虹主编）",
+      "extractionMethod": "source-pdf-text-extraction",
+      "status": "source-verified",
+      "pages": 21,
+      "checksum": "a5e8f3955e797b3de2878e7ea5ada679d229c78bb38851b4ef36aaa338984774",
+      "characterCount": 40369,
+      "sections": [
+        {
+          "id": "extract-1",
+          "title": "教材节选 1",
+          "content": "Stand relaxed with your hands loosely at your side and close your eyelids.\n\nKeep thinking and thanking until you feel your heart has truly opened up.\n\nThink about something or someone you are truly and deeply grateful for.\n\nNow ask your inner voice for any guiding message.\n\nTake a few deep breaths."
+        },
+        {
+          "id": "extract-2",
+          "title": "教材节选 2",
+          "content": "Inhale and exhale through the nose slowly.\n\nFollow the steps below and commune with your wise inner guide.\n\nYour inner voice may tell you how to make correct decisions.\n\nWhat would you do in this situation?\n\nWhat do you think a smile indicates?"
+        },
+        {
+          "id": "extract-3",
+          "title": "教材节选 3",
+          "content": "What can a person do to make a good first impression?\n\nIt radiated sourness and selfishness.\n\nActions speak louder than words, and a smile says, \"I like you.\n\nThat is why dogs make such a hit.\n\nSo, naturally, we are glad to see them."
+        },
+        {
+          "id": "extract-4",
+          "title": "教材节选 4",
+          "content": "A baby's smile has the same effect.\n\nJust what you and I would do, of course; he smiled back at the baby.\n\nI ought to cut out and paste inside our hats.\n\nYour smile is a messenger of your goodwill.\n\nYour smile brightens the lives of all who see it."
+        },
+        {
+          "id": "extract-5",
+          "title": "教材节选 5",
+          "content": "A man without a smiling face must not open a shop.\n\nThis idiom comes from the Chinese.\n\nA shopkeeper who behaves in a surly way is unlikely to attract customers.\n\nNG (for Not Given) if the information is not given in the text.\n\nDogs are so popular because they always show us that they are glad to see us."
+        },
+        {
+          "id": "extract-6",
+          "title": "教材节选 6",
+          "content": "People in the waiting room worried about their pets and never talked to each other.\n\nThe young woman went to see the doctor because her baby was ill.\n\nThe gentleman in the waiting room had grandchildren.\n\nThe ancient Chinese were good at making good impression on others.\n\nDirections: Fill in the blanks with the words given below."
+        },
+        {
+          "id": "extract-7",
+          "title": "教材节选 7",
+          "content": "Change the form where necessary.\n\nDirections: Complete each of the following sentences with a suitable word.\n\nI saw her face at the window.\n\nDirections: Translate the following paragraph into Chinese.\n\nA smile costs nothing, but creates much."
+        },
+        {
+          "id": "extract-8",
+          "title": "教材节选 8",
+          "content": "For nobody needs a smile so much as those who have none left to give!"
+        }
+      ],
+      "englishSentences": [
+        "Stand relaxed with your hands loosely at your side and close your eyelids.",
+        "Keep thinking and thanking until you feel your heart has truly opened up.",
+        "Think about something or someone you are truly and deeply grateful for.",
+        "Now ask your inner voice for any guiding message.",
+        "Take a few deep breaths.",
+        "Inhale and exhale through the nose slowly.",
+        "Follow the steps below and commune with your wise inner guide.",
+        "Your inner voice may tell you how to make correct decisions.",
+        "What would you do in this situation?",
+        "What do you think a smile indicates?",
+        "What can a person do to make a good first impression?",
+        "It radiated sourness and selfishness.",
+        "Actions speak louder than words, and a smile says, \"I like you.",
+        "That is why dogs make such a hit.",
+        "So, naturally, we are glad to see them.",
+        "A baby's smile has the same effect.",
+        "Just what you and I would do, of course; he smiled back at the baby.",
+        "I ought to cut out and paste inside our hats.",
+        "Your smile is a messenger of your goodwill.",
+        "Your smile brightens the lives of all who see it.",
+        "A man without a smiling face must not open a shop.",
+        "This idiom comes from the Chinese.",
+        "A shopkeeper who behaves in a surly way is unlikely to attract customers.",
+        "NG (for Not Given) if the information is not given in the text.",
+        "Dogs are so popular because they always show us that they are glad to see us.",
+        "People in the waiting room worried about their pets and never talked to each other.",
+        "The young woman went to see the doctor because her baby was ill.",
+        "The gentleman in the waiting room had grandchildren.",
+        "The ancient Chinese were good at making good impression on others.",
+        "Directions: Fill in the blanks with the words given below.",
+        "Change the form where necessary.",
+        "Directions: Complete each of the following sentences with a suitable word.",
+        "I saw her face at the window.",
+        "Directions: Translate the following paragraph into Chinese.",
+        "A smile costs nothing, but creates much.",
+        "For nobody needs a smile so much as those who have none left to give!"
+      ]
+    },
+    {
+      "id": "textbook-09-unit09",
+      "order": 9,
+      "filename": "09-unit09.txt",
+      "title": "Unit 9 Facing Life's Challenges",
+      "category": "unit",
+      "source": "英语（二）自学教程（2012年版，00015，张敬源、张虹主编）",
+      "extractionMethod": "source-pdf-text-extraction",
+      "status": "source-verified",
+      "pages": 17,
+      "checksum": "0fcd157290ffa3ec338d7577f3e8898f8c6f98fa6405b83c98b1b81fa25e4dc9",
+      "characterCount": 29478,
+      "sections": [
+        {
+          "id": "extract-1",
+          "title": "教材节选 1",
+          "content": "United States is able to receive financial assistance for higher education.\n\nApplication for Federal Student Aid.\n\nFAFSA can result in a loss of thousands of dollars in financial aid.\n\nIt could be a little more complicated than filling out the FAFSA form.\n\nLearning about the different options available to them is the first step in the process."
+        },
+        {
+          "id": "extract-2",
+          "title": "教材节选 2",
+          "content": "One thing they might not think they should worry about is identity theft.\n\nOne of the major reasons why students are targets is because they are naive.\n\nFor students, being frugal is just about a must.\n\nInstead, they will log on to someone else’s WiFi or an unsecured network.\n\nThey can then use it to open a credit card under your name, stealing your identity."
+        },
+        {
+          "id": "extract-3",
+          "title": "教材节选 3",
+          "content": "Engdahl’s personal letters were made public after his death.\n\nThis is part of my life I bitterly regret,\" said Kamprad.\n\nKamprad apologized to IKEA employees of Jewish heritage and asked for their forgiveness.\n\nCan one ever get forgiveness for such stupidity?\n\nKamprad had made a crucial mistake in sympathizing with Nazis in his teenage years."
+        },
+        {
+          "id": "extract-4",
+          "title": "教材节选 4",
+          "content": "However, he remained friends with Engdahl well into the 1950s.\n\nHowever, professionally, Kamprad had been left relatively unharmed.\n\nIndeed, the success of IKEA can be traced back to a simple mistake in 1956.\n\nKamprad was arrested soon after the war was ended.\n\nHe also devoted two chapters to the incident in his 1998 book, \"The History of IKEA."
+        },
+        {
+          "id": "extract-5",
+          "title": "教材节选 5",
+          "content": "A budget is a foreign concept to kids (and, it should be said, to many adults).\n\nThe demand for crude oil has increased by gigantic proportions.\n\nThe number of Chinese students studying abroad has rapidly increased in recent years.\n\nDepression and later into World War N.\n\nRead the following conversation."
+        },
+        {
+          "id": "extract-6",
+          "title": "教材节选 6",
+          "content": "Pay attention to how the speakers talk about health.\n\nGeorge: Doctor, what is the best way to stay healthy?\n\nDoctor: Having a good diet is probably the most important thing.\n\nGeorge: It is very confusing to know what to eat.\n\nGeorge: Are there certain things that I should avoid?"
+        },
+        {
+          "id": "extract-7",
+          "title": "教材节选 7",
+          "content": "Doctor: You shouldn't consume too much sugar.\n\nAlso, watch your intake of fatty food.\n\nGeorge: After watching my diet, what else should I do?\n\nGeorge: Can I have a glass of wine now and then?\n\nDoctor: As long as you don't overdo it, a glass of wine a day should be OK."
+        },
+        {
+          "id": "extract-8",
+          "title": "教材节选 8",
+          "content": "Directions: Discuss with your partner the best way(s) to stay healthy."
+        }
+      ],
+      "englishSentences": [
+        "United States is able to receive financial assistance for higher education.",
+        "Application for Federal Student Aid.",
+        "FAFSA can result in a loss of thousands of dollars in financial aid.",
+        "It could be a little more complicated than filling out the FAFSA form.",
+        "Learning about the different options available to them is the first step in the process.",
+        "One thing they might not think they should worry about is identity theft.",
+        "One of the major reasons why students are targets is because they are naive.",
+        "For students, being frugal is just about a must.",
+        "Instead, they will log on to someone else’s WiFi or an unsecured network.",
+        "They can then use it to open a credit card under your name, stealing your identity.",
+        "Engdahl’s personal letters were made public after his death.",
+        "This is part of my life I bitterly regret,\" said Kamprad.",
+        "Kamprad apologized to IKEA employees of Jewish heritage and asked for their forgiveness.",
+        "Can one ever get forgiveness for such stupidity?",
+        "Kamprad had made a crucial mistake in sympathizing with Nazis in his teenage years.",
+        "However, he remained friends with Engdahl well into the 1950s.",
+        "However, professionally, Kamprad had been left relatively unharmed.",
+        "Indeed, the success of IKEA can be traced back to a simple mistake in 1956.",
+        "Kamprad was arrested soon after the war was ended.",
+        "He also devoted two chapters to the incident in his 1998 book, \"The History of IKEA.",
+        "A budget is a foreign concept to kids (and, it should be said, to many adults).",
+        "The demand for crude oil has increased by gigantic proportions.",
+        "The number of Chinese students studying abroad has rapidly increased in recent years.",
+        "Depression and later into World War N.",
+        "Read the following conversation.",
+        "Pay attention to how the speakers talk about health.",
+        "George: Doctor, what is the best way to stay healthy?",
+        "Doctor: Having a good diet is probably the most important thing.",
+        "George: It is very confusing to know what to eat.",
+        "George: Are there certain things that I should avoid?",
+        "Doctor: You shouldn't consume too much sugar.",
+        "Also, watch your intake of fatty food.",
+        "George: After watching my diet, what else should I do?",
+        "George: Can I have a glass of wine now and then?",
+        "Doctor: As long as you don't overdo it, a glass of wine a day should be OK.",
+        "Directions: Discuss with your partner the best way(s) to stay healthy."
+      ]
+    },
+    {
+      "id": "textbook-10-unit10",
+      "order": 10,
+      "filename": "10-unit10.txt",
+      "title": "Unit 10 Ode to Public Transport",
+      "category": "unit",
+      "source": "英语（二）自学教程（2012年版，00015，张敬源、张虹主编）",
+      "extractionMethod": "source-pdf-text-extraction",
+      "status": "source-verified",
+      "pages": 19,
+      "checksum": "5e93e2016c979b047e2ff3b99d7baa9dba1c900e9d957a2349c7e289cabd4115",
+      "characterCount": 36348,
+      "sections": [
+        {
+          "id": "extract-1",
+          "title": "教材节选 1",
+          "content": "Once you identify that, write down the challenge so you can clearly see it.\n\nThey can help you put things into perspective as well as provide inspiration.\n\nFrom there, figure out possible solutions, develop a plan and execute.\n\nGive your opinions and suggestions.\n\nHow do you understand the slogan \"Nothing is impossible\"?"
+        },
+        {
+          "id": "extract-2",
+          "title": "教材节选 2",
+          "content": "He walks painfully, yet majestically, until he reaches his chair.\n\nBy now, the audience is used to this ritual.\n\nThey remain reverently silent while he undoes the clasps on his legs.\n\nBut this time, something went wrong.\n\nThere was no mistaking what that sound meant."
+        },
+        {
+          "id": "extract-3",
+          "title": "教材节选 3",
+          "content": "There was no mistaking what he had to do.\n\nThe orchestra began, and he played from where he had left off.\n\nI know that, and you know that, but that night Itzhak Perlman refused to know that.\n\nYou could see him modulating, changing, re-composing the piece in his head.\n\nWhen he finished, there was an awesome silence in the room."
+        },
+        {
+          "id": "extract-4",
+          "title": "教材节选 4",
+          "content": "There was an extraordinary outburst of applause from every corner of the auditorium.\n\nWhat a powerful line that is!\n\nIt has stayed in my mind ever since I heard it.\n\nPerlman resides in New York City with his wife and five children.\n\nLincoln Square neighbourhood of New York City's Upper West Side."
+        },
+        {
+          "id": "extract-5",
+          "title": "教材节选 5",
+          "content": "Avery Fisher Hall, the Metropolitan Opera House and the Koch Theater.\n\nItzhak Perlman became disabled in an accident in his childhood.\n\nHis performance with a violin with three strings turned out to be very successful.\n\nLife is no longer the same as it used to be when you are deprived of something.\n\nDirections: Complete the following sentences with the information given in the text."
+        },
+        {
+          "id": "extract-6",
+          "title": "教材节选 6",
+          "content": "It was only decided yesterday.\n\nDirections: Fill in the blanks with the words given below.\n\nChange the form where necessary.\n\nTammy was in a serious car accident.\n\nTed and his little sister to cross the road."
+        },
+        {
+          "id": "extract-7",
+          "title": "教材节选 7",
+          "content": "I took the night train, I could be in Scotland by morning.\n\nDirections: Complete each of the following sentences with a suitable word.\n\nDirections: Translate the following paragraph into Chinese.\n\nDirections: The following sentences are not concise.\n\nTry to improve them."
+        },
+        {
+          "id": "extract-8",
+          "title": "教材节选 8",
+          "content": "There are more books in their library than in ours."
+        }
+      ],
+      "englishSentences": [
+        "Once you identify that, write down the challenge so you can clearly see it.",
+        "They can help you put things into perspective as well as provide inspiration.",
+        "From there, figure out possible solutions, develop a plan and execute.",
+        "Give your opinions and suggestions.",
+        "How do you understand the slogan \"Nothing is impossible\"?",
+        "He walks painfully, yet majestically, until he reaches his chair.",
+        "By now, the audience is used to this ritual.",
+        "They remain reverently silent while he undoes the clasps on his legs.",
+        "But this time, something went wrong.",
+        "There was no mistaking what that sound meant.",
+        "There was no mistaking what he had to do.",
+        "The orchestra began, and he played from where he had left off.",
+        "I know that, and you know that, but that night Itzhak Perlman refused to know that.",
+        "You could see him modulating, changing, re-composing the piece in his head.",
+        "When he finished, there was an awesome silence in the room.",
+        "There was an extraordinary outburst of applause from every corner of the auditorium.",
+        "What a powerful line that is!",
+        "It has stayed in my mind ever since I heard it.",
+        "Perlman resides in New York City with his wife and five children.",
+        "Lincoln Square neighbourhood of New York City's Upper West Side.",
+        "Avery Fisher Hall, the Metropolitan Opera House and the Koch Theater.",
+        "Itzhak Perlman became disabled in an accident in his childhood.",
+        "His performance with a violin with three strings turned out to be very successful.",
+        "Life is no longer the same as it used to be when you are deprived of something.",
+        "Directions: Complete the following sentences with the information given in the text.",
+        "It was only decided yesterday.",
+        "Directions: Fill in the blanks with the words given below.",
+        "Change the form where necessary.",
+        "Tammy was in a serious car accident.",
+        "Ted and his little sister to cross the road.",
+        "I took the night train, I could be in Scotland by morning.",
+        "Directions: Complete each of the following sentences with a suitable word.",
+        "Directions: Translate the following paragraph into Chinese.",
+        "Directions: The following sentences are not concise.",
+        "Try to improve them.",
+        "There are more books in their library than in ours."
+      ]
+    },
+    {
+      "id": "textbook-11-unit11",
+      "order": 11,
+      "filename": "11-unit11.txt",
+      "title": "Unit 11 Cyber World",
+      "category": "unit",
+      "source": "英语（二）自学教程（2012年版，00015，张敬源、张虹主编）",
+      "extractionMethod": "source-pdf-text-extraction",
+      "status": "source-verified",
+      "pages": 31,
+      "checksum": "21bca5c7ccc86e374b59b5aa0c9017112ae287df839a179bfd07c8ee831910bc",
+      "characterCount": 55145,
+      "sections": [
+        {
+          "id": "extract-1",
+          "title": "教材节选 1",
+          "content": "I just carry myself and my tiny baggage.\n\nLord forbid, in a worst situation).\n\nCome, join me and everyone else taking public transportation.\n\nTaking public transport contributes to saving the environment.\n\nBy using public transportation, the author gets more chances to do exercise."
+        },
+        {
+          "id": "extract-2",
+          "title": "教材节选 2",
+          "content": "Directions: Fill in the blanks with the words given below.\n\nChange the form where necessary.\n\nI only succeeded in annoying them.\n\nDirections: Complete each of the following sentences with a suitable word.\n\nDirections: Translate the following paragraph into Chinese."
+        },
+        {
+          "id": "extract-3",
+          "title": "教材节选 3",
+          "content": "When it comes to personal finance, we are all looking for ways to save more money.\n\nDirections: The following sentences are not concise.\n\nTry to improve them.\n\nThere are more books in their library than in our librar j';:.\n\nThere are more books in their library than in ours."
+        },
+        {
+          "id": "extract-4",
+          "title": "教材节选 4",
+          "content": "Starting as from the month of June, I will be working at the store on a full-time basis.\n\nMany Americans have turned into driving or walking billboards.\n\nT-shirts filled with all kinds of advertising messages.\n\nCrabs at Ed's Seafood Palace.\n\nThese messages belong on highway billboards."
+        },
+        {
+          "id": "extract-5",
+          "title": "教材节选 5",
+          "content": "Which side would you take and what reasons can you offer?\n\nLet's imagine that your English speaking friend says, \"I bought this great tuner at JR's.\n\nI can finally listen to National Public Radio broadcasts.\n\nIf you focus on the word tuner you might become frustrated.\n\nHowever, if you think in context you probably will understand."
+        },
+        {
+          "id": "extract-6",
+          "title": "教材节选 6",
+          "content": "A tuner must be a kind of radio!\n\nUse keywords or key phrases to help you understand the general ideas.\n\nThis is absolutely correct.\n\nRead the following conversation.\n\nPay attention to how the speakers talk about personality."
+        },
+        {
+          "id": "extract-7",
+          "title": "教材节选 7",
+          "content": "Steve: Could you tell me what kind of person do you consider Dr Miller to be?\n\nJenny: He is very interesting and challenging.\n\nAre you going to be taking a class from him?\n\nSteve: Yes, but I have never taken his class before.\n\nJenny: He is really clear on what you need to learn to get a good grade."
+        },
+        {
+          "id": "extract-8",
+          "title": "教材节选 8",
+          "content": "Steve: Yes, I guess so."
+        }
+      ],
+      "englishSentences": [
+        "I just carry myself and my tiny baggage.",
+        "Lord forbid, in a worst situation).",
+        "Come, join me and everyone else taking public transportation.",
+        "Taking public transport contributes to saving the environment.",
+        "By using public transportation, the author gets more chances to do exercise.",
+        "Directions: Fill in the blanks with the words given below.",
+        "Change the form where necessary.",
+        "I only succeeded in annoying them.",
+        "Directions: Complete each of the following sentences with a suitable word.",
+        "Directions: Translate the following paragraph into Chinese.",
+        "When it comes to personal finance, we are all looking for ways to save more money.",
+        "Directions: The following sentences are not concise.",
+        "Try to improve them.",
+        "There are more books in their library than in our librar j';:.",
+        "There are more books in their library than in ours.",
+        "Starting as from the month of June, I will be working at the store on a full-time basis.",
+        "Many Americans have turned into driving or walking billboards.",
+        "T-shirts filled with all kinds of advertising messages.",
+        "Crabs at Ed's Seafood Palace.",
+        "These messages belong on highway billboards.",
+        "Which side would you take and what reasons can you offer?",
+        "Let's imagine that your English speaking friend says, \"I bought this great tuner at JR's.",
+        "I can finally listen to National Public Radio broadcasts.",
+        "If you focus on the word tuner you might become frustrated.",
+        "However, if you think in context you probably will understand.",
+        "A tuner must be a kind of radio!",
+        "Use keywords or key phrases to help you understand the general ideas.",
+        "This is absolutely correct.",
+        "Read the following conversation.",
+        "Pay attention to how the speakers talk about personality.",
+        "Steve: Could you tell me what kind of person do you consider Dr Miller to be?",
+        "Jenny: He is very interesting and challenging.",
+        "Are you going to be taking a class from him?",
+        "Steve: Yes, but I have never taken his class before.",
+        "Jenny: He is really clear on what you need to learn to get a good grade.",
+        "Steve: Yes, I guess so."
+      ]
+    },
+    {
+      "id": "textbook-12-unit12",
+      "order": 12,
+      "filename": "12-unit12.txt",
+      "title": "Unit 12 A Break from Life",
+      "category": "unit",
+      "source": "英语（二）自学教程（2012年版，00015，张敬源、张虹主编）",
+      "extractionMethod": "source-pdf-text-extraction",
+      "status": "source-verified",
+      "pages": 19,
+      "checksum": "7d68a143e3dfef503bc0d70edaa3bd42fb15aa3b60f96b1b1ea5b16e90633269",
+      "characterCount": 37249,
+      "sections": [
+        {
+          "id": "extract-1",
+          "title": "教材节选 1",
+          "content": "What would you like to do?\n\nYou're already doing that.\n\nLet the machine answer the phone.\n\nIt is funny how the aches subsided in the heat of the tub.\n\nBy late afternoon, I was back at it, refreshed physically, mentally and emotionally."
+        },
+        {
+          "id": "extract-2",
+          "title": "教材节选 2",
+          "content": "I tended to my family.\n\nMy family was resourceful enough to scrounge clothing for the next day.\n\nA spa is usually a resort area providing therapeutic baths or having mineral springs.\n\nDirections: Choose the best answer to each question from the information given in the passage.\n\nWhat does the author intend to tell the readers in this story?"
+        },
+        {
+          "id": "extract-3",
+          "title": "教材节选 3",
+          "content": "A) People should feel free to respond to their own needs.\n\nB) People need to find an excuse to justify a rest.\n\nC) A homemade spa can relieve people's aches.\n\nD) Simple things can set people free.\n\nInternet can be used."
+        },
+        {
+          "id": "extract-4",
+          "title": "教材节选 4",
+          "content": "Directions: Fill in the blanks with the words given below.\n\nChange the form where necessary.\n\nI took a warm shower.\n\nChina for China's domestic market.\n\nDirections: Complete each of the following sentences with a suitable word."
+        },
+        {
+          "id": "extract-5",
+          "title": "教材节选 5",
+          "content": "Let me take your temperature.\n\nDirections: Fill in the blanks with a word or a phrase that best completes the passage.\n\nNothing takes its toll on the body like stress.\n\nYour stressful life does not just affect you, but everyone around you.\n\nThere are many facets to stress."
+        },
+        {
+          "id": "extract-6",
+          "title": "教材节选 6",
+          "content": "Directions: Translate the following paragraph into Chinese.\n\nDon't undermine your worth by comparing yourself with others.\n\nDon't set your goals by what other people deem important.\n\nOnly you know what is best for you.\n\nBy living your life one day at a time you live ALL the days of your life."
+        },
+        {
+          "id": "extract-7",
+          "title": "教材节选 7",
+          "content": "It is this fragile thread that binds us together.\n\nDon't forget that a person's greatest emotional need is to feel appreciated.\n\nNeither can be retrieved.\n\nThis is a very common problem.\n\nThere are many moments when people feel exhausted and want to feel free."
+        },
+        {
+          "id": "extract-8",
+          "title": "教材节选 8",
+          "content": "Do you agree or disagree with this opinion?"
+        }
+      ],
+      "englishSentences": [
+        "What would you like to do?",
+        "You're already doing that.",
+        "Let the machine answer the phone.",
+        "It is funny how the aches subsided in the heat of the tub.",
+        "By late afternoon, I was back at it, refreshed physically, mentally and emotionally.",
+        "I tended to my family.",
+        "My family was resourceful enough to scrounge clothing for the next day.",
+        "A spa is usually a resort area providing therapeutic baths or having mineral springs.",
+        "Directions: Choose the best answer to each question from the information given in the passage.",
+        "What does the author intend to tell the readers in this story?",
+        "A) People should feel free to respond to their own needs.",
+        "B) People need to find an excuse to justify a rest.",
+        "C) A homemade spa can relieve people's aches.",
+        "D) Simple things can set people free.",
+        "Internet can be used.",
+        "Directions: Fill in the blanks with the words given below.",
+        "Change the form where necessary.",
+        "I took a warm shower.",
+        "China for China's domestic market.",
+        "Directions: Complete each of the following sentences with a suitable word.",
+        "Let me take your temperature.",
+        "Directions: Fill in the blanks with a word or a phrase that best completes the passage.",
+        "Nothing takes its toll on the body like stress.",
+        "Your stressful life does not just affect you, but everyone around you.",
+        "There are many facets to stress.",
+        "Directions: Translate the following paragraph into Chinese.",
+        "Don't undermine your worth by comparing yourself with others.",
+        "Don't set your goals by what other people deem important.",
+        "Only you know what is best for you.",
+        "By living your life one day at a time you live ALL the days of your life.",
+        "It is this fragile thread that binds us together.",
+        "Don't forget that a person's greatest emotional need is to feel appreciated.",
+        "Neither can be retrieved.",
+        "This is a very common problem.",
+        "There are many moments when people feel exhausted and want to feel free.",
+        "Do you agree or disagree with this opinion?"
+      ]
+    },
+    {
+      "id": "textbook-13-self-assessment",
+      "order": 13,
+      "filename": "13-self-assessment.txt",
+      "title": "Self-Assessment Tests",
+      "category": "self-assessment",
+      "source": "英语（二）自学教程（2012年版，00015，张敬源、张虹主编）",
+      "extractionMethod": "source-pdf-text-extraction",
+      "status": "source-verified",
+      "pages": 11,
+      "checksum": "28beb05ec5206fc4f6a98478b47413612773ee1f3e14489d65a401b70ddd91da",
+      "characterCount": 20010,
+      "sections": [
+        {
+          "id": "extract-1",
+          "title": "教材节选 1",
+          "content": "Why do you want to start your own business?\n\nTo be your own boss?\n\nWrite out all of your motivating factors and prioritize them.\n\nWhat do you love to do?\n\nWhat gets you excited about your work?"
+        },
+        {
+          "id": "extract-2",
+          "title": "教材节选 2",
+          "content": "Determine if there is room in the market for your business.\n\nInternet company, research the requirements for your own unique Web presence.\n\nThat can happen just as easily in a.\n\nDo exhaustive financial planning.\n\nPlan wisely and do not assume the best about your business."
+        },
+        {
+          "id": "extract-3",
+          "title": "教材节选 3",
+          "content": "Identify your support system.\n\nTo keep your business alive, you should cooperate with your competitors.\n\nIn starting a business, you'd better follow the model in your own field.\n\nDirections: Fill in the blanks with the words given below.\n\nDirections: Complete each of the following sentences with a suitable word."
+        },
+        {
+          "id": "extract-4",
+          "title": "教材节选 4",
+          "content": "Directions: Translate the following paragraph into Chinese.\n\nDirections: The following sentences are grammatically incorrect or incoherent.\n\nRevision: The number of pages for daily reading has been increased.\n\nAnybody would feel the same way if you had a teacher like mine.\n\nThe climate in the coastal cities is much warmer than in the interior ones."
+        },
+        {
+          "id": "extract-5",
+          "title": "教材节选 5",
+          "content": "Running down the hill, the farmhouse came into view.\n\nTo get ready for the trip, all the things he needed were put into a suitcase.\n\nDirections: Supply a topic sentence for the following paragraph.\n\nThe listening end of the pair is never asked about his or her life.\n\nPeople tend to change jobs fairly often, for various reasons."
+        },
+        {
+          "id": "extract-6",
+          "title": "教材节选 6",
+          "content": "Word formation is one of the keys to successful English learning."
+        }
+      ],
+      "englishSentences": [
+        "Why do you want to start your own business?",
+        "To be your own boss?",
+        "Write out all of your motivating factors and prioritize them.",
+        "What do you love to do?",
+        "What gets you excited about your work?",
+        "Determine if there is room in the market for your business.",
+        "Internet company, research the requirements for your own unique Web presence.",
+        "That can happen just as easily in a.",
+        "Do exhaustive financial planning.",
+        "Plan wisely and do not assume the best about your business.",
+        "Identify your support system.",
+        "To keep your business alive, you should cooperate with your competitors.",
+        "In starting a business, you'd better follow the model in your own field.",
+        "Directions: Fill in the blanks with the words given below.",
+        "Directions: Complete each of the following sentences with a suitable word.",
+        "Directions: Translate the following paragraph into Chinese.",
+        "Directions: The following sentences are grammatically incorrect or incoherent.",
+        "Revision: The number of pages for daily reading has been increased.",
+        "Anybody would feel the same way if you had a teacher like mine.",
+        "The climate in the coastal cities is much warmer than in the interior ones.",
+        "Running down the hill, the farmhouse came into view.",
+        "To get ready for the trip, all the things he needed were put into a suitcase.",
+        "Directions: Supply a topic sentence for the following paragraph.",
+        "The listening end of the pair is never asked about his or her life.",
+        "People tend to change jobs fairly often, for various reasons.",
+        "Word formation is one of the keys to successful English learning."
+      ]
+    },
+    {
+      "id": "textbook-14-vocab-appendix",
+      "order": 14,
+      "filename": "14-vocab-appendix.txt",
+      "title": "附录：词汇表",
+      "category": "vocabulary",
+      "source": "英语（二）自学教程（2012年版，00015，张敬源、张虹主编）",
+      "extractionMethod": "source-pdf-text-extraction",
+      "status": "source-verified",
+      "pages": 61,
+      "checksum": "9d289d2f5edf83e391fe159aa665549130ce9d1fab70b291b50938766d44c497",
+      "characterCount": 62434,
+      "sections": [
+        {
+          "id": "extract-1",
+          "title": "教材节选 1",
+          "content": "Nowadays, our daily life is closely connected with modem technology.\n\nTV, cellphone, fridge or camera.\n\nFor me, the most two important devices in my home are the laptop and the washing machine.\n\nWith the help of laptop, I can acquire the newest information through the Internet.\n\nBesides, I can also deal with my official work at home."
+        },
+        {
+          "id": "extract-2",
+          "title": "教材节选 2",
+          "content": "Another device I need in my life is, of course, the washing machine.\n\nWhat I need to do is to press the button and wait and hang the clothes.\n\nWithout PC, you would know nothing about the modem society.\n\nOur world is changed dramatically by technology over the past few decades.\n\nI can live without them."
+        },
+        {
+          "id": "extract-3",
+          "title": "教材节选 3",
+          "content": "I got my first computer in 1996 when I was in a high school.\n\nI can not imagine if one day I wake up without my computer.\n\nMobile phone is another one that I can not live without it.\n\nI may be late for dinner tonight.\n\nI travel somewhere without planning well in advance."
+        },
+        {
+          "id": "extract-4",
+          "title": "教材节选 4",
+          "content": "Firstly, computer is a huge change in the development of technology.\n\nSecondly, smart machine is also a change in our life.\n\nTechnology is everywhere today.\n\nTechnology in the home is changing our life day by day.\n\nTechnology is everywhere today, and especially in the home."
+        },
+        {
+          "id": "extract-5",
+          "title": "教材节选 5",
+          "content": "I found it is difficult to live without TV and light.\n\nAnd you will feel alone.\n\nIn many times we need bright environment.\n\nOnly light can give us a bright life.\n\nSo I think TV and light is the most important in our lives."
+        },
+        {
+          "id": "extract-6",
+          "title": "教材节选 6",
+          "content": "It will most difficult to live without them.\n\nTechnology is very important, because if we lose the technology we not live.\n\nThe phone increated people’s friendship."
+        }
+      ],
+      "englishSentences": [
+        "Nowadays, our daily life is closely connected with modem technology.",
+        "TV, cellphone, fridge or camera.",
+        "For me, the most two important devices in my home are the laptop and the washing machine.",
+        "With the help of laptop, I can acquire the newest information through the Internet.",
+        "Besides, I can also deal with my official work at home.",
+        "Another device I need in my life is, of course, the washing machine.",
+        "What I need to do is to press the button and wait and hang the clothes.",
+        "Without PC, you would know nothing about the modem society.",
+        "Our world is changed dramatically by technology over the past few decades.",
+        "I can live without them.",
+        "I got my first computer in 1996 when I was in a high school.",
+        "I can not imagine if one day I wake up without my computer.",
+        "Mobile phone is another one that I can not live without it.",
+        "I may be late for dinner tonight.",
+        "I travel somewhere without planning well in advance.",
+        "Firstly, computer is a huge change in the development of technology.",
+        "Secondly, smart machine is also a change in our life.",
+        "Technology is everywhere today.",
+        "Technology in the home is changing our life day by day.",
+        "Technology is everywhere today, and especially in the home.",
+        "I found it is difficult to live without TV and light.",
+        "And you will feel alone.",
+        "In many times we need bright environment.",
+        "Only light can give us a bright life.",
+        "So I think TV and light is the most important in our lives.",
+        "It will most difficult to live without them.",
+        "Technology is very important, because if we lose the technology we not live.",
+        "The phone increated people’s friendship."
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "headword": "sufficient",
+      "phonetic": "/sg'fijnt/",
+      "partOfSpeech": "adj.",
+      "meaning": "足够的；充足的",
+      "example": "",
+      "sourceLine": "教材词汇提取：sufficient",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 1
+    },
+    {
+      "headword": "authority",
+      "phonetic": "/oi'Borsti/",
+      "partOfSpeech": "n.",
+      "meaning": "专家；学术权威；泰斗",
+      "example": "",
+      "sourceLine": "教材词汇提取：authority",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 1
+    },
+    {
+      "headword": "consistent",
+      "phonetic": "/kan'sistsnt/",
+      "partOfSpeech": "adj.",
+      "meaning": "相符的；符合的",
+      "example": "",
+      "sourceLine": "教材词汇提取：consistent",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 1
+    },
+    {
+      "headword": "directly",
+      "phonetic": "/da'rektli/",
+      "partOfSpeech": "adv.",
+      "meaning": "直接地；径直地",
+      "example": "",
+      "sourceLine": "教材词汇提取：directly",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 1
+    },
+    {
+      "headword": "identify",
+      "phonetic": "/ai'dentifai/",
+      "partOfSpeech": "v.",
+      "meaning": "找至ij;发现",
+      "example": "This means you must read carefully in order to identify any assumptions.",
+      "sourceLine": "教材词汇提取：identify",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 1
+    },
+    {
+      "headword": "valid",
+      "phonetic": "/'vaelid/",
+      "partOfSpeech": "adj.",
+      "meaning": "符合逻辑的；合理的；",
+      "example": "",
+      "sourceLine": "教材词汇提取：valid",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 1
+    },
+    {
+      "headword": "credible",
+      "phonetic": "/'kredsbl/",
+      "partOfSpeech": "adj.",
+      "meaning": "可信的；可靠的",
+      "example": "",
+      "sourceLine": "教材词汇提取：credible",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 1
+    },
+    {
+      "headword": "current",
+      "phonetic": "/'kArant/",
+      "partOfSpeech": "adj.",
+      "meaning": "现时发生的；当前的",
+      "example": "English in their current job.",
+      "sourceLine": "教材词汇提取：current",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 1
+    },
+    {
+      "headword": "considerably",
+      "phonetic": "/kon'sidarabli/",
+      "partOfSpeech": "adv.",
+      "meaning": "非常；很；相当多地",
+      "example": "",
+      "sourceLine": "教材词汇提取：considerably",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 1
+    },
+    {
+      "headword": "confidence",
+      "phonetic": "/'konfidans/",
+      "partOfSpeech": "n.",
+      "meaning": "響 Wertfs",
+      "example": "",
+      "sourceLine": "教材词汇提取：confidence",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 1
+    },
+    {
+      "headword": "mastery",
+      "phonetic": "/'maistari/",
+      "partOfSpeech": "n.",
+      "meaning": "控制；驾驭",
+      "example": "",
+      "sourceLine": "教材词汇提取：mastery",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 1
+    },
+    {
+      "headword": "dramatically",
+      "phonetic": "/drs'maetikli/",
+      "partOfSpeech": "adv.",
+      "meaning": "巨大地；惊人",
+      "example": "Our world is changed dramatically by technology over the past few decades.",
+      "sourceLine": "教材词汇提取：dramatically",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 1
+    },
+    {
+      "headword": "please",
+      "phonetic": "/pliiz/",
+      "partOfSpeech": "v.",
+      "meaning": "使满意；使愉快",
+      "example": "",
+      "sourceLine": "教材词汇提取：please",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 1
+    },
+    {
+      "headword": "command",
+      "phonetic": "/ks'maind/",
+      "partOfSpeech": "n.",
+      "meaning": "给人或云力物",
+      "example": "We can knowingly make our command carried out without using a word.",
+      "sourceLine": "教材词汇提取：command",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 1
+    },
+    {
+      "headword": "sense",
+      "phonetic": "/sens/",
+      "partOfSpeech": "n.",
+      "meaning": "对重大事情的）",
+      "example": "",
+      "sourceLine": "教材词汇提取：sense",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 1
+    },
+    {
+      "headword": "eliminate",
+      "phonetic": "/I'limineit/",
+      "partOfSpeech": "v.",
+      "meaning": "排除；清",
+      "example": "",
+      "sourceLine": "教材词汇提取：eliminate",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 1
+    },
+    {
+      "headword": "infinite",
+      "phonetic": "/'infmot/",
+      "partOfSpeech": "adj.",
+      "meaning": "极大的；无法衡量的",
+      "example": "It limits our infinite abilities and stifles creativity.",
+      "sourceLine": "教材词汇提取：infinite",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 1
+    },
+    {
+      "headword": "stifle",
+      "phonetic": "/'staifl/",
+      "partOfSpeech": "v.",
+      "meaning": "压制；扼杀；阻止",
+      "example": "",
+      "sourceLine": "教材词汇提取：stifle",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 1
+    },
+    {
+      "headword": "internal",
+      "phonetic": "/in'tainl/",
+      "partOfSpeech": "adj.",
+      "meaning": "内心的；头脑中的",
+      "example": "",
+      "sourceLine": "教材词汇提取：internal",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 1
+    },
+    {
+      "headword": "commonly",
+      "phonetic": "/'komanli/",
+      "partOfSpeech": "adv.",
+      "meaning": "通常；常常",
+      "example": "",
+      "sourceLine": "教材词汇提取：commonly",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 1
+    },
+    {
+      "headword": "fabulous",
+      "phonetic": "/'faebjsbs/",
+      "partOfSpeech": "adj.",
+      "meaning": "极好的；绝妙的",
+      "example": "",
+      "sourceLine": "教材词汇提取：fabulous",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 1
+    },
+    {
+      "headword": "occur",
+      "phonetic": "/s'ksiCr)/",
+      "partOfSpeech": "v.",
+      "meaning": "发生；出现",
+      "example": "",
+      "sourceLine": "教材词汇提取：occur",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 1
+    },
+    {
+      "headword": "remove",
+      "phonetic": "/ri'muiv/",
+      "partOfSpeech": "v.",
+      "meaning": "移开；",
+      "example": "",
+      "sourceLine": "教材词汇提取：remove",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 1
+    },
+    {
+      "headword": "grip",
+      "phonetic": "/grip/",
+      "partOfSpeech": "n.",
+      "meaning": "紧握；",
+      "example": "",
+      "sourceLine": "教材词汇提取：grip",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 1
+    },
+    {
+      "headword": "content",
+      "phonetic": "/'kontent/",
+      "partOfSpeech": "n.",
+      "meaning": "戶斤容纳之物；",
+      "example": "He wanted them to be content.",
+      "sourceLine": "教材词汇提取：content",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 1
+    },
+    {
+      "headword": "mess",
+      "phonetic": "/mes/",
+      "partOfSpeech": "n.",
+      "meaning": "航脏；杂乱；不整洁",
+      "example": "But Cindy wasn't thinking about the mess.",
+      "sourceLine": "教材词汇提取：mess",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 1
+    },
+    {
+      "headword": "rarely",
+      "phonetic": "/'re9li/",
+      "partOfSpeech": "adv.",
+      "meaning": "罕有；很少；不常",
+      "example": "",
+      "sourceLine": "教材词汇提取：rarely",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 1
+    },
+    {
+      "headword": "eventually",
+      "phonetic": "/I'ventjuali/",
+      "partOfSpeech": "adv.",
+      "meaning": "最后；",
+      "example": "",
+      "sourceLine": "教材词汇提取：eventually",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 1
+    },
+    {
+      "headword": "tiny",
+      "phonetic": "/'taini/",
+      "partOfSpeech": "adj.",
+      "meaning": "极小的；微小的",
+      "example": "I just carry myself and my tiny baggage.",
+      "sourceLine": "教材词汇提取：tiny",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 1
+    },
+    {
+      "headword": "grasp",
+      "phonetic": "/graisp/",
+      "partOfSpeech": "v.",
+      "meaning": "抓紧；抓牢",
+      "example": "",
+      "sourceLine": "教材词汇提取：grasp",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 1
+    },
+    {
+      "headword": "renowned",
+      "phonetic": "/ri'naund/",
+      "partOfSpeech": "adj.",
+      "meaning": "有名的；闻名的；受尊敬的",
+      "example": "",
+      "sourceLine": "教材词汇提取：renowned",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 2
+    },
+    {
+      "headword": "scientific",
+      "phonetic": "/.saian'tifik/",
+      "partOfSpeech": "adj.",
+      "meaning": "科学（上）的；关于科学的",
+      "example": "",
+      "sourceLine": "教材词汇提取：scientific",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 2
+    },
+    {
+      "headword": "valuable",
+      "phonetic": "/'vaeljuabl/",
+      "partOfSpeech": "adj.",
+      "meaning": "很有用的；很重要的：宝贵的",
+      "example": "A valuable skill to have in business is how to negotiate.",
+      "sourceLine": "教材词汇提取：valuable",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 2
+    },
+    {
+      "headword": "glance",
+      "phonetic": "/glams/",
+      "partOfSpeech": "u.",
+      "meaning": "瞥一眼；匆匆",
+      "example": "",
+      "sourceLine": "教材词汇提取：glance",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 2
+    },
+    {
+      "headword": "frost",
+      "phonetic": "/frost/",
+      "partOfSpeech": "v.",
+      "meaning": "给（糕饼）覆上糖霜",
+      "example": "",
+      "sourceLine": "教材词汇提取：frost",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 2
+    },
+    {
+      "headword": "triumph",
+      "phonetic": "/'traiamf/",
+      "partOfSpeech": "n.",
+      "meaning": "巨大成功；伟",
+      "example": "",
+      "sourceLine": "教材词汇提取：triumph",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 2
+    },
+    {
+      "headword": "lumpy",
+      "phonetic": "/'lAmpi/",
+      "partOfSpeech": "adj.",
+      "meaning": "多块状物的；为块状物覆盖的",
+      "example": "",
+      "sourceLine": "教材词汇提取：lumpy",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 2
+    },
+    {
+      "headword": "blender",
+      "phonetic": "/'blendsCr)/",
+      "partOfSpeech": "n.",
+      "meaning": "电",
+      "example": "",
+      "sourceLine": "教材词汇提取：blender",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 2
+    },
+    {
+      "headword": "requisite",
+      "phonetic": "/'rekwizit/",
+      "partOfSpeech": "adj.",
+      "meaning": "必需的；必备的；",
+      "example": "",
+      "sourceLine": "教材词汇提取：requisite",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 2
+    },
+    {
+      "headword": "utensil",
+      "phonetic": "/jui'tensl/",
+      "partOfSpeech": "n.",
+      "meaning": "家庭）用具，器皿",
+      "example": "",
+      "sourceLine": "教材词汇提取：utensil",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 2
+    },
+    {
+      "headword": "position",
+      "phonetic": "/pa'zijn/",
+      "partOfSpeech": "v.",
+      "meaning": "安",
+      "example": "",
+      "sourceLine": "教材词汇提取：position",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 2
+    },
+    {
+      "headword": "explode",
+      "phonetic": "/ik'spbud/",
+      "partOfSpeech": "v.",
+      "meaning": "突然爆发，迸发（感情）",
+      "example": "",
+      "sourceLine": "教材词汇提取：explode",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 2
+    },
+    {
+      "headword": "trumpet",
+      "phonetic": "/'trAmpit/",
+      "partOfSpeech": "v.",
+      "meaning": "发出哪日八声",
+      "example": "",
+      "sourceLine": "教材词汇提取：trumpet",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 2
+    },
+    {
+      "headword": "slightly",
+      "phonetic": "/'slaitli/",
+      "partOfSpeech": "adv.",
+      "meaning": "略微；稍微",
+      "example": "",
+      "sourceLine": "教材词汇提取：slightly",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 2
+    },
+    {
+      "headword": "off-balance",
+      "phonetic": "/,Df 'baebns/",
+      "partOfSpeech": "adj.",
+      "meaning": "不平衡的；不",
+      "example": "",
+      "sourceLine": "教材词汇提取：off-balance",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 2
+    },
+    {
+      "headword": "gently",
+      "phonetic": "/'d3entli/",
+      "partOfSpeech": "adv.",
+      "meaning": "温柔地；温和地；和缓地",
+      "example": "Honey,\" Cindy's father interjected gently, \"take a look at the table.",
+      "sourceLine": "教材词汇提取：gently",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 2
+    },
+    {
+      "headword": "silently",
+      "phonetic": "/'sailantli/",
+      "partOfSpeech": "adv.",
+      "meaning": "悄梢地；静静地",
+      "example": "For a few moments Cindy and her father stood silently, neither one knowing what to say.",
+      "sourceLine": "教材词汇提取：silently",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 2
+    },
+    {
+      "headword": "moist",
+      "phonetic": "/moist/",
+      "partOfSpeech": "adj.",
+      "meaning": "微湿的：湿润的",
+      "example": "At last she looked up at him, her eyes moist and red.",
+      "sourceLine": "教材词汇提取：moist",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 2
+    },
+    {
+      "headword": "occasional",
+      "phonetic": "/9'kei39nl/",
+      "partOfSpeech": "adj.",
+      "meaning": "偶然的；",
+      "example": "",
+      "sourceLine": "教材词汇提取：occasional",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 2
+    },
+    {
+      "headword": "awfully",
+      "phonetic": "/'Difli/",
+      "partOfSpeech": "adv.",
+      "meaning": "非常；极其",
+      "example": "",
+      "sourceLine": "教材词汇提取：awfully",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 2
+    },
+    {
+      "headword": "frustration",
+      "phonetic": "/frA'streiJn/",
+      "partOfSpeech": "n.",
+      "meaning": "令人懊丧",
+      "example": "",
+      "sourceLine": "教材词汇提取：frustration",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 2
+    },
+    {
+      "headword": "emerge",
+      "phonetic": "/i'm3：d3/",
+      "partOfSpeech": "v.",
+      "meaning": "露头；显现",
+      "example": "",
+      "sourceLine": "教材词汇提取：emerge",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 2
+    },
+    {
+      "headword": "dignity",
+      "phonetic": "/'dignati/",
+      "partOfSpeech": "n.",
+      "meaning": "自豪；自尊；",
+      "example": "",
+      "sourceLine": "教材词汇提取：dignity",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 2
+    },
+    {
+      "headword": "tender",
+      "phonetic": "/'tendaCr)/",
+      "partOfSpeech": "adj.",
+      "meaning": "易损坏的；纤弱的；脆弱的",
+      "example": "",
+      "sourceLine": "教材词汇提取：tender",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 2
+    },
+    {
+      "headword": "occasionally",
+      "phonetic": "/3乂6巧nsli/",
+      "partOfSpeech": "adv.",
+      "meaning": "偶然；偶尔；有时候",
+      "example": "",
+      "sourceLine": "教材词汇提取：occasionally",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 2
+    },
+    {
+      "headword": "consequence",
+      "phonetic": "/'konsikwsns/",
+      "partOfSpeech": "n.",
+      "meaning": "结果；后果",
+      "example": "",
+      "sourceLine": "教材词汇提取：consequence",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 2
+    },
+    {
+      "headword": "indeed",
+      "phonetic": "/in'diid/",
+      "partOfSpeech": "adv.",
+      "meaning": "其实；实际上",
+      "example": "But it is indeed the answer.",
+      "sourceLine": "教材词汇提取：indeed",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 2
+    },
+    {
+      "headword": "trendy",
+      "phonetic": "/'trendi/",
+      "partOfSpeech": "adj.",
+      "meaning": "时毫的；赶时擊的",
+      "example": "",
+      "sourceLine": "教材词汇提取：trendy",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 2
+    },
+    {
+      "headword": "multitude",
+      "phonetic": "/'mAltitjuid/",
+      "partOfSpeech": "n.",
+      "meaning": "众多；",
+      "example": "",
+      "sourceLine": "教材词汇提取：multitude",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 2
+    },
+    {
+      "headword": "mutual",
+      "phonetic": "/'mjuitjusl/",
+      "partOfSpeech": "adj.",
+      "meaning": "共有的；共同的",
+      "example": "",
+      "sourceLine": "教材词汇提取：mutual",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 2
+    },
+    {
+      "headword": "perish",
+      "phonetic": "/'penj/",
+      "partOfSpeech": "v.",
+      "meaning": "丧失；理灭；毁灭",
+      "example": "",
+      "sourceLine": "教材词汇提取：perish",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 3
+    },
+    {
+      "headword": "thought",
+      "phonetic": "/GoIt/",
+      "partOfSpeech": "n.",
+      "meaning": "想法；看法；",
+      "example": "Language is the dress of thought.",
+      "sourceLine": "教材词汇提取：thought",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 3
+    },
+    {
+      "headword": "akin",
+      "phonetic": "/s'kin/",
+      "partOfSpeech": "adj.",
+      "meaning": "相似的；类似的",
+      "example": "",
+      "sourceLine": "教材词汇提取：akin",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 3
+    },
+    {
+      "headword": "deposit",
+      "phonetic": "/di'pDZit/",
+      "partOfSpeech": "n.",
+      "meaning": "存款",
+      "example": "",
+      "sourceLine": "教材词汇提取：deposit",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 3
+    },
+    {
+      "headword": "well-being",
+      "phonetic": "/'welbiiir)/",
+      "partOfSpeech": "n.",
+      "meaning": "健康；安乐；康乐",
+      "example": "",
+      "sourceLine": "教材词汇提取：well-being",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 3
+    },
+    {
+      "headword": "seek",
+      "phonetic": "/silk/",
+      "partOfSpeech": "v.",
+      "meaning": "寻找",
+      "example": "",
+      "sourceLine": "教材词汇提取：seek",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 3
+    },
+    {
+      "headword": "notoriety",
+      "phonetic": "/.n^uts'raiati/",
+      "partOfSpeech": "n.",
+      "meaning": "恶名;坏名声",
+      "example": "",
+      "sourceLine": "教材词汇提取：notoriety",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 3
+    },
+    {
+      "headword": "reconnect",
+      "phonetic": "/.riika'nekt/",
+      "partOfSpeech": "v.",
+      "meaning": "再联系；再联络",
+      "example": "",
+      "sourceLine": "教材词汇提取：reconnect",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 3
+    },
+    {
+      "headword": "lyric",
+      "phonetic": "/'link/",
+      "partOfSpeech": "n.",
+      "meaning": "歌词",
+      "example": "",
+      "sourceLine": "教材词汇提取：lyric",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 3
+    },
+    {
+      "headword": "absolute",
+      "phonetic": "/'aebsaluit/",
+      "partOfSpeech": "adj.",
+      "meaning": "肯定的；",
+      "example": "",
+      "sourceLine": "教材词汇提取：absolute",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 3
+    },
+    {
+      "headword": "desert",
+      "phonetic": "/di'zait/",
+      "partOfSpeech": "v.",
+      "meaning": "抛弃，离",
+      "example": "When all other friends desert, he remains.",
+      "sourceLine": "教材词汇提取：desert",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 3
+    },
+    {
+      "headword": "treacherous",
+      "phonetic": "/'tretjaras/",
+      "partOfSpeech": "adj.",
+      "meaning": "不可信",
+      "example": "",
+      "sourceLine": "教材词汇提取：treacherous",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 3
+    },
+    {
+      "headword": "poverty",
+      "phonetic": "/'povati/",
+      "partOfSpeech": "n.",
+      "meaning": "贫穷；贫困",
+      "example": "A man's dog stands by him in prosperity and in poverty, in health and in sickness.",
+      "sourceLine": "教材词汇提取：poverty",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 3
+    },
+    {
+      "headword": "sickness",
+      "phonetic": "/'siknas/",
+      "partOfSpeech": "n.",
+      "meaning": "疾病；不健康",
+      "example": "A man's dog stands by him in prosperity and in poverty, in health and in sickness.",
+      "sourceLine": "教材词汇提取：sickness",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 3
+    },
+    {
+      "headword": "wintry",
+      "phonetic": "/'wintri/",
+      "partOfSpeech": "adj.",
+      "meaning": "冬天的；寒冷的",
+      "example": "",
+      "sourceLine": "教材词汇提取：wintry",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 3
+    },
+    {
+      "headword": "fiercely",
+      "phonetic": "/'fissli/",
+      "partOfSpeech": "adv.",
+      "meaning": "猛烈地",
+      "example": "",
+      "sourceLine": "教材词汇提取：fiercely",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 3
+    },
+    {
+      "headword": "roughness",
+      "phonetic": "/'rAfnis/",
+      "partOfSpeech": "n.",
+      "meaning": "艰辛；艰难",
+      "example": "",
+      "sourceLine": "教材词汇提取：roughness",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 3
+    },
+    {
+      "headword": "pauper",
+      "phonetic": "/'poip9(r)/",
+      "partOfSpeech": "n.",
+      "meaning": "穷人；贫民；乞丐",
+      "example": "",
+      "sourceLine": "教材词汇提取：pauper",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 3
+    },
+    {
+      "headword": "constant",
+      "phonetic": "/'konstant/",
+      "partOfSpeech": "adj.",
+      "meaning": "不变的；固定的；恒定的",
+      "example": "",
+      "sourceLine": "教材词汇提取：constant",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 3
+    },
+    {
+      "headword": "heaven",
+      "phonetic": "/'hevn/",
+      "partOfSpeech": "n.",
+      "meaning": "天空",
+      "example": "",
+      "sourceLine": "教材词汇提取：heaven",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 3
+    },
+    {
+      "headword": "friendless",
+      "phonetic": "/'frendlss/",
+      "partOfSpeech": "adj.",
+      "meaning": "没有朋友的",
+      "example": "",
+      "sourceLine": "教材词汇提取：friendless",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 3
+    },
+    {
+      "headword": "homeless",
+      "phonetic": "/'haumlas/",
+      "partOfSpeech": "adj.",
+      "meaning": "无家的",
+      "example": "",
+      "sourceLine": "教材词汇提取：homeless",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 3
+    },
+    {
+      "headword": "accompany",
+      "phonetic": "/s'kAmpani/",
+      "partOfSpeech": "v.",
+      "meaning": "陪同；陪伴",
+      "example": "",
+      "sourceLine": "教材词汇提取：accompany",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 3
+    },
+    {
+      "headword": "paw",
+      "phonetic": "/po:/",
+      "partOfSpeech": "n.",
+      "meaning": "动物的）爪",
+      "example": "",
+      "sourceLine": "教材词汇提取：paw",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 3
+    },
+    {
+      "headword": "alert",
+      "phonetic": "/a'lait/",
+      "partOfSpeech": "adj.",
+      "meaning": "警觉的；",
+      "example": "",
+      "sourceLine": "教材词汇提取：alert",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 3
+    },
+    {
+      "headword": "watchfulness",
+      "phonetic": "/'wotjflnss/",
+      "partOfSpeech": "n.",
+      "meaning": "警惕",
+      "example": "",
+      "sourceLine": "教材词汇提取：watchfulness",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 3
+    },
+    {
+      "headword": "blessing",
+      "phonetic": "/'blesig/",
+      "partOfSpeech": "n.",
+      "meaning": "好事；有益之事",
+      "example": "",
+      "sourceLine": "教材词汇提取：blessing",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 3
+    },
+    {
+      "headword": "cash",
+      "phonetic": "/kaej/",
+      "partOfSpeech": "n.",
+      "meaning": "现金",
+      "example": "",
+      "sourceLine": "教材词汇提取：cash",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 3
+    },
+    {
+      "headword": "illegal",
+      "phonetic": "/I'liigl/",
+      "partOfSpeech": "adj.",
+      "meaning": "不合法的；非法的；违法的",
+      "example": "",
+      "sourceLine": "教材词汇提取：illegal",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 3
+    },
+    {
+      "headword": "trafficking",
+      "phonetic": "/'traefikig/",
+      "partOfSpeech": "n.",
+      "meaning": "非法交易；",
+      "example": "",
+      "sourceLine": "教材词汇提取：trafficking",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 3
+    },
+    {
+      "headword": "dealer",
+      "phonetic": "/'di:b(r)/",
+      "partOfSpeech": "n.",
+      "meaning": "贩毒者；毒品贩子",
+      "example": "",
+      "sourceLine": "教材词汇提取：dealer",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 4
+    },
+    {
+      "headword": "contribute",
+      "phonetic": "/kan'tribjuit/",
+      "partOfSpeech": "v.",
+      "meaning": "呂增力□;增进；",
+      "example": "",
+      "sourceLine": "教材词汇提取：contribute",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 4
+    },
+    {
+      "headword": "motivation",
+      "phonetic": "/,m9uti'veijn/",
+      "partOfSpeech": "n.",
+      "meaning": "动机；原因",
+      "example": "",
+      "sourceLine": "教材词汇提取：motivation",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 4
+    },
+    {
+      "headword": "solely",
+      "phonetic": "/'sQulli/",
+      "partOfSpeech": "adv.",
+      "meaning": "仅；只；",
+      "example": "",
+      "sourceLine": "教材词汇提取：solely",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 4
+    },
+    {
+      "headword": "unique",
+      "phonetic": "/ju'niik/",
+      "partOfSpeech": "adj.",
+      "meaning": "独特的；罕见的",
+      "example": "Internet company, research the requirements for your own unique Web presence.",
+      "sourceLine": "教材词汇提取：unique",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 4
+    },
+    {
+      "headword": "survive",
+      "phonetic": "/ss'vaiv/",
+      "partOfSpeech": "v.",
+      "meaning": "生存；存活；继续存在",
+      "example": "",
+      "sourceLine": "教材词汇提取：survive",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 4
+    },
+    {
+      "headword": "purchase",
+      "phonetic": "/'psitjos/",
+      "partOfSpeech": "v.",
+      "meaning": "购买；采购",
+      "example": "",
+      "sourceLine": "教材词汇提取：purchase",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 4
+    },
+    {
+      "headword": "can",
+      "phonetic": "/'traej kaen/",
+      "partOfSpeech": "n.",
+      "meaning": "垃圾桶",
+      "example": "Directions: Give your friends some suggestions on a place where you can spend your vacation.",
+      "sourceLine": "教材词汇提取：can",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 4
+    },
+    {
+      "headword": "exceed",
+      "phonetic": "/ik'siid/",
+      "partOfSpeech": "v.",
+      "meaning": "超过",
+      "example": "",
+      "sourceLine": "教材词汇提取：exceed",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 4
+    },
+    {
+      "headword": "alleviate",
+      "phonetic": "/a'liivieit/",
+      "partOfSpeech": "v.",
+      "meaning": "减轻；缓和；缓解",
+      "example": "",
+      "sourceLine": "教材词汇提取：alleviate",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 4
+    },
+    {
+      "headword": "seasoned",
+      "phonetic": "/'siiznd/",
+      "partOfSpeech": "adj.",
+      "meaning": "富有",
+      "example": "",
+      "sourceLine": "教材词汇提取：seasoned",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 4
+    },
+    {
+      "headword": "various",
+      "phonetic": "/'veariss/",
+      "partOfSpeech": "adj.",
+      "meaning": "各种不同的；各种各样的",
+      "example": "People tend to change jobs fairly often, for various reasons.",
+      "sourceLine": "教材词汇提取：various",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 4
+    },
+    {
+      "headword": "career",
+      "phonetic": "/ka'riaCr)/",
+      "partOfSpeech": "n.",
+      "meaning": "耳只",
+      "example": "",
+      "sourceLine": "教材词汇提取：career",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 4
+    },
+    {
+      "headword": "feed",
+      "phonetic": "/fiid/",
+      "partOfSpeech": "v.",
+      "meaning": "满足（希",
+      "example": "",
+      "sourceLine": "教材词汇提取：feed",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 4
+    },
+    {
+      "headword": "transcend",
+      "phonetic": "/trsen'send/",
+      "partOfSpeech": "v.",
+      "meaning": "超出，",
+      "example": "",
+      "sourceLine": "教材词汇提取：transcend",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 4
+    },
+    {
+      "headword": "incessantly",
+      "phonetic": "/in'sesntli/",
+      "partOfSpeech": "adv.",
+      "meaning": "不停地；持续不断地",
+      "example": "",
+      "sourceLine": "教材词汇提取：incessantly",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 4
+    },
+    {
+      "headword": "noisily",
+      "phonetic": "/'noizili/",
+      "partOfSpeech": "adv.",
+      "meaning": "喧闹地",
+      "example": "",
+      "sourceLine": "教材词汇提取：noisily",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 4
+    },
+    {
+      "headword": "subtly",
+      "phonetic": "/'sAtli/",
+      "partOfSpeech": "adv.",
+      "meaning": "不易",
+      "example": "",
+      "sourceLine": "教材词汇提取：subtly",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 4
+    },
+    {
+      "headword": "affliction",
+      "phonetic": "/s'flikjn/",
+      "partOfSpeech": "n.",
+      "meaning": "折磨；痛苦",
+      "example": "",
+      "sourceLine": "教材词汇提取：affliction",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 4
+    },
+    {
+      "headword": "confront",
+      "phonetic": "/kan'frAnt/",
+      "partOfSpeech": "v.",
+      "meaning": "处理，解",
+      "example": "",
+      "sourceLine": "教材词汇提取：confront",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 4
+    },
+    {
+      "headword": "anguish",
+      "phonetic": "/'aeggwij/",
+      "partOfSpeech": "n.",
+      "meaning": "居ij痛；极",
+      "example": "",
+      "sourceLine": "教材词汇提取：anguish",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 4
+    },
+    {
+      "headword": "despair",
+      "phonetic": "/di'speaCr)/",
+      "partOfSpeech": "n.",
+      "meaning": "绝望",
+      "example": "",
+      "sourceLine": "教材词汇提取：despair",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 4
+    },
+    {
+      "headword": "engender",
+      "phonetic": "/in'd3end9(r)/",
+      "partOfSpeech": "v.",
+      "meaning": "产生，引起（某种",
+      "example": "",
+      "sourceLine": "教材词汇提取：engender",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 4
+    },
+    {
+      "headword": "mentally",
+      "phonetic": "/'mentali/",
+      "partOfSpeech": "adv.",
+      "meaning": "精神上；智",
+      "example": "By late afternoon, I was back at it, refreshed physically, mentally and emotionally.",
+      "sourceLine": "教材词汇提取：mentally",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 4
+    },
+    {
+      "headword": "deliberately",
+      "phonetic": "/di'libarstli/",
+      "partOfSpeech": "adv.",
+      "meaning": "故意；",
+      "example": "",
+      "sourceLine": "教材词汇提取：deliberately",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 4
+    },
+    {
+      "headword": "lately",
+      "phonetic": "/'leitli/",
+      "partOfSpeech": "adv.",
+      "meaning": "最近：新近；近来；不久前",
+      "example": "",
+      "sourceLine": "教材词汇提取：lately",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 4
+    },
+    {
+      "headword": "desperation",
+      "phonetic": "/,desp9'reijn/",
+      "partOfSpeech": "n.",
+      "meaning": "绝望；拼命；链而走险",
+      "example": "It is desperation that causes the author's friends to turn to him for advice.",
+      "sourceLine": "教材词汇提取：desperation",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 4
+    },
+    {
+      "headword": "value",
+      "phonetic": "/'vaelju:/",
+      "partOfSpeech": "v.",
+      "meaning": "重视；",
+      "example": "Don't accept what is written at face value.",
+      "sourceLine": "教材词汇提取：value",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 4
+    },
+    {
+      "headword": "cheerfully",
+      "phonetic": "/'tjiafali/",
+      "partOfSpeech": "adv.",
+      "meaning": "快",
+      "example": "",
+      "sourceLine": "教材词汇提取：cheerfully",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 4
+    },
+    {
+      "headword": "imagine",
+      "phonetic": "/i'maed3in/",
+      "partOfSpeech": "v.",
+      "meaning": "料想；认为",
+      "example": "Imagine life as a game in which you are juggling some five balls in the air.",
+      "sourceLine": "教材词汇提取：imagine",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 4
+    },
+    {
+      "headword": "life-threatening",
+      "phonetic": "/'laif 0retni日/",
+      "partOfSpeech": "adj.",
+      "meaning": "可能致命的；威胁着生",
+      "example": "A life-threatening disease does not mean giving up.",
+      "sourceLine": "教材词汇提取：life-threatening",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 5
+    },
+    {
+      "headword": "recess",
+      "phonetic": "/ri'ses/",
+      "partOfSpeech": "n.",
+      "meaning": "课间休息",
+      "example": "",
+      "sourceLine": "教材词汇提取：recess",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 5
+    },
+    {
+      "headword": "sibling",
+      "phonetic": "/'siblig/",
+      "partOfSpeech": "n.",
+      "meaning": "兄；弟；姐；妹",
+      "example": "",
+      "sourceLine": "教材词汇提取：sibling",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 5
+    },
+    {
+      "headword": "scheme",
+      "phonetic": "/skiim/",
+      "partOfSpeech": "n.",
+      "meaning": "计",
+      "example": "",
+      "sourceLine": "教材词汇提取：scheme",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 5
+    },
+    {
+      "headword": "kindergarten",
+      "phonetic": "/'kindsgaitn/",
+      "partOfSpeech": "n.",
+      "meaning": "幼儿园",
+      "example": "",
+      "sourceLine": "教材词汇提取：kindergarten",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 5
+    },
+    {
+      "headword": "monthly",
+      "phonetic": "/'mAn01i/",
+      "partOfSpeech": "adj.",
+      "meaning": "按月结算的；",
+      "example": "",
+      "sourceLine": "教材词汇提取：monthly",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 5
+    },
+    {
+      "headword": "financially",
+      "phonetic": "/fai'naenjali/",
+      "partOfSpeech": "adv.",
+      "meaning": "经济上",
+      "example": "Well, how do you expect to become a success financially if you believe these things?",
+      "sourceLine": "教材词汇提取：financially",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 5
+    },
+    {
+      "headword": "readily",
+      "phonetic": "/'redili/",
+      "partOfSpeech": "adv.",
+      "meaning": "快捷地；轻而易举地；",
+      "example": "",
+      "sourceLine": "教材词汇提取：readily",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 5
+    },
+    {
+      "headword": "available",
+      "phonetic": "/s'veibbl/",
+      "partOfSpeech": "adj.",
+      "meaning": "可获得的；可",
+      "example": "Learning about the different options available to them is the first step in the process.",
+      "sourceLine": "教材词汇提取：available",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 5
+    },
+    {
+      "headword": "abundant",
+      "phonetic": "/s'bAndant/",
+      "partOfSpeech": "adj.",
+      "meaning": "大量的；",
+      "example": "",
+      "sourceLine": "教材词汇提取：abundant",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 5
+    },
+    {
+      "headword": "universe",
+      "phonetic": "/'juinivsis/",
+      "partOfSpeech": "n.",
+      "meaning": "宇宙；天地万物；",
+      "example": "",
+      "sourceLine": "教材词汇提取：universe",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 5
+    },
+    {
+      "headword": "favorite",
+      "phonetic": "/'feivarit/",
+      "partOfSpeech": "adj.",
+      "meaning": "口 liked more than others of the same kind",
+      "example": "",
+      "sourceLine": "教材词汇提取：favorite",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 5
+    },
+    {
+      "headword": "charity",
+      "phonetic": "/'tjaerati/",
+      "partOfSpeech": "n.",
+      "meaning": "慈善机构",
+      "example": "",
+      "sourceLine": "教材词汇提取：charity",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 5
+    },
+    {
+      "headword": "abundance",
+      "phonetic": "/s'bAndans/",
+      "partOfSpeech": "n.",
+      "meaning": "大量；丰盛；",
+      "example": "Abundance thinking has negative influence on the way you live.",
+      "sourceLine": "教材词汇提取：abundance",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 5
+    },
+    {
+      "headword": "whereby",
+      "phonetic": "/wes'bai/",
+      "partOfSpeech": "conj.",
+      "meaning": "凭此；藉W;由于",
+      "example": "",
+      "sourceLine": "教材词汇提取：whereby",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 5
+    },
+    {
+      "headword": "joyfully",
+      "phonetic": "/'d30if9li/",
+      "partOfSpeech": "adv.",
+      "meaning": "快乐地",
+      "example": "",
+      "sourceLine": "教材词汇提取：joyfully",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 5
+    },
+    {
+      "headword": "precisely",
+      "phonetic": "/pri'saisli/",
+      "partOfSpeech": "adv.",
+      "meaning": "准确地；恰巧地",
+      "example": "",
+      "sourceLine": "教材词汇提取：precisely",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 5
+    },
+    {
+      "headword": "dreaded",
+      "phonetic": "/'dredid/",
+      "partOfSpeech": "adj.",
+      "meaning": "令人害怕的；可怕的",
+      "example": "",
+      "sourceLine": "教材词汇提取：dreaded",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 5
+    },
+    {
+      "headword": "hesitation",
+      "phonetic": "/.hezi'teijn/",
+      "partOfSpeech": "n.",
+      "meaning": "犹豫",
+      "example": "",
+      "sourceLine": "教材词汇提取：hesitation",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 5
+    },
+    {
+      "headword": "feeble",
+      "phonetic": "/'fiibl/",
+      "partOfSpeech": "adj.",
+      "meaning": "无",
+      "example": "",
+      "sourceLine": "教材词汇提取：feeble",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 5
+    },
+    {
+      "headword": "profusely",
+      "phonetic": "/pro'fjuisli/",
+      "partOfSpeech": "adv.",
+      "meaning": "大量地；连连地",
+      "example": "",
+      "sourceLine": "教材词汇提取：profusely",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 5
+    },
+    {
+      "headword": "attach",
+      "phonetic": "/s'taetj/",
+      "partOfSpeech": "v.",
+      "meaning": "手己…固定，手己…",
+      "example": "",
+      "sourceLine": "教材词汇提取：attach",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 5
+    },
+    {
+      "headword": "contain",
+      "phonetic": "/ksn'tem/",
+      "partOfSpeech": "v.",
+      "meaning": "控制，克串ij，抑制",
+      "example": "",
+      "sourceLine": "教材词汇提取：contain",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 5
+    },
+    {
+      "headword": "pleasing",
+      "phonetic": "/|pli:zi口/",
+      "partOfSpeech": "adj.",
+      "meaning": "令人高兴的；令",
+      "example": "",
+      "sourceLine": "教材词汇提取：pleasing",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 5
+    },
+    {
+      "headword": "modest",
+      "phonetic": "/'iriDdist/",
+      "partOfSpeech": "adj.",
+      "meaning": "些许的；不",
+      "example": "",
+      "sourceLine": "教材词汇提取：modest",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 5
+    },
+    {
+      "headword": "fortune",
+      "phonetic": "/'foitjuin/",
+      "partOfSpeech": "n.",
+      "meaning": "大笔的钱；巨款",
+      "example": "",
+      "sourceLine": "教材词汇提取：fortune",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 5
+    },
+    {
+      "headword": "wear",
+      "phonetic": "/we9(r)/",
+      "partOfSpeech": "v.",
+      "meaning": "流露；面带",
+      "example": "",
+      "sourceLine": "教材词汇提取：wear",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 5
+    },
+    {
+      "headword": "hit",
+      "phonetic": "/hit/",
+      "partOfSpeech": "n.",
+      "meaning": "很受欢迎的人（或",
+      "example": "That is why dogs make such a hit.",
+      "sourceLine": "教材词汇提取：hit",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 5
+    },
+    {
+      "headword": "glum",
+      "phonetic": "/glAm/",
+      "partOfSpeech": "adj.",
+      "meaning": "忧郁的；闷闷不乐的",
+      "example": "",
+      "sourceLine": "教材词汇提取：glum",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 5
+    },
+    {
+      "headword": "kitten",
+      "phonetic": "/'kitn/",
+      "partOfSpeech": "n.",
+      "meaning": "小猫",
+      "example": "",
+      "sourceLine": "教材词汇提取：kitten",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 5
+    },
+    {
+      "headword": "characteristic",
+      "phonetic": "/.kaerakt^'ristik/",
+      "partOfSpeech": "adj.",
+      "meaning": "典",
+      "example": "",
+      "sourceLine": "教材词汇提取：characteristic",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 6
+    },
+    {
+      "headword": "goodwill",
+      "phonetic": "/.gud'wil/",
+      "partOfSpeech": "n.",
+      "meaning": "呂es to people as a job 由[3递员；信使",
+      "example": "Your smile is a messenger of your goodwill.",
+      "sourceLine": "教材词汇提取：goodwill",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 6
+    },
+    {
+      "headword": "pregnancy",
+      "phonetic": "/'pregnsnsi/",
+      "partOfSpeech": "n.",
+      "meaning": "怀孕；妊娠；孕期",
+      "example": "",
+      "sourceLine": "教材词汇提取：pregnancy",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 6
+    },
+    {
+      "headword": "massive",
+      "phonetic": "/'maesiv/",
+      "partOfSpeech": "adj.",
+      "meaning": "巨大的；非常严重的",
+      "example": "",
+      "sourceLine": "教材词汇提取：massive",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 6
+    },
+    {
+      "headword": "limbless",
+      "phonetic": "/'limbs/",
+      "partOfSpeech": "adj.",
+      "meaning": "无四肢的",
+      "example": "",
+      "sourceLine": "教材词汇提取：limbless",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 6
+    },
+    {
+      "headword": "accomplish",
+      "phonetic": "/s'kAmpliJ/",
+      "partOfSpeech": "v.",
+      "meaning": "完成",
+      "example": "",
+      "sourceLine": "教材词汇提取：accomplish",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 6
+    },
+    {
+      "headword": "limb",
+      "phonetic": "/lim/",
+      "partOfSpeech": "n.",
+      "meaning": "肢；营；腿",
+      "example": "",
+      "sourceLine": "教材词汇提取：limb",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 6
+    },
+    {
+      "headword": "motivational",
+      "phonetic": "/.mouti'veijanl/",
+      "partOfSpeech": "adj.",
+      "meaning": "鼓舞的",
+      "example": "",
+      "sourceLine": "教材词汇提取：motivational",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 6
+    },
+    {
+      "headword": "wholeheartedly",
+      "phonetic": "/.hsurhaitidli/",
+      "partOfSpeech": "adv.",
+      "meaning": "全心全意地",
+      "example": "",
+      "sourceLine": "教材词汇提取：wholeheartedly",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 6
+    },
+    {
+      "headword": "altitude",
+      "phonetic": "/'aeltitjuid/",
+      "partOfSpeech": "n.",
+      "meaning": "海拔；海拔高度",
+      "example": "",
+      "sourceLine": "教材词汇提取：altitude",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 6
+    },
+    {
+      "headword": "perspective",
+      "phonetic": "/po'spektiv/",
+      "partOfSpeech": "n.",
+      "meaning": "态度；观点；",
+      "example": "They can help you put things into perspective as well as provide inspiration.",
+      "sourceLine": "教材词汇提取：perspective",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 6
+    },
+    {
+      "headword": "profound",
+      "phonetic": "/pra'faund/",
+      "partOfSpeech": "adj.",
+      "meaning": "巨大的；深",
+      "example": "",
+      "sourceLine": "教材词汇提取：profound",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 6
+    },
+    {
+      "headword": "oftentimes",
+      "phonetic": "/'Dfntaimz/",
+      "partOfSpeech": "adv.",
+      "meaning": "常常",
+      "example": "",
+      "sourceLine": "教材词汇提取：oftentimes",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 6
+    },
+    {
+      "headword": "biend",
+      "phonetic": "/blend/",
+      "partOfSpeech": "n.",
+      "meaning": "不",
+      "example": "",
+      "sourceLine": "教材词汇提取：biend",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 6
+    },
+    {
+      "headword": "define",
+      "phonetic": "/di'fain/",
+      "partOfSpeech": "v.",
+      "meaning": "阐明；明确；",
+      "example": "",
+      "sourceLine": "教材词汇提取：define",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 6
+    },
+    {
+      "headword": "incredible",
+      "phonetic": "/m'kredabl/",
+      "partOfSpeech": "adj.",
+      "meaning": "不能相信的；难",
+      "example": "",
+      "sourceLine": "教材词汇提取：incredible",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 6
+    },
+    {
+      "headword": "unwed",
+      "phonetic": "/An'wed/",
+      "partOfSpeech": "adj.",
+      "meaning": "未婚的",
+      "example": "",
+      "sourceLine": "教材词汇提取：unwed",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 6
+    },
+    {
+      "headword": "recall",
+      "phonetic": "/ri'koil/",
+      "partOfSpeech": "v.",
+      "meaning": "己起；回'区起；回想、起",
+      "example": "",
+      "sourceLine": "教材词汇提取：recall",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 6
+    },
+    {
+      "headword": "possession",
+      "phonetic": "/pa'zejn/",
+      "partOfSpeech": "n.",
+      "meaning": "具有；拥有",
+      "example": "",
+      "sourceLine": "教材词汇提取：possession",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 6
+    },
+    {
+      "headword": "sag",
+      "phonetic": "/saeg/",
+      "partOfSpeech": "v.",
+      "meaning": "减弱；减少",
+      "example": "",
+      "sourceLine": "教材词汇提取：sag",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 6
+    },
+    {
+      "headword": "successive",
+      "phonetic": "/ssk'sesiv/",
+      "partOfSpeech": "adj.",
+      "meaning": "连续的；接",
+      "example": "",
+      "sourceLine": "教材词汇提取：successive",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 6
+    },
+    {
+      "headword": "insanely",
+      "phonetic": "/m'seinli/",
+      "partOfSpeech": "adv.",
+      "meaning": "十分；非常",
+      "example": "",
+      "sourceLine": "教材词汇提取：insanely",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 6
+    },
+    {
+      "headword": "heartbreaking",
+      "phonetic": "/'haitbreikig/",
+      "partOfSpeech": "adj.",
+      "meaning": "令人心",
+      "example": "",
+      "sourceLine": "教材词汇提取：heartbreaking",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 6
+    },
+    {
+      "headword": "instant",
+      "phonetic": "/'instant/",
+      "partOfSpeech": "adj.",
+      "meaning": "立即的；立刻的",
+      "example": "",
+      "sourceLine": "教材词汇提取：instant",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 6
+    },
+    {
+      "headword": "immense",
+      "phonetic": "/I'mens/",
+      "partOfSpeech": "adj.",
+      "meaning": "极大的；巨大的",
+      "example": "",
+      "sourceLine": "教材词汇提取：immense",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 6
+    },
+    {
+      "headword": "convince",
+      "phonetic": "/ksn'vms/",
+      "partOfSpeech": "v.",
+      "meaning": "说月良，劝说",
+      "example": "",
+      "sourceLine": "教材词汇提取：convince",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 6
+    },
+    {
+      "headword": "catalyst",
+      "phonetic": "/'kaetslist/",
+      "partOfSpeech": "n.",
+      "meaning": "催化剂",
+      "example": "",
+      "sourceLine": "教材词汇提取：catalyst",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 6
+    },
+    {
+      "headword": "initially",
+      "phonetic": "/I'nijsli/",
+      "partOfSpeech": "adv.",
+      "meaning": "开始；最初；起初",
+      "example": "",
+      "sourceLine": "教材词汇提取：initially",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 6
+    },
+    {
+      "headword": "petty",
+      "phonetic": "/'peti/",
+      "partOfSpeech": "adj.",
+      "meaning": "小的；琐巧的；次要的",
+      "example": "",
+      "sourceLine": "教材词汇提取：petty",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 6
+    },
+    {
+      "headword": "spot",
+      "phonetic": "/spot/",
+      "partOfSpeech": "n.",
+      "meaning": "地点；场戶斤；处戶斤",
+      "example": "",
+      "sourceLine": "教材词汇提取：spot",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 6
+    },
+    {
+      "headword": "symbolize",
+      "phonetic": "/'simbalaiz/",
+      "partOfSpeech": "v.",
+      "meaning": "象征；是…的象征；代表",
+      "example": "",
+      "sourceLine": "教材词汇提取：symbolize",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 7
+    },
+    {
+      "headword": "incredibly",
+      "phonetic": "/in'kredabli/",
+      "partOfSpeech": "adv.",
+      "meaning": "极端地；极其’",
+      "example": "",
+      "sourceLine": "教材词汇提取：incredibly",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 7
+    },
+    {
+      "headword": "positive",
+      "phonetic": "/'pDzativ/",
+      "partOfSpeech": "adj.",
+      "meaning": "良好的；正面的",
+      "example": "",
+      "sourceLine": "教材词汇提取：positive",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 7
+    },
+    {
+      "headword": "tough",
+      "phonetic": "/tAf/",
+      "partOfSpeech": "adj.",
+      "meaning": "良苦的；艰",
+      "example": "A dog will retreat when it encounters tough difficulties.",
+      "sourceLine": "教材词汇提取：tough",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 7
+    },
+    {
+      "headword": "cinch",
+      "phonetic": "/sintj/",
+      "partOfSpeech": "n.",
+      "meaning": "很容易的事；小莱",
+      "example": "",
+      "sourceLine": "教材词汇提取：cinch",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 7
+    },
+    {
+      "headword": "brace",
+      "phonetic": "/breis/",
+      "partOfSpeech": "n.",
+      "meaning": "双脚规开多夹",
+      "example": "",
+      "sourceLine": "教材词汇提取：brace",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 7
+    },
+    {
+      "headword": "aid",
+      "phonetic": "/eid/",
+      "partOfSpeech": "n.",
+      "meaning": "某工作",
+      "example": "Application for Federal Student Aid.",
+      "sourceLine": "教材词汇提取：aid",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 7
+    },
+    {
+      "headword": "majestically",
+      "phonetic": "/m9'd3estikli/",
+      "partOfSpeech": "adv.",
+      "meaning": "威",
+      "example": "He walks painfully, yet majestically, until he reaches his chair.",
+      "sourceLine": "教材词汇提取：majestically",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 7
+    },
+    {
+      "headword": "undo",
+      "phonetic": "/An'dui/",
+      "partOfSpeech": "v.",
+      "meaning": "打",
+      "example": "",
+      "sourceLine": "教材词汇提取：undo",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 7
+    },
+    {
+      "headword": "reverently",
+      "phonetic": "/'revarsntli/",
+      "partOfSpeech": "adv.",
+      "meaning": "恭敬",
+      "example": "They remain reverently silent while he undoes the clasps on his legs.",
+      "sourceLine": "教材词汇提取：reverently",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 7
+    },
+    {
+      "headword": "purity",
+      "phonetic": "/'pjuarsti/",
+      "partOfSpeech": "n.",
+      "meaning": "纯洁；纯净；纯粹",
+      "example": "",
+      "sourceLine": "教材词汇提取：purity",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 7
+    },
+    {
+      "headword": "outburst",
+      "phonetic": "/'autbaist/",
+      "partOfSpeech": "n.",
+      "meaning": "感情的）爆",
+      "example": "There was an extraordinary outburst of applause from every corner of the auditorium.",
+      "sourceLine": "教材词汇提取：outburst",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 7
+    },
+    {
+      "headword": "boastfully",
+      "phonetic": "/'baustfali/",
+      "partOfSpeech": "adv.",
+      "meaning": "自吹自插地；自夸地",
+      "example": "",
+      "sourceLine": "教材词汇提取：boastfully",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 7
+    },
+    {
+      "headword": "pensive",
+      "phonetic": "/'pensiv/",
+      "partOfSpeech": "adj.",
+      "meaning": "吕，especially because",
+      "example": "",
+      "sourceLine": "教材词汇提取：pensive",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 7
+    },
+    {
+      "headword": "reverent",
+      "phonetic": "/'revarsnt/",
+      "partOfSpeech": "adj.",
+      "meaning": "非常尊敬的；深",
+      "example": "",
+      "sourceLine": "教材词汇提取：reverent",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 7
+    },
+    {
+      "headword": "shaky",
+      "phonetic": "/'Jeiki/",
+      "partOfSpeech": "adj.",
+      "meaning": "不稳固的；不牢靠的；摇",
+      "example": "",
+      "sourceLine": "教材词汇提取：shaky",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 7
+    },
+    {
+      "headword": "expense",
+      "phonetic": "/ik'spens/",
+      "partOfSpeech": "n.",
+      "meaning": "费用；价钱",
+      "example": "",
+      "sourceLine": "教材词汇提取：expense",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 7
+    },
+    {
+      "headword": "annually",
+      "phonetic": "/'aenjuali/",
+      "partOfSpeech": "adv.",
+      "meaning": "年一次地",
+      "example": "",
+      "sourceLine": "教材词汇提取：annually",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 7
+    },
+    {
+      "headword": "household",
+      "phonetic": "/'haushauld/",
+      "partOfSpeech": "n.",
+      "meaning": "家人；家庭",
+      "example": "",
+      "sourceLine": "教材词汇提取：household",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 7
+    },
+    {
+      "headword": "transport",
+      "phonetic": "/'traenspoit/",
+      "partOfSpeech": "n.",
+      "meaning": "交通车辆；运输工具；旅",
+      "example": "Taking public transport contributes to saving the environment.",
+      "sourceLine": "教材词汇提取：transport",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 7
+    },
+    {
+      "headword": "carbon",
+      "phonetic": "/'kaibsn/",
+      "partOfSpeech": "n.",
+      "meaning": "碳",
+      "example": "",
+      "sourceLine": "教材词汇提取：carbon",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 7
+    },
+    {
+      "headword": "majority",
+      "phonetic": "/m9'd3Dr3ti/",
+      "partOfSpeech": "n.",
+      "meaning": "大音P分；",
+      "example": "",
+      "sourceLine": "教材词汇提取：majority",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 7
+    },
+    {
+      "headword": "exception",
+      "phonetic": "/ik'sepjn/",
+      "partOfSpeech": "n.",
+      "meaning": "规则的例外；例外",
+      "example": "",
+      "sourceLine": "教材词汇提取：exception",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 7
+    },
+    {
+      "headword": "stable",
+      "phonetic": "/'steibl/",
+      "partOfSpeech": "adj.",
+      "meaning": "稳定的；",
+      "example": "",
+      "sourceLine": "教材词汇提取：stable",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 7
+    },
+    {
+      "headword": "consequently",
+      "phonetic": "/'konsikwontli/",
+      "partOfSpeech": "adv.",
+      "meaning": "因此；戶斤W",
+      "example": "",
+      "sourceLine": "教材词汇提取：consequently",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 7
+    },
+    {
+      "headword": "iimited",
+      "phonetic": "/'limitid/",
+      "partOfSpeech": "adj.",
+      "meaning": "有限的",
+      "example": "",
+      "sourceLine": "教材词汇提取：iimited",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 7
+    },
+    {
+      "headword": "authentic",
+      "phonetic": "/oi'0entik/",
+      "partOfSpeech": "adj.",
+      "meaning": "真实的；真正的",
+      "example": "",
+      "sourceLine": "教材词汇提取：authentic",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 7
+    },
+    {
+      "headword": "intentionally",
+      "phonetic": "/in'tenjanali/",
+      "partOfSpeech": "adv.",
+      "meaning": "有意地；故意地",
+      "example": "",
+      "sourceLine": "教材词汇提取：intentionally",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 7
+    },
+    {
+      "headword": "respectfully",
+      "phonetic": "/ri'spektfali/",
+      "partOfSpeech": "adv.",
+      "meaning": "恭敬地",
+      "example": "",
+      "sourceLine": "教材词汇提取：respectfully",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 7
+    },
+    {
+      "headword": "particularly",
+      "phonetic": "/pa'tikjabli/",
+      "partOfSpeech": "adv.",
+      "meaning": "特另U;",
+      "example": "",
+      "sourceLine": "教材词汇提取：particularly",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 7
+    },
+    {
+      "headword": "economical",
+      "phonetic": "/,i:k9'nDmikl/",
+      "partOfSpeech": "adj.",
+      "meaning": "节俭的；",
+      "example": "",
+      "sourceLine": "教材词汇提取：economical",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 8
+    },
+    {
+      "headword": "untoward",
+      "phonetic": "/,Ant9'wo:d/",
+      "partOfSpeech": "adj.",
+      "meaning": "异常",
+      "example": "",
+      "sourceLine": "教材词汇提取：untoward",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 8
+    },
+    {
+      "headword": "push",
+      "phonetic": "/puj/",
+      "partOfSpeech": "n.",
+      "meaning": "矢志的追求；",
+      "example": "",
+      "sourceLine": "教材词汇提取：push",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 8
+    },
+    {
+      "headword": "variety",
+      "phonetic": "/vs'raiati/",
+      "partOfSpeech": "n.",
+      "meaning": "同一事物的）",
+      "example": "",
+      "sourceLine": "教材词汇提取：variety",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 8
+    },
+    {
+      "headword": "romance",
+      "phonetic": "/rau'maens/",
+      "partOfSpeech": "n.",
+      "meaning": "恋爱；爱情",
+      "example": "",
+      "sourceLine": "教材词汇提取：romance",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 8
+    },
+    {
+      "headword": "bizarre",
+      "phonetic": "/bi'zai(r)/",
+      "partOfSpeech": "adj.",
+      "meaning": "极其怪诞的；异乎寻常的",
+      "example": "",
+      "sourceLine": "教材词汇提取：bizarre",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 8
+    },
+    {
+      "headword": "initial",
+      "phonetic": "/I'nijl/",
+      "partOfSpeech": "adj.",
+      "meaning": "最初的；开始的",
+      "example": "",
+      "sourceLine": "教材词汇提取：initial",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 8
+    },
+    {
+      "headword": "literary",
+      "phonetic": "/'litarari/",
+      "partOfSpeech": "adj.",
+      "meaning": "文学的；文学上的",
+      "example": "",
+      "sourceLine": "教材词汇提取：literary",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 8
+    },
+    {
+      "headword": "inclination",
+      "phonetic": "/.mkli'neijn/",
+      "partOfSpeech": "n.",
+      "meaning": "顷向；",
+      "example": "",
+      "sourceLine": "教材词汇提取：inclination",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 8
+    },
+    {
+      "headword": "sweaty",
+      "phonetic": "/'sweti/",
+      "partOfSpeech": "adj.",
+      "meaning": "满是汗的；汗津津的",
+      "example": "",
+      "sourceLine": "教材词汇提取：sweaty",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 8
+    },
+    {
+      "headword": "vary",
+      "phonetic": "/'veari/",
+      "partOfSpeech": "u.",
+      "meaning": "相异；",
+      "example": "",
+      "sourceLine": "教材词汇提取：vary",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 8
+    },
+    {
+      "headword": "familiarity",
+      "phonetic": "/fa.mili'aerati/",
+      "partOfSpeech": "n.",
+      "meaning": "熟悉；",
+      "example": "",
+      "sourceLine": "教材词汇提取：familiarity",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 8
+    },
+    {
+      "headword": "intensity",
+      "phonetic": "/in'tensati/",
+      "partOfSpeech": "n.",
+      "meaning": "强烈；紧张；剧烈",
+      "example": "",
+      "sourceLine": "教材词汇提取：intensity",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 8
+    },
+    {
+      "headword": "correspondence",
+      "phonetic": "/.kDrs'spDndans/",
+      "partOfSpeech": "n.",
+      "meaning": "通信；通信联系",
+      "example": "",
+      "sourceLine": "教材词汇提取：correspondence",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 8
+    },
+    {
+      "headword": "albeit",
+      "phonetic": "/,3：rbi:it/",
+      "partOfSpeech": "conj.",
+      "meaning": "尽管；虽然",
+      "example": "",
+      "sourceLine": "教材词汇提取：albeit",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 8
+    },
+    {
+      "headword": "demon",
+      "phonetic": "/'diiman/",
+      "partOfSpeech": "n.",
+      "meaning": "恶魔；魔鬼",
+      "example": "",
+      "sourceLine": "教材词汇提取：demon",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 8
+    },
+    {
+      "headword": "determine",
+      "phonetic": "/di'tsimin/",
+      "partOfSpeech": "v.",
+      "meaning": "决定",
+      "example": "Determine if there is room in the market for your business.",
+      "sourceLine": "教材词汇提取：determine",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 8
+    },
+    {
+      "headword": "traditionally",
+      "phonetic": "/tro'dijanali/",
+      "partOfSpeech": "adv.",
+      "meaning": "传统上；照惯例",
+      "example": "",
+      "sourceLine": "教材词汇提取：traditionally",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 8
+    },
+    {
+      "headword": "availability",
+      "phonetic": "/9,veib'bil9ti/",
+      "partOfSpeech": "n.",
+      "meaning": "可用；可",
+      "example": "",
+      "sourceLine": "教材词汇提取：availability",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 8
+    },
+    {
+      "headword": "access",
+      "phonetic": "/'aekses/",
+      "partOfSpeech": "n.",
+      "meaning": "通道；通路；入径",
+      "example": "",
+      "sourceLine": "教材词汇提取：access",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 8
+    },
+    {
+      "headword": "option",
+      "phonetic": "/'Dpjn/",
+      "partOfSpeech": "n.",
+      "meaning": "可选择的",
+      "example": "",
+      "sourceLine": "教材词汇提取：option",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 8
+    },
+    {
+      "headword": "decline",
+      "phonetic": "/di'klam/",
+      "partOfSpeech": "v.",
+      "meaning": "减少；下降；",
+      "example": "",
+      "sourceLine": "教材词汇提取：decline",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 8
+    },
+    {
+      "headword": "consume",
+      "phonetic": "/kan'sjuim/",
+      "partOfSpeech": "v.",
+      "meaning": "吕，especially fuel, energy or time 消耗，",
+      "example": "Doctor: You shouldn't consume too much sugar.",
+      "sourceLine": "教材词汇提取：consume",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 8
+    },
+    {
+      "headword": "tremendous",
+      "phonetic": "/tra'mendgs/",
+      "partOfSpeech": "adj.",
+      "meaning": "巨大的；极大的",
+      "example": "",
+      "sourceLine": "教材词汇提取：tremendous",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 8
+    },
+    {
+      "headword": "evidence",
+      "phonetic": "/'evidans/",
+      "partOfSpeech": "v.",
+      "meaning": "证明；表明",
+      "example": "",
+      "sourceLine": "教材词汇提取：evidence",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 8
+    },
+    {
+      "headword": "cranky",
+      "phonetic": "/'kraegki/",
+      "partOfSpeech": "adj.",
+      "meaning": "脾气坏的",
+      "example": "",
+      "sourceLine": "教材词汇提取：cranky",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 8
+    },
+    {
+      "headword": "resemble",
+      "phonetic": "/ri'zembl/",
+      "partOfSpeech": "v.",
+      "meaning": "看",
+      "example": "",
+      "sourceLine": "教材词汇提取：resemble",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 8
+    },
+    {
+      "headword": "subside",
+      "phonetic": "/sab'said/",
+      "partOfSpeech": "v.",
+      "meaning": "鲁、；Mil ；",
+      "example": "",
+      "sourceLine": "教材词汇提取：subside",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 8
+    },
+    {
+      "headword": "ache",
+      "phonetic": "/eik/",
+      "partOfSpeech": "v.",
+      "meaning": "疼痛；隐痛",
+      "example": "",
+      "sourceLine": "教材词汇提取：ache",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 8
+    },
+    {
+      "headword": "crack",
+      "phonetic": "/kraek/",
+      "partOfSpeech": "v.",
+      "meaning": "找到解决（难题",
+      "example": "",
+      "sourceLine": "教材词汇提取：crack",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 8
+    },
+    {
+      "headword": "chore",
+      "phonetic": "/tJo:(r)/",
+      "partOfSpeech": "n.",
+      "meaning": "令人厌烦的任务；乏味无",
+      "example": "",
+      "sourceLine": "教材词汇提取：chore",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 9
+    },
+    {
+      "headword": "manufacture",
+      "phonetic": "/,maenju'faektj9(r)/",
+      "partOfSpeech": "v.",
+      "meaning": "编造；捏造",
+      "example": "",
+      "sourceLine": "教材词汇提取：manufacture",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 9
+    },
+    {
+      "headword": "hearty",
+      "phonetic": "/'haiti/",
+      "partOfSpeech": "adj.",
+      "meaning": "大的；丰盛的",
+      "example": "",
+      "sourceLine": "教材词汇提取：hearty",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 9
+    },
+    {
+      "headword": "vanilla-scented",
+      "phonetic": "/v9,nilo 'sentid/",
+      "partOfSpeech": "adj.",
+      "meaning": "呑草味的",
+      "example": "",
+      "sourceLine": "教材词汇提取：vanilla-scented",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 9
+    },
+    {
+      "headword": "spa",
+      "phonetic": "/spa:/",
+      "partOfSpeech": "n.",
+      "meaning": "水疗",
+      "example": "A spa is usually a resort area providing therapeutic baths or having mineral springs.",
+      "sourceLine": "教材词汇提取：spa",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 9
+    },
+    {
+      "headword": "refresh",
+      "phonetic": "/ri'frej/",
+      "partOfSpeech": "v.",
+      "meaning": "使恢复精",
+      "example": "",
+      "sourceLine": "教材词汇提取：refresh",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 9
+    },
+    {
+      "headword": "emotionally",
+      "phonetic": "/I'maujansli/",
+      "partOfSpeech": "adv.",
+      "meaning": "感情上地；",
+      "example": "By late afternoon, I was back at it, refreshed physically, mentally and emotionally.",
+      "sourceLine": "教材词汇提取：emotionally",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 9
+    },
+    {
+      "headword": "curly",
+      "phonetic": "/'kaili/",
+      "partOfSpeech": "adj.",
+      "meaning": "有鬟发（或毛）",
+      "example": "",
+      "sourceLine": "教材词汇提取：curly",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 9
+    },
+    {
+      "headword": "celeb",
+      "phonetic": "/sa'leb/",
+      "partOfSpeech": "n.",
+      "meaning": "名人",
+      "example": "",
+      "sourceLine": "教材词汇提取：celeb",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 9
+    },
+    {
+      "headword": "mature",
+      "phonetic": "/m9'tju9(r)/",
+      "partOfSpeech": "v.",
+      "meaning": "成熟；长成",
+      "example": "",
+      "sourceLine": "教材词汇提取：mature",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 9
+    },
+    {
+      "headword": "bulked-up",
+      "phonetic": "/.bAlkt 'Ap/",
+      "partOfSpeech": "adj.",
+      "meaning": "胀大的；发起来的",
+      "example": "",
+      "sourceLine": "教材词汇提取：bulked-up",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 9
+    },
+    {
+      "headword": "hurtful",
+      "phonetic": "/'haitfl/",
+      "partOfSpeech": "adj.",
+      "meaning": "伤",
+      "example": "",
+      "sourceLine": "教材词汇提取：hurtful",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 9
+    },
+    {
+      "headword": "ethnic",
+      "phonetic": "/'e0nik/",
+      "partOfSpeech": "adj.",
+      "meaning": "玉2 A 投reak from Life",
+      "example": "",
+      "sourceLine": "教材词汇提取：ethnic",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 9
+    },
+    {
+      "headword": "verify",
+      "phonetic": "/'venfai/",
+      "partOfSpeech": "v.",
+      "meaning": "核实；查对；",
+      "example": "",
+      "sourceLine": "教材词汇提取：verify",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 9
+    },
+    {
+      "headword": "ultimately",
+      "phonetic": "/'Altimatli/",
+      "partOfSpeech": "adv.",
+      "meaning": "最终；最后；终归",
+      "example": "",
+      "sourceLine": "教材词汇提取：ultimately",
+      "sourceKind": "textbook-vocabulary",
+      "firstExposureDay": 9
+    }
+  ],
+  "phrases": [],
+  "schedule": [
+    {
+      "day": 1,
+      "week": 1,
+      "documentId": "textbook-14-vocab-appendix",
+      "title": "附录：词汇表",
+      "category": "vocabulary",
+      "isRevisit": false
+    },
+    {
+      "day": 2,
+      "week": 1,
+      "documentId": "textbook-01-unit01",
+      "title": "Unit 1 The Power of Language",
+      "category": "unit",
+      "isRevisit": false
+    },
+    {
+      "day": 3,
+      "week": 1,
+      "documentId": "textbook-02-unit02",
+      "title": "Unit 2 Mistakes to Success",
+      "category": "unit",
+      "isRevisit": false
+    },
+    {
+      "day": 4,
+      "week": 1,
+      "documentId": "textbook-03-unit03",
+      "title": "Unit 3 Friendship and Loyalty",
+      "category": "unit",
+      "isRevisit": false
+    },
+    {
+      "day": 5,
+      "week": 1,
+      "documentId": "textbook-04-unit04",
+      "title": "Unit 4 The Joy of Work",
+      "category": "unit",
+      "isRevisit": false
+    },
+    {
+      "day": 6,
+      "week": 1,
+      "documentId": "textbook-05-unit05",
+      "title": "Unit 5 Keeping Your Dreams Alive",
+      "category": "unit",
+      "isRevisit": false
+    },
+    {
+      "day": 7,
+      "week": 1,
+      "documentId": "textbook-06-unit06",
+      "title": "Unit 6 The Value of Money",
+      "category": "unit",
+      "isRevisit": false
+    },
+    {
+      "day": 8,
+      "week": 2,
+      "documentId": "textbook-07-unit07",
+      "title": "Unit 7 Inner Voice",
+      "category": "unit",
+      "isRevisit": false
+    },
+    {
+      "day": 9,
+      "week": 2,
+      "documentId": "textbook-08-unit08",
+      "title": "Unit 8 The Great Minds",
+      "category": "unit",
+      "isRevisit": false
+    },
+    {
+      "day": 10,
+      "week": 2,
+      "documentId": "textbook-09-unit09",
+      "title": "Unit 9 Facing Life's Challenges",
+      "category": "unit",
+      "isRevisit": false
+    },
+    {
+      "day": 11,
+      "week": 2,
+      "documentId": "textbook-10-unit10",
+      "title": "Unit 10 Ode to Public Transport",
+      "category": "unit",
+      "isRevisit": false
+    },
+    {
+      "day": 12,
+      "week": 2,
+      "documentId": "textbook-11-unit11",
+      "title": "Unit 11 Cyber World",
+      "category": "unit",
+      "isRevisit": false
+    },
+    {
+      "day": 13,
+      "week": 2,
+      "documentId": "textbook-12-unit12",
+      "title": "Unit 12 A Break from Life",
+      "category": "unit",
+      "isRevisit": false
+    },
+    {
+      "day": 14,
+      "week": 2,
+      "documentId": "textbook-13-self-assessment",
+      "title": "Self-Assessment Tests",
+      "category": "self-assessment",
+      "isRevisit": false
+    },
+    {
+      "day": 15,
+      "week": 3,
+      "documentId": "textbook-14-vocab-appendix",
+      "title": "附录：词汇表",
+      "category": "vocabulary",
+      "isRevisit": true
+    },
+    {
+      "day": 16,
+      "week": 3,
+      "documentId": "textbook-01-unit01",
+      "title": "Unit 1 The Power of Language",
+      "category": "unit",
+      "isRevisit": true
+    },
+    {
+      "day": 17,
+      "week": 3,
+      "documentId": "textbook-02-unit02",
+      "title": "Unit 2 Mistakes to Success",
+      "category": "unit",
+      "isRevisit": true
+    },
+    {
+      "day": 18,
+      "week": 3,
+      "documentId": "textbook-03-unit03",
+      "title": "Unit 3 Friendship and Loyalty",
+      "category": "unit",
+      "isRevisit": true
+    },
+    {
+      "day": 19,
+      "week": 3,
+      "documentId": "textbook-04-unit04",
+      "title": "Unit 4 The Joy of Work",
+      "category": "unit",
+      "isRevisit": true
+    },
+    {
+      "day": 20,
+      "week": 3,
+      "documentId": "textbook-05-unit05",
+      "title": "Unit 5 Keeping Your Dreams Alive",
+      "category": "unit",
+      "isRevisit": true
+    },
+    {
+      "day": 21,
+      "week": 3,
+      "documentId": "textbook-06-unit06",
+      "title": "Unit 6 The Value of Money",
+      "category": "unit",
+      "isRevisit": true
+    },
+    {
+      "day": 22,
+      "week": 4,
+      "documentId": "textbook-07-unit07",
+      "title": "Unit 7 Inner Voice",
+      "category": "unit",
+      "isRevisit": true
+    },
+    {
+      "day": 23,
+      "week": 4,
+      "documentId": "textbook-08-unit08",
+      "title": "Unit 8 The Great Minds",
+      "category": "unit",
+      "isRevisit": true
+    },
+    {
+      "day": 24,
+      "week": 4,
+      "documentId": "textbook-09-unit09",
+      "title": "Unit 9 Facing Life's Challenges",
+      "category": "unit",
+      "isRevisit": true
+    },
+    {
+      "day": 25,
+      "week": 4,
+      "documentId": "textbook-10-unit10",
+      "title": "Unit 10 Ode to Public Transport",
+      "category": "unit",
+      "isRevisit": true
+    },
+    {
+      "day": 26,
+      "week": 4,
+      "documentId": "textbook-11-unit11",
+      "title": "Unit 11 Cyber World",
+      "category": "unit",
+      "isRevisit": true
+    },
+    {
+      "day": 27,
+      "week": 4,
+      "documentId": "textbook-12-unit12",
+      "title": "Unit 12 A Break from Life",
+      "category": "unit",
+      "isRevisit": true
+    },
+    {
+      "day": 28,
+      "week": 4,
+      "documentId": "textbook-13-self-assessment",
+      "title": "Self-Assessment Tests",
+      "category": "self-assessment",
+      "isRevisit": true
+    },
+    {
+      "day": 29,
+      "week": 5,
+      "documentId": "textbook-14-vocab-appendix",
+      "title": "附录：词汇表",
+      "category": "vocabulary",
+      "isRevisit": true
+    },
+    {
+      "day": 30,
+      "week": 5,
+      "documentId": "textbook-01-unit01",
+      "title": "Unit 1 The Power of Language",
+      "category": "unit",
+      "isRevisit": true
+    },
+    {
+      "day": 31,
+      "week": 5,
+      "documentId": "textbook-02-unit02",
+      "title": "Unit 2 Mistakes to Success",
+      "category": "unit",
+      "isRevisit": true
+    },
+    {
+      "day": 32,
+      "week": 5,
+      "documentId": "textbook-03-unit03",
+      "title": "Unit 3 Friendship and Loyalty",
+      "category": "unit",
+      "isRevisit": true
+    },
+    {
+      "day": 33,
+      "week": 5,
+      "documentId": "textbook-04-unit04",
+      "title": "Unit 4 The Joy of Work",
+      "category": "unit",
+      "isRevisit": true
+    },
+    {
+      "day": 34,
+      "week": 5,
+      "documentId": "textbook-05-unit05",
+      "title": "Unit 5 Keeping Your Dreams Alive",
+      "category": "unit",
+      "isRevisit": true
+    },
+    {
+      "day": 35,
+      "week": 5,
+      "documentId": "textbook-06-unit06",
+      "title": "Unit 6 The Value of Money",
+      "category": "unit",
+      "isRevisit": true
+    },
+    {
+      "day": 36,
+      "week": 6,
+      "documentId": "textbook-07-unit07",
+      "title": "Unit 7 Inner Voice",
+      "category": "unit",
+      "isRevisit": true
+    },
+    {
+      "day": 37,
+      "week": 6,
+      "documentId": "textbook-08-unit08",
+      "title": "Unit 8 The Great Minds",
+      "category": "unit",
+      "isRevisit": true
+    },
+    {
+      "day": 38,
+      "week": 6,
+      "documentId": "textbook-09-unit09",
+      "title": "Unit 9 Facing Life's Challenges",
+      "category": "unit",
+      "isRevisit": true
+    },
+    {
+      "day": 39,
+      "week": 6,
+      "documentId": "textbook-10-unit10",
+      "title": "Unit 10 Ode to Public Transport",
+      "category": "unit",
+      "isRevisit": true
+    },
+    {
+      "day": 40,
+      "week": 6,
+      "documentId": "textbook-11-unit11",
+      "title": "Unit 11 Cyber World",
+      "category": "unit",
+      "isRevisit": true
+    },
+    {
+      "day": 41,
+      "week": 6,
+      "documentId": "textbook-12-unit12",
+      "title": "Unit 12 A Break from Life",
+      "category": "unit",
+      "isRevisit": true
+    },
+    {
+      "day": 42,
+      "week": 6,
+      "documentId": "textbook-13-self-assessment",
+      "title": "Self-Assessment Tests",
+      "category": "self-assessment",
+      "isRevisit": true
+    },
+    {
+      "day": 43,
+      "week": 7,
+      "documentId": "textbook-14-vocab-appendix",
+      "title": "附录：词汇表",
+      "category": "vocabulary",
+      "isRevisit": true
+    },
+    {
+      "day": 44,
+      "week": 7,
+      "documentId": "textbook-01-unit01",
+      "title": "Unit 1 The Power of Language",
+      "category": "unit",
+      "isRevisit": true
+    },
+    {
+      "day": 45,
+      "week": 7,
+      "documentId": "textbook-02-unit02",
+      "title": "Unit 2 Mistakes to Success",
+      "category": "unit",
+      "isRevisit": true
+    },
+    {
+      "day": 46,
+      "week": 7,
+      "documentId": "textbook-03-unit03",
+      "title": "Unit 3 Friendship and Loyalty",
+      "category": "unit",
+      "isRevisit": true
+    },
+    {
+      "day": 47,
+      "week": 7,
+      "documentId": "textbook-04-unit04",
+      "title": "Unit 4 The Joy of Work",
+      "category": "unit",
+      "isRevisit": true
+    },
+    {
+      "day": 48,
+      "week": 7,
+      "documentId": "textbook-05-unit05",
+      "title": "Unit 5 Keeping Your Dreams Alive",
+      "category": "unit",
+      "isRevisit": true
+    },
+    {
+      "day": 49,
+      "week": 7,
+      "documentId": "textbook-06-unit06",
+      "title": "Unit 6 The Value of Money",
+      "category": "unit",
+      "isRevisit": true
+    },
+    {
+      "day": 50,
+      "week": 8,
+      "documentId": "textbook-07-unit07",
+      "title": "Unit 7 Inner Voice",
+      "category": "unit",
+      "isRevisit": true
+    },
+    {
+      "day": 51,
+      "week": 8,
+      "documentId": "textbook-08-unit08",
+      "title": "Unit 8 The Great Minds",
+      "category": "unit",
+      "isRevisit": true
+    },
+    {
+      "day": 52,
+      "week": 8,
+      "documentId": "textbook-09-unit09",
+      "title": "Unit 9 Facing Life's Challenges",
+      "category": "unit",
+      "isRevisit": true
+    },
+    {
+      "day": 53,
+      "week": 8,
+      "documentId": "textbook-10-unit10",
+      "title": "Unit 10 Ode to Public Transport",
+      "category": "unit",
+      "isRevisit": true
+    },
+    {
+      "day": 54,
+      "week": 8,
+      "documentId": "textbook-11-unit11",
+      "title": "Unit 11 Cyber World",
+      "category": "unit",
+      "isRevisit": true
+    },
+    {
+      "day": 55,
+      "week": 8,
+      "documentId": "textbook-12-unit12",
+      "title": "Unit 12 A Break from Life",
+      "category": "unit",
+      "isRevisit": true
+    },
+    {
+      "day": 56,
+      "week": 8,
+      "documentId": "textbook-13-self-assessment",
+      "title": "Self-Assessment Tests",
+      "category": "self-assessment",
+      "isRevisit": true
+    },
+    {
+      "day": 57,
+      "week": 9,
+      "documentId": "textbook-14-vocab-appendix",
+      "title": "附录：词汇表",
+      "category": "vocabulary",
+      "isRevisit": true
+    },
+    {
+      "day": 58,
+      "week": 9,
+      "documentId": "textbook-01-unit01",
+      "title": "Unit 1 The Power of Language",
+      "category": "unit",
+      "isRevisit": true
+    },
+    {
+      "day": 59,
+      "week": 9,
+      "documentId": "textbook-02-unit02",
+      "title": "Unit 2 Mistakes to Success",
+      "category": "unit",
+      "isRevisit": true
+    },
+    {
+      "day": 60,
+      "week": 9,
+      "documentId": "textbook-03-unit03",
+      "title": "Unit 3 Friendship and Loyalty",
+      "category": "unit",
+      "isRevisit": true
+    },
+    {
+      "day": 61,
+      "week": 9,
+      "documentId": "textbook-04-unit04",
+      "title": "Unit 4 The Joy of Work",
+      "category": "unit",
+      "isRevisit": true
+    },
+    {
+      "day": 62,
+      "week": 9,
+      "documentId": "textbook-05-unit05",
+      "title": "Unit 5 Keeping Your Dreams Alive",
+      "category": "unit",
+      "isRevisit": true
+    },
+    {
+      "day": 63,
+      "week": 9,
+      "documentId": "textbook-06-unit06",
+      "title": "Unit 6 The Value of Money",
+      "category": "unit",
+      "isRevisit": true
+    },
+    {
+      "day": 64,
+      "week": 10,
+      "documentId": "textbook-07-unit07",
+      "title": "Unit 7 Inner Voice",
+      "category": "unit",
+      "isRevisit": true
+    },
+    {
+      "day": 65,
+      "week": 10,
+      "documentId": "textbook-08-unit08",
+      "title": "Unit 8 The Great Minds",
+      "category": "unit",
+      "isRevisit": true
+    },
+    {
+      "day": 66,
+      "week": 10,
+      "documentId": "textbook-09-unit09",
+      "title": "Unit 9 Facing Life's Challenges",
+      "category": "unit",
+      "isRevisit": true
+    },
+    {
+      "day": 67,
+      "week": 10,
+      "documentId": "textbook-10-unit10",
+      "title": "Unit 10 Ode to Public Transport",
+      "category": "unit",
+      "isRevisit": true
+    },
+    {
+      "day": 68,
+      "week": 10,
+      "documentId": "textbook-11-unit11",
+      "title": "Unit 11 Cyber World",
+      "category": "unit",
+      "isRevisit": true
+    },
+    {
+      "day": 69,
+      "week": 10,
+      "documentId": "textbook-12-unit12",
+      "title": "Unit 12 A Break from Life",
+      "category": "unit",
+      "isRevisit": true
+    },
+    {
+      "day": 70,
+      "week": 10,
+      "documentId": "textbook-13-self-assessment",
+      "title": "Self-Assessment Tests",
+      "category": "self-assessment",
+      "isRevisit": true
+    },
+    {
+      "day": 71,
+      "week": 11,
+      "documentId": "textbook-14-vocab-appendix",
+      "title": "附录：词汇表",
+      "category": "vocabulary",
+      "isRevisit": true
+    },
+    {
+      "day": 72,
+      "week": 11,
+      "documentId": "textbook-01-unit01",
+      "title": "Unit 1 The Power of Language",
+      "category": "unit",
+      "isRevisit": true
+    },
+    {
+      "day": 73,
+      "week": 11,
+      "documentId": "textbook-02-unit02",
+      "title": "Unit 2 Mistakes to Success",
+      "category": "unit",
+      "isRevisit": true
+    },
+    {
+      "day": 74,
+      "week": 11,
+      "documentId": "textbook-03-unit03",
+      "title": "Unit 3 Friendship and Loyalty",
+      "category": "unit",
+      "isRevisit": true
+    },
+    {
+      "day": 75,
+      "week": 11,
+      "documentId": "textbook-04-unit04",
+      "title": "Unit 4 The Joy of Work",
+      "category": "unit",
+      "isRevisit": true
+    },
+    {
+      "day": 76,
+      "week": 11,
+      "documentId": "textbook-05-unit05",
+      "title": "Unit 5 Keeping Your Dreams Alive",
+      "category": "unit",
+      "isRevisit": true
+    },
+    {
+      "day": 77,
+      "week": 11,
+      "documentId": "textbook-06-unit06",
+      "title": "Unit 6 The Value of Money",
+      "category": "unit",
+      "isRevisit": true
+    },
+    {
+      "day": 78,
+      "week": 12,
+      "documentId": "textbook-07-unit07",
+      "title": "Unit 7 Inner Voice",
+      "category": "unit",
+      "isRevisit": true
+    },
+    {
+      "day": 79,
+      "week": 12,
+      "documentId": "textbook-08-unit08",
+      "title": "Unit 8 The Great Minds",
+      "category": "unit",
+      "isRevisit": true
+    },
+    {
+      "day": 80,
+      "week": 12,
+      "documentId": "textbook-09-unit09",
+      "title": "Unit 9 Facing Life's Challenges",
+      "category": "unit",
+      "isRevisit": true
+    },
+    {
+      "day": 81,
+      "week": 12,
+      "documentId": "textbook-10-unit10",
+      "title": "Unit 10 Ode to Public Transport",
+      "category": "unit",
+      "isRevisit": true
+    },
+    {
+      "day": 82,
+      "week": 12,
+      "documentId": "textbook-11-unit11",
+      "title": "Unit 11 Cyber World",
+      "category": "unit",
+      "isRevisit": true
+    },
+    {
+      "day": 83,
+      "week": 12,
+      "documentId": "textbook-12-unit12",
+      "title": "Unit 12 A Break from Life",
+      "category": "unit",
+      "isRevisit": true
+    },
+    {
+      "day": 84,
+      "week": 12,
+      "documentId": "textbook-13-self-assessment",
+      "title": "Self-Assessment Tests",
+      "category": "self-assessment",
+      "isRevisit": true
+    }
+  ],
+  "audit": {
+    "expectedDocuments": 14,
+    "includedDocuments": 14,
+    "vocabularyCount": 255,
+    "phraseCount": 0,
+    "maxNewWordsPerDay": 30,
+    "missingDocuments": []
+  }
+}

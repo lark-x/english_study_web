@@ -23,19 +23,19 @@ const q = (id: string, skill: Ability, prompt: string, options: string[], answer
 export const INTERESTS: Interest[] = ["日常生活", "职场沟通", "教育成长", "社会文化", "健康生活", "科技常识"];
 
 export const STAGE_TITLES: Record<StageId, string> = {
-  "stage-1": "第1-3周 语法与高频词基础",
-  "stage-2": "第4-5周 教材与核心词组",
-  "stage-3": "第6-8周 阅读与写作专项",
-  "stage-4": "第9-10周 题型与真题训练",
-  "stage-5": "第11-12周 模拟与冲刺回收",
+  "stage-1": "第1-3周 教材词汇与原句起步",
+  "stage-2": "第4-5周 教材 Unit 1-4 精读",
+  "stage-3": "第6-8周 教材 Unit 5-8 阅读",
+  "stage-4": "第9-10周 教材 Unit 9-12 与自测",
+  "stage-5": "第11-12周 教材回收与自测复盘",
 };
 
 export const STAGE_GOALS: Record<StageId, string> = {
-  "stage-1": "使用 normalized 中的基础语法、高频词和基础句型资料建立可用基础。",
-  "stage-2": "进入教材、核心词组和句子结构，开始稳定理解较长材料。",
-  "stage-3": "使用教材、写作课程和专项材料训练阅读与表达。",
-  "stage-4": "使用题型技巧、2014 年后真题和专项练习熟悉现行常见题型。",
-  "stage-5": "使用模拟卷、冲刺资料和历年真题完成限时训练与错题回收。",
+  "stage-1": "从指定教材的词汇、对话和原句开始，建立教材内的词句理解。",
+  "stage-2": "精读指定教材前四个 Unit，积累词汇与句型。",
+  "stage-3": "继续阅读指定教材 Unit 5-8，训练原句理解和翻译。",
+  "stage-4": "完成指定教材 Unit 9-12 与教材自测内容。",
+  "stage-5": "回收指定教材中的错题、词汇、原句和自测内容。",
 };
 
 const stageOrder: StageId[] = ["stage-1", "stage-2", "stage-3", "stage-4", "stage-5"];
@@ -66,12 +66,7 @@ const lessonTypeForStage = (stageId: StageId): LessonType => stageId === "stage-
         ? "exam-drill"
         : "sprint";
 
-const topicForCategory = (category: string): Interest | "复盘" => {
-  if (category === "writing") return "教育成长";
-  if (category === "textbook" || category === "grammar") return "日常生活";
-  if (category === "past-paper" || category === "exam-review" || category === "strategy") return "复盘";
-  return "社会文化";
-};
+const topicForCategory = (): Interest => "教育成长";
 
 function trimMaterial(value: string, limit = 700) {
   const clean = value.replace(/\s+/g, " ").trim();
@@ -88,44 +83,45 @@ function vocabularyForDay(day: number, stageId: StageId): VocabularyEntry[] {
       phonetic: item.phonetic,
       partOfSpeech: item.partOfSpeech,
       meaning: item.meaning,
-      example: item.example || `Find ${item.headword} in the English II materials.`,
+      example: item.example || normalizedCourse.documents.find((document) => document.category === "unit")?.englishSentences[0] || item.headword,
       status: "new",
     }));
 }
 
-function grammarFromMaterial(day: number, stageId: StageId): GrammarPoint {
-  const grammarDocument = normalizedCourse.documents.find((item) => item.category === "grammar") ?? normalizedCourse.documents[0];
-  const section = grammarDocument.sections[(day - 1) % grammarDocument.sections.length];
-  const examples = grammarDocument.englishSentences.slice((day - 1) % Math.max(1, grammarDocument.englishSentences.length), ((day - 1) % Math.max(1, grammarDocument.englishSentences.length)) + 2);
+function grammarFromMaterial(document: typeof normalizedCourse.documents[number], day: number, stageId: StageId): GrammarPoint {
+  const section = document.sections[(day - 1) % document.sections.length];
+  const examples = document.englishSentences.slice((day - 1) % Math.max(1, document.englishSentences.length), ((day - 1) % Math.max(1, document.englishSentences.length)) + 2);
   return {
-    id: `normalized-grammar-${String(day).padStart(2, "0")}`,
+    id: `textbook-language-${String(day).padStart(2, "0")}`,
     stageId,
-    title: section?.title ? `基础语法 · ${section.title}` : "基础语法资料",
-    explanation: trimMaterial(section?.content ?? "本课使用 normalized 文件夹中的基础语法资料。", 900),
-    structure: `资料来源：${grammarDocument.title}`,
-    examples: (examples.length ? examples : ["I study English every day.", "Practice makes learning clearer."]).map((en) => ({ en, zh: "请结合本课资料理解并尝试翻译。" })),
-    pitfall: "资料来自 PDF/OCR 转换。遇到拼写、音标或公式粘连时，以词典发音和上下文为准，并把疑似错误作为待核对项。",
+    title: section?.title ? `教材语言点 · ${section.title}` : "教材语言点",
+    explanation: trimMaterial(section?.content ?? document.englishSentences.join(" "), 900),
+    structure: `选自《${document.title}》`,
+    examples: (examples.length ? examples : document.englishSentences.slice(0, 2)).map((en) => ({ en, zh: "教材原句，请结合上下文理解。" })),
+    pitfall: "本页只使用指定教材中的原句和词汇；遇到提取不清的字符，请回到纸质或 PDF 原页核对。",
   };
 }
 
-function makePractice(id: string, vocabulary: VocabularyEntry[], materialTitle: string): PracticeTask[] {
-  const words = vocabulary.length ? vocabulary : [{ word: "English", meaning: "英语", example: materialTitle } as VocabularyEntry];
+function makePractice(id: string, vocabulary: VocabularyEntry[]): PracticeTask[] {
+  const words = vocabulary.length ? vocabulary : normalizedCourse.vocabulary.slice(0, 4).map((item) => ({ word: item.headword, meaning: item.meaning, example: item.example || item.headword, phonetic: item.phonetic, partOfSpeech: item.partOfSpeech, level: "stage-1" }));
   const kinds: PracticeTask["kind"][] = ["recognition", "listening", "choice", "ordering", "blank", "imitation", "translation"];
   return Array.from({ length: 20 }, (_, index) => {
     const word = words[index % words.length];
     const kind = kinds[index % kinds.length];
+    const optionWords = words.slice(index % words.length).concat(words).slice(0, Math.min(4, words.length));
     return {
       id: `${id}-task-${index + 1}`,
       kind,
       ability: kind === "recognition" || kind === "listening" ? "vocabulary" : kind === "translation" ? "translationWriting" : kind === "ordering" || kind === "imitation" ? "sentence" : "grammar",
-      prompt: kind === "recognition" ? `写出 ${word.word} 的核心中文义。` : kind === "listening" ? `朗读 ${word.word}，再朗读它在资料中的语境。` : `结合《${materialTitle}》完成一项 ${kind} 练习。`,
-      options: kind === "choice" ? [word.meaning, "与本课无关", "仅供占位", "无法判断"] : undefined,
+      prompt: kind === "recognition" ? `写出教材词汇 ${word.word} 的中文义。` : kind === "listening" ? `朗读教材词汇 ${word.word}，再朗读本课原句。` : kind === "ordering" ? `根据教材原句整理语序：${word.example}` : kind === "blank" ? `用教材词汇 ${word.word} 完成原句理解。` : kind === "imitation" ? `仿写教材原句中的一个结构：${word.example}` : kind === "translation" ? `翻译教材原句：${word.example}` : `选择教材词汇 ${word.word} 的正确释义。`,
+      options: kind === "choice" ? optionWords.map((item) => item.meaning) : undefined,
       answer: kind === "recognition" || kind === "choice" ? word.meaning : undefined,
       reference: word.example,
     };
   });
 }
 
+/* Retired legacy source builder. The active curriculum below is textbook-only. */
 function makeLesson(day: number): Lesson {
   const week = Math.ceil(day / 7);
   const stageId = stageFromWeek(week);
@@ -133,12 +129,12 @@ function makeLesson(day: number): Lesson {
   const document = getNormalizedDocument(schedule.documentId) ?? normalizedCourse.documents[0];
   const rhythm = rhythmForDay(day);
   const vocabulary = vocabularyForDay(day, stageId);
-  const grammar = grammarFromMaterial(day, stageId);
+  const grammar = grammarFromMaterial(document, day, stageId);
   const sentences = document.englishSentences.slice(0, 5);
   const paragraphs = (sentences.length ? sentences : document.sections.slice(0, 3).map((section) => trimMaterial(section.content, 850)))
     .map((en) => ({ en, zh: "本段来自用户提供的英语（二）normalized 学习资料；需要时可在资料正文中查看完整上下文。" }));
   const firstWord = vocabulary[0];
-  const id = `normalized-day-${String(day).padStart(2, "0")}`;
+  const id = `textbook-day-${String(day).padStart(2, "0")}`;
   const categoryLabel = NORMALIZED_CATEGORY_LABELS[document.category] ?? "英语（二）资料";
   const sourceSections = document.sections.length;
   return {
@@ -146,7 +142,7 @@ function makeLesson(day: number): Lesson {
     day,
     week,
     title: rhythm === "rest" ? `轻复习 · ${document.title}` : document.title,
-    topic: rhythm === "rest" ? "复盘" : topicForCategory(document.category),
+    topic: topicForCategory(),
     stageId,
     rhythm,
     lessonType: lessonTypeForStage(stageId),
@@ -167,37 +163,86 @@ function makeLesson(day: number): Lesson {
       q(`${id}-limit`, "vocabulary", "每日新增单词的上限是多少？", ["30 个", "60 个", "不限", "只学 1 个"], 0, "重点词和扩展词合计不得超过 30；到期复习不计入新增上限。"),
       q(`${id}-use`, "translationWriting", "学习完资料后应留下什么证据？", ["练习答案、翻译或总结", "只打开页面", "虚构学习分钟", "删除旧记录"], 0, "系统只记录真实完成的练习和输出。"),
     ],
-    practiceTasks: makePractice(id, vocabulary, document.title),
+    practiceTasks: makePractice(id, vocabulary),
     translations: sentences.slice(0, 3).map((sentence) => ({ zh: sentence, reference: "完成后回到资料上下文和词典逐项核对主语、谓语、时态及关键词。", tip: "把这句材料英文译成中文：先找主语和谓语，再处理修饰成分。" })),
     outputPrompt: `用中文或英文总结《${document.title}》今天学习的内容；至少记录一个知识点、一个例子和一个仍需核对的问题。`,
     outputHint: `资料类别：${categoryLabel}。不要照抄整页，留下可复习的个人总结。`,
     sourceDocumentId: document.id,
     sourceTitle: document.title,
     sourceCategory: document.category,
-    syllabusNodeIds: document.category === "writing" ? ["skill-writing"] : document.category === "past-paper" ? ["exam-task"] : ["knowledge-grammar", "skill-reading"],
+    syllabusNodeIds: document.category === "self-assessment" ? ["exam-task"] : ["knowledge-grammar", "skill-reading"],
     prerequisiteNodeIds: stageId === "stage-1" ? ["prereq-word-recognition", "prereq-basic-sentence"] : [],
   };
 }
 
-export const lessons: Lesson[] = Array.from({ length: 84 }, (_, index) => makeLesson(index + 1));
+void makeLesson;
+
+function makeTextbookLesson(day: number): Lesson {
+  const week = Math.ceil(day / 7);
+  const stageId = stageFromWeek(week);
+  const schedule = getNormalizedSchedule(day);
+  const document = getNormalizedDocument(schedule.documentId) ?? normalizedCourse.documents[0];
+  const rhythm = rhythmForDay(day);
+  const vocabulary = vocabularyForDay(day, stageId);
+  const grammar = grammarFromMaterial(document, day, stageId);
+  const sentences = document.englishSentences.slice(0, 5);
+  const sourceSentences = sentences.length ? sentences : document.sections.flatMap((section) => section.content.split(/\n+/)).filter((line) => /[A-Za-z]/.test(line)).slice(0, 5);
+  const firstWord = vocabulary[0];
+  const otherDocuments = normalizedCourse.documents.filter((item) => item.id !== document.id);
+  const titleOptions = [document.title, ...otherDocuments.slice(0, 3).map((item) => item.title)];
+  const sentenceOptions = [sourceSentences[0] ?? document.title, ...otherDocuments.slice(0, 3).map((item) => item.englishSentences[0] ?? item.title)];
+  const meaningOptions = firstWord ? [firstWord.meaning, ...normalizedCourse.vocabulary.filter((item) => item.headword !== firstWord.word).slice(0, 3).map((item) => item.meaning)] : ["完成教材复习", "完成教材复习", "完成教材复习", "完成教材复习"];
+  const id = `textbook-day-${String(day).padStart(2, "0")}`;
+  const categoryLabel = NORMALIZED_CATEGORY_LABELS[document.category];
+  return {
+    id,
+    day,
+    week,
+    title: rhythm === "rest" ? `教材复习 · ${document.title}` : document.title,
+    topic: topicForCategory(),
+    stageId,
+    rhythm,
+    lessonType: lessonTypeForStage(stageId),
+    level: `第 ${week} 周教材学习`,
+    summary: `本课内容选自《英语（二）自学教程（2012年版，00015）》的《${document.title}》。`,
+    stageGoal: `围绕指定教材的${categoryLabel}完成词汇、原句理解和练习。`,
+    prerequisites: stageId === "stage-1" ? [] : ["完成前一阶段的教材复习"],
+    paragraphs: sourceSentences.map((en) => ({ en, zh: "教材原句节选，请结合本单元上下文理解。" })),
+    vocabulary,
+    grammar,
+    sentencePatterns: grammar.examples.map((example, index) => ({ pattern: example.en, meaning: `教材原句 ${index + 1}`, example: example.en })),
+    expressions: [],
+    questions: [
+      q(`${id}-unit`, "reading", "今天学习的教材单元是？", titleOptions, 0, `本课选自《${document.title}》。`),
+      q(`${id}-category`, "reading", "本课在教材中的内容类型是？", [categoryLabel, ...Object.values(NORMALIZED_CATEGORY_LABELS).filter((item) => item !== categoryLabel).slice(0, 3)], 0, `本课属于${categoryLabel}。`),
+      q(`${id}-word`, "vocabulary", firstWord ? `教材词汇“${firstWord.word}”的释义是？` : "今天先完成教材复习。", meaningOptions, 0, firstWord?.example || "教材词汇复习。"),
+      q(`${id}-sentence`, "sentence", "哪一句来自今天的教材节选？", sentenceOptions, 0, "请回到本单元教材节选核对原句。"),
+    ],
+    practiceTasks: makePractice(id, vocabulary),
+    translations: sourceSentences.slice(0, 3).map((sentence) => ({ zh: sentence, reference: "教材原句，请完成后回到本单元核对。", tip: "把这句教材英文译成中文。" })),
+    outputPrompt: `根据《${document.title}》的教材节选，写下一句原文和自己的中文理解。`,
+    outputHint: "只围绕本教材单元作答。",
+    sourceDocumentId: document.id,
+    sourceTitle: document.title,
+    sourceCategory: document.category,
+    syllabusNodeIds: document.category === "self-assessment" ? ["exam-task"] : ["knowledge-grammar", "skill-reading"],
+    prerequisiteNodeIds: stageId === "stage-1" ? ["prereq-word-recognition", "prereq-basic-sentence"] : [],
+  };
+}
+
+export const lessons: Lesson[] = Array.from({ length: 84 }, (_, index) => makeTextbookLesson(index + 1));
 export const migratedReadingLessons = lessons.filter((lesson) => lesson.stageId === "stage-3" && lesson.lessonType === "transition-reading");
 
-export const curatedAssessmentQuestions: Question[] = [
-  q("a-v1", "vocabulary", "What does push mean?", ["推；推动", "天空", "文化", "湖"], 0, "push 来自 normalized 高频词资料。"),
-  q("a-p1", "pronunciation", "Which word should be checked with the pronunciation tool?", ["culture", "的", "课程", "复习"], 0, "英文词可以点击查看词典信息并播放发音。"),
-  q("a-g1", "grammar", "Choose the correct form: I ___ studying now.", ["am", "is", "are", "be"], 0, "现在进行时使用 be + doing，I 和 am 搭配。"),
-  q("a-s1", "sentence", "Choose the complete sentence.", ["She studies English every day.", "Because useful.", "A useful book.", "Very carefully."], 0, "完整句需要清楚的主语和谓语。"),
-  q("a-r1", "reading", "What should you do with an OCR error?", ["Check context and the dictionary", "Memorize it immediately", "Ignore every source", "Delete all materials"], 0, "OCR 资料要结合上下文和词典核对。"),
-  q("a-t1", "translationWriting", "“每天最多学习30个新词。” is:", ["Learn no more than 30 new words a day.", "Learn 60 words without review.", "Words are no limit.", "Thirty day new word."], 0, "no more than 表示不超过。"),
-];
+const textbookAssessmentWords = normalizedCourse.vocabulary.slice(0, 6);
+const textbookAssessmentDocuments = normalizedCourse.documents.slice(0, 4);
 
 export const assessmentQuestions: Question[] = [
-  q("a-v1", "vocabulary", "What does push mean?", ["推动", "天空", "文化", "潮湿"], 0, "push 的核心义是“推动”。"),
-  q("a-p1", "pronunciation", "Which word has the /ˈkʌltʃər/ pronunciation?", ["culture", "course", "future", "picture"], 0, "culture 的发音接近 /ˈkʌltʃər/。"),
-  q("a-g1", "grammar", "Choose the correct form: I ___ studying now.", ["am", "is", "are", "be"], 0, "主语 I 与 be 动词 am 搭配，现在进行时为 am studying。"),
-  q("a-s1", "sentence", "Choose the complete sentence.", ["She studies English every day.", "Because useful.", "A useful book.", "Very carefully."], 0, "完整句通常需要明确的主语和谓语。"),
-  q("a-r1", "reading", "Mina studies ten words, reviews yesterday's words, and writes one sentence. What is she doing?", ["She is following a balanced study routine.", "She is avoiding review.", "She is only memorizing spelling.", "She is taking a day off."], 0, "短文同时提到新词、复习和造句，说明她在进行完整的学习闭环。"),
-  q("a-t1", "translationWriting", "“每天最多学习30个新词。” is:", ["Learn no more than 30 new words a day.", "Learn 60 words without review.", "Words are no limit.", "Thirty day new word."], 0, "no more than 表示“不超过”。"),
+  q("a-v1", "vocabulary", `教材词汇“${textbookAssessmentWords[0]?.headword ?? "sufficient"}”的释义是？`, [textbookAssessmentWords[0]?.meaning ?? "", textbookAssessmentWords[1]?.meaning ?? "", textbookAssessmentWords[2]?.meaning ?? "", textbookAssessmentWords[3]?.meaning ?? ""], 0, "请回到指定教材的词汇提取内容核对。"),
+  q("a-p1", "pronunciation", `请点击“${textbookAssessmentWords[1]?.headword ?? "authority"}”查询教材词汇的发音和释义。`, [textbookAssessmentWords[1]?.headword ?? "authority", textbookAssessmentWords[2]?.headword ?? "consistent", textbookAssessmentWords[3]?.headword ?? "directly", textbookAssessmentWords[4]?.headword ?? "identify"], 0, "本题使用教材词汇进行查询练习。"),
+  q("a-g1", "grammar", "哪一句来自指定教材的 Unit 1？", [textbookAssessmentDocuments[0]?.englishSentences[0] ?? "", textbookAssessmentDocuments[1]?.englishSentences[0] ?? "", textbookAssessmentDocuments[2]?.englishSentences[0] ?? "", textbookAssessmentDocuments[3]?.englishSentences[0] ?? ""], 0, "请从教材 Unit 1 的原句中核对。"),
+  q("a-s1", "sentence", "哪一句来自指定教材的 Unit 2？", [textbookAssessmentDocuments[1]?.englishSentences[0] ?? "", textbookAssessmentDocuments[0]?.englishSentences[0] ?? "", textbookAssessmentDocuments[2]?.englishSentences[0] ?? "", textbookAssessmentDocuments[3]?.englishSentences[0] ?? ""], 0, "请从教材 Unit 2 的原句中核对。"),
+  q("a-r1", "reading", "教材 Unit 1 的标题是？", [textbookAssessmentDocuments[0]?.title ?? "", textbookAssessmentDocuments[1]?.title ?? "", textbookAssessmentDocuments[2]?.title ?? "", textbookAssessmentDocuments[3]?.title ?? ""], 0, "请根据指定教材目录判断。"),
+  q("a-t1", "translationWriting", "请选择一条教材原句进行翻译练习。", [textbookAssessmentDocuments[0]?.englishSentences[1] ?? "", textbookAssessmentDocuments[1]?.englishSentences[1] ?? "", textbookAssessmentDocuments[2]?.englishSentences[1] ?? "", textbookAssessmentDocuments[3]?.englishSentences[1] ?? ""], 0, "这一步用于校准教材原句的理解与翻译起点。"),
 ];
 
 export const defaultScores: SkillScores = {
@@ -257,7 +302,7 @@ export const createInitialState = (): AppState => ({
     },
     remedialQueue: [],
     syllabusNodeProgress: {},
-    contentVersion: "normalized-english2-v1",
+    contentVersion: "textbook-00015-2012-v1",
   },
   attempts: [],
   reviewItems: [],

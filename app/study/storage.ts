@@ -142,7 +142,7 @@ const createMastery = (stageId: StageId = "stage-1"): AppState["mastery"] => cre
   activeStageId: stageId,
   placementStageId: stageId,
   syllabusNodeProgress: {},
-  contentVersion: "normalized-english2-v1",
+  contentVersion: "textbook-00015-2012-v1",
 };
 
 export const upgradeV4 = (value: unknown): AppState | null => {
@@ -158,7 +158,7 @@ export const upgradeV4 = (value: unknown): AppState | null => {
       ...initial.mastery,
       ...old.mastery,
       syllabusNodeProgress: old.mastery.syllabusNodeProgress ?? {},
-      contentVersion: "normalized-english2-v1",
+      contentVersion: "textbook-00015-2012-v1",
     },
   };
 };
@@ -278,7 +278,7 @@ const normalizeState = (value: unknown): AppState | null => {
       mastery: {
         ...state.mastery,
         syllabusNodeProgress: state.mastery.syllabusNodeProgress ?? {},
-        contentVersion: "normalized-english2-v1",
+        contentVersion: "textbook-00015-2012-v1",
       },
     };
   }

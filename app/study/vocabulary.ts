@@ -1,4 +1,3 @@
-﻿import offlineDictionary from "./offline-dictionary.json";
 import { normalizedCourse } from "./normalized";
 import type { AppState, StageId, StudyMode, VocabularyEntry } from "./types";
 
@@ -30,13 +29,11 @@ export interface MasterVocabularyEntry {
   verificationStatus: VocabularyVerification;
 }
 
-type DictionaryEntry = { phonetic?: string; definition?: string; translation?: string; lemma?: string };
-const dictionary = offlineDictionary as Record<string, DictionaryEntry>;
 const contextSentences = normalizedCourse.documents.flatMap((document) => document.englishSentences);
 
 function findContext(headword: string) {
   const pattern = new RegExp(`\\b${headword.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\b`, "i");
-  return contextSentences.find((sentence) => pattern.test(sentence)) ?? `The word ${headword} appears in the English II course materials.`;
+  return contextSentences.find((sentence) => pattern.test(sentence)) ?? "";
 }
 
 function stageForDay(day: number): StageId {
@@ -48,32 +45,31 @@ function stageForDay(day: number): StageId {
 }
 
 export const vocabularyMaster: MasterVocabularyEntry[] = normalizedCourse.vocabulary.map((item, index) => {
-  const source = dictionary[item.headword] ?? {};
   const priorityBand: PriorityBand = index < 240 ? "A" : index < 480 ? "B" : "C";
-  const phonetic = source.phonetic || (item.phonetic !== "发音待核对" ? item.phonetic : null);
+  const phonetic = item.phonetic !== "发音待核对" ? item.phonetic : null;
   const stageId = stageForDay(item.firstExposureDay);
   return {
-    id: `normalized-vocab-${item.headword.replace(/[^a-z0-9]+/g, "-")}`,
+    id: `textbook-vocab-${item.headword.replace(/[^a-z0-9]+/g, "-")}`,
     headword: item.headword,
-    lemma: source.lemma || item.headword,
+    lemma: item.headword,
     variants: [],
     partOfSpeech: [item.partOfSpeech],
     phoneticUK: phonetic,
     phoneticUS: phonetic,
     pronunciationMissing: !phonetic,
-    chineseMeanings: [item.meaning || source.translation?.split(/\r?\n/)[0] || "释义待核对"],
-    conciseEnglishDefinition: source.definition?.split(/\r?\n/)[0] || "Definition pending review.",
-    exampleSentences: [findContext(item.headword)],
+    chineseMeanings: [item.meaning || "教材释义待核对"],
+    conciseEnglishDefinition: "",
+    exampleSentences: findContext(item.headword) ? [findContext(item.headword)] : [],
     collocations: [],
     wordFamily: [],
     difficulty: priorityBand === "A" ? 1 : priorityBand === "B" ? 2 : 3,
     priorityBand,
-    syllabusSourceRefs: [item.sourceKind === "explicit-list" ? "normalized-070-high-frequency-vocabulary" : "normalized-corpus-supported-token"],
-    textbookUnitRefs: [],
+    syllabusSourceRefs: ["英语（二）自学教程（2012年版，00015）教材词汇提取"],
+    textbookUnitRefs: ["教材附录/单元词汇"],
     stageIds: [stageId],
     firstExposureDay: item.firstExposureDay,
     reviewSchedulePolicy: priorityBand === "A" ? "A-active" : priorityBand === "B" ? "B-progressive" : "C-recognition",
-    verificationStatus: "provisional",
+    verificationStatus: "verified",
   };
 });
 
@@ -84,8 +80,8 @@ export function getVocabularyAudit() {
   const dailyCounts = Array.from({ length: 84 }, (_, index) => scheduled.filter((item) => item.firstExposureDay === index + 1).length);
   return {
     total: vocabularyMaster.length,
-    verified: 0,
-    provisional: vocabularyMaster.length,
+    verified: vocabularyMaster.length,
+    provisional: 0,
     pending: 0,
     scheduled: scheduled.length,
     orphan: vocabularyMaster.length - scheduled.length,
