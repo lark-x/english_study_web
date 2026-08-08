@@ -1,0 +1,57 @@
+{
+  "schemaVersion": "0.1",
+  "region": "江西省",
+  "examYear": 2026,
+  "examSession": "下半年",
+  "examDate": {
+    "start": "2026-10-24",
+    "end": "2026-10-25"
+  },
+  "course": {
+    "currentCode": "13000",
+    "currentName": "英语（专升本）",
+    "legacyCode": "00015",
+    "legacyName": "英语（二）",
+    "credits": 7,
+    "examMethod": "笔试",
+    "syllabusName": "英语（二）自学考试大纲",
+    "textbook": {
+      "title": "英语（二）自学教程",
+      "authors": ["张敬源", "张虹"],
+      "publisher": "外语教学与研究出版社",
+      "edition": "2012年版"
+    }
+  },
+  "registration": {
+    "courseSelectionStart": "2026-06-19T09:00:00+08:00",
+    "courseSelectionEnd": "2026-07-20T17:00:00+08:00",
+    "noticePrintingStart": "2026-10-16",
+    "scoreReleaseExpected": "2026-11"
+  },
+  "verificationRequired": [
+    "个人准考证上的课程代码",
+    "个人报名系统的课程名称",
+    "所属专业的2026版考试计划",
+    "是否已完成本次课程报考和缴费"
+  ],
+  "sources": [
+    {
+      "id": "jx-plan-2026",
+      "title": "江西省高等教育自学考试专业考试计划（2026版）",
+      "url": "https://jxjy.nchu.edu.cn/upload/jxjy/contentmanage/article/file/2025/05/21/%E6%B1%9F%E8%A5%BF%E7%9C%81%E9%AB%98%E7%AD%89%E6%95%99%E8%82%B2%E8%87%AA%E5%AD%A6%E8%80%83%E8%AF%95%E4%B8%93%E4%B8%9A%E8%80%83%E8%AF%95%E8%AE%A1%E5%88%92%EF%BC%882026%E7%89%88%EF%BC%89.pdf?t=1747790512537",
+      "level": "official-notice-mirror"
+    },
+    {
+      "id": "jx-oct-2026",
+      "title": "江西省2026年10月自学考试报考简章",
+      "url": "https://know.jjcmjt.com/website/gkzt/gkztPage.htm?id=0f051334-0361-4310-b48b-c8a102cdd9d5",
+      "level": "official-announcement-republished"
+    },
+    {
+      "id": "national-english-directory-2026",
+      "title": "2026年高等教育自学考试全国统考课程使用考试大纲、教材目录",
+      "url": "https://shjygl.xjtu.edu.cn/fujian12026niangaodengjiaoyuzixuekaoshiquanguotongkaokechengshiyongkaoshidagangjiaocaimulu.pdf",
+      "level": "national-directory-mirror"
+    }
+  ]
+}

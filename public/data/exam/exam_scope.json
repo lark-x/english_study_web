@@ -1,0 +1,6 @@
+[
+  { "id": "scope-prereq", "title": "零基础前置能力", "status": "prerequisite", "priority": "P0", "expectedStudyAmount": "分阶段完成词汇、语法和简单句闭环", "targetWeeks": [1, 2, 3, 4, 5], "syllabusNodeIds": ["prereq-word-recognition", "prereq-basic-sentence"], "lessonIds": [], "verificationStatus": "verified_summary", "sourceRefs": ["national-directory-2026"] },
+  { "id": "scope-reading", "title": "阅读理解范围", "status": "examRequired", "priority": "P0", "expectedStudyAmount": "待正式大纲正文核验", "targetWeeks": [6, 7, 8, 9, 10, 11, 12], "syllabusNodeIds": ["skill-reading"], "lessonIds": [], "verificationStatus": "pending", "sourceRefs": [] },
+  { "id": "scope-translation-writing", "title": "翻译与写作范围", "status": "examRequired", "priority": "P1", "expectedStudyAmount": "待正式大纲正文核验", "targetWeeks": [6, 7, 8, 9, 10, 11, 12], "syllabusNodeIds": ["skill-translation", "skill-writing"], "lessonIds": [], "verificationStatus": "pending", "sourceRefs": [] },
+  { "id": "scope-question-types", "title": "题型训练", "status": "examRequired", "priority": "P0", "expectedStudyAmount": "暂不填入题量、分值和时长", "targetWeeks": [9, 10, 11, 12], "syllabusNodeIds": ["exam-task-types"], "lessonIds": [], "verificationStatus": "pending", "sourceRefs": [] }
+]

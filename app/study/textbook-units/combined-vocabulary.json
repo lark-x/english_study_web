@@ -1,0 +1,2532 @@
+[
+  {
+    "word": "push",
+    "phonetic": "[puf]",
+    "pos": "n.＆v.推",
+    "meaning": "",
+    "day": "DAY 1",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "enter",
+    "phonetic": "[＇enta]",
+    "pos": "vt.进入",
+    "meaning": "",
+    "day": "DAY 1",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "sky",
+    "phonetic": "[skai]",
+    "pos": "n.天空",
+    "meaning": "",
+    "day": "DAY 1",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "middle",
+    "phonetic": "[＇midl]",
+    "pos": "n.中间",
+    "meaning": "adj.中间的，中级的",
+    "day": "DAY 1",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "brain",
+    "phonetic": "[brein]",
+    "pos": "n.头脑",
+    "meaning": "",
+    "day": "DAY 1",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "lake",
+    "phonetic": "[leik]",
+    "pos": "n.湖",
+    "meaning": "",
+    "day": "DAY 1",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "culture",
+    "phonetic": "[＇kaltfo]",
+    "pos": "n.文化",
+    "meaning": "",
+    "day": "DAY 1",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "hand",
+    "phonetic": "[hænd]",
+    "pos": "n.手",
+    "meaning": "，指针 v.递；交上",
+    "day": "DAY 1",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "crop",
+    "phonetic": "[krop]",
+    "pos": "n.庄稼",
+    "meaning": "",
+    "day": "DAY 1",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "sleepy",
+    "phonetic": "[＇sli：pi]",
+    "pos": "a.困倦的",
+    "meaning": "",
+    "day": "DAY 1",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "artist",
+    "phonetic": "[＇a：tist]",
+    "pos": "n.艺术家",
+    "meaning": "",
+    "day": "DAY 1",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "place",
+    "phonetic": "[pleis]",
+    "pos": "n.地方",
+    "meaning": "v.放置",
+    "day": "DAY 1",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "guest",
+    "phonetic": "[gest]",
+    "pos": "n.客人",
+    "meaning": "",
+    "day": "DAY 1",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "message",
+    "phonetic": "[＇mesid3]",
+    "pos": "n.消息",
+    "meaning": "",
+    "day": "DAY 1",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "housework",
+    "phonetic": "[＇hauswa：k]",
+    "pos": "n.家务劳动",
+    "meaning": "",
+    "day": "DAY 1",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "room",
+    "phonetic": "[ru：m]",
+    "pos": "n.房间",
+    "meaning": "；空间（不可数）",
+    "day": "DAY 1",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "deep",
+    "phonetic": "[di：p]",
+    "pos": "a.深的",
+    "meaning": "，深刻的",
+    "day": "DAY 1",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "important",
+    "phonetic": "[im＇po：tant]",
+    "pos": "a.重要的",
+    "meaning": "",
+    "day": "DAY 1",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "adult",
+    "phonetic": "[＇ædalt]",
+    "pos": "n.成年人",
+    "meaning": "",
+    "day": "DAY 1",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "face",
+    "phonetic": "[feis]",
+    "pos": "vt.面向",
+    "meaning": "：面对 n.脸",
+    "day": "DAY 1",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "coast",
+    "phonetic": "[koust]",
+    "pos": "n.海岸",
+    "meaning": "",
+    "day": "DAY2",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "machine",
+    "phonetic": "[ma＇fi：n]",
+    "pos": "n.机器",
+    "meaning": "",
+    "day": "DAY2",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "hearing",
+    "phonetic": "[＇hiərin]",
+    "pos": "n.听力",
+    "meaning": "",
+    "day": "DAY2",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "keep",
+    "phonetic": "[ki：p]",
+    "pos": "v.保持",
+    "meaning": "：保存；培育，饲养",
+    "day": "DAY2",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "belong",
+    "phonetic": "[bi＇lon]",
+    "pos": "vi.属于",
+    "meaning": "",
+    "day": "DAY2",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "poor",
+    "phonetic": "[puə]",
+    "pos": "a.贫穷的",
+    "meaning": "：可怜的",
+    "day": "DAY2",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "off",
+    "phonetic": "[o：f]",
+    "pos": "prep.离开",
+    "meaning": "",
+    "day": "DAY2",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "table",
+    "phonetic": "[＇teibl]",
+    "pos": "n.桌子",
+    "meaning": "，表格",
+    "day": "DAY2",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "fly",
+    "phonetic": "[flai]",
+    "pos": "n.苍蝇",
+    "meaning": "：飞行",
+    "day": "DAY2",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "reach",
+    "phonetic": "[ri：t]",
+    "pos": "v.到达",
+    "meaning": "，伸手（脚等）够到",
+    "day": "DAY2",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "actual",
+    "phonetic": "[＇æktfool]",
+    "pos": "a.实际的",
+    "meaning": "：真实的",
+    "day": "DAY2",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "husband",
+    "phonetic": "[＇hazband]",
+    "pos": "n.丈夫",
+    "meaning": "",
+    "day": "DAY2",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "weekend",
+    "phonetic": "[，wi：k＇end]",
+    "pos": "n.周末",
+    "meaning": "",
+    "day": "DAY2",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "line",
+    "phonetic": "[lain]",
+    "pos": "n.排",
+    "meaning": "，行 v.（使）成行",
+    "day": "DAY2",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "dirty",
+    "phonetic": "[＇do：ti]",
+    "pos": "a.脏的",
+    "meaning": "",
+    "day": "DAY2",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "part",
+    "phonetic": "[pa：t]",
+    "pos": "n.部分",
+    "meaning": "；零件：角色",
+    "day": "DAY2",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "study",
+    "phonetic": "[＇stadi]",
+    "pos": "v.学习",
+    "meaning": "：研究 n.书房",
+    "day": "DAY2",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "heart",
+    "phonetic": "[ha：t]",
+    "pos": "n.心",
+    "meaning": "：心脏",
+    "day": "DAY2",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "land",
+    "phonetic": "[lænd]",
+    "pos": "n.陆地",
+    "meaning": "：土地 v.登陆，着陆",
+    "day": "DAY2",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "empty",
+    "phonetic": "[＇empti]",
+    "pos": "a.空的",
+    "meaning": "",
+    "day": "DAY2",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "practice",
+    "phonetic": "[＇præktis]",
+    "pos": "v.练习",
+    "meaning": "，实践",
+    "day": "DAY2",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "glad",
+    "phonetic": "[glæd]",
+    "pos": "a.高兴的",
+    "meaning": "：乐意的",
+    "day": "DAY2",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "holiday",
+    "phonetic": "[＇holadi]",
+    "pos": "n.假日",
+    "meaning": "：假期",
+    "day": "DAY2",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "tear",
+    "phonetic": "[tio]",
+    "pos": "n.眼泪",
+    "meaning": "［tsa］v.（tore，torn）v.扯破，撕开",
+    "day": "DAY2",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "pocket",
+    "phonetic": "[＇pokit]",
+    "pos": "n.",
+    "meaning": "（衣服的）口袋",
+    "day": "DAY2",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "kitchen",
+    "phonetic": "[＇kitjin]",
+    "pos": "n.厨房",
+    "meaning": "",
+    "day": "DAY2",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "background",
+    "phonetic": "[＇bækgraund]",
+    "pos": "n.背景",
+    "meaning": "",
+    "day": "DAY2",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "forest",
+    "phonetic": "[＇forist]",
+    "pos": "n.森林",
+    "meaning": "",
+    "day": "DAY2",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "dark",
+    "phonetic": "[＇da：k]",
+    "pos": "n.黑暗",
+    "meaning": "a.黑暗的；深色的",
+    "day": "DAY2",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "midnight",
+    "phonetic": "[＇midnait]",
+    "pos": "n.午夜",
+    "meaning": "",
+    "day": "DAY2",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "attack",
+    "phonetic": "[ə＇tæek]",
+    "pos": "vt.＆n.攻击",
+    "meaning": "，袭击",
+    "day": "DAY2",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "introduce",
+    "phonetic": "[，intrə＇dju：s]",
+    "pos": "vt.介绍",
+    "meaning": "",
+    "day": "DAY2",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "rest",
+    "phonetic": "[rest]",
+    "pos": "n.休息",
+    "meaning": "：剩余的部分（人或物）",
+    "day": "DAY2",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "customer",
+    "phonetic": "[＇kAstəmə]",
+    "pos": "n.",
+    "meaning": "（商店等的）顾客",
+    "day": "DAY2",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "lift",
+    "phonetic": "[lift]",
+    "pos": "v.举起",
+    "meaning": "，抬起",
+    "day": "DAY 4",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "wide",
+    "phonetic": "[waid]",
+    "pos": "a.宽阔的",
+    "meaning": "",
+    "day": "DAY 4",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "stone",
+    "phonetic": "[stoun]",
+    "pos": "n.石头",
+    "meaning": "",
+    "day": "DAY 4",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "bookshelf",
+    "phonetic": "[＇bukfelf]",
+    "pos": "n.书架",
+    "meaning": "",
+    "day": "DAY 4",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "personal",
+    "phonetic": "[＇pə：sonl]",
+    "pos": "a.个人的",
+    "meaning": "",
+    "day": "DAY 4",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "couple",
+    "phonetic": "[＇kapl]",
+    "pos": "n.夫妇",
+    "meaning": "，一对",
+    "day": "DAY 4",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "habit",
+    "phonetic": "[＇hæbit]",
+    "pos": "n.习惯",
+    "meaning": "，习性",
+    "day": "DAY 4",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "order",
+    "phonetic": "[＇ə：də]",
+    "pos": "vt.命令",
+    "meaning": "，定购，点菜",
+    "day": "DAY 4",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "experience",
+    "phonetic": "[ikspiorions]",
+    "pos": "n.经验",
+    "meaning": "；经历",
+    "day": "DAY 4",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "dislike",
+    "phonetic": "[dis＇laik]",
+    "pos": "vt.不喜爱",
+    "meaning": "；厌恶",
+    "day": "DAY 4",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "fool",
+    "phonetic": "[fu：I]",
+    "pos": "n.傻子",
+    "meaning": "",
+    "day": "DAY 4",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "side",
+    "phonetic": "[said]",
+    "pos": "n.边",
+    "meaning": "，旁边，面，侧面",
+    "day": "DAY 4",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "danger",
+    "phonetic": "[＇deind3ə]",
+    "pos": "n.危险",
+    "meaning": "",
+    "day": "DAY 4",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "history",
+    "phonetic": "[＇histəri]",
+    "pos": "n.历史",
+    "meaning": "",
+    "day": "DAY 4",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "absent",
+    "phonetic": "[＇æbsnt]",
+    "pos": "a.缺席的",
+    "meaning": "，不在的",
+    "day": "DAY 4",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "memory",
+    "phonetic": "[＇memori]",
+    "pos": "n.回忆",
+    "meaning": "，记忆",
+    "day": "DAY 4",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "secretary",
+    "phonetic": "[＇sekrətori]",
+    "pos": "n.秘书",
+    "meaning": "",
+    "day": "DAY 4",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "gun",
+    "phonetic": "[gan]",
+    "pos": "n.枪",
+    "meaning": "，炮",
+    "day": "DAY 4",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "character",
+    "phonetic": "[＇kæerokta]",
+    "pos": "n.性格",
+    "meaning": "，角色，（汉）字",
+    "day": "DAY 4",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "public",
+    "phonetic": "[＇pablik]",
+    "pos": "a.公共的",
+    "meaning": "，公众的 n.公众",
+    "day": "DAY 4",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "possible",
+    "phonetic": "[＇posəbl]",
+    "pos": "a.可能的",
+    "meaning": "",
+    "day": "DAY 4",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "exercise",
+    "phonetic": "[＇eksasaiz]",
+    "pos": "n.锻炼",
+    "meaning": "，做操：练习 vi.锻炼",
+    "day": "DAY 4",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "medicine",
+    "phonetic": "[＇medisin]",
+    "pos": "n.药",
+    "meaning": "",
+    "day": "DAY 4",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "curious",
+    "phonetic": "[＇kjuarias]",
+    "pos": "a.好奇的",
+    "meaning": "",
+    "day": "DAY 4",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "size",
+    "phonetic": "[saiz]",
+    "pos": "n.尺寸",
+    "meaning": "，大小",
+    "day": "DAY 4",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "knowledge",
+    "phonetic": "[＇nolid3]",
+    "pos": "n.知识",
+    "meaning": "",
+    "day": "DAY 4",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "necessary",
+    "phonetic": "[＇nesisori]",
+    "pos": "a.必需的",
+    "meaning": "，必要的",
+    "day": "DAY 4",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "depend",
+    "phonetic": "[di＇pendI]",
+    "pos": "vi.依靠",
+    "meaning": "，依赖；取决于",
+    "day": "DAY 4",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "factory",
+    "phonetic": "[＇fæktori]",
+    "pos": "n.工厂",
+    "meaning": "",
+    "day": "DAY 4",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "refuse",
+    "phonetic": "[ri＇fju：z]",
+    "pos": "vi.拒绝",
+    "meaning": "",
+    "day": "DAY 4",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "invite",
+    "phonetic": "[in＇vait]",
+    "pos": "vt.邀请",
+    "meaning": "",
+    "day": "DAY 4",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "hotel",
+    "phonetic": "[hou＇tel]",
+    "pos": "n.旅馆",
+    "meaning": "，饭店",
+    "day": "DAY 4",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "blame",
+    "phonetic": "[＇bleim]",
+    "pos": "n.＆v.责备",
+    "meaning": "",
+    "day": "DAY 4",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "miss",
+    "phonetic": "[mis]",
+    "pos": "vt.思念",
+    "meaning": "，错过",
+    "day": "DAY 6",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "library",
+    "phonetic": "[＇laibrəri]",
+    "pos": "n.图书馆",
+    "meaning": "",
+    "day": "DAY 6",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "drug",
+    "phonetic": "[drag]",
+    "pos": "n.药物",
+    "meaning": "：毒品",
+    "day": "DAY 6",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "period",
+    "phonetic": "[＇piariad]",
+    "pos": "n.时期",
+    "meaning": "",
+    "day": "DAY 6",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "confident",
+    "phonetic": "[＇konfidont]",
+    "pos": "a.自信的",
+    "meaning": "",
+    "day": "DAY 6",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "purpose",
+    "phonetic": "[＇po：pos]",
+    "pos": "n.目的",
+    "meaning": "",
+    "day": "DAY 6",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "nation",
+    "phonetic": "[＇neifən]",
+    "pos": "n.国家",
+    "meaning": "，民族",
+    "day": "DAY 6",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "hurry",
+    "phonetic": "[＇hari]",
+    "pos": "vi.匆忙",
+    "meaning": "，急忙",
+    "day": "DAY 6",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "secret",
+    "phonetic": "[＇si：krit]",
+    "pos": "n.秘密",
+    "meaning": "",
+    "day": "DAY 6",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "bored",
+    "phonetic": "[bo：d]",
+    "pos": "a.厌倦的",
+    "meaning": "，厌烦的",
+    "day": "DAY 6",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "magazine",
+    "phonetic": "[，mæga＇zi：n]",
+    "pos": "n.杂志",
+    "meaning": "",
+    "day": "DAY 6",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "admire",
+    "phonetic": "[ad＇maia]",
+    "pos": "v.钦佩",
+    "meaning": "：羡慕",
+    "day": "DAY 6",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "hide",
+    "phonetic": "[haid]",
+    "pos": "v.隐藏",
+    "meaning": "，躲藏",
+    "day": "DAY 6",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "foreign",
+    "phonetic": "[＇forin]",
+    "pos": "a.外国的",
+    "meaning": "",
+    "day": "DAY 6",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "rapid",
+    "phonetic": "[＇ræpid]",
+    "pos": "a.快的",
+    "meaning": "，迅速的",
+    "day": "DAY 6",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "waste",
+    "phonetic": "[weist]",
+    "pos": "n.＆vt.浪费",
+    "meaning": "",
+    "day": "DAY 6",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "gift",
+    "phonetic": "[gift]",
+    "pos": "n.礼物",
+    "meaning": "，天赋",
+    "day": "DAY 6",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "provide",
+    "phonetic": "[prau＇vaid]",
+    "pos": "vt.提供",
+    "meaning": "",
+    "day": "DAY 6",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "cause",
+    "phonetic": "[ko：z]",
+    "pos": "n.原因",
+    "meaning": "vt.引起",
+    "day": "DAY 6",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "speed",
+    "phonetic": "[spi：d]",
+    "pos": "n.速度",
+    "meaning": "v.加速",
+    "day": "DAY 6",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "fear",
+    "phonetic": "[fia]",
+    "pos": "n.害怕",
+    "meaning": "；担忧",
+    "day": "DAY 6",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "point",
+    "phonetic": "[point]",
+    "pos": "v.指",
+    "meaning": "，指向 n.点：分数",
+    "day": "DAY 6",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "cheat",
+    "phonetic": "[tfi：t]",
+    "pos": "n.＆v.欺骗",
+    "meaning": "：作弊",
+    "day": "DAY 6",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "taste",
+    "phonetic": "[teist]",
+    "pos": "n.味道",
+    "meaning": "，品味 vt.品尝",
+    "day": "DAY 6",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "housewife",
+    "phonetic": "[＇hauswaif]",
+    "pos": "n.家庭主妇",
+    "meaning": "",
+    "day": "DAY 6",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "disease",
+    "phonetic": "[di＇zi：z]",
+    "pos": "n.病",
+    "meaning": "，疾病",
+    "day": "DAY 6",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "admit",
+    "phonetic": "[ad＇mit]",
+    "pos": "vt.承认",
+    "meaning": "，准许（入场，入学）",
+    "day": "DAY 6",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "research",
+    "phonetic": "[ri＇so：t]",
+    "pos": "n.研究",
+    "meaning": "，调查",
+    "day": "DAY 6",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "government",
+    "phonetic": "[＇gavanmənt]",
+    "pos": "n.政府",
+    "meaning": "",
+    "day": "DAY 6",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "radio",
+    "phonetic": "[＇reidiəu]",
+    "pos": "n.无线电",
+    "meaning": "，收音机",
+    "day": "DAY 6",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "list",
+    "phonetic": "[list]",
+    "pos": "a.清单",
+    "meaning": "，列表",
+    "day": "DAY 6",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "expect",
+    "phonetic": "[ik＇spekt]",
+    "pos": "vt.期待",
+    "meaning": "；预料",
+    "day": "DAY 6",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "hard",
+    "phonetic": "[ha：d]",
+    "pos": "ad.努力地",
+    "meaning": "；猛烈地 a.硬的：困难的",
+    "day": "DAY 6",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "knock",
+    "phonetic": "[nok]",
+    "pos": "n.＆v.敲",
+    "meaning": "：击",
+    "day": "DAY 6",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "marriage",
+    "phonetic": "[＇mærid3]",
+    "pos": "n.婚姻",
+    "meaning": "，结婚",
+    "day": "DAY 6",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "perhaps",
+    "phonetic": "[po＇hæps]",
+    "pos": "ad.可能",
+    "meaning": "",
+    "day": "DAY 6",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "attitude",
+    "phonetic": "[＇æeutju：d]",
+    "pos": "n.态度",
+    "meaning": "",
+    "day": "DAY 6",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "method",
+    "phonetic": "[＇me0od]",
+    "pos": "n.方法",
+    "meaning": "",
+    "day": "DAY 6",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "candle",
+    "phonetic": "[＇kændl]",
+    "pos": "n.蜡烛",
+    "meaning": "",
+    "day": "DAY 6",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "weak",
+    "phonetic": "[wi：k]",
+    "pos": "a.弱的",
+    "meaning": "，虚弱的",
+    "day": "DAY 6",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "skill",
+    "phonetic": "[skil]",
+    "pos": "n.技能",
+    "meaning": "，技巧",
+    "day": "DAY 6",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "damage",
+    "phonetic": "[＇dæmid3]",
+    "pos": "n.＆vt.毁坏",
+    "meaning": "，损害",
+    "day": "DAY 6",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "hunt",
+    "phonetic": "[hant]",
+    "pos": "vt.打猎",
+    "meaning": "，搜寻",
+    "day": "DAY 6",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "fact",
+    "phonetic": "[fackt]",
+    "pos": "n.事实",
+    "meaning": "",
+    "day": "DAY 6",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "prize",
+    "phonetic": "[praiz]",
+    "pos": "n.奖赏",
+    "meaning": "，奖品",
+    "day": "DAY 6",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "baggage",
+    "phonetic": "[＇bagids]",
+    "pos": "n.行李",
+    "meaning": "",
+    "day": "DAY 6",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "hit",
+    "phonetic": "[hit]",
+    "pos": "n.＆vt.打",
+    "meaning": "，打击，击中",
+    "day": "DAY 6",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "share",
+    "phonetic": "[fcə]",
+    "pos": "vt.分享",
+    "meaning": "",
+    "day": "DAY 6",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "energy",
+    "phonetic": "[＇enad3i]",
+    "pos": "n.能量",
+    "meaning": "，精力",
+    "day": "DAY 6",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "path",
+    "phonetic": "[pæθ]",
+    "pos": "n.小道",
+    "meaning": "，小径",
+    "day": "DAY 6",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "condition",
+    "phonetic": "[kan＇dijən]",
+    "pos": "n.条件",
+    "meaning": "，情况，病情",
+    "day": "DAY 6",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "lazy",
+    "phonetic": "[＇leizi]",
+    "pos": "a.懒惰的",
+    "meaning": "",
+    "day": "DAY 6",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "neck",
+    "phonetic": "[nek]",
+    "pos": "n.脖子",
+    "meaning": "Day 9",
+    "day": "DAY 6",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "god",
+    "phonetic": "[god]",
+    "pos": "n.神",
+    "meaning": "，（大写）上帝",
+    "day": "DAY 6",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "right",
+    "phonetic": "[rait]",
+    "pos": "n.权利",
+    "meaning": "a.正确的，右边的",
+    "day": "DAY 6",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "club",
+    "phonetic": "[klab]",
+    "pos": "n.俱乐部",
+    "meaning": "",
+    "day": "DAY 6",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "hardly",
+    "phonetic": "[＇ha：dli]",
+    "pos": "ad.几乎不",
+    "meaning": "",
+    "day": "DAY 6",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "key",
+    "phonetic": "[ki：]",
+    "pos": "n.钥匙",
+    "meaning": "；答案：键：关键",
+    "day": "DAY 6",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "polite",
+    "phonetic": "[＇po：lait]",
+    "pos": "a.有礼貌的",
+    "meaning": "",
+    "day": "DAY 6",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "disappointed",
+    "phonetic": "[，diso＇pointid]",
+    "pos": "a.失望的",
+    "meaning": "",
+    "day": "DAY 6",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "law",
+    "phonetic": "[lo：]",
+    "pos": "n.法律",
+    "meaning": "，法令；定律",
+    "day": "DAY 6",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "behaviour",
+    "phonetic": "[bi＇heivjə]",
+    "pos": "n.行为",
+    "meaning": "，举止",
+    "day": "DAY 6",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "musician",
+    "phonetic": "[mju：＇zijan]",
+    "pos": "n.音乐家",
+    "meaning": "，乐师",
+    "day": "DAY 6",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "effort",
+    "phonetic": "[＇efat]",
+    "pos": "n.努力",
+    "meaning": "",
+    "day": "DAY 6",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "central",
+    "phonetic": "[＇sentra 刂]",
+    "pos": "a.中心的",
+    "meaning": "，中央的",
+    "day": "DAY 6",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "save",
+    "phonetic": "[seiv]",
+    "pos": "vt.挽救",
+    "meaning": "，节省",
+    "day": "DAY 6",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "impossible",
+    "phonetic": "[im＇posəbl]",
+    "pos": "a.不可能的",
+    "meaning": "",
+    "day": "DAY 6",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "perfect",
+    "phonetic": "[＇pa：fikt]",
+    "pos": "a.完美的",
+    "meaning": "",
+    "day": "DAY 6",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "finger",
+    "phonetic": "[＇fingo]",
+    "pos": "n.手指",
+    "meaning": "",
+    "day": "DAY 6",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "season",
+    "phonetic": "[＇si：zon]",
+    "pos": "n.季节",
+    "meaning": "；季",
+    "day": "DAY 6",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "admirable",
+    "phonetic": "[＇tedmorabl]",
+    "pos": "a.令人钦佩的",
+    "meaning": "",
+    "day": "DAY 6",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "hill",
+    "phonetic": "[hil]",
+    "pos": "n.小山",
+    "meaning": "：土堆；斜坡",
+    "day": "DAY 6",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "sign",
+    "phonetic": "[sain]",
+    "pos": "n.标记",
+    "meaning": "，标牌，符号",
+    "day": "DAY 6",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "ashamed",
+    "phonetic": "[əJeimd]",
+    "pos": "a.羞愧的",
+    "meaning": "，耻辱的",
+    "day": "DAY 6",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "environment",
+    "phonetic": "[in＇vaiarənmont]",
+    "pos": "n.环境",
+    "meaning": "",
+    "day": "DAY 6",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "pity",
+    "phonetic": "[＇piti]",
+    "pos": "n.怜悯",
+    "meaning": "，同情，遗憾",
+    "day": "DAY 6",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "nervous",
+    "phonetic": "[＇na：vas]",
+    "pos": "a.紧张不安的",
+    "meaning": "",
+    "day": "DAY 6",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "force",
+    "phonetic": "[fo：s]",
+    "pos": "vt.强迫",
+    "meaning": "，迫使 n.力量",
+    "day": "DAY 6",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "hurt",
+    "phonetic": "[ha：t]",
+    "pos": "vt.伤害",
+    "meaning": "，受伤；痛心",
+    "day": "DAY 6",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "relax",
+    "phonetic": "[ri＇laeks]",
+    "pos": "v.",
+    "meaning": "（使）放松，轻松",
+    "day": "DAY 6",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "correct",
+    "phonetic": "[ka＇rekt]",
+    "pos": "v.改正",
+    "meaning": "；纠正 a.正确的",
+    "day": "DAY 6",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "repeat",
+    "phonetic": "[ripi：t]",
+    "pos": "vt.重复",
+    "meaning": "",
+    "day": "DAY 6",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "whole",
+    "phonetic": "[houl]",
+    "pos": "a.整个的",
+    "meaning": "",
+    "day": "DAY 6",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "mind",
+    "phonetic": "[maind]",
+    "pos": "n.思想",
+    "meaning": "，想法",
+    "day": "DAY 6",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "desire",
+    "phonetic": "[di＇zaiə]",
+    "pos": "vt.＆n.渴望",
+    "meaning": "",
+    "day": "DAY 6",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "opposite",
+    "phonetic": "[＇əpazit]",
+    "pos": "a.相反的",
+    "meaning": "，对面的",
+    "day": "DAY 6",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "main",
+    "phonetic": "[mein]",
+    "pos": "a.主要的",
+    "meaning": "",
+    "day": "DAY 6",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "trip",
+    "phonetic": "[trip]",
+    "pos": "n.旅行",
+    "meaning": "，旅程",
+    "day": "DAY 6",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "mix",
+    "phonetic": "[miks]",
+    "pos": "v.混合",
+    "meaning": "，搅拌 Day 11",
+    "day": "DAY 6",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "huge",
+    "phonetic": "[hju：d3]",
+    "pos": "a.巨大的",
+    "meaning": "，庞大的",
+    "day": "DAY 6",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "kid",
+    "phonetic": "[kid]",
+    "pos": "n.小孩",
+    "meaning": "",
+    "day": "DAY 6",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "wave",
+    "phonetic": "[wciv]",
+    "pos": "n.",
+    "meaning": "（热、光、声等的）波，波浪 v.挥手，挥动",
+    "day": "DAY 6",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "fight",
+    "phonetic": "[fait]",
+    "pos": "n.打仗",
+    "meaning": "，打架，斗争 moment［＇moumant］n.片刻，瞬间 discover［dis＇kavə］",
+    "day": "DAY 6",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "otherwise",
+    "phonetic": "[＇Aðowaiz]",
+    "pos": "ad.否则",
+    "meaning": "，在其它方面 increase［in＇kri：s］v.＆n.增加，增长",
+    "day": "DAY 6",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "similar",
+    "phonetic": "[＇similo]",
+    "pos": "a.相似的",
+    "meaning": "",
+    "day": "DAY 6",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "close",
+    "phonetic": "[klouz]",
+    "pos": "a.亲密的",
+    "meaning": "；近的 ad.近，靠近 apartment［a＇pa：tmont］n.公寓",
+    "day": "DAY 6",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "familiar",
+    "phonetic": "[fa＇miljə]",
+    "pos": "a.熟悉的",
+    "meaning": "",
+    "day": "DAY 6",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "hometown",
+    "phonetic": "[＇həum＇taun]",
+    "pos": "n.故乡",
+    "meaning": "，家乡 consider［kan＇sidə］vt.考虑",
+    "day": "DAY 6",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "handwriting",
+    "phonetic": "[＇hand，raitig]",
+    "pos": "n.笔迹",
+    "meaning": "，书法 brave［breiv］a.勇敢的",
+    "day": "DAY 6",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "realize",
+    "phonetic": "[＇riəlaiz]",
+    "pos": "vt.意识到",
+    "meaning": "，实现 headteacher［＇hedti：tfo］n.中小学班主任 satisfaction",
+    "day": "DAY 12",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "serious",
+    "phonetic": "[＇siarias]",
+    "pos": "a.严肃的",
+    "meaning": "，严重的 political［po＇litikol］a.政治的 pair［pca］n.一双，",
+    "day": "DAY 12",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "beyond",
+    "phonetic": "[bi＇jond]",
+    "pos": "prep.超过",
+    "meaning": "，超越 mail［meil］n.邮件 v.邮寄",
+    "day": "DAY 12",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "degrec",
+    "phonetic": "[di＇gri：]",
+    "pos": "n.程度",
+    "meaning": "；等级；度数；学位 risk［risk］n.风险 v.冒险",
+    "day": "DAY 12",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "member",
+    "phonetic": "[＇membo]",
+    "pos": "n.成员",
+    "meaning": "，会员 experiment［ik＇speriment］n.实验 task［ta：sk］n.",
+    "day": "DAY 12",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "present",
+    "phonetic": "[＇prezant]",
+    "pos": "n.礼物",
+    "meaning": "，现在 vt.呈现，出席 gain［gein］v.获得",
+    "day": "DAY 12",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "abroad",
+    "phonetic": "[ə＇bro：d]",
+    "pos": "ad.到",
+    "meaning": "（在）国外 pupil［＇pjupl］n.（小）学生 candy［＇kændi］n.",
+    "day": "DAY 12",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "com",
+    "phonetic": "[ko：n]",
+    "pos": "n.玉米",
+    "meaning": "，谷物 honest［＇onist］a.诚实的",
+    "day": "DAY 12",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "smart",
+    "phonetic": "[sma：t]",
+    "pos": "a.聪明的",
+    "meaning": "，敏捷的，时髦的 fail［feil］v.失败；不及格",
+    "day": "DAY 12",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "noise",
+    "phonetic": "[noiz]",
+    "pos": "n.噪音",
+    "meaning": "",
+    "day": "DAY 12",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "term",
+    "phonetic": "[to：m]",
+    "pos": "n.学期",
+    "meaning": "；术语；条款 screen［skri：n］n.屏幕 v.屏蔽，筛 church［tfa：t／］",
+    "day": "DAY 12",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "advantage",
+    "phonetic": "[od＇va：ntid3]",
+    "pos": "n.优点",
+    "meaning": "：好处 loss［ləs］n.丧失",
+    "day": "DAY 12",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "distance",
+    "phonetic": "[＇distans]",
+    "pos": "n.距离",
+    "meaning": "",
+    "day": "DAY 12",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "independent",
+    "phonetic": "[，indi＇pendont]",
+    "pos": "a.独立的",
+    "meaning": "guide［gaid］n.向导，导游 v.引导，带领 airline",
+    "day": "DAY 12",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "mirror",
+    "phonetic": "[＇mira]",
+    "pos": "n.镜子",
+    "meaning": "",
+    "day": "DAY 12",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "population",
+    "phonetic": "[.popju＇leij＇an]",
+    "pos": "n.人口",
+    "meaning": "menu［＇menju：］n.菜单",
+    "day": "DAY 12",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "row",
+    "phonetic": "[rou]",
+    "pos": "n.",
+    "meaning": "（一）排，（一）行 kick［kik］v.＆n.踢",
+    "day": "DAY 12",
+    "source": "high-freq-600"
+  },
+  {
+    "word": "plant",
+    "phonetic": "[plɑː nt]",
+    "pos": "vt.",
+    "meaning": "植物; 种植"
+  },
+  {
+    "word": "wine",
+    "phonetic": "[waɪn]",
+    "pos": "n.",
+    "meaning": "葡萄酒; 补文); 啤酒由谷物酿制，葡萄酒由葡萄酿制。"
+  },
+  {
+    "word": "around",
+    "phonetic": "[ə'raʊnd]",
+    "pos": "prep.",
+    "meaning": "在附近; 请雇佣你的主管向周围人介绍一下你。; 四处"
+  },
+  {
+    "word": "activity",
+    "phonetic": "[æk'tɪvɪtɪ]",
+    "pos": "n.",
+    "meaning": "活动；行动; 词补文); 污染和其他行为有时候会造成一个物种的数量变得非常少以至"
+  },
+  {
+    "word": "building",
+    "phonetic": "['bɪldɪŋ]",
+    "pos": "v.",
+    "meaning": "建筑；建筑物; 建筑；建立"
+  },
+  {
+    "word": "build",
+    "phonetic": "[bɪld]",
+    "pos": "vt.",
+    "meaning": "建立；建筑; 句子); 建造这座桥花费了 14 年时间。"
+  },
+  {
+    "word": "while",
+    "phonetic": "[waɪl]",
+    "pos": "conj.",
+    "meaning": "然而，当...; 的时候"
+  },
+  {
+    "word": "health",
+    "phonetic": "[helθ]",
+    "pos": "n.",
+    "meaning": "健康"
+  },
+  {
+    "word": "healthy",
+    "phonetic": "['helθɪ]",
+    "pos": "adj.",
+    "meaning": "健康的; 填句补文); 想象在一个没有水果的世界，我们就不会非常健康。"
+  },
+  {
+    "word": "unhealthy",
+    "phonetic": "[ʌn'helθɪ]",
+    "pos": "adj.",
+    "meaning": "不健康的"
+  },
+  {
+    "word": "control",
+    "phonetic": "[kən'trəʊl]",
+    "pos": "vt.",
+    "meaning": "控制; 控制; 由于不可控的因素，合同将推迟几周履行。"
+  },
+  {
+    "word": "scientist",
+    "phonetic": "['saɪəntɪst]",
+    "pos": "n.",
+    "meaning": "科学家"
+  },
+  {
+    "word": "still",
+    "phonetic": "[stɪl]",
+    "pos": "adv.",
+    "meaning": "仍然; 断); 能在室内种植农作物还仍旧只是个梦。"
+  },
+  {
+    "word": "audience",
+    "phonetic": "['ɔː dɪəns]",
+    "pos": "n.",
+    "meaning": "观众"
+  },
+  {
+    "word": "campus",
+    "phonetic": "['kæmpəs]",
+    "pos": "n.",
+    "meaning": "（大学）校园"
+  },
+  {
+    "word": "living",
+    "phonetic": "['lɪvɪŋ]",
+    "pos": "",
+    "meaning": "形式）; 读判断); 这是我谋生的方式，有时候会见到有趣的人。"
+  },
+  {
+    "word": "seed",
+    "phonetic": "[siː d]",
+    "pos": "n.",
+    "meaning": "种子"
+  },
+  {
+    "word": "speaker",
+    "phonetic": "['spiː kə]",
+    "pos": "n.",
+    "meaning": "演讲者"
+  },
+  {
+    "word": "biological",
+    "phonetic": "[ˌbaɪəˈ]",
+    "pos": "",
+    "meaning": ""
+  },
+  {
+    "word": "dormitory",
+    "phonetic": "[ˈdɔː]",
+    "pos": "",
+    "meaning": ""
+  },
+  {
+    "word": "farming",
+    "phonetic": "['fɑː mɪŋ]",
+    "pos": "n.",
+    "meaning": "农业; 断); 专家说室内农业解决了很多问题。"
+  },
+  {
+    "word": "humor",
+    "phonetic": "['hju:mə]",
+    "pos": "n.",
+    "meaning": "幽默，诙谐"
+  },
+  {
+    "word": "mean",
+    "phonetic": "[miː n]",
+    "pos": "vt.",
+    "meaning": "意味"
+  },
+  {
+    "word": "mood",
+    "phonetic": "[muː d]",
+    "pos": "n.",
+    "meaning": "情绪"
+  },
+  {
+    "word": "move",
+    "phonetic": "[muː v]",
+    "pos": "vi.",
+    "meaning": "移动；搬家"
+  },
+  {
+    "word": "password",
+    "phonetic": "['pɑː swɜ]",
+    "pos": "n.",
+    "meaning": "密码；口令; 理解)"
+  },
+  {
+    "word": "process",
+    "phonetic": "['prəʊses]",
+    "pos": "n.",
+    "meaning": "过程"
+  },
+  {
+    "word": "through",
+    "phonetic": "[θruː]",
+    "pos": "adv.",
+    "meaning": "从头到尾"
+  },
+  {
+    "word": "almost",
+    "phonetic": "['ɔː]",
+    "pos": "",
+    "meaning": ""
+  },
+  {
+    "word": "decline",
+    "phonetic": "[dɪ'klaɪn]",
+    "pos": "n.",
+    "meaning": "下降; 与其他人相比，他们在记忆力方面有着较缓慢的下降。"
+  },
+  {
+    "word": "mental",
+    "phonetic": "['ment(ə)l]",
+    "pos": "adj.",
+    "meaning": "脑力的"
+  },
+  {
+    "word": "mobile",
+    "phonetic": "[ˈməʊbaɪl]",
+    "pos": "adj.",
+    "meaning": "易变的；非固"
+  },
+  {
+    "word": "probably",
+    "phonetic": "['prɒbəblɪ]",
+    "pos": "adv.",
+    "meaning": "很可能; 补文); 在某些动物中，它（生物钟）可能是被大脑所控制。"
+  },
+  {
+    "word": "show",
+    "phonetic": "[ʃəʊ]",
+    "pos": "vi.",
+    "meaning": "显示; 显示"
+  },
+  {
+    "word": "enough",
+    "phonetic": "[ɪ'nʌf]",
+    "pos": "adj.",
+    "meaning": "足够地; 充足的"
+  },
+  {
+    "word": "expert",
+    "phonetic": "['ekspɜː]",
+    "pos": "",
+    "meaning": ""
+  },
+  {
+    "word": "farm",
+    "phonetic": "[fɑː m]",
+    "pos": "n.",
+    "meaning": "农场"
+  },
+  {
+    "word": "however",
+    "phonetic": "[haʊ'evə]",
+    "pos": "adv.",
+    "meaning": "无论如何；不; 管怎样（接副词或; 形容词）；然而；"
+  },
+  {
+    "word": "interview",
+    "phonetic": "['ɪntəvju]",
+    "pos": "n.",
+    "meaning": "他被告知，参加面试的话要打电话给普拉姆医生。; 面试，面谈"
+  },
+  {
+    "word": "likely",
+    "phonetic": "['laɪklɪ]",
+    "pos": "adj.",
+    "meaning": "很可能的; 害羞的人容易消极并且极易被别人影响。"
+  },
+  {
+    "word": "pain",
+    "phonetic": "[peɪn]",
+    "pos": "n.",
+    "meaning": "疼痛"
+  },
+  {
+    "word": "program",
+    "phonetic": "['prəʊɡræm]",
+    "pos": "n.",
+    "meaning": "程序；安排"
+  },
+  {
+    "word": "real",
+    "phonetic": "[riː]",
+    "pos": "",
+    "meaning": ""
+  },
+  {
+    "word": "rhythm",
+    "phonetic": "['rɪð(ə)m]",
+    "pos": "",
+    "meaning": ""
+  },
+  {
+    "word": "safe",
+    "phonetic": "[seɪf]",
+    "pos": "adj.",
+    "meaning": "安全的; 你所有需要的就是一双好运动鞋和一个安全的环境。"
+  },
+  {
+    "word": "sense",
+    "phonetic": "[sens]",
+    "pos": "vt.",
+    "meaning": "感觉；观念; 在西方观念里我们不是为了爱而结婚的。; 检测"
+  },
+  {
+    "word": "since",
+    "phonetic": "[sɪns]",
+    "pos": "adv.",
+    "meaning": "自…以来; 后来"
+  },
+  {
+    "word": "area",
+    "phonetic": "['eərɪə]",
+    "pos": "n.",
+    "meaning": "地区；范围; 在那个地方我工作了 4 个月，很少和这些人说话。"
+  },
+  {
+    "word": "behavior",
+    "phonetic": "[bɪ'heɪvjə]",
+    "pos": "n.",
+    "meaning": "举止; 读选择); 父母应该怎么和孩子谈论饮食举止呢？"
+  },
+  {
+    "word": "block",
+    "phonetic": "[blɒk]",
+    "pos": "vt.",
+    "meaning": "阻止; 象牙或者陶瓷块上雕刻人物和图片。"
+  },
+  {
+    "word": "domestic",
+    "phonetic": "[də'mestɪk]",
+    "pos": "adj.",
+    "meaning": "家庭的; 家庭暴力不受年龄、种族和社会地位的限制而存在。"
+  },
+  {
+    "word": "European",
+    "phonetic": "[jʊərə'piː]",
+    "pos": "n.",
+    "meaning": "欧洲的; 欧洲人"
+  },
+  {
+    "word": "form",
+    "phonetic": "[fɔː m]",
+    "pos": "vt.",
+    "meaning": "形式; 构成"
+  },
+  {
+    "word": "growth",
+    "phonetic": "[grəʊθ]",
+    "pos": "n.",
+    "meaning": "增长"
+  },
+  {
+    "word": "indoors",
+    "phonetic": "[ɪn'dɔː z]",
+    "pos": "adv.",
+    "meaning": "在室内"
+  },
+  {
+    "word": "instead",
+    "phonetic": "[ɪn'sted]",
+    "pos": "adv.",
+    "meaning": "反而"
+  },
+  {
+    "word": "interest",
+    "phonetic": "['ɪnt(ə)rɪst]",
+    "pos": "vt.",
+    "meaning": "兴趣; 你可以遇到很多有不同兴趣的人。; 使……感兴趣"
+  },
+  {
+    "word": "medical",
+    "phonetic": "['medɪk(ə)l]",
+    "pos": "adj.",
+    "meaning": "医学的; 文); 医生们正在寻找新的方法来使旅行变得更加舒适，使医疗变得更"
+  },
+  {
+    "word": "offer",
+    "phonetic": "['ɒfə]",
+    "pos": "vt.",
+    "meaning": "提供"
+  },
+  {
+    "word": "original",
+    "phonetic": "[ə'rɪdʒɪn(ə)l]",
+    "pos": "adj.",
+    "meaning": "独创的"
+  },
+  {
+    "word": "printing",
+    "phonetic": "['prɪntɪŋ]",
+    "pos": "n.",
+    "meaning": "印刷"
+  },
+  {
+    "word": "respect",
+    "phonetic": "[rɪ'spekt]",
+    "pos": "vt.",
+    "meaning": "尊重; 尊重"
+  },
+  {
+    "word": "role",
+    "phonetic": "[rəʊl]",
+    "pos": "n.",
+    "meaning": "角色"
+  },
+  {
+    "word": "solve",
+    "phonetic": "[sɒlv]",
+    "pos": "vt.",
+    "meaning": "解决; 断); 专家说室内农场解决了很多问题。"
+  },
+  {
+    "word": "special",
+    "phonetic": "['speʃ(ə)l]",
+    "pos": "adj.",
+    "meaning": "特别的"
+  },
+  {
+    "word": "worse",
+    "phonetic": "[wɜː s]",
+    "pos": "adj.",
+    "meaning": "更恶劣的（bad If you're caught, your graduation will be delayed or worse. (2014.10"
+  },
+  {
+    "word": "affect",
+    "phonetic": "[ə'fekt]",
+    "pos": "vt.",
+    "meaning": "影响"
+  },
+  {
+    "word": "alone",
+    "phonetic": "[ə'ləʊn]",
+    "pos": "adv.",
+    "meaning": "独自地"
+  },
+  {
+    "word": "among",
+    "phonetic": "[ə'mʌŋ]",
+    "pos": "prep.",
+    "meaning": "在…之中"
+  },
+  {
+    "word": "besides",
+    "phonetic": "[bɪ'saɪdz]",
+    "pos": "adv.",
+    "meaning": "此外; 阅读判断); 此外，植物对气候和光线有着不同的要求。"
+  },
+  {
+    "word": "bit",
+    "phonetic": "[bɪt]",
+    "pos": "vt.",
+    "meaning": "咬（bite 的过去; 式和过去分词）"
+  },
+  {
+    "word": "classical",
+    "phonetic": "['klæsɪk(ə)l]",
+    "pos": "adj.",
+    "meaning": "古典的；经典"
+  },
+  {
+    "word": "clear",
+    "phonetic": "[klɪə]",
+    "pos": "adj.",
+    "meaning": "清楚的"
+  },
+  {
+    "word": "effect",
+    "phonetic": "[ɪ'fekt]",
+    "pos": "n.",
+    "meaning": "影响"
+  },
+  {
+    "word": "ever",
+    "phonetic": "['evə]",
+    "pos": "adv.",
+    "meaning": "曾经; 没有孩子曾经因为母亲说他胖就减肥的。"
+  },
+  {
+    "word": "extra",
+    "phonetic": "['ekstrə]",
+    "pos": "adj.",
+    "meaning": "额外的; 选择); 这四个小女孩凑钱，发现他们有足够的钱来买这个男孩的额外的"
+  },
+  {
+    "word": "focused",
+    "phonetic": "['fəʊkəst]",
+    "pos": "v.",
+    "meaning": "专心的; 集中（focus 的; 过去式和过去分"
+  },
+  {
+    "word": "focus",
+    "phonetic": "['fəʊkəs]",
+    "pos": "vi.",
+    "meaning": "集中"
+  },
+  {
+    "word": "former",
+    "phonetic": "['fɔː mə]",
+    "pos": "adj.",
+    "meaning": "前者的"
+  },
+  {
+    "word": "influence",
+    "phonetic": "['ɪnflʊəns]",
+    "pos": "vt.",
+    "meaning": "影响"
+  },
+  {
+    "word": "involved",
+    "phonetic": "[ɪn'vɒlvd]",
+    "pos": "v.",
+    "meaning": "卷入的; 包含（involve; 的过去式和过去分"
+  },
+  {
+    "word": "involve",
+    "phonetic": "[ɪn'vɒlv]",
+    "pos": "vt.",
+    "meaning": "包含; 家). It involved 294 people.(2014.10 填词补文); 这个调查由一些美国神经病学家发起。它包含 294 个人。"
+  },
+  {
+    "word": "latter",
+    "phonetic": "['lætə]",
+    "pos": "adj.",
+    "meaning": "后面的"
+  },
+  {
+    "word": "local",
+    "phonetic": "['ləʊk(ə)l]",
+    "pos": "adj.",
+    "meaning": "当地的"
+  },
+  {
+    "word": "national",
+    "phonetic": "[ˈnæʃnəl]",
+    "pos": "adj.",
+    "meaning": "国家的"
+  },
+  {
+    "word": "pole",
+    "phonetic": "[pəʊl]",
+    "pos": "n.",
+    "meaning": "杆；极点"
+  },
+  {
+    "word": "report",
+    "phonetic": "[rɪ'pɔː]",
+    "pos": "",
+    "meaning": ""
+  },
+  {
+    "word": "require",
+    "phonetic": "[rɪ'kwaɪə]",
+    "pos": "vt.",
+    "meaning": "要求"
+  },
+  {
+    "word": "shy",
+    "phonetic": "[ʃaɪ]",
+    "pos": "adj.",
+    "meaning": "害羞的"
+  },
+  {
+    "word": "site",
+    "phonetic": "[saɪt]",
+    "pos": "n.",
+    "meaning": "场所; 补全句子); 艾米丽定期地来建筑工地。"
+  },
+  {
+    "word": "social",
+    "phonetic": "['səʊʃ(ə)l]",
+    "pos": "adj.",
+    "meaning": "社会的"
+  },
+  {
+    "word": "stress",
+    "phonetic": "[stres]",
+    "pos": "n.",
+    "meaning": "压力"
+  },
+  {
+    "word": "stuff",
+    "phonetic": "[stʌf]",
+    "pos": "n.",
+    "meaning": "素材资料; 你刚好在网络上发现了一些适合你科学报告的好资料。"
+  },
+  {
+    "word": "tend",
+    "phonetic": "[tend]",
+    "pos": "vi.",
+    "meaning": "倾向"
+  },
+  {
+    "word": "typical",
+    "phonetic": "['tɪpɪk(ə)l]",
+    "pos": "adj.",
+    "meaning": "典型的"
+  },
+  {
+    "word": "wage",
+    "phonetic": "[weɪdʒ]",
+    "pos": "n.",
+    "meaning": "工资"
+  },
+  {
+    "word": "wedding",
+    "phonetic": "['wedɪŋ]",
+    "pos": "n.",
+    "meaning": "婚礼"
+  },
+  {
+    "word": "wives",
+    "phonetic": "[waɪvz]",
+    "pos": "n.",
+    "meaning": "妻子（wife 的复; 数）"
+  },
+  {
+    "word": "active",
+    "phonetic": "['æktɪv]",
+    "pos": "adj.",
+    "meaning": "活跃的；主动; 的"
+  },
+  {
+    "word": "advice",
+    "phonetic": "[əd'vaɪs]",
+    "pos": "n.",
+    "meaning": "建议; 在多次长途载客中,我和我的乘客都有一个良好的关系，并且收"
+  },
+  {
+    "word": "advise",
+    "phonetic": "[əd'vaɪz]",
+    "pos": "vi.",
+    "meaning": "建议; 建议; 作者的朋友建议她不要和她的儿子讨论他的体重。"
+  },
+  {
+    "word": "assistant",
+    "phonetic": "[ə'sɪst(ə)nt]",
+    "pos": "n.",
+    "meaning": "助手; 阅读选择); 那个年轻的店员告诉他总价格为 37.6 美元。"
+  },
+  {
+    "word": "beaten",
+    "phonetic": "['biː]",
+    "pos": "",
+    "meaning": ""
+  },
+  {
+    "word": "ceremony",
+    "phonetic": "['serɪmənɪ]",
+    "pos": "n.",
+    "meaning": "仪式"
+  },
+  {
+    "word": "certain",
+    "phonetic": "[ˈsɜ:tn]",
+    "pos": "adj.",
+    "meaning": "某个"
+  },
+  {
+    "word": "comfortable",
+    "phonetic": "[ˈ]",
+    "pos": "",
+    "meaning": ""
+  },
+  {
+    "word": "degree",
+    "phonetic": "[dɪ'griː]",
+    "pos": "n.",
+    "meaning": "学位"
+  },
+  {
+    "word": "due",
+    "phonetic": "[djuː]",
+    "pos": "adj.",
+    "meaning": "应有的; 解)"
+  },
+  {
+    "word": "effective",
+    "phonetic": "[ɪ'fektɪv]",
+    "pos": "adj.",
+    "meaning": "有效的"
+  },
+  {
+    "word": "emotional",
+    "phonetic": "[ɪˈ]",
+    "pos": "",
+    "meaning": ""
+  },
+  {
+    "word": "encourage",
+    "phonetic": "[ɪn'kʌrɪdʒ]",
+    "pos": "vt.",
+    "meaning": "鼓励"
+  },
+  {
+    "word": "engineer",
+    "phonetic": "[endʒɪ'nɪə]",
+    "pos": "n.",
+    "meaning": "工程师"
+  },
+  {
+    "word": "favor",
+    "phonetic": "['feɪvə]",
+    "pos": "n.",
+    "meaning": "善行，帮助"
+  },
+  {
+    "word": "fiber",
+    "phonetic": "['faɪbə]",
+    "pos": "n.",
+    "meaning": "纤维"
+  },
+  {
+    "word": "forward",
+    "phonetic": "['fɔː wəd]",
+    "pos": "",
+    "meaning": ""
+  },
+  {
+    "word": "frequently",
+    "phonetic": "['friː]",
+    "pos": "adv.",
+    "meaning": "频繁地 These attacks are happening so frequently these days that you might"
+  },
+  {
+    "word": "fresh",
+    "phonetic": "[freʃ]",
+    "pos": "adj.",
+    "meaning": "新鲜的；清醒"
+  },
+  {
+    "word": "imagine",
+    "phonetic": "[ɪ'mædʒɪn]",
+    "pos": "vt.",
+    "meaning": "想像"
+  },
+  {
+    "word": "improve",
+    "phonetic": "[ɪm'pruː v]",
+    "pos": "vi.",
+    "meaning": "改善; 变得更好"
+  },
+  {
+    "word": "including",
+    "phonetic": "[ɪn'kluː]",
+    "pos": "",
+    "meaning": ""
+  },
+  {
+    "word": "incoming",
+    "phonetic": "['ɪnkʌmɪŋ]",
+    "pos": "adj.",
+    "meaning": "进来的"
+  },
+  {
+    "word": "indoor",
+    "phonetic": "['ɪndɔː]",
+    "pos": "adj.",
+    "meaning": "室内的"
+  },
+  {
+    "word": "labor",
+    "phonetic": "['leɪbə(r)]",
+    "pos": "n.",
+    "meaning": "劳工; 补文); 劳动力市场的衰退很容易被误解。"
+  },
+  {
+    "word": "leading",
+    "phonetic": "['liː dɪŋ]",
+    "pos": "v.",
+    "meaning": "主要的; 领导（lead 的 ing; 形式）"
+  },
+  {
+    "word": "lead",
+    "phonetic": "[liː d]",
+    "pos": "vt.",
+    "meaning": "引导; 理解); 图腾柱上的人过着舒适的生活。"
+  },
+  {
+    "word": "painful",
+    "phonetic": "['peɪnfʊl]",
+    "pos": "adj.",
+    "meaning": "痛苦的"
+  },
+  {
+    "word": "phrase",
+    "phonetic": "[freɪz]",
+    "pos": "n.",
+    "meaning": "措辞；短语; 有时候诗里的某个措辞能让我们热泪盈眶，深深地感动我们。"
+  },
+  {
+    "word": "particular",
+    "phonetic": "[pəˈ]",
+    "pos": "",
+    "meaning": ""
+  },
+  {
+    "word": "physical",
+    "phonetic": "['fɪzɪk(ə)l]",
+    "pos": "adj.",
+    "meaning": "身体的"
+  },
+  {
+    "word": "positive",
+    "phonetic": "['pɒzɪtɪv]",
+    "pos": "adj.",
+    "meaning": "积极的"
+  },
+  {
+    "word": "power",
+    "phonetic": "['paʊə]",
+    "pos": "n.",
+    "meaning": "力量"
+  },
+  {
+    "word": "prepare",
+    "phonetic": "[prɪ'peə]",
+    "pos": "vi.",
+    "meaning": "做好准备"
+  },
+  {
+    "word": "press",
+    "phonetic": "[pres]",
+    "pos": "n.",
+    "meaning": "印刷机"
+  },
+  {
+    "word": "produce",
+    "phonetic": "[prə'djuː s]",
+    "pos": "vt.",
+    "meaning": "生产"
+  },
+  {
+    "word": "project",
+    "phonetic": "['prɒdʒekt]",
+    "pos": "n.",
+    "meaning": "项目"
+  },
+  {
+    "word": "rate",
+    "phonetic": "[reɪt]",
+    "pos": "n.",
+    "meaning": "率"
+  },
+  {
+    "word": "rather",
+    "phonetic": "['rɑː ðə]",
+    "pos": "adv.",
+    "meaning": "宁愿; 全句子); 为什么我们应该微笑而不是皱眉？"
+  },
+  {
+    "word": "recover",
+    "phonetic": "[rɪ'kʌvə]",
+    "pos": "vi.",
+    "meaning": "恢复; 读判断); 浪漫歌曲帮助人们从分手中更快恢复。"
+  },
+  {
+    "word": "related",
+    "phonetic": "[rɪ'leɪtɪd]",
+    "pos": "adj.",
+    "meaning": "有关系的"
+  },
+  {
+    "word": "relief",
+    "phonetic": "[rɪ'liː]",
+    "pos": "",
+    "meaning": ""
+  },
+  {
+    "word": "seedless",
+    "phonetic": "['sidləs]",
+    "pos": "adj.",
+    "meaning": "无子的"
+  },
+  {
+    "word": "shape",
+    "phonetic": "[ʃeɪp]",
+    "pos": "vt.",
+    "meaning": "塑造"
+  },
+  {
+    "word": "shyness",
+    "phonetic": "['ʃaɪnɪs]",
+    "pos": "n.",
+    "meaning": "羞怯"
+  },
+  {
+    "word": "species",
+    "phonetic": "['spiː]",
+    "pos": "n.",
+    "meaning": "物种; 危的）species."
+  },
+  {
+    "word": "state",
+    "phonetic": "[steɪt]",
+    "pos": "n.",
+    "meaning": "情形；州"
+  },
+  {
+    "word": "subject",
+    "phonetic": "['sʌbdʒekt]",
+    "pos": "n.",
+    "meaning": "主题"
+  },
+  {
+    "word": "therefore",
+    "phonetic": "['ðeəfɔː]",
+    "pos": "adv.",
+    "meaning": "因此"
+  },
+  {
+    "word": "tough",
+    "phonetic": "[tʌf]",
+    "pos": "adj.",
+    "meaning": "强硬的"
+  },
+  {
+    "word": "urban",
+    "phonetic": "['ɜː b(ə)n]",
+    "pos": "adj.",
+    "meaning": "城市的; 阅读理解); 城市家庭暴力的发生率最高。"
+  },
+  {
+    "word": "various",
+    "phonetic": "['veərɪəs]",
+    "pos": "adj.",
+    "meaning": "各种各样的; 意和补全句子); 并且你可以在那享受到各种各样的服务。"
+  },
+  {
+    "word": "whenever",
+    "phonetic": "[wen'evə]",
+    "pos": "conj.",
+    "meaning": "每当"
+  }
+]

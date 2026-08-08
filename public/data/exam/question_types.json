@@ -1,0 +1,5 @@
+[
+  { "id": "reading", "title": "阅读理解", "ability": "reading", "responseFormat": "待官方材料核验", "questionCount": null, "score": null, "durationMinutes": null, "applicableSessions": [], "verificationStatus": "pending", "sourceRefs": [], "notes": "不显示推测题量、分值或时长。" },
+  { "id": "translation", "title": "翻译", "ability": "translationWriting", "responseFormat": "待官方材料核验", "questionCount": null, "score": null, "durationMinutes": null, "applicableSessions": [], "verificationStatus": "pending", "sourceRefs": [], "notes": "不显示推测题量、分值或时长。" },
+  { "id": "writing", "title": "写作", "ability": "translationWriting", "responseFormat": "待官方材料核验", "questionCount": null, "score": null, "durationMinutes": null, "applicableSessions": [], "verificationStatus": "pending", "sourceRefs": [], "notes": "不显示推测题量、分值或时长。" }
+]

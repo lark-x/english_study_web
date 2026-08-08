@@ -1,0 +1,43 @@
+{
+  "planId": "jiangxi-13000-2026-october-12-weeks",
+  "targetCourse": "13000 英语（专升本）",
+  "examDate": "2026-10-24",
+  "dailyMinutesWeekday": 75,
+  "dailyMinutesWeekend": 120,
+  "phases": [
+    {
+      "weeks": [1],
+      "name": "摸底与建档",
+      "goals": ["完成一套限时真题", "建立错因分类", "确认个人课程和教材"],
+      "outputs": ["baseline-result.json", "mistake-tags.json"]
+    },
+    {
+      "weeks": [2, 3, 4, 5],
+      "name": "教材第一轮与基础补强",
+      "goals": ["按教材章节阅读", "补核心语法", "建立教材词块卡片"],
+      "dailyTemplate": ["Anki复习15分钟", "教材或阅读25分钟", "练习25分钟", "错题记录10分钟"]
+    },
+    {
+      "weeks": [6, 7, 8],
+      "name": "题型专项",
+      "goals": ["按实际试卷结构训练", "整理高频考点", "每周完成一套限时训练"],
+      "outputs": ["weekly-mock-result.json", "error-review.md"]
+    },
+    {
+      "weeks": [9, 10],
+      "name": "整套真题",
+      "goals": ["每周两套限时试卷", "复做错题", "稳定答题顺序和时间分配"]
+    },
+    {
+      "weeks": [11, 12],
+      "name": "冲刺与保持",
+      "goals": ["复习高频词块和错题", "完成2至3套模拟", "保持作息和考试节奏"]
+    }
+  ],
+  "memoryRules": {
+    "wrong": 1,
+    "uncertain": 3,
+    "correct": 7,
+    "mastered": 14
+  }
+}

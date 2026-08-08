@@ -1,0 +1,88 @@
+[
+  {
+    "id": "national-directory-2026",
+    "title": "2026年高等教育自学考试全国统考课程使用考试大纲、教材目录",
+    "authority": "government_education_department",
+    "url": "https://jyj.baoji.gov.cn/zzbb/zsks/202512/P020251203545772147442.pdf",
+    "publicationDate": "2025-12-03",
+    "retrievedAt": "2026-08-02",
+    "documentVersion": "2026",
+    "pageOrSection": "第19页，序号174",
+    "status": "active",
+    "notes": "公开目录交叉确认13000、课程名称、大纲名称和教材元数据。"
+  },
+  {
+    "id": "shanghai-directory-2026",
+    "title": "2026年10月上海市高等教育自学考试教材及考试大纲书目",
+    "authority": "provincial_exam_authority",
+    "url": "https://www.shmeea.edu.cn/download/20260520/2.pdf",
+    "publicationDate": "2026-05-20",
+    "retrievedAt": "2026-08-02",
+    "documentVersion": "2026年10月",
+    "pageOrSection": "第4页，13000",
+    "status": "active",
+    "notes": "跨省级考试院目录确认课程和教材元数据，不作为江西考期安排依据。"
+  },
+  {
+    "id": "neea-syllabus-directory-2017",
+    "title": "2017年高等教育自学考试全国统考课程考试大纲",
+    "authority": "national_exam_authority",
+    "url": "https://zikao.neea.edu.cn/xhtml1/report/1704/244-1.htm",
+    "publicationDate": "2017-04-05",
+    "retrievedAt": "2026-08-02",
+    "documentVersion": "2017",
+    "pageOrSection": "英语（二）条目",
+    "status": "active",
+    "notes": "确认历史代码00015、英语（二）大纲名称、出版社和2012年版；不直接推断13000当前题型。"
+  },
+  {
+    "id": "jx-plan-2026-lead",
+    "title": "江西省高等教育自学考试专业考试计划（2026版）",
+    "authority": "secondary_lead",
+    "url": "https://jxjy.nchu.edu.cn/upload/jxjy/contentmanage/article/file/2025/05/21/%E6%B1%9F%E8%A5%BF%E7%9C%81%E9%AB%98%E7%AD%89%E6%95%99%E8%82%B2%E8%87%AA%E5%AD%A6%E8%80%83%E8%AF%95%E4%B8%93%E4%B8%9A%E8%80%83%E8%AF%95%E8%AE%A1%E5%88%92%EF%BC%882026%E7%89%88%EF%BC%89.pdf?t=1747790512537",
+    "retrievedAt": "2026-08-02",
+    "status": "pending_review",
+    "notes": "计划内现有资料中的线索，尚未作为江西正式发布事实使用。"
+  },
+  {
+    "id": "fltrp-catalog-2024",
+    "title": "外语教学与研究出版社2024高等学生图书目录",
+    "authority": "official_publisher",
+    "url": "https://www.fltrp.com/ebook/zhcb/zhcb_tsml_gd_xs_2024/files/basic-html/page29.html",
+    "retrievedAt": "2026-08-04",
+    "pageOrSection": "第29页，《英语（二）自学教程（2012年版）》",
+    "status": "active",
+    "notes": "确认指定教材仍在出版社目录中；页面不提供完整大纲词表。"
+  },
+  {
+    "id": "fltrp-textbook-isbn-9787513527064",
+    "title": "英语（二）自学教程（2012年版）正版材料获取目标",
+    "authority": "official_publisher",
+    "url": "https://www.fltrp.com/ebook/zhcb/zhcb_tsml_gd_xs_2024/files/basic-html/page29.html",
+    "retrievedAt": "2026-08-04",
+    "documentVersion": "2012年版",
+    "pageOrSection": "ISBN 978-7-5135-2706-4",
+    "status": "pending_review",
+    "notes": "目标是取得纸书或正版电子材料并核对附录；在取得页码证据前不支持官方完整词表结论。"
+  },
+  {
+    "id": "ecdict-offline-data",
+    "title": "ECDICT 英汉词典数据",
+    "authority": "licensed_material",
+    "url": "https://github.com/skywind3000/ECDICT",
+    "retrievedAt": "2026-08-04",
+    "documentVersion": "项目内课程子集",
+    "status": "active",
+    "notes": "MIT 许可，仅用于离线释义和发音字段补充，不能证明词条属于13000官方大纲范围。"
+  },
+  {
+    "id": "user-workbook-english2-1800",
+    "title": "用户提供：自考英语二带背单词 1800个.xlsx",
+    "authority": "licensed_material",
+    "retrievedAt": "2026-08-04",
+    "documentVersion": "用户本地工作簿",
+    "pageOrSection": "工作表：1-4460(完结）",
+    "status": "pending_review",
+    "notes": "包含英文、音标、中文、频率、自考例句；已提取1844行并去重为1840个headword。作为用户提供的provisional学习来源，不等同于官方完整大纲。"
+  }
+]

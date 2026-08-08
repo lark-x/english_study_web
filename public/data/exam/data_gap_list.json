@@ -1,0 +1,9 @@
+{
+  "reviewedAt": "2026-08-02",
+  "items": [
+    { "id": "full-syllabus", "title": "完整大纲正文与逐条能力要求", "status": "pending", "impact": "不能上线完整官方大纲树和精确考点摘要" },
+    { "id": "jx-question-spec", "title": "江西现行题型、题量、分值、时长", "status": "pending", "impact": "题型页面只展示待核验状态，不显示数字" },
+    { "id": "textbook-unit-map", "title": "教材逐单元与大纲节点映射", "status": "pending", "impact": "不虚构单元映射，页面显示待资料" }
+    ,{ "id": "official-vocabulary-list", "title": "2012版《英语（二）自学考试大纲》合法完整词表", "status": "pending", "impact": "当前1,286条离线词典数据合并为995个学习headword，只能标为provisional/pending-source，不能声称官方全词表覆盖" }
+  ]
+}

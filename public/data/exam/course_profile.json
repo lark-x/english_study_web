@@ -1,0 +1,13 @@
+{
+  "currentCode": "13000",
+  "currentName": "英语（专升本）",
+  "legacyCode": "00015",
+  "legacyName": "英语（二）",
+  "syllabusName": "英语（二）自学考试大纲",
+  "textbook": { "title": "英语（二）自学教程", "authors": ["张敬源", "张虹"], "publisher": "外语教学与研究出版社", "edition": "2012年版" },
+  "regionApplicability": "课程元数据已由现行全国目录确认；江西专业计划和具体考期仍需省级正式材料核验。",
+  "effectiveFrom": "2026",
+  "reviewedAt": "2026-08-02",
+  "sourceRefs": ["national-directory-2026", "shanghai-directory-2026", "neea-syllabus-directory-2017"],
+  "verificationStatus": "official"
+}

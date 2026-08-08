@@ -1,0 +1,15 @@
+{
+  "schemaVersion": "0.1",
+  "items": [
+    {
+      "id": "foundation-reading-001",
+      "path": "2026-08-01_foundation_reading.md",
+      "type": "original-lesson",
+      "level": "cet4-to-intermediate",
+      "skills": ["reading", "grammar", "translation", "writing"],
+      "sourceType": "original",
+      "examRelevance": "general-foundation",
+      "status": "seed"
+    }
+  ]
+}

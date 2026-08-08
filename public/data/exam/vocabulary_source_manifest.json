@@ -1,0 +1,20 @@
+{
+  "courseCode": "13000",
+  "legacyCode": "00015",
+  "currentStatus": "pending-source",
+  "activeLearningSource": "user-workbook-english2-1800",
+  "targetSource": {
+    "title": "英语（二）自学教程（2012年版）及其附录/大纲词表",
+    "isbn": "978-7-5135-2706-4",
+    "publisher": "外语教学与研究出版社",
+    "authors": ["张敬源", "张虹"],
+    "requiredEvidence": ["封面", "版权页", "目录", "词表附录页", "取得凭证或馆藏记录"]
+  },
+  "acceptedStatuses": ["verified", "provisional", "pending-source"],
+  "verificationRules": {
+    "verified": "必须来自合法取得的指定版本材料，保留页码、ISBN、取得日期和SHA-256；不得仅凭网页转载或培训站列表。",
+    "provisional": "有课程或合法辅助材料语境，但尚未证明属于官方完整词表。",
+    "pending-source": "候选词或现有词典词，等待合法大纲/教材页码核验。"
+  },
+  "localOnlyRule": "用户导入的扫描件、OCR中间文件和原始材料只保存在用户本地，不随公开安装包分发。"
+}

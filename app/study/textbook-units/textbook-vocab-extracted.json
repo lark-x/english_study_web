@@ -1,0 +1,1787 @@
+[
+  {
+    "headword": "sufficient",
+    "phonetic": "/sg'fijnt/",
+    "partOfSpeech": "adj.",
+    "meaning": "足够的；充足的",
+    "englishDef": "enough for a particular purpose"
+  },
+  {
+    "headword": "authority",
+    "phonetic": "/oi'Borsti/",
+    "partOfSpeech": "n.",
+    "meaning": "专家；学术权威；泰斗",
+    "englishDef": "a person with special knowledge"
+  },
+  {
+    "headword": "consistent",
+    "phonetic": "/kan'sistsnt/",
+    "partOfSpeech": "adj.",
+    "meaning": "相符的；符合的",
+    "englishDef": "in agreement with something"
+  },
+  {
+    "headword": "directly",
+    "phonetic": "/da'rektli/",
+    "partOfSpeech": "adv.",
+    "meaning": "直接地；径直地",
+    "englishDef": "in a direct line or manner"
+  },
+  {
+    "headword": "identify",
+    "phonetic": "/ai'dentifai/",
+    "partOfSpeech": "v.",
+    "meaning": "找至ij;发现",
+    "englishDef": "to find or discover somebody/something"
+  },
+  {
+    "headword": "valid",
+    "phonetic": "/'vaelid/",
+    "partOfSpeech": "adj.",
+    "meaning": "符合逻辑的；合理的；",
+    "englishDef": "based on what is logical or true"
+  },
+  {
+    "headword": "credible",
+    "phonetic": "/'kredsbl/",
+    "partOfSpeech": "adj.",
+    "meaning": "可信的；可靠的",
+    "englishDef": "that can be believed or trusted"
+  },
+  {
+    "headword": "current",
+    "phonetic": "/'kArant/",
+    "partOfSpeech": "adj.",
+    "meaning": "现时发生的；当前的",
+    "englishDef": "happening now"
+  },
+  {
+    "headword": "considerably",
+    "phonetic": "/kon'sidarabli/",
+    "partOfSpeech": "adv.",
+    "meaning": "非常；很；相当多地",
+    "englishDef": "much; a lot"
+  },
+  {
+    "headword": "confidence",
+    "phonetic": "/'konfidans/",
+    "partOfSpeech": "n.",
+    "meaning": "響 Wertfs",
+    "englishDef": "Me"
+  },
+  {
+    "headword": "mastery",
+    "phonetic": "/'maistari/",
+    "partOfSpeech": "n.",
+    "meaning": "控制；驾驭",
+    "englishDef": "control or power"
+  },
+  {
+    "headword": "dramatically",
+    "phonetic": "/drs'maetikli/",
+    "partOfSpeech": "adv.",
+    "meaning": "巨大地；惊人",
+    "englishDef": "suddenly, greatly and often surprisingly"
+  },
+  {
+    "headword": "please",
+    "phonetic": "/pliiz/",
+    "partOfSpeech": "v.",
+    "meaning": "使满意；使愉快",
+    "englishDef": "to make somebody happy"
+  },
+  {
+    "headword": "command",
+    "phonetic": "/ks'maind/",
+    "partOfSpeech": "n.",
+    "meaning": "给人或云力物",
+    "englishDef": "an order given to a person or an animal ("
+  },
+  {
+    "headword": "sense",
+    "phonetic": "/sens/",
+    "partOfSpeech": "n.",
+    "meaning": "对重大事情的）",
+    "englishDef": "a feeling about something important ("
+  },
+  {
+    "headword": "eliminate",
+    "phonetic": "/I'limineit/",
+    "partOfSpeech": "v.",
+    "meaning": "排除；清",
+    "englishDef": "to remove or get rid of something/somebody"
+  },
+  {
+    "headword": "infinite",
+    "phonetic": "/'infmot/",
+    "partOfSpeech": "adj.",
+    "meaning": "极大的；无法衡量的",
+    "englishDef": "very great, impossible to measure"
+  },
+  {
+    "headword": "stifle",
+    "phonetic": "/'staifl/",
+    "partOfSpeech": "v.",
+    "meaning": "压制；扼杀；阻止",
+    "englishDef": "to prevent something from happening"
+  },
+  {
+    "headword": "internal",
+    "phonetic": "/in'tainl/",
+    "partOfSpeech": "adj.",
+    "meaning": "内心的；头脑中的",
+    "englishDef": "happening or existing in your mind"
+  },
+  {
+    "headword": "commonly",
+    "phonetic": "/'komanli/",
+    "partOfSpeech": "adv.",
+    "meaning": "通常；常常",
+    "englishDef": "usually, very often"
+  },
+  {
+    "headword": "fabulous",
+    "phonetic": "/'faebjsbs/",
+    "partOfSpeech": "adj.",
+    "meaning": "极好的；绝妙的",
+    "englishDef": "extremely good"
+  },
+  {
+    "headword": "occur",
+    "phonetic": "/s'ksiCr)/",
+    "partOfSpeech": "v.",
+    "meaning": "发生；出现",
+    "englishDef": "to happen"
+  },
+  {
+    "headword": "remove",
+    "phonetic": "/ri'muiv/",
+    "partOfSpeech": "v.",
+    "meaning": "移开；",
+    "englishDef": "to take something/somebody away from a place"
+  },
+  {
+    "headword": "grip",
+    "phonetic": "/grip/",
+    "partOfSpeech": "n.",
+    "meaning": "紧握；",
+    "englishDef": "an act of holding somebody/something tightly"
+  },
+  {
+    "headword": "content",
+    "phonetic": "/'kontent/",
+    "partOfSpeech": "n.",
+    "meaning": "戶斤容纳之物；",
+    "englishDef": "the things that are contained in something"
+  },
+  {
+    "headword": "mess",
+    "phonetic": "/mes/",
+    "partOfSpeech": "n.",
+    "meaning": "航脏；杂乱；不整洁",
+    "englishDef": "a dirty or untidy state"
+  },
+  {
+    "headword": "rarely",
+    "phonetic": "/'re9li/",
+    "partOfSpeech": "adv.",
+    "meaning": "罕有；很少；不常",
+    "englishDef": "not very often"
+  },
+  {
+    "headword": "eventually",
+    "phonetic": "/I'ventjuali/",
+    "partOfSpeech": "adv.",
+    "meaning": "最后；",
+    "englishDef": "at the end of a period of time or a series of events"
+  },
+  {
+    "headword": "tiny",
+    "phonetic": "/'taini/",
+    "partOfSpeech": "adj.",
+    "meaning": "极小的；微小的",
+    "englishDef": "very small in size or amount"
+  },
+  {
+    "headword": "grasp",
+    "phonetic": "/graisp/",
+    "partOfSpeech": "v.",
+    "meaning": "抓紧；抓牢",
+    "englishDef": "to take a firm hold of somebody/something"
+  },
+  {
+    "headword": "renowned",
+    "phonetic": "/ri'naund/",
+    "partOfSpeech": "adj.",
+    "meaning": "有名的；闻名的；受尊敬的",
+    "englishDef": "famous and respected"
+  },
+  {
+    "headword": "scientific",
+    "phonetic": "/.saian'tifik/",
+    "partOfSpeech": "adj.",
+    "meaning": "科学（上）的；关于科学的",
+    "englishDef": "connected with science"
+  },
+  {
+    "headword": "valuable",
+    "phonetic": "/'vaeljuabl/",
+    "partOfSpeech": "adj.",
+    "meaning": "很有用的；很重要的：宝贵的",
+    "englishDef": "very useful or important"
+  },
+  {
+    "headword": "glance",
+    "phonetic": "/glams/",
+    "partOfSpeech": "u.",
+    "meaning": "瞥一眼；匆匆",
+    "englishDef": "to look quickly at something/somebody"
+  },
+  {
+    "headword": "frost",
+    "phonetic": "/frost/",
+    "partOfSpeech": "v.",
+    "meaning": "给（糕饼）覆上糖霜",
+    "englishDef": "to cover a cake with icing/frosting"
+  },
+  {
+    "headword": "triumph",
+    "phonetic": "/'traiamf/",
+    "partOfSpeech": "n.",
+    "meaning": "巨大成功；伟",
+    "englishDef": "a great success, achievement or victory"
+  },
+  {
+    "headword": "lumpy",
+    "phonetic": "/'lAmpi/",
+    "partOfSpeech": "adj.",
+    "meaning": "多块状物的；为块状物覆盖的",
+    "englishDef": "full of lumps"
+  },
+  {
+    "headword": "blender",
+    "phonetic": "/'blendsCr)/",
+    "partOfSpeech": "n.",
+    "meaning": "电",
+    "englishDef": "an electric machine for mixing soft food or liquid ("
+  },
+  {
+    "headword": "requisite",
+    "phonetic": "/'rekwizit/",
+    "partOfSpeech": "adj.",
+    "meaning": "必需的；必备的；",
+    "englishDef": "necessary for a particular purpose"
+  },
+  {
+    "headword": "utensil",
+    "phonetic": "/jui'tensl/",
+    "partOfSpeech": "n.",
+    "meaning": "家庭）用具，器皿",
+    "englishDef": "a tool that is used in the house ("
+  },
+  {
+    "headword": "position",
+    "phonetic": "/pa'zijn/",
+    "partOfSpeech": "v.",
+    "meaning": "安",
+    "englishDef": "to put somebody/something in a particular position"
+  },
+  {
+    "headword": "explode",
+    "phonetic": "/ik'spbud/",
+    "partOfSpeech": "v.",
+    "meaning": "突然爆发，迸发（感情）",
+    "englishDef": "to suddenly express an emotion"
+  },
+  {
+    "headword": "trumpet",
+    "phonetic": "/'trAmpit/",
+    "partOfSpeech": "v.",
+    "meaning": "发出哪日八声",
+    "englishDef": "to play a trumpet"
+  },
+  {
+    "headword": "slightly",
+    "phonetic": "/'slaitli/",
+    "partOfSpeech": "adv.",
+    "meaning": "略微；稍微",
+    "englishDef": "a little"
+  },
+  {
+    "headword": "off-balance",
+    "phonetic": "/,Df 'baebns/",
+    "partOfSpeech": "adj.",
+    "meaning": "不平衡的；不",
+    "englishDef": "in an unsteady position and likely to fall"
+  },
+  {
+    "headword": "gently",
+    "phonetic": "/'d3entli/",
+    "partOfSpeech": "adv.",
+    "meaning": "温柔地；温和地；和缓地",
+    "englishDef": "in a gentle way"
+  },
+  {
+    "headword": "silently",
+    "phonetic": "/'sailantli/",
+    "partOfSpeech": "adv.",
+    "meaning": "悄梢地；静静地",
+    "englishDef": "without making any or much sound"
+  },
+  {
+    "headword": "moist",
+    "phonetic": "/moist/",
+    "partOfSpeech": "adj.",
+    "meaning": "微湿的：湿润的",
+    "englishDef": "slightly wet"
+  },
+  {
+    "headword": "occasional",
+    "phonetic": "/9'kei39nl/",
+    "partOfSpeech": "adj.",
+    "meaning": "偶然的；",
+    "englishDef": "happening or done sometimes but not often"
+  },
+  {
+    "headword": "awfully",
+    "phonetic": "/'Difli/",
+    "partOfSpeech": "adv.",
+    "meaning": "非常；极其",
+    "englishDef": "very; extremely"
+  },
+  {
+    "headword": "frustration",
+    "phonetic": "/frA'streiJn/",
+    "partOfSpeech": "n.",
+    "meaning": "令人懊丧",
+    "englishDef": "something that causes you to feel frustrated"
+  },
+  {
+    "headword": "emerge",
+    "phonetic": "/i'm3：d3/",
+    "partOfSpeech": "v.",
+    "meaning": "露头；显现",
+    "englishDef": "to start to exist"
+  },
+  {
+    "headword": "dignity",
+    "phonetic": "/'dignati/",
+    "partOfSpeech": "n.",
+    "meaning": "自豪；自尊；",
+    "englishDef": "a sense of your own importance and value"
+  },
+  {
+    "headword": "tender",
+    "phonetic": "/'tendaCr)/",
+    "partOfSpeech": "adj.",
+    "meaning": "易损坏的；纤弱的；脆弱的",
+    "englishDef": "easily hurt or damaged"
+  },
+  {
+    "headword": "occasionally",
+    "phonetic": "/3乂6巧nsli/",
+    "partOfSpeech": "adv.",
+    "meaning": "偶然；偶尔；有时候",
+    "englishDef": "sometimes but not often"
+  },
+  {
+    "headword": "consequence",
+    "phonetic": "/'konsikwsns/",
+    "partOfSpeech": "n.",
+    "meaning": "结果；后果",
+    "englishDef": "a result of something that has happened"
+  },
+  {
+    "headword": "indeed",
+    "phonetic": "/in'diid/",
+    "partOfSpeech": "adv.",
+    "meaning": "其实；实际上",
+    "englishDef": "used to add information to a statement"
+  },
+  {
+    "headword": "trendy",
+    "phonetic": "/'trendi/",
+    "partOfSpeech": "adj.",
+    "meaning": "时毫的；赶时擊的",
+    "englishDef": "very fashionable"
+  },
+  {
+    "headword": "multitude",
+    "phonetic": "/'mAltitjuid/",
+    "partOfSpeech": "n.",
+    "meaning": "众多；",
+    "englishDef": "an extremely large number of things or people"
+  },
+  {
+    "headword": "mutual",
+    "phonetic": "/'mjuitjusl/",
+    "partOfSpeech": "adj.",
+    "meaning": "共有的；共同的",
+    "englishDef": "shared by two or more people"
+  },
+  {
+    "headword": "perish",
+    "phonetic": "/'penj/",
+    "partOfSpeech": "v.",
+    "meaning": "丧失；理灭；毁灭",
+    "englishDef": "to be lost or destroyed"
+  },
+  {
+    "headword": "thought",
+    "phonetic": "/GoIt/",
+    "partOfSpeech": "n.",
+    "meaning": "想法；看法；",
+    "englishDef": "something that you think of or remember"
+  },
+  {
+    "headword": "akin",
+    "phonetic": "/s'kin/",
+    "partOfSpeech": "adj.",
+    "meaning": "相似的；类似的",
+    "englishDef": "similar to"
+  },
+  {
+    "headword": "deposit",
+    "phonetic": "/di'pDZit/",
+    "partOfSpeech": "n.",
+    "meaning": "存款",
+    "englishDef": "a sum of money that is paid into a bank account"
+  },
+  {
+    "headword": "well-being",
+    "phonetic": "/'welbiiir)/",
+    "partOfSpeech": "n.",
+    "meaning": "健康；安乐；康乐",
+    "englishDef": "general health and happiness"
+  },
+  {
+    "headword": "seek",
+    "phonetic": "/silk/",
+    "partOfSpeech": "v.",
+    "meaning": "寻找",
+    "englishDef": "to look for something/somebody"
+  },
+  {
+    "headword": "notoriety",
+    "phonetic": "/.n^uts'raiati/",
+    "partOfSpeech": "n.",
+    "meaning": "恶名;坏名声",
+    "englishDef": "fame for being bad in some way"
+  },
+  {
+    "headword": "reconnect",
+    "phonetic": "/.riika'nekt/",
+    "partOfSpeech": "v.",
+    "meaning": "再联系；再联络",
+    "englishDef": "to connect somebody again"
+  },
+  {
+    "headword": "lyric",
+    "phonetic": "/'link/",
+    "partOfSpeech": "n.",
+    "meaning": "歌词",
+    "englishDef": "the words of a song"
+  },
+  {
+    "headword": "absolute",
+    "phonetic": "/'aebsaluit/",
+    "partOfSpeech": "adj.",
+    "meaning": "肯定的；",
+    "englishDef": "definite and without any doubt or confusion"
+  },
+  {
+    "headword": "desert",
+    "phonetic": "/di'zait/",
+    "partOfSpeech": "v.",
+    "meaning": "抛弃，离",
+    "englishDef": "to leave somebody without help or support"
+  },
+  {
+    "headword": "treacherous",
+    "phonetic": "/'tretjaras/",
+    "partOfSpeech": "adj.",
+    "meaning": "不可信",
+    "englishDef": "that cannot be trusted; intending to harm you"
+  },
+  {
+    "headword": "poverty",
+    "phonetic": "/'povati/",
+    "partOfSpeech": "n.",
+    "meaning": "贫穷；贫困",
+    "englishDef": "the state of being poor"
+  },
+  {
+    "headword": "sickness",
+    "phonetic": "/'siknas/",
+    "partOfSpeech": "n.",
+    "meaning": "疾病；不健康",
+    "englishDef": "illness; bad health"
+  },
+  {
+    "headword": "wintry",
+    "phonetic": "/'wintri/",
+    "partOfSpeech": "adj.",
+    "meaning": "冬天的；寒冷的",
+    "englishDef": "typical of winter; cold"
+  },
+  {
+    "headword": "fiercely",
+    "phonetic": "/'fissli/",
+    "partOfSpeech": "adv.",
+    "meaning": "猛烈地",
+    "englishDef": "in a physically fierce manner"
+  },
+  {
+    "headword": "roughness",
+    "phonetic": "/'rAfnis/",
+    "partOfSpeech": "n.",
+    "meaning": "艰辛；艰难",
+    "englishDef": "difficult and unpleasant conditions"
+  },
+  {
+    "headword": "pauper",
+    "phonetic": "/'poip9(r)/",
+    "partOfSpeech": "n.",
+    "meaning": "穷人；贫民；乞丐",
+    "englishDef": "a very poor person"
+  },
+  {
+    "headword": "constant",
+    "phonetic": "/'konstant/",
+    "partOfSpeech": "adj.",
+    "meaning": "不变的；固定的；恒定的",
+    "englishDef": "that does not change"
+  },
+  {
+    "headword": "heaven",
+    "phonetic": "/'hevn/",
+    "partOfSpeech": "n.",
+    "meaning": "天空",
+    "englishDef": "the heavens [pi.] the sky"
+  },
+  {
+    "headword": "friendless",
+    "phonetic": "/'frendlss/",
+    "partOfSpeech": "adj.",
+    "meaning": "没有朋友的",
+    "englishDef": "without any friends"
+  },
+  {
+    "headword": "homeless",
+    "phonetic": "/'haumlas/",
+    "partOfSpeech": "adj.",
+    "meaning": "无家的",
+    "englishDef": "having no home"
+  },
+  {
+    "headword": "accompany",
+    "phonetic": "/s'kAmpani/",
+    "partOfSpeech": "v.",
+    "meaning": "陪同；陪伴",
+    "englishDef": "to travel or go somewhere with somebody"
+  },
+  {
+    "headword": "paw",
+    "phonetic": "/po:/",
+    "partOfSpeech": "n.",
+    "meaning": "动物的）爪",
+    "englishDef": "the foot of an animal that has claws or nails ("
+  },
+  {
+    "headword": "alert",
+    "phonetic": "/a'lait/",
+    "partOfSpeech": "adj.",
+    "meaning": "警觉的；",
+    "englishDef": "able to think quickly; quick to notice things"
+  },
+  {
+    "headword": "watchfulness",
+    "phonetic": "/'wotjflnss/",
+    "partOfSpeech": "n.",
+    "meaning": "警惕",
+    "englishDef": "the state of being watchful"
+  },
+  {
+    "headword": "blessing",
+    "phonetic": "/'blesig/",
+    "partOfSpeech": "n.",
+    "meaning": "好事；有益之事",
+    "englishDef": "something that is good or helpful"
+  },
+  {
+    "headword": "cash",
+    "phonetic": "/kaej/",
+    "partOfSpeech": "n.",
+    "meaning": "现金",
+    "englishDef": "money in the form of coins or notes/bills"
+  },
+  {
+    "headword": "illegal",
+    "phonetic": "/I'liigl/",
+    "partOfSpeech": "adj.",
+    "meaning": "不合法的；非法的；违法的",
+    "englishDef": "not allowed by the law"
+  },
+  {
+    "headword": "trafficking",
+    "phonetic": "/'traefikig/",
+    "partOfSpeech": "n.",
+    "meaning": "非法交易；",
+    "englishDef": "the buying and selling of something illegally"
+  },
+  {
+    "headword": "dealer",
+    "phonetic": "/'di:b(r)/",
+    "partOfSpeech": "n.",
+    "meaning": "贩毒者；毒品贩子",
+    "englishDef": "a person who sells illegal drugs"
+  },
+  {
+    "headword": "contribute",
+    "phonetic": "/kan'tribjuit/",
+    "partOfSpeech": "v.",
+    "meaning": "呂增力□;增进；",
+    "englishDef": "to increase, improve or add to somethin"
+  },
+  {
+    "headword": "motivation",
+    "phonetic": "/,m9uti'veijn/",
+    "partOfSpeech": "n.",
+    "meaning": "动机；原因",
+    "englishDef": "a reason for doing something"
+  },
+  {
+    "headword": "solely",
+    "phonetic": "/'sQulli/",
+    "partOfSpeech": "adv.",
+    "meaning": "仅；只；",
+    "englishDef": "only; not involving somebody/something else"
+  },
+  {
+    "headword": "unique",
+    "phonetic": "/ju'niik/",
+    "partOfSpeech": "adj.",
+    "meaning": "独特的；罕见的",
+    "englishDef": "very special or unusual"
+  },
+  {
+    "headword": "survive",
+    "phonetic": "/ss'vaiv/",
+    "partOfSpeech": "v.",
+    "meaning": "生存；存活；继续存在",
+    "englishDef": "to continue to live or exist"
+  },
+  {
+    "headword": "purchase",
+    "phonetic": "/'psitjos/",
+    "partOfSpeech": "v.",
+    "meaning": "购买；采购",
+    "englishDef": "to buy something"
+  },
+  {
+    "headword": "can",
+    "phonetic": "/'traej kaen/",
+    "partOfSpeech": "n.",
+    "meaning": "垃圾桶",
+    "englishDef": "a bin that holds rubbish until it is collected"
+  },
+  {
+    "headword": "exceed",
+    "phonetic": "/ik'siid/",
+    "partOfSpeech": "v.",
+    "meaning": "超过",
+    "englishDef": "to be greater than a particular number or amount"
+  },
+  {
+    "headword": "alleviate",
+    "phonetic": "/a'liivieit/",
+    "partOfSpeech": "v.",
+    "meaning": "减轻；缓和；缓解",
+    "englishDef": "to make something less severe"
+  },
+  {
+    "headword": "seasoned",
+    "phonetic": "/'siiznd/",
+    "partOfSpeech": "adj.",
+    "meaning": "富有",
+    "englishDef": "having a lot of experience of a particular activity"
+  },
+  {
+    "headword": "various",
+    "phonetic": "/'veariss/",
+    "partOfSpeech": "adj.",
+    "meaning": "各种不同的；各种各样的",
+    "englishDef": "several, different"
+  },
+  {
+    "headword": "career",
+    "phonetic": "/ka'riaCr)/",
+    "partOfSpeech": "n.",
+    "meaning": "耳只",
+    "englishDef": "especially one that needs a high level of education"
+  },
+  {
+    "headword": "feed",
+    "phonetic": "/fiid/",
+    "partOfSpeech": "v.",
+    "meaning": "满足（希",
+    "englishDef": "to satisfy a need, desire, etc. and keep it strong"
+  },
+  {
+    "headword": "transcend",
+    "phonetic": "/trsen'send/",
+    "partOfSpeech": "v.",
+    "meaning": "超出，",
+    "englishDef": "to be or go beyond the usual limits of something"
+  },
+  {
+    "headword": "incessantly",
+    "phonetic": "/in'sesntli/",
+    "partOfSpeech": "adv.",
+    "meaning": "不停地；持续不断地",
+    "englishDef": "non-stop"
+  },
+  {
+    "headword": "noisily",
+    "phonetic": "/'noizili/",
+    "partOfSpeech": "adv.",
+    "meaning": "喧闹地",
+    "englishDef": "in the way of making a lot of noise"
+  },
+  {
+    "headword": "subtly",
+    "phonetic": "/'sAtli/",
+    "partOfSpeech": "adv.",
+    "meaning": "不易",
+    "englishDef": "in the way that is not very noticeable or obvious"
+  },
+  {
+    "headword": "affliction",
+    "phonetic": "/s'flikjn/",
+    "partOfSpeech": "n.",
+    "meaning": "折磨；痛苦",
+    "englishDef": "pain and suffering or something that causes it"
+  },
+  {
+    "headword": "confront",
+    "phonetic": "/kan'frAnt/",
+    "partOfSpeech": "v.",
+    "meaning": "处理，解",
+    "englishDef": "to deal with a problem or difficult situation"
+  },
+  {
+    "headword": "anguish",
+    "phonetic": "/'aeggwij/",
+    "partOfSpeech": "n.",
+    "meaning": "居ij痛；极",
+    "englishDef": "severe pain, mental suffering or unhappiness"
+  },
+  {
+    "headword": "despair",
+    "phonetic": "/di'speaCr)/",
+    "partOfSpeech": "n.",
+    "meaning": "绝望",
+    "englishDef": "the feeling of having lost all hope"
+  },
+  {
+    "headword": "engender",
+    "phonetic": "/in'd3end9(r)/",
+    "partOfSpeech": "v.",
+    "meaning": "产生，引起（某种",
+    "englishDef": "to make a feeling or situation exist"
+  },
+  {
+    "headword": "mentally",
+    "phonetic": "/'mentali/",
+    "partOfSpeech": "adv.",
+    "meaning": "精神上；智",
+    "englishDef": "connected with or happening in the mind"
+  },
+  {
+    "headword": "deliberately",
+    "phonetic": "/di'libarstli/",
+    "partOfSpeech": "adv.",
+    "meaning": "故意；",
+    "englishDef": "done in a way that was planned, not by chance"
+  },
+  {
+    "headword": "lately",
+    "phonetic": "/'leitli/",
+    "partOfSpeech": "adv.",
+    "meaning": "最近：新近；近来；不久前",
+    "englishDef": "recently; in the recent past"
+  },
+  {
+    "headword": "desperation",
+    "phonetic": "/,desp9'reijn/",
+    "partOfSpeech": "n.",
+    "meaning": "绝望；拼命；链而走险",
+    "englishDef": "the state of being desperate"
+  },
+  {
+    "headword": "value",
+    "phonetic": "/'vaelju:/",
+    "partOfSpeech": "v.",
+    "meaning": "重视；",
+    "englishDef": "to think that somebody/something is important"
+  },
+  {
+    "headword": "cheerfully",
+    "phonetic": "/'tjiafali/",
+    "partOfSpeech": "adv.",
+    "meaning": "快",
+    "englishDef": "happily, and showing it by the way that you behave"
+  },
+  {
+    "headword": "imagine",
+    "phonetic": "/i'maed3in/",
+    "partOfSpeech": "v.",
+    "meaning": "料想；认为",
+    "englishDef": "to think that something is probably true"
+  },
+  {
+    "headword": "life-threatening",
+    "phonetic": "/'laif 0retni日/",
+    "partOfSpeech": "adj.",
+    "meaning": "可能致命的；威胁着生",
+    "englishDef": "that is likely to kill somebody"
+  },
+  {
+    "headword": "recess",
+    "phonetic": "/ri'ses/",
+    "partOfSpeech": "n.",
+    "meaning": "课间休息",
+    "englishDef": "a period of time between lessons at school"
+  },
+  {
+    "headword": "sibling",
+    "phonetic": "/'siblig/",
+    "partOfSpeech": "n.",
+    "meaning": "兄；弟；姐；妹",
+    "englishDef": "a brother or sister"
+  },
+  {
+    "headword": "scheme",
+    "phonetic": "/skiim/",
+    "partOfSpeech": "n.",
+    "meaning": "计",
+    "englishDef": "a plan or system for doing or organizing something"
+  },
+  {
+    "headword": "kindergarten",
+    "phonetic": "/'kindsgaitn/",
+    "partOfSpeech": "n.",
+    "meaning": "幼儿园",
+    "englishDef": "a nursery school"
+  },
+  {
+    "headword": "monthly",
+    "phonetic": "/'mAn01i/",
+    "partOfSpeech": "adj.",
+    "meaning": "按月结算的；",
+    "englishDef": "paid, valid or calculated for one month"
+  },
+  {
+    "headword": "financially",
+    "phonetic": "/fai'naenjali/",
+    "partOfSpeech": "adv.",
+    "meaning": "经济上",
+    "englishDef": "from a financial point of view"
+  },
+  {
+    "headword": "readily",
+    "phonetic": "/'redili/",
+    "partOfSpeech": "adv.",
+    "meaning": "快捷地；轻而易举地；",
+    "englishDef": "quickly and without difficulty"
+  },
+  {
+    "headword": "available",
+    "phonetic": "/s'veibbl/",
+    "partOfSpeech": "adj.",
+    "meaning": "可获得的；可",
+    "englishDef": "(of things) that you can get, buy or find"
+  },
+  {
+    "headword": "abundant",
+    "phonetic": "/s'bAndant/",
+    "partOfSpeech": "adj.",
+    "meaning": "大量的；",
+    "englishDef": "existing in large quantities; more than enough"
+  },
+  {
+    "headword": "universe",
+    "phonetic": "/'juinivsis/",
+    "partOfSpeech": "n.",
+    "meaning": "宇宙；天地万物；",
+    "englishDef": "the whole of space and everything in it"
+  },
+  {
+    "headword": "favorite",
+    "phonetic": "/'feivarit/",
+    "partOfSpeech": "adj.",
+    "meaning": "口 liked more than others of the same kind",
+    "englishDef": "(Am"
+  },
+  {
+    "headword": "charity",
+    "phonetic": "/'tjaerati/",
+    "partOfSpeech": "n.",
+    "meaning": "慈善机构",
+    "englishDef": "an organization for helping people in need"
+  },
+  {
+    "headword": "abundance",
+    "phonetic": "/s'bAndans/",
+    "partOfSpeech": "n.",
+    "meaning": "大量；丰盛；",
+    "englishDef": "a large quantity that is more than enough"
+  },
+  {
+    "headword": "whereby",
+    "phonetic": "/wes'bai/",
+    "partOfSpeech": "conj.",
+    "meaning": "凭此；藉W;由于",
+    "englishDef": "by which; because of which"
+  },
+  {
+    "headword": "joyfully",
+    "phonetic": "/'d30if9li/",
+    "partOfSpeech": "adv.",
+    "meaning": "快乐地",
+    "englishDef": "in a way that shows happiness"
+  },
+  {
+    "headword": "precisely",
+    "phonetic": "/pri'saisli/",
+    "partOfSpeech": "adv.",
+    "meaning": "准确地；恰巧地",
+    "englishDef": "exactly"
+  },
+  {
+    "headword": "dreaded",
+    "phonetic": "/'dredid/",
+    "partOfSpeech": "adj.",
+    "meaning": "令人害怕的；可怕的",
+    "englishDef": "causing fear"
+  },
+  {
+    "headword": "hesitation",
+    "phonetic": "/.hezi'teijn/",
+    "partOfSpeech": "n.",
+    "meaning": "犹豫",
+    "englishDef": "the act of pausing uncertainly"
+  },
+  {
+    "headword": "feeble",
+    "phonetic": "/'fiibl/",
+    "partOfSpeech": "adj.",
+    "meaning": "无",
+    "englishDef": "not effective; not showing determination or energy"
+  },
+  {
+    "headword": "profusely",
+    "phonetic": "/pro'fjuisli/",
+    "partOfSpeech": "adv.",
+    "meaning": "大量地；连连地",
+    "englishDef": "in an abundant manner"
+  },
+  {
+    "headword": "attach",
+    "phonetic": "/s'taetj/",
+    "partOfSpeech": "v.",
+    "meaning": "手己…固定，手己…",
+    "englishDef": "to fasten or join one thing to another"
+  },
+  {
+    "headword": "contain",
+    "phonetic": "/ksn'tem/",
+    "partOfSpeech": "v.",
+    "meaning": "控制，克串ij，抑制",
+    "englishDef": "to keep your feelings under control"
+  },
+  {
+    "headword": "pleasing",
+    "phonetic": "/|pli:zi口/",
+    "partOfSpeech": "adj.",
+    "meaning": "令人高兴的；令",
+    "englishDef": "that gives you pleasure or satisfaction"
+  },
+  {
+    "headword": "modest",
+    "phonetic": "/'iriDdist/",
+    "partOfSpeech": "adj.",
+    "meaning": "些许的；不",
+    "englishDef": "not very large, expensive, important, etc."
+  },
+  {
+    "headword": "fortune",
+    "phonetic": "/'foitjuin/",
+    "partOfSpeech": "n.",
+    "meaning": "大笔的钱；巨款",
+    "englishDef": "a large amount of money"
+  },
+  {
+    "headword": "wear",
+    "phonetic": "/we9(r)/",
+    "partOfSpeech": "v.",
+    "meaning": "流露；面带",
+    "englishDef": "to have a particular expression on your face"
+  },
+  {
+    "headword": "hit",
+    "phonetic": "/hit/",
+    "partOfSpeech": "n.",
+    "meaning": "很受欢迎的人（或",
+    "englishDef": "a person or thing that is very popular"
+  },
+  {
+    "headword": "glum",
+    "phonetic": "/glAm/",
+    "partOfSpeech": "adj.",
+    "meaning": "忧郁的；闷闷不乐的",
+    "englishDef": "sad, quiet and unhappy"
+  },
+  {
+    "headword": "kitten",
+    "phonetic": "/'kitn/",
+    "partOfSpeech": "n.",
+    "meaning": "小猫",
+    "englishDef": "a young cat"
+  },
+  {
+    "headword": "characteristic",
+    "phonetic": "/.kaerakt^'ristik/",
+    "partOfSpeech": "adj.",
+    "meaning": "典",
+    "englishDef": "very typical of something or of somebody's character"
+  },
+  {
+    "headword": "goodwill",
+    "phonetic": "/.gud'wil/",
+    "partOfSpeech": "n.",
+    "meaning": "呂es to people as a job 由[3递员；信使",
+    "englishDef": "delivers messa"
+  },
+  {
+    "headword": "pregnancy",
+    "phonetic": "/'pregnsnsi/",
+    "partOfSpeech": "n.",
+    "meaning": "怀孕；妊娠；孕期",
+    "englishDef": "the state of being pregnant"
+  },
+  {
+    "headword": "massive",
+    "phonetic": "/'maesiv/",
+    "partOfSpeech": "adj.",
+    "meaning": "巨大的；非常严重的",
+    "englishDef": "extremely large or serious"
+  },
+  {
+    "headword": "limbless",
+    "phonetic": "/'limbs/",
+    "partOfSpeech": "adj.",
+    "meaning": "无四肢的",
+    "englishDef": "having no limbs"
+  },
+  {
+    "headword": "accomplish",
+    "phonetic": "/s'kAmpliJ/",
+    "partOfSpeech": "v.",
+    "meaning": "完成",
+    "englishDef": "to succeed in doing or completing something"
+  },
+  {
+    "headword": "limb",
+    "phonetic": "/lim/",
+    "partOfSpeech": "n.",
+    "meaning": "肢；营；腿",
+    "englishDef": "an arm or a leg"
+  },
+  {
+    "headword": "motivational",
+    "phonetic": "/.mouti'veijanl/",
+    "partOfSpeech": "adj.",
+    "meaning": "鼓舞的",
+    "englishDef": "giving you motivation"
+  },
+  {
+    "headword": "wholeheartedly",
+    "phonetic": "/.hsurhaitidli/",
+    "partOfSpeech": "adv.",
+    "meaning": "全心全意地",
+    "englishDef": "without reserve; without reservation"
+  },
+  {
+    "headword": "altitude",
+    "phonetic": "/'aeltitjuid/",
+    "partOfSpeech": "n.",
+    "meaning": "海拔；海拔高度",
+    "englishDef": "the height above sea level"
+  },
+  {
+    "headword": "perspective",
+    "phonetic": "/po'spektiv/",
+    "partOfSpeech": "n.",
+    "meaning": "态度；观点；",
+    "englishDef": "a particular attitude towards something"
+  },
+  {
+    "headword": "profound",
+    "phonetic": "/pra'faund/",
+    "partOfSpeech": "adj.",
+    "meaning": "巨大的；深",
+    "englishDef": "very great; felt or experienced very strongly"
+  },
+  {
+    "headword": "oftentimes",
+    "phonetic": "/'Dfntaimz/",
+    "partOfSpeech": "adv.",
+    "meaning": "常常",
+    "englishDef": "often"
+  },
+  {
+    "headword": "biend",
+    "phonetic": "/blend/",
+    "partOfSpeech": "n.",
+    "meaning": "不",
+    "englishDef": "a pleasant or useful combination of different things ("
+  },
+  {
+    "headword": "define",
+    "phonetic": "/di'fain/",
+    "partOfSpeech": "v.",
+    "meaning": "阐明；明确；",
+    "englishDef": "to describe or show something accurately"
+  },
+  {
+    "headword": "incredible",
+    "phonetic": "/m'kredabl/",
+    "partOfSpeech": "adj.",
+    "meaning": "不能相信的；难",
+    "englishDef": "impossible or very difficult to believe"
+  },
+  {
+    "headword": "unwed",
+    "phonetic": "/An'wed/",
+    "partOfSpeech": "adj.",
+    "meaning": "未婚的",
+    "englishDef": "of someone who hasn't got married"
+  },
+  {
+    "headword": "recall",
+    "phonetic": "/ri'koil/",
+    "partOfSpeech": "v.",
+    "meaning": "己起；回'区起；回想、起",
+    "englishDef": "to remember something i"
+  },
+  {
+    "headword": "possession",
+    "phonetic": "/pa'zejn/",
+    "partOfSpeech": "n.",
+    "meaning": "具有；拥有",
+    "englishDef": "the state of having or owning something"
+  },
+  {
+    "headword": "sag",
+    "phonetic": "/saeg/",
+    "partOfSpeech": "v.",
+    "meaning": "减弱；减少",
+    "englishDef": "to become weaker or fewer"
+  },
+  {
+    "headword": "successive",
+    "phonetic": "/ssk'sesiv/",
+    "partOfSpeech": "adj.",
+    "meaning": "连续的；接",
+    "englishDef": "following immediately one after the other"
+  },
+  {
+    "headword": "insanely",
+    "phonetic": "/m'seinli/",
+    "partOfSpeech": "adv.",
+    "meaning": "十分；非常",
+    "englishDef": "extremely and unreasonably"
+  },
+  {
+    "headword": "heartbreaking",
+    "phonetic": "/'haitbreikig/",
+    "partOfSpeech": "adj.",
+    "meaning": "令人心",
+    "englishDef": "making you feel extremely sad or disappointed"
+  },
+  {
+    "headword": "instant",
+    "phonetic": "/'instant/",
+    "partOfSpeech": "adj.",
+    "meaning": "立即的；立刻的",
+    "englishDef": "happening immediately"
+  },
+  {
+    "headword": "Immense",
+    "phonetic": "/I'mens/",
+    "partOfSpeech": "adj.",
+    "meaning": "极大的；巨大的",
+    "englishDef": "extremely large or great"
+  },
+  {
+    "headword": "convince",
+    "phonetic": "/ksn'vms/",
+    "partOfSpeech": "v.",
+    "meaning": "说月良，劝说",
+    "englishDef": "to persuade somebody to do something"
+  },
+  {
+    "headword": "catalyst",
+    "phonetic": "/'kaetslist/",
+    "partOfSpeech": "n.",
+    "meaning": "催化剂",
+    "englishDef": "a person or thing that causes a change"
+  },
+  {
+    "headword": "initially",
+    "phonetic": "/I'nijsli/",
+    "partOfSpeech": "adv.",
+    "meaning": "开始；最初；起初",
+    "englishDef": "at the beginning"
+  },
+  {
+    "headword": "petty",
+    "phonetic": "/'peti/",
+    "partOfSpeech": "adj.",
+    "meaning": "小的；琐巧的；次要的",
+    "englishDef": "small and unimportant"
+  },
+  {
+    "headword": "spot",
+    "phonetic": "/spot/",
+    "partOfSpeech": "n.",
+    "meaning": "地点；场戶斤；处戶斤",
+    "englishDef": "a particular area or place"
+  },
+  {
+    "headword": "symbolize",
+    "phonetic": "/'simbalaiz/",
+    "partOfSpeech": "v.",
+    "meaning": "象征；是…的象征；代表",
+    "englishDef": "to be a symbol of something"
+  },
+  {
+    "headword": "incredibly",
+    "phonetic": "/in'kredabli/",
+    "partOfSpeech": "adv.",
+    "meaning": "极端地；极其’",
+    "englishDef": "extremely"
+  },
+  {
+    "headword": "positive",
+    "phonetic": "/'pDzativ/",
+    "partOfSpeech": "adj.",
+    "meaning": "良好的；正面的",
+    "englishDef": "good or useful"
+  },
+  {
+    "headword": "tough",
+    "phonetic": "/tAf/",
+    "partOfSpeech": "adj.",
+    "meaning": "良苦的；艰",
+    "englishDef": "having or causing problems or difficulties"
+  },
+  {
+    "headword": "cinch",
+    "phonetic": "/sintj/",
+    "partOfSpeech": "n.",
+    "meaning": "很容易的事；小莱",
+    "englishDef": "something that is very easy"
+  },
+  {
+    "headword": "brace",
+    "phonetic": "/breis/",
+    "partOfSpeech": "n.",
+    "meaning": "双脚规开多夹",
+    "englishDef": "a metal support for weak or injured legs"
+  },
+  {
+    "headword": "aid",
+    "phonetic": "/eid/",
+    "partOfSpeech": "n.",
+    "meaning": "某工作",
+    "englishDef": "help that you need to perform a particular task ("
+  },
+  {
+    "headword": "majestically",
+    "phonetic": "/m9'd3estikli/",
+    "partOfSpeech": "adv.",
+    "meaning": "威",
+    "englishDef": "in a way that is impressive because of size or beauty"
+  },
+  {
+    "headword": "undo",
+    "phonetic": "/An'dui/",
+    "partOfSpeech": "v.",
+    "meaning": "打",
+    "englishDef": "to open something that is fastened, tied or wrapped"
+  },
+  {
+    "headword": "reverently",
+    "phonetic": "/'revarsntli/",
+    "partOfSpeech": "adv.",
+    "meaning": "恭敬",
+    "englishDef": "in a way that shows great respect and admiration"
+  },
+  {
+    "headword": "purity",
+    "phonetic": "/'pjuarsti/",
+    "partOfSpeech": "n.",
+    "meaning": "纯洁；纯净；纯粹",
+    "englishDef": "the state or quality of being pure"
+  },
+  {
+    "headword": "outburst",
+    "phonetic": "/'autbaist/",
+    "partOfSpeech": "n.",
+    "meaning": "感情的）爆",
+    "englishDef": "a sudden strong expression of an emotion ("
+  },
+  {
+    "headword": "boastfully",
+    "phonetic": "/'baustfali/",
+    "partOfSpeech": "adv.",
+    "meaning": "自吹自插地；自夸地",
+    "englishDef": "in a boastful manner"
+  },
+  {
+    "headword": "pensive",
+    "phonetic": "/'pensiv/",
+    "partOfSpeech": "adj.",
+    "meaning": "吕，especially because",
+    "englishDef": "thinking deeply about somethin"
+  },
+  {
+    "headword": "reverent",
+    "phonetic": "/'revarsnt/",
+    "partOfSpeech": "adj.",
+    "meaning": "非常尊敬的；深",
+    "englishDef": "showing great respect and admiration"
+  },
+  {
+    "headword": "shaky",
+    "phonetic": "/'Jeiki/",
+    "partOfSpeech": "adj.",
+    "meaning": "不稳固的；不牢靠的；摇",
+    "englishDef": "not firm or safe; not certain"
+  },
+  {
+    "headword": "expense",
+    "phonetic": "/ik'spens/",
+    "partOfSpeech": "n.",
+    "meaning": "费用；价钱",
+    "englishDef": "the money that you spend on something"
+  },
+  {
+    "headword": "annually",
+    "phonetic": "/'aenjuali/",
+    "partOfSpeech": "adv.",
+    "meaning": "年一次地",
+    "englishDef": "once a year —"
+  },
+  {
+    "headword": "household",
+    "phonetic": "/'haushauld/",
+    "partOfSpeech": "n.",
+    "meaning": "家人；家庭",
+    "englishDef": "all the people living together in a house —"
+  },
+  {
+    "headword": "transport",
+    "phonetic": "/'traenspoit/",
+    "partOfSpeech": "n.",
+    "meaning": "交通车辆；运输工具；旅",
+    "englishDef": "a vehicle or method of travel"
+  },
+  {
+    "headword": "carbon",
+    "phonetic": "/'kaibsn/",
+    "partOfSpeech": "n.",
+    "meaning": "碳",
+    "englishDef": "a chemical element"
+  },
+  {
+    "headword": "majority",
+    "phonetic": "/m9'd3Dr3ti/",
+    "partOfSpeech": "n.",
+    "meaning": "大音P分；",
+    "englishDef": "the largest part of a group of people or things"
+  },
+  {
+    "headword": "exception",
+    "phonetic": "/ik'sepjn/",
+    "partOfSpeech": "n.",
+    "meaning": "规则的例外；例外",
+    "englishDef": "a thing that does not follow a rule"
+  },
+  {
+    "headword": "stable",
+    "phonetic": "/'steibl/",
+    "partOfSpeech": "adj.",
+    "meaning": "稳定的；",
+    "englishDef": "firmly fixed; not likely to move, change or fail"
+  },
+  {
+    "headword": "consequently",
+    "phonetic": "/'konsikwontli/",
+    "partOfSpeech": "adv.",
+    "meaning": "因此；戶斤W",
+    "englishDef": "as a result; therefore"
+  },
+  {
+    "headword": "iimited",
+    "phonetic": "/'limitid/",
+    "partOfSpeech": "adj.",
+    "meaning": "有限的",
+    "englishDef": "not very great in amount or extent"
+  },
+  {
+    "headword": "authentic",
+    "phonetic": "/oi'0entik/",
+    "partOfSpeech": "adj.",
+    "meaning": "真实的；真正的",
+    "englishDef": "true and accurate"
+  },
+  {
+    "headword": "intentionally",
+    "phonetic": "/in'tenjanali/",
+    "partOfSpeech": "adv.",
+    "meaning": "有意地；故意地",
+    "englishDef": "with intention; in an intentional manner"
+  },
+  {
+    "headword": "respectfully",
+    "phonetic": "/ri'spektfali/",
+    "partOfSpeech": "adv.",
+    "meaning": "恭敬地",
+    "englishDef": "in a respectful manner"
+  },
+  {
+    "headword": "particularly",
+    "phonetic": "/pa'tikjabli/",
+    "partOfSpeech": "adv.",
+    "meaning": "特另U;",
+    "englishDef": "especially; more than usual or more than others"
+  },
+  {
+    "headword": "economical",
+    "phonetic": "/,i:k9'nDmikl/",
+    "partOfSpeech": "adj.",
+    "meaning": "节俭的；",
+    "englishDef": "using no more of something than is necessary"
+  },
+  {
+    "headword": "untoward",
+    "phonetic": "/,Ant9'wo:d/",
+    "partOfSpeech": "adj.",
+    "meaning": "异常",
+    "englishDef": "unusual and unexpected, and usually unpleasant"
+  },
+  {
+    "headword": "push",
+    "phonetic": "/puj/",
+    "partOfSpeech": "n.",
+    "meaning": "矢志的追求；",
+    "englishDef": "a determined effort to achieve something"
+  },
+  {
+    "headword": "variety",
+    "phonetic": "/vs'raiati/",
+    "partOfSpeech": "n.",
+    "meaning": "同一事物的）",
+    "englishDef": "several different sorts of the same thing ("
+  },
+  {
+    "headword": "romance",
+    "phonetic": "/rau'maens/",
+    "partOfSpeech": "n.",
+    "meaning": "恋爱；爱情",
+    "englishDef": "love or the feeling of being in love"
+  },
+  {
+    "headword": "bizarre",
+    "phonetic": "/bi'zai(r)/",
+    "partOfSpeech": "adj.",
+    "meaning": "极其怪诞的；异乎寻常的",
+    "englishDef": "very strange or unusual"
+  },
+  {
+    "headword": "initial",
+    "phonetic": "/I'nijl/",
+    "partOfSpeech": "adj.",
+    "meaning": "最初的；开始的",
+    "englishDef": "happening at the beginning"
+  },
+  {
+    "headword": "literary",
+    "phonetic": "/'litarari/",
+    "partOfSpeech": "adj.",
+    "meaning": "文学的；文学上的",
+    "englishDef": "connected with literature"
+  },
+  {
+    "headword": "inclination",
+    "phonetic": "/.mkli'neijn/",
+    "partOfSpeech": "n.",
+    "meaning": "顷向；",
+    "englishDef": "a feeling that makes you want to do something f"
+  },
+  {
+    "headword": "sweaty",
+    "phonetic": "/'sweti/",
+    "partOfSpeech": "adj.",
+    "meaning": "满是汗的；汗津津的",
+    "englishDef": "covered or damp with sweat"
+  },
+  {
+    "headword": "vary",
+    "phonetic": "/'veari/",
+    "partOfSpeech": "u.",
+    "meaning": "相异；",
+    "englishDef": "to be different from each other in size, shape, etc."
+  },
+  {
+    "headword": "familiarity",
+    "phonetic": "/fa.mili'aerati/",
+    "partOfSpeech": "n.",
+    "meaning": "熟悉；",
+    "englishDef": "the state of knowing somebody/something well"
+  },
+  {
+    "headword": "intensity",
+    "phonetic": "/in'tensati/",
+    "partOfSpeech": "n.",
+    "meaning": "强烈；紧张；剧烈",
+    "englishDef": "the state or quality of being intense"
+  },
+  {
+    "headword": "correspondence",
+    "phonetic": "/.kDrs'spDndans/",
+    "partOfSpeech": "n.",
+    "meaning": "通信；通信联系",
+    "englishDef": "the activity of writing letters"
+  },
+  {
+    "headword": "albeit",
+    "phonetic": "/,3：rbi:it/",
+    "partOfSpeech": "conj.",
+    "meaning": "尽管；虽然",
+    "englishDef": "although"
+  },
+  {
+    "headword": "demon",
+    "phonetic": "/'diiman/",
+    "partOfSpeech": "n.",
+    "meaning": "恶魔；魔鬼",
+    "englishDef": "an evil spirit"
+  },
+  {
+    "headword": "determine",
+    "phonetic": "/di'tsimin/",
+    "partOfSpeech": "v.",
+    "meaning": "决定",
+    "englishDef": "to officially decide something"
+  },
+  {
+    "headword": "traditionally",
+    "phonetic": "/tro'dijanali/",
+    "partOfSpeech": "adv.",
+    "meaning": "传统上；照惯例",
+    "englishDef": "in a traditional way"
+  },
+  {
+    "headword": "availability",
+    "phonetic": "/9,veib'bil9ti/",
+    "partOfSpeech": "n.",
+    "meaning": "可用；可",
+    "englishDef": "the state of being able to be obtained or used"
+  },
+  {
+    "headword": "access",
+    "phonetic": "/'aekses/",
+    "partOfSpeech": "n.",
+    "meaning": "通道；通路；入径",
+    "englishDef": "a way of entering or reaching a place"
+  },
+  {
+    "headword": "option",
+    "phonetic": "/'Dpjn/",
+    "partOfSpeech": "n.",
+    "meaning": "可选择的",
+    "englishDef": "something that you can choose to have or do"
+  },
+  {
+    "headword": "decline",
+    "phonetic": "/di'klam/",
+    "partOfSpeech": "v.",
+    "meaning": "减少；下降；",
+    "englishDef": "to become smaller, fewer, weaker, etc."
+  },
+  {
+    "headword": "consume",
+    "phonetic": "/kan'sjuim/",
+    "partOfSpeech": "v.",
+    "meaning": "吕，especially fuel, energy or time 消耗，",
+    "englishDef": "to use somethin"
+  },
+  {
+    "headword": "tremendous",
+    "phonetic": "/tra'mendgs/",
+    "partOfSpeech": "adj.",
+    "meaning": "巨大的；极大的",
+    "englishDef": "very great"
+  },
+  {
+    "headword": "evidence",
+    "phonetic": "/'evidans/",
+    "partOfSpeech": "v.",
+    "meaning": "证明；表明",
+    "englishDef": "to prove or show something"
+  },
+  {
+    "headword": "cranky",
+    "phonetic": "/'kraegki/",
+    "partOfSpeech": "adj.",
+    "meaning": "脾气坏的",
+    "englishDef": "bad-tempered"
+  },
+  {
+    "headword": "resemble",
+    "phonetic": "/ri'zembl/",
+    "partOfSpeech": "v.",
+    "meaning": "看",
+    "englishDef": "to look like or be similar to another person or thing"
+  },
+  {
+    "headword": "subside",
+    "phonetic": "/sab'said/",
+    "partOfSpeech": "v.",
+    "meaning": "鲁、；Mil ；",
+    "englishDef": "to become calmer or quieter"
+  },
+  {
+    "headword": "ache",
+    "phonetic": "/eik/",
+    "partOfSpeech": "v.",
+    "meaning": "疼痛；隐痛",
+    "englishDef": "to feel a continuous dull pain"
+  },
+  {
+    "headword": "crack",
+    "phonetic": "/kraek/",
+    "partOfSpeech": "v.",
+    "meaning": "找到解决（难题",
+    "englishDef": "to find the solution to a problem, etc."
+  },
+  {
+    "headword": "chore",
+    "phonetic": "/tJo:(r)/",
+    "partOfSpeech": "n.",
+    "meaning": "令人厌烦的任务；乏味无",
+    "englishDef": "an unpleasant or boring task"
+  },
+  {
+    "headword": "manufacture",
+    "phonetic": "/,maenju'faektj9(r)/",
+    "partOfSpeech": "v.",
+    "meaning": "编造；捏造",
+    "englishDef": "to invent a story, an excuse, etc."
+  },
+  {
+    "headword": "hearty",
+    "phonetic": "/'haiti/",
+    "partOfSpeech": "adj.",
+    "meaning": "大的；丰盛的",
+    "englishDef": "large; making you feel full"
+  },
+  {
+    "headword": "vanilla-scented",
+    "phonetic": "/v9,nilo 'sentid/",
+    "partOfSpeech": "adj.",
+    "meaning": "呑草味的",
+    "englishDef": "flavoured with vanilla"
+  },
+  {
+    "headword": "spa",
+    "phonetic": "/spa:/",
+    "partOfSpeech": "n.",
+    "meaning": "水疗",
+    "englishDef": "a good bath for relaxation or invigoration"
+  },
+  {
+    "headword": "refresh",
+    "phonetic": "/ri'frej/",
+    "partOfSpeech": "v.",
+    "meaning": "使恢复精",
+    "englishDef": "to make somebody feel less tired or less hot"
+  },
+  {
+    "headword": "emotionally",
+    "phonetic": "/I'maujansli/",
+    "partOfSpeech": "adv.",
+    "meaning": "感情上地；",
+    "englishDef": "in the way connected with people's feelings"
+  },
+  {
+    "headword": "curly",
+    "phonetic": "/'kaili/",
+    "partOfSpeech": "adj.",
+    "meaning": "有鬟发（或毛）",
+    "englishDef": "having a lot of curls or a curved shape"
+  },
+  {
+    "headword": "celeb",
+    "phonetic": "/sa'leb/",
+    "partOfSpeech": "n.",
+    "meaning": "名人",
+    "englishDef": "a famous person"
+  },
+  {
+    "headword": "mature",
+    "phonetic": "/m9'tju9(r)/",
+    "partOfSpeech": "v.",
+    "meaning": "成熟；长成",
+    "englishDef": "to become fully grown or developed"
+  },
+  {
+    "headword": "bulked-up",
+    "phonetic": "/.bAlkt 'Ap/",
+    "partOfSpeech": "adj.",
+    "meaning": "胀大的；发起来的",
+    "englishDef": "being bigger, thicker and heavier"
+  },
+  {
+    "headword": "hurtful",
+    "phonetic": "/'haitfl/",
+    "partOfSpeech": "adj.",
+    "meaning": "伤",
+    "englishDef": "(of comments) making you feel upset and offended"
+  },
+  {
+    "headword": "ethnic",
+    "phonetic": "/'e0nik/",
+    "partOfSpeech": "adj.",
+    "meaning": "玉2 A 投reak from Life",
+    "englishDef": "Unit"
+  },
+  {
+    "headword": "verify",
+    "phonetic": "/'venfai/",
+    "partOfSpeech": "v.",
+    "meaning": "核实；查对；",
+    "englishDef": "to check that something is true or accurate"
+  },
+  {
+    "headword": "ultimately",
+    "phonetic": "/'Altimatli/",
+    "partOfSpeech": "adv.",
+    "meaning": "最终；最后；终归",
+    "englishDef": "in the end; finally"
+  }
+]
