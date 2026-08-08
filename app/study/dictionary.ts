@@ -23,7 +23,11 @@ const loadBundledDictionary = () => {
 };
 
 const CACHE_KEY = "daily-english-dictionary-cache-v1";
-const API_ROOT = "https://api.dictionaryapi.dev/api/v2/entries/en/";
+const localExtraMeanings: Record<string, string> = {
+  baggage: "行李；随身行李；（精神上的）负担",
+  luggage: "行李；行李箱",
+};
+const API_ROOT = "";
 
 const courseDictionary = new Map<string, DictionaryResult>();
 for (const lesson of lessons) {
@@ -132,6 +136,7 @@ const fromApi = (entries: ApiEntry[], requestedWord: string): DictionaryResult |
 
 export async function lookupWord(rawWord: string, context = "", signal?: AbortSignal): Promise<DictionaryResult> {
   const word = normalizeWord(rawWord);
+  void signal;
   const local = courseDictionary.get(word);
   if (local) return { ...local, examples: [...new Set([context, ...local.examples].filter(Boolean))].map((example) => addChineseHint(example, rawWord, local.meanings[0]?.definition ?? "")).slice(0, 3) };
   const textbookAppendixDictionary = await loadTextbookAppendix();
@@ -144,24 +149,33 @@ export async function lookupWord(rawWord: string, context = "", signal?: AbortSi
     examples: context ? [addChineseHint(context, rawWord, textbookEntry.translation)] : [],
     source: "course",
   };
+  if (localExtraMeanings[word]) return {
+    word: rawWord,
+    phonetic: "",
+    audio: "",
+    meanings: [{ partOfSpeech: "本地词典", definition: localExtraMeanings[word] }],
+    examples: context ? [addChineseHint(context, rawWord, localExtraMeanings[word])] : [],
+    source: "offline",
+  };
   if (basicMeanings[word]) return { word, phonetic: "", audio: "", meanings: [{ partOfSpeech: "基础词", definition: basicMeanings[word] }], examples: context ? [context] : [], source: "basic" };
   const offline = await fromOffline(word, context);
   if (offline) return offline;
   const cache = loadCache()[word];
-  if (cache) return { ...cache, examples: [...new Set([context, ...cache.examples].filter(Boolean))].slice(0, 3) };
+  if (cache && cache.source !== "online") return { ...cache, examples: [...new Set([context, ...cache.examples].filter(Boolean))].slice(0, 3) };
 
-  for (const candidate of candidatesFor(word)) {
+  if (false) for (const candidate of candidatesFor(word)) {
     try {
       const response = await fetch(`${API_ROOT}${encodeURIComponent(candidate)}`, { signal });
       if (!response.ok) continue;
-      const result = fromApi(await response.json() as ApiEntry[], word);
-      if (result) {
-        const withContext = { ...result, word: rawWord, examples: [...new Set([context, ...result.examples].filter(Boolean))].slice(0, 3) };
+      const result: DictionaryResult | null = fromApi(await response.json() as ApiEntry[], word);
+      if (result !== null) {
+        const withContext: DictionaryResult = { word: rawWord, phonetic: result!.phonetic, audio: result!.audio, meanings: result!.meanings, source: result!.source, examples: [...new Set([context, ...result!.examples].filter(Boolean))].slice(0, 3) };
         saveCache(word, withContext);
         return withContext;
       }
     } catch (error) {
-      if (error instanceof DOMException && error.name === "AbortError") throw error;
+      const isAbort = String((error as { name?: unknown })?.name ?? "") === "AbortError";
+      if (isAbort) throw error;
     }
   }
   return { word: rawWord, phonetic: "", audio: "", meanings: [{ partOfSpeech: "上下文词义", definition: "在线词典暂未返回释义。请结合下方原句理解，联网后可再次查询。" }], examples: context ? [context] : [], source: "fallback" };

@@ -85,7 +85,7 @@ test("the app keeps Web-only persistence, import/export, launch, and clickable w
   assert.match(storage, /exportState/);
   assert.match(wordLookup, /lookup-word/);
   assert.match(wordLookup, /播放发音|鎾斁鍙戦煶/);
-  assert.match(dictionary, /api\.dictionaryapi\.dev\/api\/v2\/entries\/en/);
+  assert.doesNotMatch(dictionary, /api\.dictionaryapi\.dev|https:\/\//);
   assert.match(dictionary, /courseDictionary/);
   assert.match(dictionary, /daily-english-dictionary-cache-v1/);
   assert.match(launcher, /npmCommand/);
