@@ -16,6 +16,7 @@ export interface DictionaryResult {
 
 interface OfflineEntry { phonetic: string; definition: string; translation: string; lemma: string }
 interface TextbookAppendixEntry { headword: string; base: string; phonetic: string; translation: string; definition: string }
+interface TextbookCoreEntry { headword: string; phoneticUK?: string | null; chineseMeanings?: string[]; exampleSentences?: string[]; partOfSpeech?: string[] }
 let bundledDictionaryPromise: Promise<Record<string, OfflineEntry>> | null = null;
 const loadBundledDictionary = () => {
   bundledDictionaryPromise ??= import("./offline-dictionary.json").then((module) => module.default as Record<string, OfflineEntry>);
@@ -74,6 +75,19 @@ const loadTextbookAppendix = () => {
     return dictionary;
   });
   return textbookAppendixPromise;
+};
+
+let textbookCorePromise: Promise<Map<string, TextbookCoreEntry>> | null = null;
+const loadTextbookCore = () => {
+  textbookCorePromise ??= import("../../public/data/exam/vocabulary_candidates/textbook_english2_core.json").then((module) => {
+    const dictionary = new Map<string, TextbookCoreEntry>();
+    for (const entry of (module.default as { words: TextbookCoreEntry[] }).words) {
+      const key = normalizeWord(entry.headword);
+      if (key && entry.chineseMeanings?.length) dictionary.set(key, entry);
+    }
+    return dictionary;
+  });
+  return textbookCorePromise;
 };
 
 const loadCache = (): Record<string, DictionaryResult> => {
@@ -154,6 +168,16 @@ export async function lookupWord(rawWord: string, context = "", signal?: AbortSi
     audio: "",
     meanings: [{ partOfSpeech: "教材词汇", definition: textbookEntry.translation }],
     examples: context ? [addChineseHint(context, rawWord, textbookEntry.translation)] : [],
+    source: "course",
+  };
+  const textbookCore = await loadTextbookCore();
+  const coreEntry = candidatesFor(word).map((candidate) => textbookCore.get(candidate)).find(Boolean);
+  if (coreEntry) return {
+    word: rawWord,
+    phonetic: coreEntry.phoneticUK || "",
+    audio: "",
+    meanings: [{ partOfSpeech: coreEntry.partOfSpeech?.join("/") || "教材词汇", definition: coreEntry.chineseMeanings?.join("；") || "" }],
+    examples: (coreEntry.exampleSentences ?? []).slice(0, 3).map((example) => example.includes("\u4e00") ? example : addChineseHint(example, rawWord, coreEntry.chineseMeanings?.join("；") || "")),
     source: "course",
   };
   if (localExtraMeanings[word]) return {

@@ -296,14 +296,18 @@ test("offline dictionary remains bundled at 1,286 entries", async () => {
 });
 
 test("textbook PDF vocabulary supplies Chinese meanings to offline word lookup", async () => {
-  const [dictionarySource, appendix] = await Promise.all([
+  const [dictionarySource, appendix, core] = await Promise.all([
     readFile(new URL("../app/study/dictionary.ts", import.meta.url), "utf8"),
     readFile(new URL("../app/study/textbook-units/pdf-vocab-with-dict.json", import.meta.url), "utf8").then(JSON.parse),
+    readFile(new URL("../public/data/exam/vocabulary_candidates/textbook_english2_core.json", import.meta.url), "utf8").then(JSON.parse),
   ]);
   assert.match(dictionarySource, /pdf-vocab-with-dict\.json/);
   assert.match(dictionarySource, /textbookAppendixDictionary/);
   assert.equal(appendix.length, 652);
   assert.ok(appendix.every((item) => item.translation && /[\u4e00-\u9fff]/.test(item.translation)));
+  assert.match(dictionarySource, /textbook_english2_core\.json/);
+  assert.ok(core.words.length >= 1600);
+  assert.ok(core.words.some((item) => item.exampleSentences?.some((example) => /[\u4e00-\u9fff]/.test(example))));
 });
 
 test("13000 exam center uses traceable facts and never invents exam numbers", async () => {
