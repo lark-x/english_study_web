@@ -15,6 +15,7 @@ export interface DictionaryResult {
 }
 
 interface OfflineEntry { phonetic: string; definition: string; translation: string; lemma: string }
+interface TextbookAppendixEntry { headword: string; base: string; phonetic: string; translation: string; definition: string }
 let bundledDictionaryPromise: Promise<Record<string, OfflineEntry>> | null = null;
 const loadBundledDictionary = () => {
   bundledDictionaryPromise ??= import("./offline-dictionary.json").then((module) => module.default as Record<string, OfflineEntry>);
@@ -52,6 +53,19 @@ const basicMeanings: Record<string, string> = {
 };
 
 const normalizeWord = (word: string) => word.toLowerCase().replace(/[’']/g, "'").replace(/^'+|'+$/g, "").replace(/'s$/, "");
+
+let textbookAppendixPromise: Promise<Map<string, TextbookAppendixEntry>> | null = null;
+const loadTextbookAppendix = () => {
+  textbookAppendixPromise ??= import("./textbook-units/pdf-vocab-with-dict.json").then((module) => {
+    const dictionary = new Map<string, TextbookAppendixEntry>();
+    for (const entry of module.default as TextbookAppendixEntry[]) {
+      const key = entry.base.toLowerCase().trim();
+      if (key && entry.translation) dictionary.set(key, entry);
+    }
+    return dictionary;
+  });
+  return textbookAppendixPromise;
+};
 
 const loadCache = (): Record<string, DictionaryResult> => {
   if (typeof window === "undefined") return {};
@@ -115,6 +129,16 @@ export async function lookupWord(rawWord: string, context = "", signal?: AbortSi
   const word = normalizeWord(rawWord);
   const local = courseDictionary.get(word);
   if (local) return { ...local, examples: [...new Set([context, ...local.examples].filter(Boolean))].slice(0, 3) };
+  const textbookAppendixDictionary = await loadTextbookAppendix();
+  const textbookEntry = candidatesFor(word).map((candidate) => textbookAppendixDictionary.get(candidate)).find(Boolean);
+  if (textbookEntry) return {
+    word: rawWord,
+    phonetic: textbookEntry.phonetic || "",
+    audio: "",
+    meanings: [{ partOfSpeech: "教材词汇", definition: textbookEntry.translation }],
+    examples: context ? [context] : [],
+    source: "course",
+  };
   if (basicMeanings[word]) return { word, phonetic: "", audio: "", meanings: [{ partOfSpeech: "基础词", definition: basicMeanings[word] }], examples: context ? [context] : [], source: "basic" };
   const offline = await fromOffline(word, context);
   if (offline) return offline;
