@@ -89,6 +89,12 @@ docker compose ps
 docker compose logs -f --tail=100
 ```
 
+一键验收部署状态：
+
+```bash
+bash scripts/verify-docker-deployment.sh
+```
+
 访问 `http://服务器IP:4173`。页面由 Nginx 提供，`/api` 请求转发到单用户 API，学习状态同时保存在 PostgreSQL 和浏览器 IndexedDB 中。第一次登录使用 `.env` 中的 `APP_PASSWORD`。
 
 更新版本：
