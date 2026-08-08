@@ -125,7 +125,9 @@ export function toVocabularyEntry(item: MasterVocabularyEntry, stageId: StageId)
     phonetic: item.phoneticUK ?? "发音待核对",
     partOfSpeech: item.partOfSpeech.join("/"),
     meaning: item.chineseMeanings.join("；"),
-    example: item.exampleSentences[0],
+    // A vocabulary card must always provide renderable text. Some appendix entries
+    // do not occur in the extracted unit sentences, so retain the textbook headword.
+    example: item.exampleSentences[0] ?? item.headword,
     status: "new",
   };
 }

@@ -44,8 +44,12 @@ async function loadStudyModules() {
     ['from "./planner"', `from "${plannerUrl}"`],
     ['from "./types"', `from "${typesUrl}"`],
   ]);
-  const [seed, planner, storage] = await Promise.all([import(seedUrl), import(plannerUrl), import(storageUrl)]);
-  return { seed, planner, storage };
+  const vocabularyUrl = await transpile("../app/study/vocabulary.ts", [
+    ['from "./normalized"', `from "${normalizedUrl}"`],
+    ['from "./types"', `from "${typesUrl}"`],
+  ]);
+  const [seed, planner, storage, vocabulary] = await Promise.all([import(seedUrl), import(plannerUrl), import(storageUrl), import(vocabularyUrl)]);
+  return { seed, planner, storage, vocabulary };
 }
 
 test("server renders the Web-only stage-driven English learning system", async () => {
@@ -268,6 +272,15 @@ test("textbook course builder keeps vocabulary within its source and schedule", 
   assert.ok(textbook.vocabulary.every((item) => item.meaning && item.partOfSpeech));
   assert.ok(textbook.audit.maxNewWordsPerDay <= 30);
   assert.equal(textbook.phrases.length, 0);
+});
+
+test("empty review advances safely to a renderable textbook vocabulary step", async () => {
+  const { seed, vocabulary } = await loadStudyModules();
+  const state = seed.createInitialState();
+  const plan = vocabulary.getVocabularyPlan(state, 1, 90);
+  const cards = [...plan.focus, ...plan.extension].map((item) => vocabulary.toVocabularyEntry(item, "stage-1"));
+  assert.ok(cards.length > 0);
+  assert.ok(cards.every((card) => typeof card.example === "string" && card.example.length > 0));
 });
 
 test("offline dictionary remains bundled at 1,286 entries", async () => {
