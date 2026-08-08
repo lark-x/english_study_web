@@ -1,10 +1,11 @@
 import { readFile } from "node:fs/promises";
 
 const readJson = (path) => readFile(new URL(`../${path}`, import.meta.url), "utf8").then(JSON.parse);
-const [course, offline, appendix] = await Promise.all([
+const [course, offline, appendix, core] = await Promise.all([
   readJson("public/data/english2/textbook_course.json"),
   readJson("app/study/offline-dictionary.json"),
   readJson("app/study/textbook-units/pdf-vocab-with-dict.json"),
+  readJson("public/data/exam/vocabulary_candidates/textbook_english2_core.json"),
 ]);
 
 const vocabulary = new Map(course.vocabulary.map((item) => [item.headword.toLowerCase(), item]));
@@ -18,9 +19,10 @@ for (const document of course.documents) {
 }
 
 const appendixByWord = new Map(appendix.map((item) => [item.base.toLowerCase(), item]));
+const coreByWord = new Map(core.words.map((item) => [item.headword.toLowerCase(), item]));
 const missingLocalMeaning = [...words].filter((word) => {
   const courseItem = vocabulary.get(word);
-  return !courseItem?.meaning && !offline[word]?.translation && !appendixByWord.get(word)?.translation;
+  return !courseItem?.meaning && !offline[word]?.translation && !appendixByWord.get(word)?.translation && !coreByWord.get(word)?.chineseMeanings?.length;
 });
 const suspicious = [...vocabulary.values()].filter((item) => /[户斤鍛ij訖蓹藞|]/.test(item.meaning));
 const withoutExample = [...vocabulary.values()].filter((item) => !item.example);
@@ -33,6 +35,7 @@ const report = {
   curriculumVocabulary: vocabulary.size,
   localOfflineDictionary: Object.keys(offline).length,
   textbookAppendixDictionary: appendix.length,
+  textbookCoreDictionary: core.words.length,
   missingLocalMeaning: missingLocalMeaning.length,
   missingLocalMeaningSample: missingLocalMeaning.slice(0, 40),
   suspiciousCurriculumMeanings: suspicious.length,
