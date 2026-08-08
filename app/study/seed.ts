@@ -180,7 +180,7 @@ function makeLesson(day: number): Lesson {
 }
 
 export const lessons: Lesson[] = Array.from({ length: 84 }, (_, index) => makeLesson(index + 1));
-export const migratedReadingLessons = lessons.filter((lesson) => lesson.sourceCategory === "past-paper");
+export const migratedReadingLessons = lessons.filter((lesson) => lesson.stageId === "stage-3" && lesson.lessonType === "transition-reading");
 
 export const curatedAssessmentQuestions: Question[] = [
   q("a-v1", "vocabulary", "What does push mean?", ["推；推动", "天空", "文化", "湖"], 0, "push 来自 normalized 高频词资料。"),

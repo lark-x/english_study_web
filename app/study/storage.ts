@@ -83,6 +83,30 @@ const writeIndexedState = async (state: AppState) => {
   });
 };
 
+const mergeById = <T extends { id: string }>(local: T[], remote: T[]) => {
+  const merged = new Map(remote.map((item) => [item.id, item]));
+  for (const item of local) if (!merged.has(item.id)) merged.set(item.id, item);
+  return [...merged.values()];
+};
+
+const mergeStates = (local: AppState, remote: AppState): AppState => ({
+  ...remote,
+  profile: { ...local.profile, ...remote.profile },
+  sessions: mergeById(local.sessions, remote.sessions),
+  reviewItems: mergeById(local.reviewItems, remote.reviewItems),
+  mistakes: mergeById(local.mistakes, remote.mistakes),
+  attempts: [...new Map([...remote.attempts, ...local.attempts].map((item) => [`${item.questionId}-${item.answeredAt}`, item])).values()],
+  savedExpressions: [...new Set([...remote.savedExpressions, ...local.savedExpressions])],
+  dailyPlans: { ...local.dailyPlans, ...remote.dailyPlans },
+  mastery: {
+    ...local.mastery,
+    ...remote.mastery,
+    vocabulary: { ...local.mastery.vocabulary, ...remote.mastery.vocabulary },
+    grammar: { ...local.mastery.grammar, ...remote.mastery.grammar },
+    syllabusNodeProgress: { ...local.mastery.syllabusNodeProgress, ...remote.mastery.syllabusNodeProgress },
+  },
+});
+
 const isObject = (value: unknown): value is Record<string, unknown> => !!value && typeof value === "object";
 
 const validState = (value: unknown): value is AppState => {
@@ -264,6 +288,17 @@ const normalizeState = (value: unknown): AppState | null => {
 export const loadState = async (): Promise<AppState> => {
   const remote = await remoteState();
   if (remote) {
+    try {
+      const local = normalizeState(await readIndexedState());
+      if (local) {
+        const merged = mergeStates(local, remote);
+        await writeIndexedState(merged);
+        void saveRemoteState(merged);
+        return merged;
+      }
+    } catch {
+      // Use the remote state when local storage is unavailable.
+    }
     await writeIndexedState(remote);
     return remote;
   }

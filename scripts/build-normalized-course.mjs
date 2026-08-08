@@ -187,7 +187,9 @@ const explicitVocabularyRaw = parseVocabulary(vocabularyDocument?.sections.map((
 const supportedHeadwords = new Set([...Object.keys(dictionary), ...workbook.words.map((item) => item.headword.toLowerCase())]);
 const explicitVocabulary = explicitVocabularyRaw.filter((item) => supportedHeadwords.has(item.headword));
 const corpusVocabulary = extractCorpusVocabulary(documents, dictionary, workbook.words, new Set(explicitVocabulary.map((item) => item.headword)));
-const vocabulary = [...explicitVocabulary, ...corpusVocabulary].map((entry, index) => ({ ...entry, firstExposureDay: Math.floor(index / 30) + 1 }));
+const vocabulary = [...explicitVocabulary, ...corpusVocabulary]
+  .filter((entry, index, list) => list.findIndex((candidate) => candidate.headword.toLowerCase() === entry.headword.toLowerCase()) === index)
+  .map((entry, index) => ({ ...entry, firstExposureDay: Math.floor(index / 30) + 1 }));
 const phrases = parsePhrases(phraseDocument?.sections.map((item) => item.content).join("\n") ?? "");
 
 const schedule = Array.from({ length: 84 }, (_, index) => {
@@ -229,5 +231,5 @@ const payload = {
 };
 
 await mkdir(outputRoot, { recursive: true });
-await writeFile(outputFile, `${JSON.stringify(payload)}\n`, "utf8");
+await writeFile(outputFile, `${JSON.stringify(payload, null, 2)}\n`, "utf8");
 console.log(JSON.stringify({ outputFile, ...payload.audit, totalCharacters: payload.totalCharacters }, null, 2));

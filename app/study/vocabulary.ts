@@ -2,7 +2,7 @@
 import { normalizedCourse } from "./normalized";
 import type { AppState, StageId, StudyMode, VocabularyEntry } from "./types";
 
-export const MAX_NEW_WORDS_PER_DAY = 35;
+export const MAX_NEW_WORDS_PER_DAY = 30;
 export type VocabularyVerification = "verified" | "provisional" | "pending-source";
 export type PriorityBand = "A" | "B" | "C";
 
