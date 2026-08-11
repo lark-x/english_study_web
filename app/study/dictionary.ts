@@ -117,8 +117,17 @@ const mergeExamplePairs = (
   return { examples, exampleTranslations: translations };
 };
 
+const contextualExample = (context: string, word: string) => {
+  const normalizedContext = context.toLowerCase().replace(/[’']/g, "'");
+  return candidatesFor(normalizeWord(word)).some((candidate) => {
+    if (!candidate) return false;
+    return new RegExp(`\\b${candidate.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\b`, "i").test(normalizedContext);
+  }) ? context : "";
+};
+
 const candidatesFor = (word: string) => {
   const values = [word];
+  if (word.includes("-")) values.push(word.replace(/-/g, ""));
   if (word.endsWith("n't")) values.push(word.slice(0, -3));
   if (word.endsWith("'ll")) values.push(word.slice(0, -3));
   if (word.endsWith("'re")) values.push(word.slice(0, -3));
@@ -173,7 +182,7 @@ export async function lookupWord(rawWord: string, context = "", signal?: AbortSi
   const ocrLookup = candidatesFor(word).map((candidate) => textbookLookup.get(candidate)).find(Boolean);
   if (local) {
     const merged = mergeExamplePairs([
-      { example: context },
+      { example: contextualExample(context, rawWord) },
       ...local.examples.map((example, index) => ({ example, translation: local.exampleTranslations?.[index] })),
       ...(ocrLookup?.examples ?? []).map((example, index) => ({ example, translation: ocrLookup.exampleTranslations?.[index] })),
     ], rawWord, local.meanings[0]?.definition ?? "");
@@ -192,7 +201,7 @@ export async function lookupWord(rawWord: string, context = "", signal?: AbortSi
       ...(ocrLookup.englishDefinitions ?? []).filter(Boolean).slice(0, 2).map((definition) => ({ partOfSpeech: "英文释义", definition })),
     ].slice(0, 5),
     ...mergeExamplePairs([
-      { example: context },
+      { example: contextualExample(context, rawWord) },
       ...(ocrLookup.examples ?? []).map((example, index) => ({ example, translation: ocrLookup.exampleTranslations?.[index] })),
     ], rawWord, ocrLookup.meanings?.[0] ?? ""),
     collocations: ocrLookup.collocations?.slice(0, 8) ?? [],
@@ -203,16 +212,16 @@ export async function lookupWord(rawWord: string, context = "", signal?: AbortSi
     phonetic: "",
     audio: "",
     meanings: [{ partOfSpeech: "本地词典", definition: localExtraMeanings[word] }],
-    ...mergeExamplePairs([{ example: context }], rawWord, localExtraMeanings[word]),
+    ...mergeExamplePairs([{ example: contextualExample(context, rawWord) }], rawWord, localExtraMeanings[word]),
     source: "offline",
   };
-  if (basicMeanings[word]) return { word, phonetic: "", audio: "", meanings: [{ partOfSpeech: "基础词", definition: basicMeanings[word] }], ...mergeExamplePairs([{ example: context }], rawWord, basicMeanings[word]), source: "basic" };
+  if (basicMeanings[word]) return { word, phonetic: "", audio: "", meanings: [{ partOfSpeech: "基础词", definition: basicMeanings[word] }], ...mergeExamplePairs([{ example: contextualExample(context, rawWord) }], rawWord, basicMeanings[word]), source: "basic" };
   const offline = await fromOffline(word, context);
   if (offline) return offline;
   const cache = loadCache()[word];
   if (cache && cache.source !== "online") {
     const merged = mergeExamplePairs([
-      { example: context },
+      { example: contextualExample(context, rawWord) },
       ...cache.examples.map((example, index) => ({ example, translation: cache.exampleTranslations?.[index] })),
     ], rawWord, cache.meanings[0]?.definition ?? "");
     return { ...cache, ...merged };
@@ -225,7 +234,7 @@ export async function lookupWord(rawWord: string, context = "", signal?: AbortSi
       const result: DictionaryResult | null = fromApi(await response.json() as ApiEntry[], word);
       if (result !== null) {
         const merged = mergeExamplePairs([
-          { example: context },
+          { example: contextualExample(context, rawWord) },
           ...result!.examples.map((example, index) => ({ example, translation: result!.exampleTranslations?.[index] })),
         ], rawWord, result!.meanings[0]?.definition ?? "");
         const withContext: DictionaryResult = { word: rawWord, phonetic: result!.phonetic, audio: result!.audio, meanings: result!.meanings, source: result!.source, ...merged };
@@ -237,5 +246,5 @@ export async function lookupWord(rawWord: string, context = "", signal?: AbortSi
       if (isAbort) throw error;
     }
   }
-  return { word: rawWord, phonetic: "", audio: "", meanings: [{ partOfSpeech: "上下文词义", definition: "本地词典暂未收录该词。请结合下方原句理解，之后可补充到离线词库。" }], ...mergeExamplePairs([{ example: context }], rawWord, ""), source: "fallback" };
+  return { word: rawWord, phonetic: "", audio: "", meanings: [{ partOfSpeech: "上下文词义", definition: "本地词典暂未收录该词。请结合下方原句理解，之后可补充到离线词库。" }], ...mergeExamplePairs([{ example: contextualExample(context, rawWord) }], rawWord, ""), source: "fallback" };
 }

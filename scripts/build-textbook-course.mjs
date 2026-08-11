@@ -75,6 +75,7 @@ function extractEnglishSentences(text, limit = 36) {
 function candidatesForWord(word) {
   const values = [normalizeWord(word)];
   const base = values[0];
+  if (base.includes("-")) values.push(base.replace(/-/g, ""));
   if (base.endsWith("ies") && base.length > 4) values.push(`${base.slice(0, -3)}y`);
   if (base.endsWith("ing") && base.length > 5) values.push(base.slice(0, -3), `${base.slice(0, -3)}e`);
   if (base.endsWith("ied") && base.length > 4) values.push(`${base.slice(0, -3)}y`);
@@ -171,9 +172,12 @@ function isLikelyOcrJunkWord(entry, sources) {
 function exampleTranslationFor(example, headword, meaning, bilingual) {
   if (bilingual?.example && bilingual.translation) return { example: bilingual.example, translation: bilingual.translation };
   const cleanExample = compact(example || headword);
+  const isHeadwordOnly = normalizeWord(cleanExample) === normalizeWord(headword) || !/\s/.test(cleanExample);
   return {
     example: cleanExample,
-    translation: `教材原句理解：本句包含 “${headword}”，核心义为“${meaning || "释义已收录在本地词典"}”。`,
+    translation: isHeadwordOnly
+      ? `${headword}：${meaning || "教材词汇"}`
+      : `教材原句理解：本句包含 “${headword}”，核心义为“${meaning || "教材词汇"}”。`,
   };
 }
 
@@ -535,8 +539,10 @@ function validate(pages, unitResults, schedule, vocabulary, lookupEntries) {
   if (unresolvedVocabulary.length) failures.push(`Core vocabulary still has unresolved fields: ${unresolvedVocabulary.slice(0, 20).map((item) => `${item.entry.headword}:${item.issue}`).join(", ")}`);
   const lookupIssue = (entry) => [
     (entry.meanings ?? []).some((meaning) => /待核对/.test(meaning)) ? "meaning" : "",
+    (entry.meanings ?? []).some((meaning) => /未在本地通用词典中单列|释义已收录在本地词典/.test(meaning)) ? "placeholder" : "",
     /待核对/.test(entry.partOfSpeech ?? "") ? "pos" : "",
     !(entry.exampleTranslations ?? []).length ? "translation" : "",
+    (entry.exampleTranslations ?? []).some((translation) => /释义已收录在本地词典/.test(translation)) ? "translation-placeholder" : "",
   ].filter(Boolean).join("/");
   const unresolvedLookup = lookupEntries.map((entry) => ({ entry, issue: lookupIssue(entry) })).filter((item) => item.issue);
   if (unresolvedLookup.length) failures.push(`Lookup entries still have unresolved fields: ${unresolvedLookup.slice(0, 20).map((item) => `${item.entry.headword}:${item.issue}`).join(", ")}`);
