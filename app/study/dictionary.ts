@@ -13,12 +13,13 @@ export interface DictionaryResult {
   audio: string;
   meanings: DictionaryMeaning[];
   examples: string[];
+  exampleTranslations?: string[];
   collocations?: string[];
   source: "course" | "offline" | "online" | "basic" | "fallback";
 }
 
 interface OfflineEntry { phonetic: string; definition: string; translation: string; lemma: string }
-interface TextbookLookupEntry { headword: string; phonetic?: string; partOfSpeech?: string; meanings?: string[]; englishDefinitions?: string[]; examples?: string[]; collocations?: string[] }
+interface TextbookLookupEntry { headword: string; phonetic?: string; partOfSpeech?: string; meanings?: string[]; englishDefinitions?: string[]; examples?: string[]; exampleTranslations?: string[]; collocations?: string[] }
 let bundledDictionaryPromise: Promise<Record<string, OfflineEntry>> | null = null;
 const loadBundledDictionary = () => {
   bundledDictionaryPromise ??= import("./offline-dictionary.json").then((module) => module.default as Record<string, OfflineEntry>);
@@ -42,7 +43,9 @@ for (const lesson of lessons) {
     if (!courseDictionary.has(key)) courseDictionary.set(key, {
       word: item.word, phonetic: item.phonetic, audio: "",
       meanings: [{ partOfSpeech: item.partOfSpeech, definition: item.meaning }],
-      examples: [item.exampleTranslation ? `${item.example}\n中文译文：${item.exampleTranslation}` : item.example], source: "course",
+      examples: item.example ? [item.example] : [],
+      exampleTranslations: item.exampleTranslation ? [item.exampleTranslation] : [],
+      source: "course",
     });
   }
 }
@@ -79,11 +82,39 @@ const saveCache = (word: string, result: DictionaryResult) => {
   } catch { /* Dictionary caching is optional. */ }
 };
 
-const addChineseHint = (example: string, word: string, meaning: string) => {
-  if (!example || !meaning || /[\u4e00-\u9fff]/.test(example)) return example;
+const cleanExampleText = (example: string) => example
+  .split(/\n(?:中文译文|中文提示|词义提示)：/)
+  .at(0)
+  ?.trim() ?? example.trim();
+
+const chineseHintForExample = (example: string, word: string, meaning: string) => {
+  if (!example || /[\u4e00-\u9fff]/.test(example)) return "";
   const translation = localExampleTranslations[example.trim().toLowerCase()];
-  if (translation) return `${example}\n中文译文：${translation}\n词义提示：“${word}”表示：${meaning}`;
-  return `${example}\n中文提示：“${word}”在本句中可理解为：${meaning}`;
+  if (translation) return translation;
+  if (!meaning) return "";
+  return `教材原句理解：本句包含 “${word}”，核心义为“${meaning}”。`;
+};
+
+const mergeExamplePairs = (
+  items: Array<{ example?: string; translation?: string }>,
+  word: string,
+  meaning: string,
+  limit = 3,
+) => {
+  const examples: string[] = [];
+  const translations: string[] = [];
+  const seen = new Set<string>();
+  for (const item of items) {
+    const example = cleanExampleText(item.example ?? "");
+    if (!example) continue;
+    const key = example.toLowerCase();
+    if (seen.has(key)) continue;
+    seen.add(key);
+    examples.push(example);
+    translations.push(item.translation?.trim() || chineseHintForExample(example, word, meaning));
+    if (examples.length >= limit) break;
+  }
+  return { examples, exampleTranslations: translations };
 };
 
 const candidatesFor = (word: string) => {
@@ -110,7 +141,8 @@ const fromOffline = async (word: string, context: string): Promise<DictionaryRes
     if (entry.translation) meanings.push({ partOfSpeech: "中文释义", definition: entry.translation.replace(/\\n/g, "；") });
     if (entry.definition) meanings.push({ partOfSpeech: "英文释义", definition: entry.definition.replace(/\\n/g, "; ") });
     if (!meanings.length) continue;
-    return { word, phonetic: entry.phonetic ? `/${entry.phonetic.replace(/^\/+|\/+$/g, "")}/` : "", audio: "", meanings, examples: context ? [addChineseHint(context, word, entry.translation)] : [], source: "offline" };
+    const merged = mergeExamplePairs([{ example: context }], word, entry.translation);
+    return { word, phonetic: entry.phonetic ? `/${entry.phonetic.replace(/^\/+|\/+$/g, "")}/` : "", audio: "", meanings, ...merged, source: "offline" };
   }
   return null;
 };
@@ -139,11 +171,18 @@ export async function lookupWord(rawWord: string, context = "", signal?: AbortSi
   void signal;
   const local = courseDictionary.get(word);
   const ocrLookup = candidatesFor(word).map((candidate) => textbookLookup.get(candidate)).find(Boolean);
-  if (local) return {
-    ...local,
-    collocations: ocrLookup?.collocations?.slice(0, 8) ?? [],
-    examples: [...new Set([context, ...local.examples, ...(ocrLookup?.examples ?? [])].filter(Boolean))].map((example) => addChineseHint(example, rawWord, local.meanings[0]?.definition ?? "")).slice(0, 3),
-  };
+  if (local) {
+    const merged = mergeExamplePairs([
+      { example: context },
+      ...local.examples.map((example, index) => ({ example, translation: local.exampleTranslations?.[index] })),
+      ...(ocrLookup?.examples ?? []).map((example, index) => ({ example, translation: ocrLookup.exampleTranslations?.[index] })),
+    ], rawWord, local.meanings[0]?.definition ?? "");
+    return {
+      ...local,
+      collocations: ocrLookup?.collocations?.slice(0, 8) ?? [],
+      ...merged,
+    };
+  }
   if (ocrLookup) return {
     word: rawWord,
     phonetic: ocrLookup.phonetic || "",
@@ -152,7 +191,10 @@ export async function lookupWord(rawWord: string, context = "", signal?: AbortSi
       ...(ocrLookup.meanings ?? []).filter(Boolean).slice(0, 3).map((definition) => ({ partOfSpeech: ocrLookup.partOfSpeech || "OCR 教材词汇", definition })),
       ...(ocrLookup.englishDefinitions ?? []).filter(Boolean).slice(0, 2).map((definition) => ({ partOfSpeech: "英文释义", definition })),
     ].slice(0, 5),
-    examples: [...new Set([context, ...(ocrLookup.examples ?? [])].filter(Boolean))].slice(0, 3),
+    ...mergeExamplePairs([
+      { example: context },
+      ...(ocrLookup.examples ?? []).map((example, index) => ({ example, translation: ocrLookup.exampleTranslations?.[index] })),
+    ], rawWord, ocrLookup.meanings?.[0] ?? ""),
     collocations: ocrLookup.collocations?.slice(0, 8) ?? [],
     source: "course",
   };
@@ -161,14 +203,20 @@ export async function lookupWord(rawWord: string, context = "", signal?: AbortSi
     phonetic: "",
     audio: "",
     meanings: [{ partOfSpeech: "本地词典", definition: localExtraMeanings[word] }],
-    examples: context ? [addChineseHint(context, rawWord, localExtraMeanings[word])] : [],
+    ...mergeExamplePairs([{ example: context }], rawWord, localExtraMeanings[word]),
     source: "offline",
   };
-  if (basicMeanings[word]) return { word, phonetic: "", audio: "", meanings: [{ partOfSpeech: "基础词", definition: basicMeanings[word] }], examples: context ? [context] : [], source: "basic" };
+  if (basicMeanings[word]) return { word, phonetic: "", audio: "", meanings: [{ partOfSpeech: "基础词", definition: basicMeanings[word] }], ...mergeExamplePairs([{ example: context }], rawWord, basicMeanings[word]), source: "basic" };
   const offline = await fromOffline(word, context);
   if (offline) return offline;
   const cache = loadCache()[word];
-  if (cache && cache.source !== "online") return { ...cache, examples: [...new Set([context, ...cache.examples].filter(Boolean))].slice(0, 3) };
+  if (cache && cache.source !== "online") {
+    const merged = mergeExamplePairs([
+      { example: context },
+      ...cache.examples.map((example, index) => ({ example, translation: cache.exampleTranslations?.[index] })),
+    ], rawWord, cache.meanings[0]?.definition ?? "");
+    return { ...cache, ...merged };
+  }
 
   if (false) for (const candidate of candidatesFor(word)) {
     try {
@@ -176,7 +224,11 @@ export async function lookupWord(rawWord: string, context = "", signal?: AbortSi
       if (!response.ok) continue;
       const result: DictionaryResult | null = fromApi(await response.json() as ApiEntry[], word);
       if (result !== null) {
-        const withContext: DictionaryResult = { word: rawWord, phonetic: result!.phonetic, audio: result!.audio, meanings: result!.meanings, source: result!.source, examples: [...new Set([context, ...result!.examples].filter(Boolean))].slice(0, 3) };
+        const merged = mergeExamplePairs([
+          { example: context },
+          ...result!.examples.map((example, index) => ({ example, translation: result!.exampleTranslations?.[index] })),
+        ], rawWord, result!.meanings[0]?.definition ?? "");
+        const withContext: DictionaryResult = { word: rawWord, phonetic: result!.phonetic, audio: result!.audio, meanings: result!.meanings, source: result!.source, ...merged };
         saveCache(word, withContext);
         return withContext;
       }
@@ -185,5 +237,5 @@ export async function lookupWord(rawWord: string, context = "", signal?: AbortSi
       if (isAbort) throw error;
     }
   }
-  return { word: rawWord, phonetic: "", audio: "", meanings: [{ partOfSpeech: "上下文词义", definition: "在线词典暂未返回释义。请结合下方原句理解，联网后可再次查询。" }], examples: context ? [context] : [], source: "fallback" };
+  return { word: rawWord, phonetic: "", audio: "", meanings: [{ partOfSpeech: "上下文词义", definition: "本地词典暂未收录该词。请结合下方原句理解，之后可补充到离线词库。" }], ...mergeExamplePairs([{ example: context }], rawWord, ""), source: "fallback" };
 }

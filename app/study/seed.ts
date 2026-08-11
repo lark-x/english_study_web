@@ -98,6 +98,7 @@ function vocabularyForDay(day: number, stageId: StageId): VocabularyEntry[] {
       partOfSpeech: item.partOfSpeech,
       meaning: item.meaning,
       example: item.example || normalizedCourse.documents.find((document) => document.category === "unit")?.englishSentences[0] || item.headword,
+      exampleTranslation: item.exampleTranslation,
       status: "new",
     }));
 }

@@ -68,7 +68,16 @@ export function WordLookupProvider({ children, state }: { children: ReactNode; s
           <div className="pronunciation"><div><strong>{result.word}</strong><span>{result.phonetic || "可使用浏览器朗读"}</span></div><button type="button" onClick={() => speak(result.word, result.audio)}>▶ 播放发音</button></div>
           {metadata && <section><h3>学习计划</h3><article><span>{metadata.priorityBand} 级</span><p>首次安排：第 {metadata.firstExposureDay} 天 · {metadata.verificationStatus === "verified" ? "已核验范围" : metadata.verificationStatus === "provisional" ? "暂定课程词" : "等待合法词表来源"}</p></article><article><span>阶段</span><p>{metadata.stageIds.join(" / ")} · 复习策略 {metadata.reviewSchedulePolicy}</p></article><article><span>下次复习</span><p>{nextReview?.dueAt ?? "首次学习完成后生成"}</p></article><article><span>范围</span><p>{metadata.syllabusSourceRefs.length ? metadata.syllabusSourceRefs.join("、") : "完整官方词表尚未取得，不声称正式大纲覆盖"}</p></article></section>}
           <section><h3>词义</h3>{result.meanings.map((meaning, index) => <article key={`${meaning.partOfSpeech}-${index}`}><span>{meaning.partOfSpeech || "释义"}</span><p>{meaning.definition}</p></article>)}</section>
-          <section><h3>短句与上下文</h3>{result.examples.length ? result.examples.map((example, index) => <p className="dictionary-example" key={`${example}-${index}`}><b>{index + 1}</b><InteractiveText text={example} context={example}/></p>) : <p className="muted">当前词典没有提供例句。</p>}</section>
+          <section><h3>短句与上下文</h3>{result.examples.length ? result.examples.map((example, index) => {
+            const translation = result.exampleTranslations?.[index];
+            return <article className="dictionary-example" key={`${example}-${index}`}>
+              <b>{index + 1}</b>
+              <div>
+                <p className="dictionary-example-text"><InteractiveText text={example} context={example}/></p>
+                {translation ? <p className="dictionary-example-translation">{translation}</p> : null}
+              </div>
+            </article>;
+          }) : <p className="muted">当前词典没有提供例句。</p>}</section>
           {result.collocations?.length ? <section><h3>常见组合</h3>{result.collocations.map((item) => <article key={item}><span>搭配</span><p><InteractiveText text={item} context={item}/></p></article>)}</section> : null}
           <footer>{result.source === "course" ? "课程核心词典 · 离线可用" : result.source === "offline" ? "ECDICT 课程离线词典 · 无需联网" : result.source === "online" ? "在线补充词典 · 已在本机缓存" : result.source === "basic" ? "课程基础词典 · 离线可用" : "已显示当前课程上下文"}</footer>
         </div>}

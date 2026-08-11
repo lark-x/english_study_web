@@ -1,8 +1,9 @@
-import { writeFile } from "node:fs/promises";
-import { lessons, assessmentQuestions } from "../app/study/seed.ts";
+import { readFile, writeFile } from "node:fs/promises";
 
 const SOURCE_URL = "https://raw.githubusercontent.com/skywind3000/ECDICT/master/ecdict.csv";
 const OUTPUT_URL = new URL("../app/study/offline-dictionary.json", import.meta.url);
+const COURSE_URL = new URL("../public/data/english2/textbook_course.json", import.meta.url);
+const LOOKUP_URL = new URL("../public/data/english2/textbook_lookup.json", import.meta.url);
 const WORD_PATTERN = /[A-Za-z]+(?:[’'][A-Za-z]+)*/g;
 
 function addWords(target, value) {
@@ -13,28 +14,29 @@ function addWords(target, value) {
   }
 }
 
-function collectCourseWords() {
+async function collectCourseWords() {
+  const [course, lookup] = await Promise.all([
+    readFile(COURSE_URL, "utf8").then(JSON.parse),
+    readFile(LOOKUP_URL, "utf8").then(JSON.parse),
+  ]);
   const words = new Set();
-  for (const lesson of lessons) {
-    addWords(words, lesson.title);
-    for (const paragraph of lesson.paragraphs) addWords(words, paragraph.en);
-    for (const item of lesson.vocabulary) { addWords(words, item.word); addWords(words, item.example); }
-    addWords(words, lesson.grammar.structure);
-    for (const example of lesson.grammar.examples) addWords(words, example.en);
-    for (const pattern of lesson.sentencePatterns) { addWords(words, pattern.pattern); addWords(words, pattern.example); }
-    for (const expression of lesson.expressions) { addWords(words, expression.phrase); addWords(words, expression.example); }
-    for (const question of lesson.questions) {
-      addWords(words, question.prompt);
-      question.options.forEach((option) => addWords(words, option));
-      addWords(words, question.explanation);
-    }
-    for (const task of lesson.translations) addWords(words, task.reference);
-    addWords(words, lesson.outputPrompt);
-    addWords(words, lesson.outputHint);
+  for (const item of course.vocabulary ?? []) {
+    addWords(words, item.headword);
+    addWords(words, item.example);
   }
-  for (const question of assessmentQuestions) {
-    addWords(words, question.prompt);
-    question.options.forEach((option) => addWords(words, option));
+  for (const phrase of course.phrases ?? []) addWords(words, phrase.phrase);
+  for (const document of course.documents ?? []) {
+    addWords(words, document.title);
+    for (const sentence of document.englishSentences ?? []) addWords(words, sentence);
+    for (const section of document.sections ?? []) {
+      addWords(words, section.title);
+      addWords(words, section.content);
+    }
+  }
+  for (const entry of lookup.entries ?? []) {
+    addWords(words, entry.headword);
+    for (const example of entry.examples ?? []) addWords(words, example);
+    for (const collocation of entry.collocations ?? []) addWords(words, collocation);
   }
   return words;
 }
@@ -80,7 +82,7 @@ function cleanDefinition(value) {
   return String(value ?? "").split(/\n+|\\n+/).map((line) => line.trim()).filter(Boolean).slice(0, 5).join("；").slice(0, 700);
 }
 
-const courseWords = collectCourseWords();
+const courseWords = await collectCourseWords();
 const candidateOwners = new Map();
 for (const word of courseWords) {
   for (const candidate of candidatesFor(word)) {

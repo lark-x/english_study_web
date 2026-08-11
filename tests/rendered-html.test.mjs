@@ -289,10 +289,10 @@ test("empty review advances safely to a renderable textbook vocabulary step", as
   assert.ok(cards.every((card) => typeof card.example === "string" && card.example.length > 0));
 });
 
-test("offline dictionary remains bundled at 1,286 entries", async () => {
+test("offline dictionary remains bundled with expanded textbook coverage", async () => {
   const offline = JSON.parse(await readFile(new URL("../app/study/offline-dictionary.json", import.meta.url), "utf8"));
-  assert.equal(Object.keys(offline).length, 1286);
-  for (const word of ["routine", "paragraph", "evidence"]) {
+  assert.ok(Object.keys(offline).length >= 6000);
+  for (const word of ["routine", "paragraph", "evidence", "suggestion"]) {
     assert.ok(offline[word], `${word} should be available offline`);
   }
 });
@@ -304,8 +304,12 @@ test("OCR textbook lookup supplies local meanings and collocations to offline wo
   ]);
   assert.match(dictionarySource, /textbook_lookup\.json/);
   assert.match(dictionarySource, /collocations/);
+  assert.match(dictionarySource, /exampleTranslations/);
   assert.ok(lookup.entries.length >= 4000);
   assert.ok(lookup.entries.some((item) => item.collocations?.length));
+  assert.ok(lookup.entries.every((item) => item.meanings?.length));
+  assert.ok(lookup.entries.every((item) => item.examples?.every((_, index) => item.exampleTranslations?.[index])));
+  assert.doesNotMatch(JSON.stringify(lookup), /待核对/);
 });
 
 test("13000 exam center uses traceable facts and never invents exam numbers", async () => {

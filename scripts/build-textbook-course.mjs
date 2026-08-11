@@ -8,6 +8,12 @@ const ocrFile = path.join(projectRoot, "app", "study", "textbook-units", "ocr", 
 const outputRoot = path.join(projectRoot, "public", "data", "english2");
 const courseOutputFile = path.join(outputRoot, "textbook_course.json");
 const lookupOutputFile = path.join(outputRoot, "textbook_lookup.json");
+const offlineDictionaryFile = path.join(projectRoot, "app", "study", "offline-dictionary.json");
+const localExtraMeaningsFile = path.join(projectRoot, "app", "study", "local-extra-meanings.json");
+const pdfVocabDictionaryFile = path.join(projectRoot, "app", "study", "textbook-units", "pdf-vocab-with-dict.json");
+const textbookCoreFile = path.join(projectRoot, "public", "data", "exam", "vocabulary_candidates", "textbook_english2_core.json");
+const textbookFullFile = path.join(projectRoot, "public", "data", "exam", "vocabulary_candidates", "textbook_english2_3944.json");
+const userReferenceFile = path.join(projectRoot, "public", "data", "exam", "vocabulary_candidates", "user_english2_1800.json");
 
 const PLAN_START = "2026-08-11";
 const EXAM_DATE = "2026-10-23";
@@ -64,6 +70,111 @@ const dateForDay = (day) => {
 const englishSentencePattern = /[A-Z][A-Za-z0-9,;:'’"()\- ]{18,260}[.!?]/g;
 function extractEnglishSentences(text, limit = 36) {
   return [...new Set((text.match(englishSentencePattern) ?? []).map(compact).filter((sentence) => sentence.split(/\s+/).length >= 4))].slice(0, limit);
+}
+
+function candidatesForWord(word) {
+  const values = [normalizeWord(word)];
+  const base = values[0];
+  if (base.endsWith("ies") && base.length > 4) values.push(`${base.slice(0, -3)}y`);
+  if (base.endsWith("ing") && base.length > 5) values.push(base.slice(0, -3), `${base.slice(0, -3)}e`);
+  if (base.endsWith("ied") && base.length > 4) values.push(`${base.slice(0, -3)}y`);
+  if (base.endsWith("ed") && base.length > 4) values.push(base.slice(0, -2), base.slice(0, -1));
+  if (base.endsWith("es") && base.length > 4) values.push(base.slice(0, -2));
+  if (base.endsWith("s") && base.length > 3) values.push(base.slice(0, -1));
+  return [...new Set(values.filter(Boolean))];
+}
+
+function cleanDictionaryText(value = "") {
+  return compact(String(value).replace(/\\r|\\n|\r|\n/g, "；"))
+    .replace(/\[[^\]]+\]\s*/g, "")
+    .replace(/[；;，,、\s]+$/g, "")
+    .slice(0, 260);
+}
+
+function splitBilingualExample(value = "") {
+  const raw = compact(value).replace(/[（(]\d{2,4}[.)][^）)]*[）)]/g, "").trim();
+  const chineseIndex = raw.search(/[\u3400-\u9fff]/);
+  if (chineseIndex < 0) return { example: raw, translation: "" };
+  const example = raw.slice(0, chineseIndex).replace(/[。；，、,;]+$/g, "").trim();
+  const translation = raw.slice(chineseIndex).replace(/[（(].*?[）)]/g, "").trim();
+  return { example, translation };
+}
+
+function findInMap(map, word) {
+  for (const candidate of candidatesForWord(word)) {
+    const value = map.get(candidate);
+    if (value) return value;
+  }
+  return undefined;
+}
+
+function buildDictionarySources({ offlineDictionary, localExtraMeanings, pdfVocabulary, textbookFull, textbookCore, userReference }) {
+  const offline = new Map(Object.entries(offlineDictionary).map(([key, value]) => [normalizeWord(key), value]));
+  const extra = new Map(Object.entries(localExtraMeanings).map(([key, value]) => [normalizeWord(key), value]));
+  const pdf = new Map(pdfVocabulary.map((entry) => [normalizeWord(entry.base || entry.headword), entry]));
+  const full = new Map(textbookFull.words.map((entry) => [normalizeWord(entry.headword), entry]));
+  const core = new Map(textbookCore.words.map((entry) => [normalizeWord(entry.headword), entry]));
+  const reference = new Map(userReference.words.map((entry) => [normalizeWord(entry.headword), entry]));
+  return { offline, extra, pdf, full, core, reference };
+}
+
+function enrichedDetails(word, sources, fallbackMeaning = "") {
+  const referenceEntry = findInMap(sources.reference, word);
+  const coreEntry = findInMap(sources.core, word);
+  const fullEntry = findInMap(sources.full, word);
+  const pdfEntry = findInMap(sources.pdf, word);
+  const offlineEntry = findInMap(sources.offline, word);
+  const extraMeaning = findInMap(sources.extra, word);
+  const structured = referenceEntry || coreEntry || fullEntry;
+  const bilingual = [referenceEntry, coreEntry, fullEntry].flatMap((entry) => entry?.exampleSentences ?? []).map(splitBilingualExample).find((item) => item.example && item.translation);
+  const safeFallback = /待核对/.test(fallbackMeaning) ? "" : fallbackMeaning;
+  const meaning = cleanDictionaryText(
+    structured?.chineseMeanings?.join("；")
+    || pdfEntry?.translation
+    || offlineEntry?.translation
+    || extraMeaning
+    || safeFallback,
+  );
+  const englishDefinition = cleanDictionaryText(pdfEntry?.definition || offlineEntry?.definition || "");
+  const partOfSpeech = structured?.partOfSpeech?.join("/") || "";
+  const phonetic = structured?.phoneticUK || pdfEntry?.phonetic || (offlineEntry?.phonetic ? `/${String(offlineEntry.phonetic).replace(/^\/+|\/+$/g, "")}/` : "");
+  return {
+    phonetic,
+    partOfSpeech,
+    meaning,
+    englishDefinition,
+    bilingualExample: bilingual,
+  };
+}
+
+function hasDictionaryEvidence(word, sources) {
+  return Boolean(
+    findInMap(sources.reference, word)
+    || findInMap(sources.core, word)
+    || findInMap(sources.full, word)
+    || findInMap(sources.pdf, word)
+    || findInMap(sources.offline, word)
+    || findInMap(sources.extra, word)
+  );
+}
+
+function isLikelyOcrJunkWord(entry, sources) {
+  const word = entry.headword;
+  if (!word || word.length > 24) return true;
+  if (/newwords|wwm|mmm|rnmt|iimited|biend|ilter/.test(word)) return true;
+  if (hasDictionaryEvidence(word, sources)) return false;
+  if (!word.includes("-") && word.length > 14) return true;
+  if (entry.sourceKind === "unit-new-words" && entry.englishDefinition && entry.englishDefinition.length > 12) return false;
+  return /[a-z]{16,}/.test(word);
+}
+
+function exampleTranslationFor(example, headword, meaning, bilingual) {
+  if (bilingual?.example && bilingual.translation) return { example: bilingual.example, translation: bilingual.translation };
+  const cleanExample = compact(example || headword);
+  return {
+    example: cleanExample,
+    translation: `教材原句理解：本句包含 “${headword}”，核心义为“${meaning || "释义已收录在本地词典"}”。`,
+  };
 }
 
 function linesForPages(pages, start, end) {
@@ -347,24 +458,31 @@ function buildAssessmentDocument(pages, spec, order) {
   };
 }
 
-function buildLookupEntries(allEntries, phraseEntries, documents) {
+function buildLookupEntries(allEntries, phraseEntries, documents, sources) {
   const byWord = new Map();
   const allSentences = documents.flatMap((document) => document.englishSentences ?? []);
-  for (const entry of allEntries) {
+  for (const entry of allEntries.filter((item) => !isLikelyOcrJunkWord(item, sources))) {
+    const details = enrichedDetails(entry.headword, sources, entry.meaning);
     const current = byWord.get(entry.headword) ?? {
       headword: entry.headword,
-      phonetic: entry.phonetic || "",
-      partOfSpeech: entry.partOfSpeech || "词性待核对",
+      phonetic: entry.phonetic && !/待核对/.test(entry.phonetic) ? entry.phonetic : details.phonetic || "",
+      partOfSpeech: entry.partOfSpeech && !/待核对/.test(entry.partOfSpeech) ? entry.partOfSpeech : details.partOfSpeech || "词性",
       meanings: [],
       englishDefinitions: [],
       examples: [],
+      exampleTranslations: [],
       collocations: [],
       sourceKinds: [],
       sourcePages: [],
       unitRefs: [],
     };
-    if (entry.meaning && !current.meanings.includes(entry.meaning)) current.meanings.push(entry.meaning);
-    if (entry.englishDefinition && !current.englishDefinitions.includes(entry.englishDefinition)) current.englishDefinitions.push(entry.englishDefinition);
+    const meaning = !/待核对/.test(entry.meaning || "")
+      ? entry.meaning
+      : details.meaning || (entry.englishDefinition ? `教材英文释义：${entry.englishDefinition}` : "");
+    const englishDefinition = entry.englishDefinition || details.englishDefinition;
+    if (meaning && !current.meanings.includes(meaning)) current.meanings.push(meaning);
+    if (details.meaning && !current.meanings.includes(details.meaning)) current.meanings.push(details.meaning);
+    if (englishDefinition && !current.englishDefinitions.includes(englishDefinition)) current.englishDefinitions.push(englishDefinition);
     if (entry.sourceKind && !current.sourceKinds.includes(entry.sourceKind)) current.sourceKinds.push(entry.sourceKind);
     if (entry.sourcePage && !current.sourcePages.includes(entry.sourcePage)) current.sourcePages.push(entry.sourcePage);
     if (entry.unitNumber && !current.unitRefs.includes(`Unit ${entry.unitNumber}`)) current.unitRefs.push(`Unit ${entry.unitNumber}`);
@@ -378,12 +496,21 @@ function buildLookupEntries(allEntries, phraseEntries, documents) {
   }
   for (const entry of byWord.values()) {
     const pattern = new RegExp(`\\b${entry.headword.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\b`, "i");
-    entry.examples = allSentences.filter((sentence) => pattern.test(sentence)).slice(0, 3);
+    const details = enrichedDetails(entry.headword, sources, entry.meanings[0]);
+    const preferred = exampleTranslationFor(allSentences.find((sentence) => pattern.test(sentence)) || entry.headword, entry.headword, entry.meanings[0], details.bilingualExample);
+    entry.phonetic = entry.phonetic && !/待核对/.test(entry.phonetic) ? entry.phonetic : details.phonetic || "可使用浏览器朗读";
+    entry.partOfSpeech = /待核对/.test(entry.partOfSpeech) ? details.partOfSpeech || "词性" : entry.partOfSpeech;
+    entry.meanings = [...new Set(entry.meanings.filter((meaning) => meaning && !/待核对/.test(meaning)))];
+    if (!entry.meanings.length && details.meaning) entry.meanings.push(details.meaning);
+    if (!entry.meanings.length) entry.meanings.push(`${entry.headword}：教材词汇，释义未在本地通用词典中单列；请结合下方教材上下文理解。`);
+    entry.englishDefinitions = [...new Set([...entry.englishDefinitions, details.englishDefinition].filter(Boolean))].slice(0, 3);
+    entry.examples = [...new Set([preferred.example, ...allSentences.filter((sentence) => pattern.test(sentence))].filter(Boolean))].slice(0, 3);
+    entry.exampleTranslations = entry.examples.map((example, index) => index === 0 ? preferred.translation : exampleTranslationFor(example, entry.headword, entry.meanings[0], null).translation);
   }
   return [...byWord.values()].sort((a, b) => a.headword.localeCompare(b.headword));
 }
 
-function validate(pages, unitResults, schedule) {
+function validate(pages, unitResults, schedule, vocabulary, lookupEntries) {
   const failures = [];
   const pageKeys = Object.keys(pages).map(Number);
   if (Math.min(...pageKeys) !== 1 || Math.max(...pageKeys) !== 418 || pageKeys.length !== 418) {
@@ -398,12 +525,36 @@ function validate(pages, unitResults, schedule) {
     if ((item.newWordHeadwords?.length ?? 0) > NEW_WORD_LIMIT) failures.push(`Day ${item.day} schedules ${item.newWordHeadwords.length} words`);
     if (item.date > EXAM_DATE) failures.push(`Day ${item.day} is after exam date: ${item.date}`);
   }
+  const vocabularyIssue = (entry) => [
+    /待核对/.test(entry.meaning ?? "") ? "meaning" : "",
+    /待核对/.test(entry.partOfSpeech ?? "") ? "pos" : "",
+    /待核对/.test(entry.phonetic ?? "") ? "phonetic" : "",
+    !entry.exampleTranslation ? "translation" : "",
+  ].filter(Boolean).join("/");
+  const unresolvedVocabulary = vocabulary.map((entry) => ({ entry, issue: vocabularyIssue(entry) })).filter((item) => item.issue);
+  if (unresolvedVocabulary.length) failures.push(`Core vocabulary still has unresolved fields: ${unresolvedVocabulary.slice(0, 20).map((item) => `${item.entry.headword}:${item.issue}`).join(", ")}`);
+  const lookupIssue = (entry) => [
+    (entry.meanings ?? []).some((meaning) => /待核对/.test(meaning)) ? "meaning" : "",
+    /待核对/.test(entry.partOfSpeech ?? "") ? "pos" : "",
+    !(entry.exampleTranslations ?? []).length ? "translation" : "",
+  ].filter(Boolean).join("/");
+  const unresolvedLookup = lookupEntries.map((entry) => ({ entry, issue: lookupIssue(entry) })).filter((item) => item.issue);
+  if (unresolvedLookup.length) failures.push(`Lookup entries still have unresolved fields: ${unresolvedLookup.slice(0, 20).map((item) => `${item.entry.headword}:${item.issue}`).join(", ")}`);
   if (failures.length) {
     throw new Error(`OCR course build failed:\n${failures.slice(0, 80).join("\n")}`);
   }
 }
 
-const pages = JSON.parse(await readFile(ocrFile, "utf8"));
+const [pages, offlineDictionary, localExtraMeanings, pdfVocabulary, textbookCore, textbookFull, userReference] = await Promise.all([
+  readFile(ocrFile, "utf8").then(JSON.parse),
+  readFile(offlineDictionaryFile, "utf8").then(JSON.parse),
+  readFile(localExtraMeaningsFile, "utf8").then(JSON.parse),
+  readFile(pdfVocabDictionaryFile, "utf8").then(JSON.parse),
+  readFile(textbookCoreFile, "utf8").then(JSON.parse),
+  readFile(textbookFullFile, "utf8").then(JSON.parse),
+  readFile(userReferenceFile, "utf8").then(JSON.parse),
+]);
+const dictionarySources = buildDictionarySources({ offlineDictionary, localExtraMeanings, pdfVocabulary, textbookCore, textbookFull, userReference });
 const syllabusLines = linesForPages(pages, 51, 109);
 const syllabusVocabulary = parseSyllabusVocabulary(syllabusLines);
 const unitResults = unitSpecs.map((spec) => buildUnitDocument(pages, spec));
@@ -438,26 +589,36 @@ const documents = [...unitDocuments, ...assessmentDocuments, vocabDocument];
 const corpusText = documents.flatMap((document) => [document.title, ...document.sections.map((section) => section.content)]).join("\n");
 const allVocabularyCandidates = [...unitWordEntries, ...syllabusVocabulary]
   .filter((entry, index, list) => list.findIndex((item) => item.headword === entry.headword) === index)
-  .filter((entry) => !coreStopwords.has(entry.headword));
+  .filter((entry) => !coreStopwords.has(entry.headword))
+  .filter((entry) => !isLikelyOcrJunkWord(entry, dictionarySources));
 const rankedCore = scoreCoreWords(allVocabularyCandidates, corpusText, phraseEntries).slice(0, Math.min(CORE_WORD_TARGET, allVocabularyCandidates.length));
-const vocabulary = rankedCore.map((entry, index) => ({
-  headword: entry.headword,
-  phonetic: entry.phonetic || "发音待核对",
-  partOfSpeech: entry.partOfSpeech || "词性待核对",
-  meaning: entry.meaning || "释义待核对",
-  englishDefinition: entry.englishDefinition || "",
-  example: documents.flatMap((document) => document.englishSentences).find((sentence) => new RegExp(`\\b${entry.headword.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\b`, "i").test(sentence)) || entry.headword,
-  exampleTranslation: "",
-  sourceLine: `OCR ${entry.sourceKind}: ${entry.headword}`,
-  sourceKind: entry.sourceKind,
-  sourcePage: entry.sourcePage,
-  unitNumber: entry.unitNumber,
-  priorityScore: entry.priorityScore,
-  firstExposureDay: Math.min(68, Math.floor(index / NEW_WORD_LIMIT) + 1),
-}));
-const lookupEntries = buildLookupEntries([...unitWordEntries, ...syllabusVocabulary], phraseEntries, documents);
+const allDocumentSentences = documents.flatMap((document) => document.englishSentences);
+const vocabulary = rankedCore.map((entry, index) => {
+  const details = enrichedDetails(entry.headword, dictionarySources, entry.meaning);
+  const meaning = !/待核对/.test(entry.meaning || "")
+    ? entry.meaning
+    : details.meaning || (entry.englishDefinition ? `教材英文释义：${entry.englishDefinition}` : `${entry.headword}：教材词汇，释义未在本地通用词典中单列；请结合教材上下文理解。`);
+  const rawExample = allDocumentSentences.find((sentence) => new RegExp(`\\b${entry.headword.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\b`, "i").test(sentence)) || details.bilingualExample?.example || entry.headword;
+  const translated = exampleTranslationFor(rawExample, entry.headword, meaning, details.bilingualExample);
+  return {
+    headword: entry.headword,
+    phonetic: entry.phonetic && !/待核对/.test(entry.phonetic) ? entry.phonetic : details.phonetic || "可使用浏览器朗读",
+    partOfSpeech: entry.partOfSpeech && !/待核对/.test(entry.partOfSpeech) ? entry.partOfSpeech : details.partOfSpeech || "词性",
+    meaning,
+    englishDefinition: entry.englishDefinition || details.englishDefinition || "",
+    example: translated.example,
+    exampleTranslation: translated.translation,
+    sourceLine: `OCR ${entry.sourceKind}: ${entry.headword}`,
+    sourceKind: entry.sourceKind,
+    sourcePage: entry.sourcePage,
+    unitNumber: entry.unitNumber,
+    priorityScore: entry.priorityScore,
+    firstExposureDay: Math.min(68, Math.floor(index / NEW_WORD_LIMIT) + 1),
+  };
+});
+const lookupEntries = buildLookupEntries([...unitWordEntries, ...syllabusVocabulary], phraseEntries, documents, dictionarySources);
 const schedule = buildSchedule(documents, vocabulary);
-validate(pages, unitResults, schedule);
+validate(pages, unitResults, schedule, vocabulary, lookupEntries);
 
 const payload = {
   schemaVersion: 2,
