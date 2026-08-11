@@ -98,17 +98,17 @@ test("the app keeps Web-only persistence, import/export, launch, and clickable w
   assert.doesNotMatch(packageJson, /electron-builder|"desktop:/);
 });
 
-test("curriculum uses only the specified English II textbook across the 12-week route", async () => {
+test("curriculum uses only the specified English II textbook across the 74-day route", async () => {
   const { seed } = await loadStudyModules();
   const { lessons, migratedReadingLessons } = seed;
   const textbook = JSON.parse(await readFile(new URL("../public/data/english2/textbook_course.json", import.meta.url), "utf8"));
-  assert.equal(lessons.length, 84);
+  assert.equal(lessons.length, 74);
   assert.ok(migratedReadingLessons.length > 0);
   assert.ok(lessons.slice(0, 21).every((lesson) => lesson.stageId === "stage-1" && lesson.lessonType === "micro"));
   assert.ok(lessons.every((lesson) => lesson.sourceDocumentId && lesson.sourceTitle && lesson.sourceCategory));
-  assert.ok(lessons.every((lesson) => lesson.vocabulary.length <= 30));
-  assert.equal(textbook.documentCount, 14);
-  assert.equal(textbook.audit.includedDocuments, 14);
+  assert.ok(lessons.every((lesson) => lesson.vocabulary.length <= 35));
+  assert.equal(textbook.documentCount, 16);
+  assert.equal(textbook.audit.includedDocuments, 16);
   assert.equal(textbook.audit.missingDocuments.length, 0);
   assert.match(textbook.sourceRule, /00015/);
   assert.ok(textbook.documents.every((document) => ["unit", "vocabulary", "self-assessment"].includes(document.category)));
@@ -126,7 +126,7 @@ test("curriculum uses only the specified English II textbook across the 12-week 
     assert.ok(lesson.practiceTasks.some((item) => item.kind === "blank"), `${lesson.id} should train blanks`);
     assert.ok(lesson.practiceTasks.some((item) => item.kind === "imitation"), `${lesson.id} should train imitation`);
     assert.ok(lesson.practiceTasks.some((item) => item.kind === "translation"), `${lesson.id} should train one-sentence translation`);
-    assert.doesNotMatch(JSON.stringify(lesson), /历年真题|基础语法|随机网络文章|旧版通用演示|OCR/i);
+    assert.doesNotMatch(JSON.stringify(lesson), /历年真题|基础语法|随机网络文章|旧版通用演示/i);
   }
 });
 
@@ -263,19 +263,21 @@ test("textbook course builder keeps vocabulary within its source and schedule", 
     readFile(new URL("../scripts/build-textbook-course.mjs", import.meta.url), "utf8"),
     readFile(new URL("../public/data/english2/textbook_course.json", import.meta.url), "utf8").then(JSON.parse),
   ]);
-  assert.match(builder, /main-textbook-manifest\.json/);
-  assert.match(builder, /textbook-vocab-extracted\.json/);
+  assert.match(builder, /ocr_full_pages\.json/);
+  assert.match(builder, /ocr-json-hybrid-extraction/);
+  assert.doesNotMatch(builder, /main-textbook-manifest\.json|textbook-vocab-extracted\.json/);
   assert.doesNotMatch(builder, /normalized_course\.json|CET4|english-file/);
   assert.ok(textbook.vocabulary.length > 0);
-  assert.ok(textbook.vocabulary.every((item) => item.sourceKind === "textbook-vocabulary"));
-  assert.ok(textbook.vocabulary.every((item) => item.firstExposureDay >= 1 && item.firstExposureDay <= 84));
+  assert.ok(textbook.vocabulary.every((item) => ["unit-new-words", "syllabus-vocabulary"].includes(item.sourceKind)));
+  assert.ok(textbook.vocabulary.every((item) => item.firstExposureDay >= 1 && item.firstExposureDay <= 74));
   assert.ok(textbook.vocabulary.every((item) => item.meaning && item.partOfSpeech));
-  const content = textbook.vocabulary.find((item) => item.headword === "content");
-  assert.equal(content.meaning, "满足的；满意的；内容；所含之物");
-  assert.equal(content.exampleTranslation, "他想让它们感到满足。");
+  assert.equal(textbook.audit.ocrPageCount, 418);
+  assert.equal(textbook.schedule.length, 74);
+  assert.equal(textbook.schedule.at(-1).date, "2026-10-23");
+  assert.equal(textbook.schedule.at(-1).newWordHeadwords.length, 0);
   assert.doesNotMatch(JSON.stringify(textbook), /户斤容纳之物|居ij痛|口 liked more/);
-  assert.ok(textbook.audit.maxNewWordsPerDay <= 30);
-  assert.equal(textbook.phrases.length, 0);
+  assert.ok(textbook.audit.maxNewWordsPerDay <= 35);
+  assert.ok(textbook.phrases.length > 0);
 });
 
 test("empty review advances safely to a renderable textbook vocabulary step", async () => {
@@ -295,19 +297,15 @@ test("offline dictionary remains bundled at 1,286 entries", async () => {
   }
 });
 
-test("textbook PDF vocabulary supplies Chinese meanings to offline word lookup", async () => {
-  const [dictionarySource, appendix, core] = await Promise.all([
+test("OCR textbook lookup supplies local meanings and collocations to offline word lookup", async () => {
+  const [dictionarySource, lookup] = await Promise.all([
     readFile(new URL("../app/study/dictionary.ts", import.meta.url), "utf8"),
-    readFile(new URL("../app/study/textbook-units/pdf-vocab-with-dict.json", import.meta.url), "utf8").then(JSON.parse),
-    readFile(new URL("../public/data/exam/vocabulary_candidates/textbook_english2_core.json", import.meta.url), "utf8").then(JSON.parse),
+    readFile(new URL("../public/data/english2/textbook_lookup.json", import.meta.url), "utf8").then(JSON.parse),
   ]);
-  assert.match(dictionarySource, /pdf-vocab-with-dict\.json/);
-  assert.match(dictionarySource, /textbookAppendixDictionary/);
-  assert.equal(appendix.length, 652);
-  assert.ok(appendix.every((item) => item.translation && /[\u4e00-\u9fff]/.test(item.translation)));
-  assert.match(dictionarySource, /textbook_english2_core\.json/);
-  assert.ok(core.words.length >= 1600);
-  assert.ok(core.words.some((item) => item.exampleSentences?.some((example) => /[\u4e00-\u9fff]/.test(example))));
+  assert.match(dictionarySource, /textbook_lookup\.json/);
+  assert.match(dictionarySource, /collocations/);
+  assert.ok(lookup.entries.length >= 4000);
+  assert.ok(lookup.entries.some((item) => item.collocations?.length));
 });
 
 test("13000 exam center uses traceable facts and never invents exam numbers", async () => {
@@ -325,22 +323,23 @@ test("13000 exam center uses traceable facts and never invents exam numbers", as
   assert.ok(syllabus.every((item) => item.verificationStatus === "pending" || item.sourceRefs.length > 0));
 });
 
-test("textbook corpus is complete and every scheduled day stays within 30 new words", async () => {
+test("OCR textbook corpus is complete and every scheduled day stays within 35 new words", async () => {
   const course = JSON.parse(await readFile(new URL("../public/data/english2/textbook_course.json", import.meta.url), "utf8"));
   const files = new Set(course.documents.map((item) => item.filename));
   const headwords = course.vocabulary.map((item) => item.headword.toLowerCase());
-  assert.equal(course.documentCount, 14);
-  assert.equal(course.audit.expectedDocuments, 14);
-  assert.equal(course.audit.includedDocuments, 14);
+  assert.equal(course.documentCount, 16);
+  assert.equal(course.audit.expectedDocuments, 16);
+  assert.equal(course.audit.includedDocuments, 16);
   assert.equal(course.audit.missingDocuments.length, 0);
-  assert.equal(files.size, 14);
+  assert.deepEqual([...files], ["ocr_full_pages.json"]);
+  assert.equal(course.audit.ocrPageCount, 418);
   assert.equal(new Set(headwords).size, headwords.length, "vocabulary headwords should be unique after normalization");
-  assert.ok(course.vocabulary.every((item) => item.firstExposureDay >= 1 && item.firstExposureDay <= 84));
-  const dailyCounts = Array.from({ length: 84 }, (_, index) => course.vocabulary.filter((item) => item.firstExposureDay === index + 1).length);
-  assert.ok(dailyCounts.every((count) => count <= 30), `daily vocabulary counts: ${dailyCounts.join(",")}`);
+  assert.ok(course.vocabulary.every((item) => item.firstExposureDay >= 1 && item.firstExposureDay <= 74));
+  const dailyCounts = Array.from({ length: 74 }, (_, index) => course.vocabulary.filter((item) => item.firstExposureDay === index + 1).length);
+  assert.ok(dailyCounts.every((count) => count <= 35), `daily vocabulary counts: ${dailyCounts.join(",")}`);
   assert.equal(course.audit.maxNewWordsPerDay, Math.max(...dailyCounts));
   assert.ok(course.totalCharacters > 100_000);
-  assert.equal(course.phrases.length, 0);
+  assert.ok(course.phrases.length > 0);
   console.log(`textbook documents=${course.documentCount} vocabulary=${course.vocabulary.length} maxNewWords=${course.audit.maxNewWordsPerDay}`);
 });
 
@@ -351,7 +350,7 @@ test("the previous workbook no longer drives the active course", async () => {
     readFile(new URL("../app/study/StudyApp.tsx", import.meta.url), "utf8"),
   ]);
   assert.doesNotMatch(vocabularySource, /user_english2_1800/);
-  assert.match(vocabularySource, /MAX_NEW_WORDS_PER_DAY = 30/);
+  assert.match(vocabularySource, /MAX_NEW_WORDS_PER_DAY = 35/);
   assert.match(seedSource, /normalizedCourse/);
   assert.match(appSource, /MaterialsLibrary|英语二资料/);
 });

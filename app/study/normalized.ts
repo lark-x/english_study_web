@@ -6,6 +6,8 @@ export interface NormalizedSection {
   id: string;
   title: string;
   content: string;
+  partType?: "sample_dialogue" | "guided_practice" | "new_words" | "phrases" | "self_assessment" | "syllabus_vocabulary";
+  textPart?: "text_a" | "text_b";
 }
 
 export interface NormalizedDocument {
@@ -22,6 +24,8 @@ export interface NormalizedDocument {
   characterCount: number;
   sections: NormalizedSection[];
   englishSentences: string[];
+  unitNumber?: number;
+  pageRange?: string;
 }
 
 export interface NormalizedVocabularyItem {
@@ -32,7 +36,10 @@ export interface NormalizedVocabularyItem {
   example: string;
   exampleTranslation?: string;
   sourceLine: string;
-  sourceKind: "textbook-vocabulary";
+  sourceKind: "unit-new-words" | "syllabus-vocabulary" | "textbook-vocabulary";
+  sourcePage?: number;
+  unitNumber?: number;
+  priorityScore?: number;
   firstExposureDay: number;
 }
 
@@ -49,6 +56,10 @@ export interface NormalizedScheduleItem {
   title: string;
   category: NormalizedCategory;
   isRevisit: boolean;
+  date?: string;
+  focusPartIds?: string[];
+  contentFocus?: string;
+  newWordHeadwords?: string[];
 }
 
 export interface NormalizedCourseBundle {
@@ -65,7 +76,12 @@ export interface NormalizedCourseBundle {
   audit: {
     expectedDocuments: number;
     includedDocuments: number;
+    ocrPageCount?: number;
+    unitCount?: number;
     vocabularyCount: number;
+    lookupEntryCount?: number;
+    syllabusVocabularyCount?: number;
+    unitNewWordCount?: number;
     phraseCount: number;
     maxNewWordsPerDay: number;
     missingDocuments: string[];

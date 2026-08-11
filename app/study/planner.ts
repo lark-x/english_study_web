@@ -58,7 +58,7 @@ export const phaseDefinitions: Array<{
   },
   {
     id: "stage-5",
-    weeks: [11, 12],
+    weeks: [11, 11],
     title: STAGE_TITLES["stage-5"],
     goal: STAGE_GOALS["stage-5"],
     required: { vocabulary: 80, grammar: 78, sentence: 76, reading: 78, translationWriting: 72 },
@@ -243,7 +243,7 @@ export const getCurrentWeek = (state: AppState) => {
   if (!state.profile.planStartDate) return 1;
   const start = new Date(`${state.profile.planStartDate}T12:00:00`).getTime();
   const elapsed = Math.max(0, Date.now() - start);
-  return Math.min(12, Math.floor(elapsed / 604_800_000) + 1);
+  return Math.min(11, Math.floor(elapsed / 604_800_000) + 1);
 };
 
 export const getPhase = (week: number) => phaseDefinitions.find((item) => week >= item.weeks[0] && week <= item.weeks[1])?.title ?? STAGE_TITLES["stage-5"];

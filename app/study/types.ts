@@ -127,6 +127,7 @@ export interface Lesson {
   sourceDocumentId: string;
   sourceTitle: string;
   sourceCategory: string;
+  sourceSectionIds?: string[];
   syllabusNodeIds?: string[];
   prerequisiteNodeIds?: string[];
 }

@@ -4,217 +4,505 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 const projectRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
-const sourceRoot = path.join(projectRoot, "app", "study", "textbook-units");
-const outputFile = path.join(projectRoot, "public", "data", "english2", "textbook_course.json");
-const manifest = JSON.parse(await readFile(path.join(sourceRoot, "main-textbook-manifest.json"), "utf8"));
-const extractedVocabulary = JSON.parse(await readFile(path.join(sourceRoot, "textbook-vocab-extracted.json"), "utf8"));
-const appendixDictionary = JSON.parse(await readFile(path.join(sourceRoot, "pdf-vocab-with-dict.json"), "utf8"));
-const appendixByBase = new Map(appendixDictionary.map((entry) => [String(entry.base || entry.headword).toLowerCase(), entry]));
-const coreVocabulary = JSON.parse(await readFile(path.join(projectRoot, "public", "data", "exam", "vocabulary_candidates", "textbook_english2_core.json"), "utf8")).words;
-const coreByHeadword = new Map(coreVocabulary.map((entry) => [String(entry.headword).toLowerCase(), entry]));
-const referenceVocabulary = JSON.parse(await readFile(path.join(projectRoot, "public", "data", "exam", "vocabulary_candidates", "user_english2_1800.json"), "utf8")).words;
-const referenceByHeadword = new Map(referenceVocabulary.map((entry) => [String(entry.headword).toLowerCase(), entry]));
+const ocrFile = path.join(projectRoot, "app", "study", "textbook-units", "ocr", "ocr_full_pages.json");
+const outputRoot = path.join(projectRoot, "public", "data", "english2");
+const courseOutputFile = path.join(outputRoot, "textbook_course.json");
+const lookupOutputFile = path.join(outputRoot, "textbook_lookup.json");
 
+const PLAN_START = "2026-08-11";
+const EXAM_DATE = "2026-10-23";
+const NEW_WORD_LIMIT = 35;
+const CORE_WORD_TARGET = 2380;
 const sourceTitle = "英语（二）自学教程（2012年版，00015，张敬源、张虹主编）";
-const clean = (value = "") => value.replace(/\r/g, "").replace(/[\u0000-\u0008\u000B\u000C\u000E-\u001F]/g, "").replace(/\s+/g, " ").trim();
-const cleanMeaning = (value = "") => value
-  .split(/\\n|\n/)
-  .map((line) => line.replace(/\[[^\]]+\]\s*/g, "").trim())
-  .filter(Boolean)
-  .join("；")
-  .replace(/[；;，,、\s]+$/, "");
-const curatedMeanings = {
-  content: "满足的；满意的；内容；所含之物",
-  identify: "识别；鉴定；确认；认出",
-  please: "请；使高兴；使满意",
-  remove: "移开；去除；搬走；开除；删除",
-  survive: "生存；幸存；比……活得久",
-  anguish: "极度痛苦；苦恼",
-  imagine: "想象；设想；认为",
-  favorite: "最喜欢的；特别喜爱的",
-  contain: "包含；容纳；控制；抑制",
-  goodwill: "善意；友好；亲善",
-  pensive: "沉思的；忧思的",
-  stable: "稳定的；牢固的；马厩",
-  push: "推；推动；促进；努力争取",
-  consume: "消耗；消费；吃；喝",
-  subside: "减弱；平息；消退；下沉",
-  ethnic: "种族的；民族的；具有民族特色的",
-  spot: "地点；场所；斑点；发现；认出",
-  consequently: "因此；所以；结果",
-};
-const curatedExampleTranslations = {
-  content: "他想让它们感到满足。",
-  baggage: "我只带着自己和一点点行李。",
-  goodwill: "你的微笑是你善意的使者。",
-  identify: "这意味着你必须仔细阅读，以便识别出任何假设。",
-  current: "英语在他们目前的工作中。",
-  dramatically: "在过去几十年里，科技使我们的世界发生了巨大的变化。",
-  command: "我们可以在不使用语言的情况下，有意识地让命令得到执行。",
-  infinite: "它限制了我们无限的能力，扼杀了创造力。",
-  mess: "但辛迪并没有在想那片混乱。",
-  tiny: "我只带着自己和一点点行李。",
-  valuable: "在商业领域，一项有价值的技能是如何进行谈判。",
-  gently: "‘亲爱的，’辛迪的父亲温柔地插话说，‘看看桌子。’",
-  silently: "有几分钟，辛迪和她父亲默默地站着，谁也不知道该说什么。",
-  moist: "最后她抬头看着他，双眼湿润而发红。",
-  indeed: "但这确实就是答案。",
-  thought: "语言是思想的外衣。",
-  desert: "当其他所有朋友都离开时，它仍然陪伴着他。",
-  poverty: "一个人的狗会在他富足和贫困、健康和生病时始终陪伴着他。",
-  sickness: "一个人的狗会在他富足和贫困、健康和生病时始终陪伴着他。",
-  unique: "网络公司要研究如何建立属于自己的独特网络形象。",
-  can: "请给你的朋友一些建议，告诉他们可以在哪里度假。",
-  various: "人们换工作往往相当频繁，原因各不相同。",
-  mentally: "到了下午晚些时候，我的身体、精神和情绪都恢复了活力。",
-  desperation: "正是绝望使作者的朋友们向他寻求建议。",
-  value: "不要只接受字面上所写的内容。",
-  imagine: "想象生活是一场游戏，你要在空中同时抛接五个球。",
-  "life-threatening": "危及生命的疾病并不意味着要放弃。",
-  financially: "如果你相信这些想法，你怎么期望在经济上取得成功呢？",
-  available: "了解他们可以选择的不同方案，是这个过程的第一步。",
-  abundance: "富足思维会对你的生活方式产生负面影响。",
-  hit: "这就是为什么狗会如此受欢迎。",
-  perspective: "它们可以帮助你换个角度看问题，也能给你带来启发。",
-  tough: "狗在遇到艰难困境时会退缩。",
-  contented: "他总是说，满足的奶牛才能产出好牛奶。",
-  command: "我们可以在不使用语言的情况下，有意识地让命令得到执行。",
-  tiny: "我只带着自己和一点点行李。",
-  thought: "语言是思想的外衣。",
-  mentally: "到了下午晚些时候，我的身体、精神和情绪都恢复了活力。",
-  current: "英语在他们目前的工作中。",
-  aid: "联邦学生资助申请。",
-  majestically: "他痛苦地走着，却依然威严地走到自己的椅子旁。",
-  reverently: "他们恭敬而安静地站着，而他解开腿上的扣子。",
-  outburst: "礼堂的每个角落都爆发出异常热烈的掌声。",
-  transport: "乘坐公共交通有助于保护环境。",
-  determine: "确定市场是否有空间容纳你的企业。",
-  consume: "医生：你不应该摄入过多的糖。",
-  spa: "水疗中心通常是提供治疗性浴池或拥有矿泉的度假区。",
-  emotionally: "到了下午晚些时候，我的身体、精神和情绪都恢复了活力。"
+const coreStopwords = new Set([
+  "a", "an", "the", "i", "you", "he", "she", "it", "we", "they", "me", "him", "her", "us", "them",
+  "my", "your", "his", "its", "our", "their", "this", "that", "these", "those", "who", "which", "what",
+  "am", "is", "are", "was", "were", "be", "been", "being", "have", "has", "had", "do", "does", "did",
+  "can", "could", "may", "might", "must", "should", "would", "will", "shall", "and", "or", "but", "if",
+  "because", "although", "while", "so", "however", "in", "on", "at", "to", "from", "for", "with", "by",
+  "of", "about", "as", "before", "after", "between", "without", "not", "no", "yes", "one", "two", "three",
+  "first", "second", "another", "every", "each", "some", "any", "all", "many", "much", "more", "most",
+  "less", "very", "also", "only", "still", "often", "usually", "always", "never",
+]);
+
+const unitSpecs = [
+  { number: 1, title: "The Power of Language", start: 115, end: 132, textA: "Critical Reading", textB: "The Language of Confidence" },
+  { number: 2, title: "Mistakes to Success", start: 133, end: 151, textA: "Spilt Milk", textB: "The Cake" },
+  { number: 3, title: "Friendship and Loyalty", start: 153, end: 171, textA: "Reflections: Friendship and Loyalty", textB: "A Tribute to the Dog" },
+  { number: 4, title: "The Joy of Work", start: 173, end: 193, textA: "Work Is a Blessing", textB: "How to Start Your Own Business" },
+  { number: 5, title: "Keeping Your Dreams Alive", start: 205, end: 222, textA: "Life Is Difficult", textB: "Begin Again" },
+  { number: 6, title: "The Value of Money", start: 223, end: 240, textA: "Teaching Children to Spend Pocket Money Wisely", textB: "The Importance of Money in Life" },
+  { number: 7, title: "Inner Voice", start: 241, end: 258, textA: "Your Inner Voice", textB: "Make a Good First Impression" },
+  { number: 8, title: "The Great Minds", start: 259, end: 279, textA: "Life Without Limits", textB: "An Unwanted Baby, Steve Jobs" },
+  { number: 9, title: "Facing Life's Challenges", start: 291, end: 308, textA: "300 Hurdles", textB: "A Violin with Three Strings" },
+  { number: 10, title: "Ode to Public Transport", start: 309, end: 328, textA: "The Importance of Public Transportation", textB: "Personal Advantages of Taking Public Transportation" },
+  { number: 11, title: "Cyber World", start: 329, end: 348, textA: "Cyberlove", textB: "The Impact of the Internet on Society" },
+  { number: 12, title: "A Break from Life", start: 349, end: 369, textA: "Feeling Free", textB: "Self-Esteem and Body Image" },
+];
+
+const assessmentSpecs = [
+  { id: "self-assessment-1", title: "Self-Assessment 1", start: 194, end: 203 },
+  { id: "self-assessment-2", title: "Self-Assessment 2", start: 280, end: 290 },
+  { id: "self-assessment-3", title: "Self-Assessment 3", start: 370, end: 382 },
+];
+
+const clean = (value = "") => String(value)
+  .replace(/\r/g, "")
+  .replace(/[\u0000-\u0008\u000B\u000C\u000E-\u001F]/g, "")
+  .replace(/[ \t]+/g, " ")
+  .replace(/\n{3,}/g, "\n\n")
+  .trim();
+
+const compact = (value = "") => clean(value).replace(/\s+/g, " ").trim();
+const normalizeWord = (value = "") => value.toLowerCase().replace(/[’‘]/g, "'").replace(/[^a-z'-]/g, "").replace(/^'+|'+$/g, "").replace(/'s$/, "");
+const dateForDay = (day) => {
+  const [year, month, dateOfMonth] = PLAN_START.split("-").map(Number);
+  const date = new Date(Date.UTC(year, month - 1, dateOfMonth + day - 1));
+  return date.toISOString().slice(0, 10);
 };
 
-const additionalCuratedExampleTranslations = {
-  grip: "他故意松开了对瓶子的紧握。",
-  tender: "任何习惯的形成都始于年幼的时候。",
-  akin: "朋友之间的忠诚，就像在银行账户里存了一笔钱。",
-  seek: "从本质上说，水确实会寻找自己的水平面。",
-  blessing: "工作是一种祝福。",
-  career: "他对自己事业的独特忠诚。",
-  deliberately: "他故意松开了对瓶子的紧握。",
-  precisely: "但恰恰是自己最不了解自己。",
-  characteristic: "在互联网上形成的恋情遵循一种典型的模式。",
-  motivational: "尼克是一位真正具有启发性和激励性的演讲者。",
-  profound: "在过去二十年里，互联网对社会产生了深远的影响。",
-  recall: "回忆并描述你的父母如何分配零花钱，以及你如何花掉这些钱。",
-  cinch: "但是一步一步来，生活可以变得轻而易举。",
-  household: "你经常帮助父母做家务吗？",
-  variety: "多样性是生活的调味品，而在涉及工作日时更是如此。",
-  romance: "网络恋情与现实生活中的恋情有什么不同？",
-  literary: "汉弗莱·戴维爵士不仅是一位优秀的文学评论家，也是一位伟大的科学家。",
-  vary: "网络恋情与现实生活中的恋情有什么不同？",
-  demon: "当我们决定如何面对网络带来的挑战时，把网络看成恶魔是很荒谬的。",
-  tremendous: "在这方面，互联网的好处是巨大的。"
-  ,evidence: "社交网络的使用证明了互联网的益处。",
-  celeb: "Celeb 是 celebrity（名人）一词的缩写。",
-  ultimately: "归根结底，你必须对自己感到满意。"
-};
-
+const englishSentencePattern = /[A-Z][A-Za-z0-9,;:'’"()\- ]{18,260}[.!?]/g;
 function extractEnglishSentences(text, limit = 36) {
-  const candidates = text.replace(/--- Page \d+ ---/g, " ").match(/[A-Z][A-Za-z0-9,;:'’"()\- ]{18,320}[.!?]/g) ?? [];
-  return [...new Set(candidates.map(clean).filter((sentence) => sentence.split(/\s+/).length >= 4))].slice(0, limit);
+  return [...new Set((text.match(englishSentencePattern) ?? []).map(compact).filter((sentence) => sentence.split(/\s+/).length >= 4))].slice(0, limit);
 }
 
-function sectionChunks(sentences) {
-  const sections = [];
-  for (let index = 0; index < sentences.length; index += 5) {
-    const content = sentences.slice(index, index + 5).join("\n\n");
-    if (content) sections.push({ id: `extract-${sections.length + 1}`, title: `教材节选 ${sections.length + 1}`, content });
+function linesForPages(pages, start, end) {
+  const result = [];
+  for (let page = start; page <= end; page += 1) {
+    const record = pages[String(page)];
+    for (const line of record?.lines ?? []) {
+      const text = clean(line.text);
+      if (text) result.push({ page, text });
+    }
   }
-  return sections;
+  return result;
 }
 
-const includedUnits = manifest.units.filter((unit) => /^\d{2}-unit\d{2}$/.test(unit.id) || unit.id === "13-self-assessment" || unit.id === "14-vocab-appendix");
-const documents = [];
-const vocabularySourceSentences = [];
-for (const [index, unit] of includedUnits.entries()) {
-  const raw = await readFile(path.join(sourceRoot, unit.file), "utf8");
-  const englishSentences = extractEnglishSentences(raw);
-  vocabularySourceSentences.push(...extractEnglishSentences(raw, 500));
-  const category = unit.id === "14-vocab-appendix" ? "vocabulary" : unit.id === "13-self-assessment" ? "self-assessment" : "unit";
-  documents.push({
-    id: `textbook-${unit.id}`,
-    order: index + 1,
-    filename: unit.file,
-    title: unit.title,
-    category,
-    source: sourceTitle,
-    extractionMethod: "source-pdf-text-extraction",
-    status: "source-verified",
-    pages: unit.pages.length,
-    checksum: createHash("sha256").update(raw).digest("hex"),
-    characterCount: raw.length,
-    sections: sectionChunks(englishSentences),
-    englishSentences,
-  });
+function textForPages(pages, start, end) {
+  return linesForPages(pages, start, end).map((line) => line.text).join("\n");
 }
 
-const allSentences = [...new Set([...documents.flatMap((document) => document.englishSentences), ...vocabularySourceSentences])];
-const vocabulary = extractedVocabulary
-  .filter((entry) => /^[a-z][a-z'-]*$/i.test(entry.headword ?? "") && /[\u4e00-\u9fff]/.test(entry.meaning ?? ""))
-  .filter((entry, index, list) => list.findIndex((candidate) => candidate.headword.toLowerCase() === entry.headword.toLowerCase()) === index)
-  .map((entry, index) => {
-    const headword = entry.headword.toLowerCase();
-    const appendixEntry = appendixByBase.get(headword);
-    const coreEntry = coreByHeadword.get(headword);
-    const referenceEntry = referenceByHeadword.get(headword);
-    const pattern = new RegExp(`\\b${headword.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\b`, "i");
-    const coreExample = coreEntry?.exampleSentences?.[0] ?? "";
-    const coreEnglishExample = coreExample.split(/[\u4e00-\u9fff]/)[0].trim().replace(/[。；，、,;]+$/, "");
-    const coreChineseExample = coreExample.match(/[\u4e00-\u9fff].*$/)?.[0]?.replace(/[（(].*$/, "") || "";
-    const referenceExample = referenceEntry?.exampleSentences?.[0] ?? "";
-    const referenceEnglishExample = referenceExample.split(/[\u4e00-\u9fff]/)[0].trim().replace(/[。；，、,;]+$/, "");
-    const referenceChineseExample = referenceExample.match(/[\u4e00-\u9fff].*$/)?.[0]?.replace(/[（(].*$/, "") || "";
+function findMarker(lines, patterns, from = 0) {
+  return lines.findIndex((line, index) => index >= from && patterns.some((pattern) => pattern.test(line.text)));
+}
+
+function sliceByMarkers(lines, startPatterns, endPatterns, fallbackStart = 0, fallbackEnd = lines.length) {
+  const startIndex = findMarker(lines, startPatterns, fallbackStart);
+  const actualStart = startIndex >= 0 ? startIndex : fallbackStart;
+  let endIndex = fallbackEnd;
+  if (endPatterns.length) {
+    const foundEnd = findMarker(lines, endPatterns, actualStart + 1);
+    if (foundEnd >= 0) endIndex = Math.min(foundEnd, fallbackEnd);
+  }
+  return lines.slice(actualStart, endIndex);
+}
+
+function contentFromLines(lines, maxChars = 2200) {
+  return clean(lines.map((line) => line.text).join("\n")).slice(0, maxChars);
+}
+
+const textBMarkers = [/^Text B$/i, /\bText B\b/i];
+const textAMarkers = [/^Text A$/i, /\bText A\b/i, /Pre[-^]?reading/i];
+const phraseMarkers = [/^Phrases?\b/i, /Phrases?\b.*Expressions?/i, /Phrases?\s+a[nm]/i, /Piirases/i, /Expressions?/i, /iMpress/i, /lMpress/i, /WMrms/i, /Ewwmmsimm/i, /Exp(?:r|e)ss/i];
+const phraseEndMarkers = [/Key Sentences/i, /Checking Your Comprehension/i, /Building Your Vocabulary/i, /Exercises/i, /Notes/i, /Mmtms/i, /S[®e].*n.*s/i];
+const sampleMarkers = [/Sample Dialogue/i, /Sample\s+\S{2,30}/i];
+const guidedMarkers = [/Guided Practice/i, /^Practice$/i, /^Practice\b/i, /^Directions:/i];
+
+function extractSpeaking(lines) {
+  const sample = sliceByMarkers(lines, sampleMarkers, guidedMarkers, 0, Math.min(lines.length, 90));
+  const guided = sliceByMarkers(lines, guidedMarkers, textAMarkers, sample.length ? lines.indexOf(sample.at(-1)) + 1 : 0, Math.min(lines.length, 140));
+  return {
+    sampleDialogue: contentFromLines(sample, 2600),
+    guidedPractice: contentFromLines(guided, 1800),
+  };
+}
+
+function splitTextParts(lines) {
+  const textBIndex = findMarker(lines, textBMarkers, 0);
+  if (textBIndex >= 0) {
     return {
+      textALines: lines.slice(0, textBIndex),
+      textBLines: lines.slice(textBIndex),
+    };
+  }
+  const midpoint = Math.floor(lines.length / 2);
+  return { textALines: lines.slice(0, midpoint), textBLines: lines.slice(midpoint) };
+}
+
+function isLikelyHeadword(value) {
+  return /^[a-z][a-z'-]{1,32}$/i.test(value) && !/^(unit|text|section|directions|page|english|chinese)$/i.test(value);
+}
+
+function parseWordEntries(lines, unitNumber, textPart) {
+  const entries = [];
+  for (let index = 0; index < lines.length; index += 1) {
+    const line = lines[index].text;
+    const current = line.match(/^([A-Za-z][A-Za-z'’\-\s]{1,38})\s+\/([^/]{2,80})\/\s*([A-Za-z.()]+)?\s*(.*)$/);
+    const split = !current && index + 1 < lines.length
+      ? `${line} ${lines[index + 1].text}`.match(/^([A-Za-z][A-Za-z'’\-\s]{1,38})\s+\/([^/]{2,80})\/\s*([A-Za-z.()]+)?\s*(.*)$/)
+      : null;
+    const match = current || split;
+    if (!match) continue;
+    const headword = normalizeWord(match[1]);
+    if (!isLikelyHeadword(headword)) continue;
+    const definitionLines = [match[4] || ""];
+    let cursor = index + (split ? 2 : 1);
+    while (cursor < lines.length && definitionLines.join(" ").length < 420) {
+      const next = lines[cursor].text;
+      if (/^([A-Za-z][A-Za-z'’\-\s]{1,38})\s+\/([^/]{2,80})\//.test(next)) break;
+      if (phraseMarkers.some((pattern) => pattern.test(next)) || phraseEndMarkers.some((pattern) => pattern.test(next))) break;
+      definitionLines.push(next);
+      cursor += 1;
+    }
+    const rawDefinition = compact(definitionLines.join(" "));
+    const chinese = (rawDefinition.match(/[\u3400-\u9fff][\u3400-\u9fff，、；;（）() ]{0,120}/g) ?? []).join("；").replace(/[；;，,、\s]+$/, "");
+    entries.push({
       headword,
-      phonetic: entry.phonetic || "发音待核对",
-      partOfSpeech: entry.partOfSpeech || "词性待核对",
-      meaning: curatedMeanings[headword] || cleanMeaning(appendixEntry?.translation || entry.meaning),
-      example: allSentences.find((sentence) => pattern.test(sentence)) || coreEnglishExample || referenceEnglishExample,
-      exampleTranslation: { ...curatedExampleTranslations, ...additionalCuratedExampleTranslations }[headword] || coreChineseExample || referenceChineseExample,
-      sourceLine: `教材词汇提取：${headword}`,
-      sourceKind: "textbook-vocabulary",
-      firstExposureDay: Math.floor(index / 30) + 1,
+      phonetic: `/${match[2].trim().replace(/^\/+|\/+$/g, "")}/`,
+      partOfSpeech: (match[3] || "词性待核对").replace(/[()]/g, ""),
+      meaning: chinese || "释义待核对",
+      englishDefinition: rawDefinition.replace(/[\u3400-\u9fff].*$/, "").trim(),
+      unitNumber,
+      textPart,
+      sourcePage: lines[index].page,
+      sourceKind: "unit-new-words",
+    });
+  }
+  return entries.filter((entry, index, list) => list.findIndex((item) => item.headword === entry.headword && item.unitNumber === entry.unitNumber && item.textPart === entry.textPart) === index);
+}
+
+function parsePhraseChunk(lines, unitNumber, textPart) {
+  const start = findMarker(lines, phraseMarkers, 0);
+  if (start < 0) return { content: "", phrases: [] };
+  let end = lines.length;
+  const foundEnd = findMarker(lines, phraseEndMarkers, start + 1);
+  if (foundEnd >= 0) end = foundEnd;
+  const chunk = lines.slice(start, end);
+  const phrases = [];
+  for (let index = 1; index < chunk.length; index += 1) {
+    const text = compact(chunk[index].text).replace(/[•.。]+$/, "");
+    if (!/^[a-z][a-z'’().\-]*(?:\s+[a-z'’().\-]+){1,7}$/i.test(text)) continue;
+    const explanation = compact(chunk.slice(index + 1, index + 4).map((line) => line.text).join(" "));
+    phrases.push({
+      phrase: text.toLowerCase().replace(/[’]/g, "'"),
+      meaning: explanation.slice(0, 240) || "释义待核对",
+      example: "",
+      unitNumber,
+      textPart,
+      sourcePage: chunk[index].page,
+      sourceKind: "unit-phrase",
+    });
+  }
+  return { content: contentFromLines(chunk, 2200), phrases: phrases.slice(0, 18) };
+}
+
+function parseSyllabusVocabulary(lines) {
+  const words = [];
+  for (const line of lines) {
+    const text = compact(line.text);
+    if (!/^[A-Za-z][A-Za-z'’\-]*(?:\/-[A-Za-z]+)?$/.test(text)) continue;
+    const base = normalizeWord(text.split("/")[0]);
+    if (isLikelyHeadword(base)) words.push({
+      headword: base,
+      phonetic: "",
+      partOfSpeech: "词性待核对",
+      meaning: "大纲词汇，释义待核对",
+      englishDefinition: "",
+      sourcePage: line.page,
+      sourceKind: "syllabus-vocabulary",
+    });
+  }
+  return words.filter((entry, index, list) => list.findIndex((item) => item.headword === entry.headword) === index);
+}
+
+function scoreCoreWords(candidates, corpusText, phraseItems) {
+  const corpus = corpusText.toLowerCase();
+  const phraseSet = new Set(phraseItems.flatMap((item) => item.phrase.split(/\s+/).map(normalizeWord)).filter(Boolean));
+  return candidates.map((entry) => {
+    const frequency = (corpus.match(new RegExp(`\\b${entry.headword.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\b`, "g")) ?? []).length;
+    const unitBoost = entry.sourceKind === "unit-new-words" ? 120 : 0;
+    const phraseBoost = phraseSet.has(entry.headword) ? 40 : 0;
+    const definitionBoost = entry.meaning && !/待核对/.test(entry.meaning) ? 15 : 0;
+    return { ...entry, priorityScore: unitBoost + phraseBoost + definitionBoost + frequency * 5, corpusFrequency: frequency };
+  }).sort((a, b) => b.priorityScore - a.priorityScore || a.headword.localeCompare(b.headword));
+}
+
+function buildUnitDocument(pages, spec) {
+  const lines = linesForPages(pages, spec.start, spec.end);
+  const text = lines.map((line) => line.text).join("\n");
+  const { sampleDialogue, guidedPractice } = extractSpeaking(lines);
+  const { textALines, textBLines } = splitTextParts(lines);
+  const textAWords = parseWordEntries(textALines, spec.number, "text_a");
+  const textBWords = parseWordEntries(textBLines, spec.number, "text_b");
+  const textAPhrases = parsePhraseChunk(textALines, spec.number, "text_a");
+  const textBPhrases = parsePhraseChunk(textBLines, spec.number, "text_b");
+  const sections = [
+    { id: `unit-${spec.number}-sample-dialogue`, partType: "sample_dialogue", title: "Sample Dialogue", content: sampleDialogue },
+    { id: `unit-${spec.number}-guided-practice`, partType: "guided_practice", title: "Guided Practice", content: guidedPractice },
+    { id: `unit-${spec.number}-text-a-new-words`, partType: "new_words", textPart: "text_a", title: `Text A New Words - ${spec.textA}`, content: formatWordEntries(textAWords) },
+    { id: `unit-${spec.number}-text-a-phrases`, partType: "phrases", textPart: "text_a", title: `Text A Phrases and Expressions - ${spec.textA}`, content: textAPhrases.content },
+    { id: `unit-${spec.number}-text-b-new-words`, partType: "new_words", textPart: "text_b", title: `Text B New Words - ${spec.textB}`, content: formatWordEntries(textBWords) },
+    { id: `unit-${spec.number}-text-b-phrases`, partType: "phrases", textPart: "text_b", title: `Text B Phrases and Expressions - ${spec.textB}`, content: textBPhrases.content },
+  ];
+  return {
+    document: {
+      id: `textbook-unit-${String(spec.number).padStart(2, "0")}`,
+      order: spec.number,
+      filename: "ocr_full_pages.json",
+      title: `Unit ${spec.number} ${spec.title}`,
+      category: "unit",
+      source: sourceTitle,
+      extractionMethod: "ocr-json-hybrid-extraction",
+      status: "ocr-derived",
+      pages: spec.end - spec.start + 1,
+      checksum: createHash("sha256").update(text).digest("hex"),
+      characterCount: text.length,
+      sections,
+      englishSentences: extractEnglishSentences(text, 48),
+      unitNumber: spec.number,
+      pageRange: `${spec.start}-${spec.end}`,
+    },
+    wordEntries: [...textAWords, ...textBWords],
+    phraseEntries: [...textAPhrases.phrases, ...textBPhrases.phrases],
+    requiredSections: sections,
+  };
+}
+
+function formatWordEntries(entries) {
+  return entries.map((entry) => [
+    `${entry.headword} ${entry.phonetic} ${entry.partOfSpeech}`,
+    entry.englishDefinition,
+    entry.meaning,
+  ].filter(Boolean).join("\n")).join("\n\n");
+}
+
+function buildSchedule(documents, vocabulary) {
+  const byUnit = new Map(documents.filter((document) => document.category === "unit").map((document) => [document.unitNumber, document]));
+  const focusSequence = [];
+  for (const spec of unitSpecs) {
+    const document = byUnit.get(spec.number);
+    focusSequence.push(
+      { document, focusPartIds: [`unit-${spec.number}-sample-dialogue`, `unit-${spec.number}-guided-practice`], contentFocus: "对话与口语练习" },
+      { document, focusPartIds: [`unit-${spec.number}-text-a-new-words`, `unit-${spec.number}-text-a-phrases`], contentFocus: `Text A: ${spec.textA}` },
+      { document, focusPartIds: [`unit-${spec.number}-text-b-new-words`, `unit-${spec.number}-text-b-phrases`], contentFocus: `Text B: ${spec.textB}` },
+      { document, focusPartIds: document.sections.map((section) => section.id), contentFocus: "Unit 复盘与输出" },
+    );
+    if ([4, 8, 12].includes(spec.number)) {
+      const assessment = documents.find((item) => item.category === "self-assessment" && item.title.endsWith(String([4, 8, 12].indexOf(spec.number) + 1)));
+      if (assessment) focusSequence.push({ document: assessment, focusPartIds: assessment.sections.map((section) => section.id), contentFocus: "教材自测与错题回收" });
+    }
+  }
+  const vocabDocument = documents.find((document) => document.category === "vocabulary");
+  while (focusSequence.length < 68 && vocabDocument) {
+    focusSequence.push({ document: vocabDocument, focusPartIds: vocabDocument.sections.map((section) => section.id), contentFocus: "大纲核心词补强" });
+  }
+  while (focusSequence.length < 73) {
+    const reviewDoc = documents[(focusSequence.length - 68) % documents.length];
+    focusSequence.push({ document: reviewDoc, focusPartIds: reviewDoc.sections.map((section) => section.id), contentFocus: "综合复盘与考前回收" });
+  }
+  focusSequence.push({ document: vocabDocument ?? documents[0], focusPartIds: [], contentFocus: "10.23 考前轻复盘，不安排新词" });
+
+  return Array.from({ length: 74 }, (_, index) => {
+    const day = index + 1;
+    const focus = focusSequence[index] ?? focusSequence.at(-1);
+    const words = vocabulary.filter((item) => item.firstExposureDay === day).map((item) => item.headword);
+    return {
+      day,
+      date: dateForDay(day),
+      week: Math.ceil(day / 7),
+      documentId: focus.document.id,
+      title: `${focus.document.title} · ${focus.contentFocus}`,
+      category: focus.document.category,
+      isRevisit: day > 68,
+      focusPartIds: focus.focusPartIds,
+      contentFocus: focus.contentFocus,
+      newWordHeadwords: day === 74 ? [] : words,
     };
   });
+}
 
-const scheduleOrder = [documents.find((item) => item.category === "vocabulary"), ...documents.filter((item) => item.category === "unit"), documents.find((item) => item.category === "self-assessment")].filter(Boolean);
-const schedule = Array.from({ length: 84 }, (_, index) => {
-  const document = scheduleOrder[index % scheduleOrder.length];
-  return { day: index + 1, week: Math.ceil((index + 1) / 7), documentId: document.id, title: document.title, category: document.category, isRevisit: index >= scheduleOrder.length };
-});
+function buildAssessmentDocument(pages, spec, order) {
+  const text = textForPages(pages, spec.start, spec.end);
+  const sections = text.split(/\n(?=第[一二三四五六七]部分|Section\s+[A-Z]|Self-Assessment)/).map((content, index) => ({
+    id: `${spec.id}-section-${index + 1}`,
+    partType: "self_assessment",
+    title: index === 0 ? spec.title : `自测部分 ${index}`,
+    content: clean(content).slice(0, 2800),
+  })).filter((section) => section.content);
+  return {
+    id: `textbook-${spec.id}`,
+    order,
+    filename: "ocr_full_pages.json",
+    title: spec.title,
+    category: "self-assessment",
+    source: sourceTitle,
+    extractionMethod: "ocr-json-hybrid-extraction",
+    status: "ocr-derived",
+    pages: spec.end - spec.start + 1,
+    checksum: createHash("sha256").update(text).digest("hex"),
+    characterCount: text.length,
+    sections,
+    englishSentences: extractEnglishSentences(text, 36),
+    pageRange: `${spec.start}-${spec.end}`,
+  };
+}
+
+function buildLookupEntries(allEntries, phraseEntries, documents) {
+  const byWord = new Map();
+  const allSentences = documents.flatMap((document) => document.englishSentences ?? []);
+  for (const entry of allEntries) {
+    const current = byWord.get(entry.headword) ?? {
+      headword: entry.headword,
+      phonetic: entry.phonetic || "",
+      partOfSpeech: entry.partOfSpeech || "词性待核对",
+      meanings: [],
+      englishDefinitions: [],
+      examples: [],
+      collocations: [],
+      sourceKinds: [],
+      sourcePages: [],
+      unitRefs: [],
+    };
+    if (entry.meaning && !current.meanings.includes(entry.meaning)) current.meanings.push(entry.meaning);
+    if (entry.englishDefinition && !current.englishDefinitions.includes(entry.englishDefinition)) current.englishDefinitions.push(entry.englishDefinition);
+    if (entry.sourceKind && !current.sourceKinds.includes(entry.sourceKind)) current.sourceKinds.push(entry.sourceKind);
+    if (entry.sourcePage && !current.sourcePages.includes(entry.sourcePage)) current.sourcePages.push(entry.sourcePage);
+    if (entry.unitNumber && !current.unitRefs.includes(`Unit ${entry.unitNumber}`)) current.unitRefs.push(`Unit ${entry.unitNumber}`);
+    byWord.set(entry.headword, current);
+  }
+  for (const phrase of phraseEntries) {
+    for (const token of phrase.phrase.split(/\s+/).map(normalizeWord).filter(Boolean)) {
+      const current = byWord.get(token);
+      if (current && !current.collocations.includes(phrase.phrase)) current.collocations.push(phrase.phrase);
+    }
+  }
+  for (const entry of byWord.values()) {
+    const pattern = new RegExp(`\\b${entry.headword.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\b`, "i");
+    entry.examples = allSentences.filter((sentence) => pattern.test(sentence)).slice(0, 3);
+  }
+  return [...byWord.values()].sort((a, b) => a.headword.localeCompare(b.headword));
+}
+
+function validate(pages, unitResults, schedule) {
+  const failures = [];
+  const pageKeys = Object.keys(pages).map(Number);
+  if (Math.min(...pageKeys) !== 1 || Math.max(...pageKeys) !== 418 || pageKeys.length !== 418) {
+    failures.push(`ocr_full_pages.json must cover pages 1-418; found ${pageKeys.length} pages ${Math.min(...pageKeys)}-${Math.max(...pageKeys)}`);
+  }
+  for (const result of unitResults) {
+    for (const section of result.requiredSections) {
+      if (!section.content || section.content.length < 20) failures.push(`${result.document.title} missing ${section.title}`);
+    }
+  }
+  for (const item of schedule) {
+    if ((item.newWordHeadwords?.length ?? 0) > NEW_WORD_LIMIT) failures.push(`Day ${item.day} schedules ${item.newWordHeadwords.length} words`);
+    if (item.date > EXAM_DATE) failures.push(`Day ${item.day} is after exam date: ${item.date}`);
+  }
+  if (failures.length) {
+    throw new Error(`OCR course build failed:\n${failures.slice(0, 80).join("\n")}`);
+  }
+}
+
+const pages = JSON.parse(await readFile(ocrFile, "utf8"));
+const syllabusLines = linesForPages(pages, 51, 109);
+const syllabusVocabulary = parseSyllabusVocabulary(syllabusLines);
+const unitResults = unitSpecs.map((spec) => buildUnitDocument(pages, spec));
+const unitDocuments = unitResults.map((result) => result.document);
+const unitWordEntries = unitResults.flatMap((result) => result.wordEntries);
+const phraseEntries = unitResults.flatMap((result) => result.phraseEntries);
+const assessmentDocuments = assessmentSpecs.map((spec, index) => buildAssessmentDocument(pages, spec, 13 + index));
+const vocabText = syllabusLines.map((line) => line.text).join("\n");
+const vocabDocument = {
+  id: "textbook-vocab-appendix",
+  order: 16,
+  filename: "ocr_full_pages.json",
+  title: "附录：大纲词汇表",
+  category: "vocabulary",
+  source: sourceTitle,
+  extractionMethod: "ocr-json-hybrid-extraction",
+  status: "ocr-derived",
+  pages: 59,
+  checksum: createHash("sha256").update(vocabText).digest("hex"),
+  characterCount: vocabText.length,
+  sections: Array.from({ length: Math.ceil(syllabusVocabulary.length / 120) }, (_, index) => ({
+    id: `syllabus-vocabulary-${index + 1}`,
+    partType: "syllabus_vocabulary",
+    title: `大纲词汇表 ${index + 1}`,
+    content: syllabusVocabulary.slice(index * 120, index * 120 + 120).map((entry) => entry.headword).join("\n"),
+  })),
+  englishSentences: extractEnglishSentences(vocabText, 24),
+  pageRange: "51-109",
+};
+
+const documents = [...unitDocuments, ...assessmentDocuments, vocabDocument];
+const corpusText = documents.flatMap((document) => [document.title, ...document.sections.map((section) => section.content)]).join("\n");
+const allVocabularyCandidates = [...unitWordEntries, ...syllabusVocabulary]
+  .filter((entry, index, list) => list.findIndex((item) => item.headword === entry.headword) === index)
+  .filter((entry) => !coreStopwords.has(entry.headword));
+const rankedCore = scoreCoreWords(allVocabularyCandidates, corpusText, phraseEntries).slice(0, Math.min(CORE_WORD_TARGET, allVocabularyCandidates.length));
+const vocabulary = rankedCore.map((entry, index) => ({
+  headword: entry.headword,
+  phonetic: entry.phonetic || "发音待核对",
+  partOfSpeech: entry.partOfSpeech || "词性待核对",
+  meaning: entry.meaning || "释义待核对",
+  englishDefinition: entry.englishDefinition || "",
+  example: documents.flatMap((document) => document.englishSentences).find((sentence) => new RegExp(`\\b${entry.headword.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\b`, "i").test(sentence)) || entry.headword,
+  exampleTranslation: "",
+  sourceLine: `OCR ${entry.sourceKind}: ${entry.headword}`,
+  sourceKind: entry.sourceKind,
+  sourcePage: entry.sourcePage,
+  unitNumber: entry.unitNumber,
+  priorityScore: entry.priorityScore,
+  firstExposureDay: Math.min(68, Math.floor(index / NEW_WORD_LIMIT) + 1),
+}));
+const lookupEntries = buildLookupEntries([...unitWordEntries, ...syllabusVocabulary], phraseEntries, documents);
+const schedule = buildSchedule(documents, vocabulary);
+validate(pages, unitResults, schedule);
 
 const payload = {
-  schemaVersion: 1,
+  schemaVersion: 2,
   generatedAt: new Date().toISOString(),
-  sourceDirectory: "app/study/textbook-units",
-  sourceRule: `课程内容仅来自《${sourceTitle}》的本地提取文件。`,
+  sourceDirectory: "app/study/textbook-units/ocr",
+  sourceFile: "ocr_full_pages.json",
+  sourceRule: `课程内容仅来自《${sourceTitle}》的完整 OCR JSON。旧 txt/json 不作为内容来源。`,
+  planStartDate: PLAN_START,
+  examDate: EXAM_DATE,
   documentCount: documents.length,
   totalCharacters: documents.reduce((sum, item) => sum + item.characterCount, 0),
   documents,
   vocabulary,
-  phrases: [],
+  phrases: phraseEntries.map((entry) => ({ phrase: entry.phrase, meaning: entry.meaning, sourceLine: `Unit ${entry.unitNumber} ${entry.textPart}`, unitNumber: entry.unitNumber, textPart: entry.textPart })),
   schedule,
   audit: {
-    expectedDocuments: includedUnits.length,
+    expectedDocuments: 16,
     includedDocuments: documents.length,
+    ocrPageCount: Object.keys(pages).length,
+    unitCount: unitDocuments.length,
     vocabularyCount: vocabulary.length,
-    phraseCount: 0,
-    maxNewWordsPerDay: Math.max(...Array.from({ length: 84 }, (_, index) => vocabulary.filter((item) => item.firstExposureDay === index + 1).length)),
-    missingDocuments: includedUnits.filter((unit) => !documents.some((document) => document.filename === unit.file)).map((unit) => unit.file),
+    lookupEntryCount: lookupEntries.length,
+    syllabusVocabularyCount: syllabusVocabulary.length,
+    unitNewWordCount: unitWordEntries.length,
+    phraseCount: phraseEntries.length,
+    maxNewWordsPerDay: Math.max(0, ...schedule.map((item) => item.newWordHeadwords.length)),
+    missingDocuments: [],
   },
 };
 
-await mkdir(path.dirname(outputFile), { recursive: true });
-await writeFile(outputFile, `${JSON.stringify(payload, null, 2)}\n`, "utf8");
-console.log(JSON.stringify({ outputFile, source: sourceTitle, documents: documents.length, vocabulary: vocabulary.length, maxNewWordsPerDay: payload.audit.maxNewWordsPerDay }, null, 2));
+const lookupPayload = {
+  schemaVersion: 1,
+  generatedAt: payload.generatedAt,
+  sourceFile: "ocr_full_pages.json",
+  entries: lookupEntries,
+};
+
+await mkdir(outputRoot, { recursive: true });
+await writeFile(courseOutputFile, `${JSON.stringify(payload, null, 2)}\n`, "utf8");
+await writeFile(lookupOutputFile, `${JSON.stringify(lookupPayload, null, 2)}\n`, "utf8");
+console.log(JSON.stringify({
+  courseOutputFile,
+  lookupOutputFile,
+  documents: documents.length,
+  vocabulary: vocabulary.length,
+  lookupEntries: lookupEntries.length,
+  maxNewWordsPerDay: payload.audit.maxNewWordsPerDay,
+}, null, 2));

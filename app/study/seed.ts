@@ -27,7 +27,7 @@ export const STAGE_TITLES: Record<StageId, string> = {
   "stage-2": "第4-5周 教材 Unit 1-4 精读",
   "stage-3": "第6-8周 教材 Unit 5-8 阅读",
   "stage-4": "第9-10周 教材 Unit 9-12 与自测",
-  "stage-5": "第11-12周 教材回收与自测复盘",
+  "stage-5": "第11周 教材回收与考前复盘",
 };
 
 export const STAGE_GOALS: Record<StageId, string> = {
@@ -71,6 +71,20 @@ const topicForCategory = (): Interest => "教育成长";
 function trimMaterial(value: string, limit = 700) {
   const clean = value.replace(/\s+/g, " ").trim();
   return clean.length > limit ? `${clean.slice(0, limit)}…` : clean;
+}
+
+function focusDocumentForSchedule(document: typeof normalizedCourse.documents[number], schedule: ReturnType<typeof getNormalizedSchedule>) {
+  const selectedSections = schedule.focusPartIds?.length
+    ? document.sections.filter((section) => schedule.focusPartIds?.includes(section.id))
+    : document.sections;
+  const sections = selectedSections.length ? selectedSections : document.sections;
+  const focusText = sections.map((section) => section.content).join("\n");
+  const focusSentences = [...new Set(focusText.match(/[A-Z][A-Za-z0-9,;:'’"()\- ]{18,260}[.!?]/g) ?? [])].slice(0, 12);
+  return {
+    ...document,
+    sections,
+    englishSentences: focusSentences.length ? focusSentences : document.englishSentences,
+  };
 }
 
 function vocabularyForDay(day: number, stageId: StageId): VocabularyEntry[] {
@@ -158,9 +172,9 @@ function makeLesson(day: number): Lesson {
     questions: [
       q(`${id}-source`, "reading", "今天的主学习材料是哪一份？", [document.title, "旧版通用演示课", "随机网络文章", "空白占位课"], 0, `本课直接对应 normalized 文件：${document.filename}`),
       q(`${id}-category`, "reading", "这份资料属于哪一类？", [categoryLabel, "与英语二无关", "个人兴趣文章", "未导入资料"], 0, `转换层将它归入：${categoryLabel}。`),
-      q(`${id}-vocab`, "vocabulary", firstWord ? `“${firstWord.word}”在本课词表中的核心义是？` : "本日没有新增词时应优先做什么？", firstWord ? [firstWord.meaning, "释义与资料无关", "只看拼写不理解", "跳过全部复习"] : ["完成到期复习和资料学习", "强行加入超过30个新词", "制造虚假完成记录", "跳过课程"], 0, firstWord ? firstWord.example : "新词为 0 不等于无任务，复习和资料学习仍然继续。"),
+      q(`${id}-vocab`, "vocabulary", firstWord ? `“${firstWord.word}”在本课词表中的核心义是？` : "本日没有新增词时应优先做什么？", firstWord ? [firstWord.meaning, "释义与资料无关", "只看拼写不理解", "跳过全部复习"] : ["完成到期复习和资料学习", "强行加入超过35个新词", "制造虚假完成记录", "跳过课程"], 0, firstWord ? firstWord.example : "新词为 0 不等于无任务，复习和资料学习仍然继续。"),
       q(`${id}-source-quality`, "grammar", "遇到 OCR 粘连或疑似错字时，正确做法是？", ["结合上下文和词典核对", "直接当作标准答案背诵", "删除整份资料", "随意改成另一个词"], 0, "normalized 来自 PDF 文本/OCR，必须保留来源并对疑似错误做核对。"),
-      q(`${id}-limit`, "vocabulary", "每日新增单词的上限是多少？", ["30 个", "60 个", "不限", "只学 1 个"], 0, "重点词和扩展词合计不得超过 30；到期复习不计入新增上限。"),
+      q(`${id}-limit`, "vocabulary", "每日新增单词的上限是多少？", ["35 个", "60 个", "不限", "只学 1 个"], 0, "重点词和扩展词合计不得超过 35；到期复习不计入新增上限。"),
       q(`${id}-use`, "translationWriting", "学习完资料后应留下什么证据？", ["练习答案、翻译或总结", "只打开页面", "虚构学习分钟", "删除旧记录"], 0, "系统只记录真实完成的练习和输出。"),
     ],
     practiceTasks: makePractice(id, vocabulary),
@@ -181,7 +195,8 @@ function makeTextbookLesson(day: number): Lesson {
   const week = Math.ceil(day / 7);
   const stageId = stageFromWeek(week);
   const schedule = getNormalizedSchedule(day);
-  const document = getNormalizedDocument(schedule.documentId) ?? normalizedCourse.documents[0];
+  const baseDocument = getNormalizedDocument(schedule.documentId) ?? normalizedCourse.documents[0];
+  const document = focusDocumentForSchedule(baseDocument, schedule);
   const rhythm = rhythmForDay(day);
   const vocabulary = vocabularyForDay(day, stageId);
   const grammar = grammarFromMaterial(document, day, stageId);
@@ -198,14 +213,14 @@ function makeTextbookLesson(day: number): Lesson {
     id,
     day,
     week,
-    title: rhythm === "rest" ? `教材复习 · ${document.title}` : document.title,
+    title: day === 74 ? "10.23 考前轻复盘" : rhythm === "rest" ? `教材复习 · ${schedule.title ?? document.title}` : schedule.title ?? document.title,
     topic: topicForCategory(),
     stageId,
     rhythm,
     lessonType: lessonTypeForStage(stageId),
     level: `第 ${week} 周教材学习`,
-    summary: `本课内容选自《英语（二）自学教程（2012年版，00015）》的《${document.title}》。`,
-    stageGoal: `围绕指定教材的${categoryLabel}完成词汇、原句理解和练习。`,
+    summary: `本课内容选自完整 OCR JSON 派生资料《${baseDocument.title}》，重点是${schedule.contentFocus ?? categoryLabel}。`,
+    stageGoal: day === 74 ? "考前只做轻复盘，不安排新词。" : `围绕指定教材的${categoryLabel}完成词汇、原句理解和练习。`,
     prerequisites: stageId === "stage-1" ? [] : ["完成前一阶段的教材复习"],
     paragraphs: sourceSentences.map((en) => ({ en, zh: "教材原句节选，请结合本单元上下文理解。" })),
     vocabulary,
@@ -213,24 +228,25 @@ function makeTextbookLesson(day: number): Lesson {
     sentencePatterns: grammar.examples.map((example, index) => ({ pattern: example.en, meaning: `教材原句 ${index + 1}`, example: example.en })),
     expressions: [],
     questions: [
-      q(`${id}-unit`, "reading", "今天学习的教材单元是？", titleOptions, 0, `本课选自《${document.title}》。`),
+      q(`${id}-unit`, "reading", "今天学习的教材单元是？", titleOptions, 0, `本课选自《${baseDocument.title}》。`),
       q(`${id}-category`, "reading", "本课在教材中的内容类型是？", [categoryLabel, ...Object.values(NORMALIZED_CATEGORY_LABELS).filter((item) => item !== categoryLabel).slice(0, 3)], 0, `本课属于${categoryLabel}。`),
       q(`${id}-word`, "vocabulary", firstWord ? `教材词汇“${firstWord.word}”的释义是？` : "今天先完成教材复习。", meaningOptions, 0, firstWord?.example || "教材词汇复习。"),
       q(`${id}-sentence`, "sentence", "哪一句来自今天的教材节选？", sentenceOptions, 0, "请回到本单元教材节选核对原句。"),
     ],
     practiceTasks: makePractice(id, vocabulary),
     translations: sourceSentences.slice(0, 3).map((sentence) => ({ zh: sentence, reference: "教材原句，请完成后回到本单元核对。", tip: "把这句教材英文译成中文。" })),
-    outputPrompt: `根据《${document.title}》的教材节选，写下一句原文和自己的中文理解。`,
+    outputPrompt: day === 74 ? "考前轻复盘：写下最容易忘的 5 个词或短语，以及一个提醒自己的考场策略。" : `根据《${baseDocument.title}》的教材节选，写下一句原文和自己的中文理解。`,
     outputHint: "只围绕本教材单元作答。",
-    sourceDocumentId: document.id,
-    sourceTitle: document.title,
-    sourceCategory: document.category,
+    sourceDocumentId: baseDocument.id,
+    sourceTitle: schedule.title ?? baseDocument.title,
+    sourceCategory: baseDocument.category,
+    sourceSectionIds: schedule.focusPartIds ?? [],
     syllabusNodeIds: document.category === "self-assessment" ? ["exam-task"] : ["knowledge-grammar", "skill-reading"],
     prerequisiteNodeIds: stageId === "stage-1" ? ["prereq-word-recognition", "prereq-basic-sentence"] : [],
   };
 }
 
-export const lessons: Lesson[] = Array.from({ length: 84 }, (_, index) => makeTextbookLesson(index + 1));
+export const lessons: Lesson[] = Array.from({ length: 74 }, (_, index) => makeTextbookLesson(index + 1));
 export const migratedReadingLessons = lessons.filter((lesson) => lesson.stageId === "stage-3" && lesson.lessonType === "transition-reading");
 
 const textbookAssessmentWords = normalizedCourse.vocabulary.slice(0, 6);
@@ -255,7 +271,7 @@ export const defaultScores: SkillScores = {
 };
 
 export const defaultProfile = (): Profile => ({
-  examDate: "2026-10-31",
+  examDate: "2026-10-23",
   weekdayMinutes: 90,
   weekendMinutes: 150,
   studyDays: 6,

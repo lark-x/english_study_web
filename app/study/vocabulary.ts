@@ -1,7 +1,7 @@
 import { normalizedCourse } from "./normalized";
 import type { AppState, StageId, StudyMode, VocabularyEntry } from "./types";
 
-export const MAX_NEW_WORDS_PER_DAY = 30;
+export const MAX_NEW_WORDS_PER_DAY = 35;
 export type VocabularyVerification = "verified" | "provisional" | "pending-source";
 export type PriorityBand = "A" | "B" | "C";
 
@@ -78,8 +78,8 @@ export const vocabularyMaster: MasterVocabularyEntry[] = normalizedCourse.vocabu
 export const vocabularyByHeadword = new Map(vocabularyMaster.map((item) => [item.headword, item]));
 
 export function getVocabularyAudit() {
-  const scheduled = vocabularyMaster.filter((item) => item.firstExposureDay >= 1 && item.firstExposureDay <= 84);
-  const dailyCounts = Array.from({ length: 84 }, (_, index) => scheduled.filter((item) => item.firstExposureDay === index + 1).length);
+  const scheduled = vocabularyMaster.filter((item) => item.firstExposureDay >= 1 && item.firstExposureDay <= 74);
+  const dailyCounts = Array.from({ length: 74 }, (_, index) => scheduled.filter((item) => item.firstExposureDay === index + 1).length);
   return {
     total: vocabularyMaster.length,
     verified: vocabularyMaster.length,
@@ -88,7 +88,7 @@ export function getVocabularyAudit() {
     scheduled: scheduled.length,
     orphan: vocabularyMaster.length - scheduled.length,
     maxScheduledPerDay: Math.max(0, ...dailyCounts),
-    byWeek: Array.from({ length: 12 }, (_, week) => scheduled.filter((item) => Math.ceil(item.firstExposureDay / 7) === week + 1).length),
+    byWeek: Array.from({ length: 11 }, (_, week) => scheduled.filter((item) => Math.ceil(item.firstExposureDay / 7) === week + 1).length),
   };
 }
 
@@ -97,7 +97,7 @@ export function getVocabularyPlan(state: AppState, day: number, mode: StudyMode)
   const accuracy = ability.attempts ? ability.correct / ability.attempts : 1;
   const dueWords = state.reviewItems.filter((item) => item.kind === "word" && item.dueAt <= new Date().toISOString().slice(0, 10));
   const overloaded = dueWords.length > 80 || (ability.attempts >= 5 && accuracy < 0.55);
-  const modeTarget: Record<StudyMode, number> = { 45: 15, 90: 25, 150: MAX_NEW_WORDS_PER_DAY };
+  const modeTarget: Record<StudyMode, number> = { 45: 18, 90: 28, 150: MAX_NEW_WORDS_PER_DAY };
   const totalTarget = Math.min(MAX_NEW_WORDS_PER_DAY, overloaded ? 12 : modeTarget[mode]);
   const focusTarget = Math.min(totalTarget, Math.ceil(totalTarget * 0.72));
   const extensionTarget = totalTarget - focusTarget;
@@ -134,4 +134,3 @@ export function toVocabularyEntry(item: MasterVocabularyEntry, stageId: StageId)
     status: "new",
   };
 }
-
