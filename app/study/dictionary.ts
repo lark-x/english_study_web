@@ -184,7 +184,7 @@ export async function lookupWord(rawWord: string, context = "", signal?: AbortSi
     const merged = mergeExamplePairs([
       { example: contextualExample(context, rawWord) },
       ...local.examples.map((example, index) => ({ example, translation: local.exampleTranslations?.[index] })),
-      ...(ocrLookup?.examples ?? []).map((example, index) => ({ example, translation: ocrLookup.exampleTranslations?.[index] })),
+      ...(ocrLookup?.examples ?? []).map((example, index) => ({ example, translation: ocrLookup?.exampleTranslations?.[index] })),
     ], rawWord, local.meanings[0]?.definition ?? "");
     return {
       ...local,
@@ -202,7 +202,7 @@ export async function lookupWord(rawWord: string, context = "", signal?: AbortSi
     ].slice(0, 5),
     ...mergeExamplePairs([
       { example: contextualExample(context, rawWord) },
-      ...(ocrLookup.examples ?? []).map((example, index) => ({ example, translation: ocrLookup.exampleTranslations?.[index] })),
+      ...(ocrLookup.examples ?? []).map((example, index) => ({ example, translation: ocrLookup?.exampleTranslations?.[index] })),
     ], rawWord, ocrLookup.meanings?.[0] ?? ""),
     collocations: ocrLookup.collocations?.slice(0, 8) ?? [],
     source: "course",

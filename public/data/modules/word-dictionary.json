@@ -1,0 +1,6154 @@
+{
+  "able-bodied": {
+    "phonetic": "/,eibl 'bodid/",
+    "pos": "adj",
+    "meaning": "健康的；健壮的",
+    "example": "He is a able-bodied young man.",
+    "exampleTranslation": "他是一个健康的年轻人。",
+    "relatedPhrases": []
+  },
+  "abnormal": {
+    "phonetic": "/aeb'noiml/",
+    "pos": "adj",
+    "meaning": "不正常的；反常的；变态的；畸形的",
+    "example": "The test results were abnormal.",
+    "exampleTranslation": "测试结果异常。",
+    "relatedPhrases": []
+  },
+  "absolute": {
+    "phonetic": "/'aebsaluit/",
+    "pos": "adj",
+    "meaning": "肯定的；无疑的；明确的",
+    "example": "She has absolute confidence in her team.",
+    "exampleTranslation": "她对团队有绝对的信心。",
+    "relatedPhrases": []
+  },
+  "abundance": {
+    "phonetic": "/a'bAndgns/",
+    "pos": "",
+    "meaning": "大量；丰盛；充裕",
+    "example": "There was an abundance of food at the party.",
+    "exampleTranslation": "聚会上有丰富的食物。",
+    "relatedPhrases": []
+  },
+  "abundant": {
+    "phonetic": "/a'bAndant/",
+    "pos": "adj",
+    "meaning": "大量的；丰盛的；充裕的",
+    "example": "The country has abundant natural resources.",
+    "exampleTranslation": "这个国家有丰富的自然资源。",
+    "relatedPhrases": []
+  },
+  "access": {
+    "phonetic": "/'aekses/",
+    "pos": "n",
+    "meaning": "通道；通路；入口",
+    "example": "Students have access to the library.",
+    "exampleTranslation": "学生可以进入图书馆。",
+    "relatedPhrases": []
+  },
+  "accompany": {
+    "phonetic": "/a'kAmpani/",
+    "pos": "v",
+    "meaning": "陪同；陪伴",
+    "example": "Would you like me to accompany you?",
+    "exampleTranslation": "你想要我陪你吗？",
+    "relatedPhrases": []
+  },
+  "accomplish": {
+    "phonetic": "/a'kAmpliJ/",
+    "pos": "v",
+    "meaning": "完成",
+    "example": "She accomplished her goal.",
+    "exampleTranslation": "她完成了她的目标。",
+    "relatedPhrases": []
+  },
+  "account": {
+    "phonetic": "/a'kaunt/",
+    "pos": "",
+    "meaning": "账户",
+    "example": "I need to open a bank account.",
+    "exampleTranslation": "我需要开一个银行账户。",
+    "relatedPhrases": [
+      {
+        "phrase": "account for",
+        "meaning": "（数量上、比例上）占"
+      }
+    ]
+  },
+  "accumulate": {
+    "phonetic": "/a'kjuimjaleit/",
+    "pos": "v",
+    "meaning": "积累；积聚",
+    "example": "He accumulated a lot of experience.",
+    "exampleTranslation": "他积累了丰富的经验。",
+    "relatedPhrases": []
+  },
+  "ache": {
+    "phonetic": "/eik/",
+    "pos": "",
+    "meaning": "痛；隐痛",
+    "example": "I have a headache.",
+    "exampleTranslation": "我头疼。",
+    "relatedPhrases": []
+  },
+  "acronym": {
+    "phonetic": "/'aekranim/",
+    "pos": "",
+    "meaning": "首字母缩略词",
+    "example": "NASA is an acronym.",
+    "exampleTranslation": "NASA是一个首字母缩略词。",
+    "relatedPhrases": []
+  },
+  "adapt": {
+    "phonetic": "/9'daept/",
+    "pos": "v",
+    "meaning": "适应（新情况）",
+    "example": "You need to adapt to the new environment.",
+    "exampleTranslation": "你需要适应新环境。",
+    "relatedPhrases": []
+  },
+  "addict": {
+    "phonetic": "/I出dikt/",
+    "pos": "",
+    "meaning": "对…入迷的人",
+    "example": "He is a video game addict.",
+    "exampleTranslation": "他是一个电子游戏迷。",
+    "relatedPhrases": []
+  },
+  "addictive": {
+    "phonetic": "/a'diktiv/",
+    "pos": "adj",
+    "meaning": "使人入迷的",
+    "example": "This game is very addictive.",
+    "exampleTranslation": "这个游戏很上瘾。",
+    "relatedPhrases": []
+  },
+  "address": {
+    "phonetic": "/^idres/",
+    "pos": "v",
+    "meaning": "写（收信人）姓名地址；致函",
+    "example": "Please write your address here.",
+    "exampleTranslation": "请在这里写你的地址。",
+    "relatedPhrases": []
+  },
+  "adjust": {
+    "phonetic": "/9'd3Ast/",
+    "pos": "v",
+    "meaning": "适应;习惯",
+    "example": "You need to adjust your seat.",
+    "exampleTranslation": "你需要调整你的座位。",
+    "relatedPhrases": []
+  },
+  "adoption": {
+    "phonetic": "/a'dDpJn/",
+    "pos": "n",
+    "meaning": "收养；领养",
+    "example": "The adoption of the child was legal.",
+    "exampleTranslation": "孩子的收养是合法的。",
+    "relatedPhrases": []
+  },
+  "advantage": {
+    "phonetic": "/sdVamtids/",
+    "pos": "",
+    "meaning": "有利条件；有利因素；优势",
+    "example": "This gives us a great advantage.",
+    "exampleTranslation": "这给了我们很大的优势。",
+    "relatedPhrases": []
+  },
+  "aesthetic": {
+    "phonetic": "/iis'Getik/",
+    "pos": "adj",
+    "meaning": "审美的；有审美观点的；美学的",
+    "example": "The building has great aesthetic value.",
+    "exampleTranslation": "这座建筑有很大的美学价值。",
+    "relatedPhrases": []
+  },
+  "affliction": {
+    "phonetic": "/a'flikj'n/",
+    "pos": "n",
+    "meaning": "折磨；痛苦",
+    "example": "She suffered from a terrible affliction.",
+    "exampleTranslation": "她遭受了可怕的折磨。",
+    "relatedPhrases": []
+  },
+  "agency": {
+    "phonetic": "/'eidsansi/",
+    "pos": "n",
+    "meaning": "(政府的）专门机构",
+    "example": "The government agency helped us.",
+    "exampleTranslation": "政府机构帮助了我们。",
+    "relatedPhrases": []
+  },
+  "aggravate": {
+    "phonetic": "/'aegraveit/",
+    "pos": "v",
+    "meaning": "使严重；使恶化",
+    "example": "Don't aggravate the situation.",
+    "exampleTranslation": "不要使情况恶化。",
+    "relatedPhrases": []
+  },
+  "aid": {
+    "phonetic": "/eid/",
+    "pos": "n",
+    "meaning": "(某工作所需的）帮助，助手，辅助物",
+    "example": "First aid is important.",
+    "exampleTranslation": "急救很重要。",
+    "relatedPhrases": []
+  },
+  "akin": {
+    "phonetic": "/a'kin/",
+    "pos": "adj",
+    "meaning": "相似的；类似的",
+    "example": "His ideas are akin to mine.",
+    "exampleTranslation": "他的想法与我的相似。",
+    "relatedPhrases": []
+  },
+  "albeit": {
+    "phonetic": "/.oil'biiit/",
+    "pos": "conj",
+    "meaning": "尽管；虽然",
+    "example": "He accepted, albeit reluctantly.",
+    "exampleTranslation": "他接受了，尽管不情愿。",
+    "relatedPhrases": []
+  },
+  "alert": {
+    "phonetic": "/a'lsit/",
+    "pos": "adj",
+    "meaning": "警觉的；警惕的；戒备的",
+    "example": "Please stay alert.",
+    "exampleTranslation": "请保持警觉。",
+    "relatedPhrases": []
+  },
+  "alleviate": {
+    "phonetic": "/a'liivieit/",
+    "pos": "v",
+    "meaning": "缓和；缓解",
+    "example": "This medicine can alleviate the pain.",
+    "exampleTranslation": "这种药可以缓解疼痛。",
+    "relatedPhrases": []
+  },
+  "allocate": {
+    "phonetic": "/'sbkeit/",
+    "pos": "v",
+    "meaning": "拨（给）；划（给）；分配（给）",
+    "example": "We need to allocate more resources.",
+    "exampleTranslation": "我们需要分配更多资源。",
+    "relatedPhrases": []
+  },
+  "alternative": {
+    "phonetic": "/oil'tsmotiv/",
+    "pos": "n",
+    "meaning": "可供选择的事物",
+    "example": "We need to find an alternative.",
+    "exampleTranslation": "我们需要找到一个替代方案。",
+    "relatedPhrases": []
+  },
+  "altitude": {
+    "phonetic": "/'^Ititjuid/",
+    "pos": "n",
+    "meaning": "海拔；海拔高度",
+    "example": "The altitude is very important.",
+    "exampleTranslation": "这个海拔；海拔高度很重要。",
+    "relatedPhrases": []
+  },
+  "animated": {
+    "phonetic": "/'aenimeitid/",
+    "pos": "adj",
+    "meaning": "極極如生的；（似）能活动的",
+    "example": "This is a animated example.",
+    "exampleTranslation": "这是一个極極如生的；（似）能活动的的例子。",
+    "relatedPhrases": []
+  },
+  "anniversary": {
+    "phonetic": "/.seni'vsisari/",
+    "pos": "n",
+    "meaning": "周年纪念日",
+    "example": "The anniversary is very important.",
+    "exampleTranslation": "这个周年纪念日很重要。",
+    "relatedPhrases": []
+  },
+  "annually": {
+    "phonetic": "/'aenjuali/",
+    "pos": "adv",
+    "meaning": "—年一次地",
+    "example": "She speaks annually.",
+    "exampleTranslation": "她—年一次地地说话。",
+    "relatedPhrases": []
+  },
+  "anxiety": {
+    "phonetic": "/茫口 Izaisti/",
+    "pos": "",
+    "meaning": "化焦虑；忧虑",
+    "example": "I learned a new word: anxiety.",
+    "exampleTranslation": "我学了一个新单词：化焦虑；忧虑。",
+    "relatedPhrases": []
+  },
+  "apparently": {
+    "phonetic": "/gipsrsntli/",
+    "pos": "v",
+    "meaning": "据...所知；看来；显然",
+    "example": "I need to apparently this task.",
+    "exampleTranslation": "我需要据...所知；看来；显然这个任务。",
+    "relatedPhrases": []
+  },
+  "appearance": {
+    "phonetic": "/。巾口节ns/",
+    "pos": "n",
+    "meaning": "夕h貌；夕h表",
+    "example": "The appearance is very important.",
+    "exampleTranslation": "这个夕h貌；夕h表很重要。",
+    "relatedPhrases": []
+  },
+  "applause": {
+    "phonetic": "/s'ploiz/",
+    "pos": "",
+    "meaning": "打-鼓掌；喝彩",
+    "example": "I learned a new word: applause.",
+    "exampleTranslation": "我学了一个新单词：打-鼓掌；喝彩。",
+    "relatedPhrases": []
+  },
+  "appreciate": {
+    "phonetic": "/a'priijieit/",
+    "pos": "v",
+    "meaning": "欣赏；赏识",
+    "example": "I need to appreciate this task.",
+    "exampleTranslation": "我需要欣赏；赏识这个任务。",
+    "relatedPhrases": []
+  },
+  "appropriate": {
+    "phonetic": "/s'prsuprigt/",
+    "pos": "adj",
+    "meaning": "合适的；恰当的",
+    "example": "This is a appropriate example.",
+    "exampleTranslation": "这是一个合适的；恰当的的例子。",
+    "relatedPhrases": []
+  },
+  "approximately": {
+    "phonetic": "/s'prDksimatli/",
+    "pos": "adv",
+    "meaning": "大概；大约；约莫",
+    "example": "She speaks approximately.",
+    "exampleTranslation": "她大概；大约；约莫地说话。",
+    "relatedPhrases": []
+  },
+  "arise": {
+    "phonetic": "/a'raiz/",
+    "pos": "v",
+    "meaning": "发生；产生；出现",
+    "example": "I need to arise this task.",
+    "exampleTranslation": "我需要发生；产生；出现这个任务。",
+    "relatedPhrases": []
+  },
+  "arrangement": {
+    "phonetic": "/a'remdsmant/",
+    "pos": "",
+    "meaning": "安排；筹备",
+    "example": "I learned a new word: arrangement.",
+    "exampleTranslation": "我学了一个新单词：安排；筹备。",
+    "relatedPhrases": []
+  },
+  "aspire": {
+    "phonetic": "/9'spai9(r)/",
+    "pos": "v",
+    "meaning": "渴望（成就）；有志（成为）",
+    "example": "I need to aspire this task.",
+    "exampleTranslation": "我需要渴望（成就）；有志（成为）这个任务。",
+    "relatedPhrases": []
+  },
+  "assertion": {
+    "phonetic": "/a'ssijn/",
+    "pos": "",
+    "meaning": "化明确肯定；断言",
+    "example": "I learned a new word: assertion.",
+    "exampleTranslation": "我学了一个新单词：化明确肯定；断言。",
+    "relatedPhrases": []
+  },
+  "assume": {
+    "phonetic": "/a'sjuim/",
+    "pos": "v",
+    "meaning": "假定；假设；认为",
+    "example": "I need to assume this task.",
+    "exampleTranslation": "我需要假定；假设；认为这个任务。",
+    "relatedPhrases": []
+  },
+  "assumption": {
+    "phonetic": "/a'sAmpJn/",
+    "pos": "n",
+    "meaning": "f驗；假设",
+    "example": "The assumption is very important.",
+    "exampleTranslation": "这个f驗；假设很重要。",
+    "relatedPhrases": []
+  },
+  "assurance": {
+    "phonetic": "/s'Jus节ns/",
+    "pos": "",
+    "meaning": "化保证；担保",
+    "example": "I learned a new word: assurance.",
+    "exampleTranslation": "我学了一个新单词：化保证；担保。",
+    "relatedPhrases": []
+  },
+  "assure": {
+    "phonetic": "/3啊3任)/",
+    "pos": "",
+    "meaning": "使确信；向...保证",
+    "example": "I learned a new word: assure.",
+    "exampleTranslation": "我学了一个新单词：使确信；向...保证。",
+    "relatedPhrases": [
+      {
+        "phrase": "assure ... of ...",
+        "meaning": "使放心；向…保证"
+      }
+    ]
+  },
+  "attempt": {
+    "phonetic": "/a'tempt/",
+    "pos": "n",
+    "meaning": "企图；试图；尝试",
+    "example": "The attempt is very important.",
+    "exampleTranslation": "这个企图；试图；尝试很重要。",
+    "relatedPhrases": []
+  },
+  "audience": {
+    "phonetic": "/'oidians/",
+    "pos": "n",
+    "meaning": "观众；听众",
+    "example": "The audience is very important.",
+    "exampleTranslation": "这个观众；听众很重要。",
+    "relatedPhrases": []
+  },
+  "auditorium": {
+    "phonetic": "/.oidi'toiriam/",
+    "pos": "",
+    "meaning": "打.礼堂；会堂",
+    "example": "I learned a new word: auditorium.",
+    "exampleTranslation": "我学了一个新单词：打.礼堂；会堂。",
+    "relatedPhrases": []
+  },
+  "authentic": {
+    "phonetic": "/oi'Gentik/",
+    "pos": "adj",
+    "meaning": "真实的；真卫的",
+    "example": "This is a authentic example.",
+    "exampleTranslation": "这是一个真实的；真卫的的例子。",
+    "relatedPhrases": []
+  },
+  "authority": {
+    "phonetic": "/3：'0Dr9ti/",
+    "pos": "n",
+    "meaning": "专家；学术权威；泰斗",
+    "example": "The authority is very important.",
+    "exampleTranslation": "这个专家；学术权威；泰斗很重要。",
+    "relatedPhrases": []
+  },
+  "availability": {
+    "phonetic": "/a.veib'bibti/",
+    "pos": "n",
+    "meaning": "可用；可得至U llg",
+    "example": "The availability is very important.",
+    "exampleTranslation": "这个可用；可得至U llg很重要。",
+    "relatedPhrases": []
+  },
+  "available": {
+    "phonetic": "/a'veibbl/",
+    "pos": "adj",
+    "meaning": "可获得的；可购得的；可找到的 -",
+    "example": "This is a available example.",
+    "exampleTranslation": "这是一个可获得的；可购得的；可找到的 -的例子。",
+    "relatedPhrases": []
+  },
+  "avalanche": {
+    "phonetic": "/'asvalamj/",
+    "pos": "",
+    "meaning": "n.雪崩；山崩",
+    "example": "I learned a new word: avalanche.",
+    "exampleTranslation": "我学了一个新单词：n.雪崩；山崩。",
+    "relatedPhrases": []
+  },
+  "awareness": {
+    "phonetic": "/a'weanss/",
+    "pos": "n",
+    "meaning": "知道；认识；意识",
+    "example": "The awareness is very important.",
+    "exampleTranslation": "这个知道；认识；意识很重要。",
+    "relatedPhrases": []
+  },
+  "awesome": {
+    "phonetic": "/'oisam/",
+    "pos": "adj",
+    "meaning": "令人惊叹的；令人畏惧的",
+    "example": "This is a awesome example.",
+    "exampleTranslation": "这是一个令人惊叹的；令人畏惧的的例子。",
+    "relatedPhrases": []
+  },
+  "awfully": {
+    "phonetic": "/'oifli/",
+    "pos": "adv",
+    "meaning": "非常；极其",
+    "example": "She speaks awfully.",
+    "exampleTranslation": "她非常；极其地说话。",
+    "relatedPhrases": []
+  },
+  "at": {
+    "phonetic": "/in/",
+    "pos": "",
+    "meaning": "to the forefront of…处在最前列；进入重要地位",
+    "example": "I learned a new word: at.",
+    "exampleTranslation": "我学了一个新单词：to the forefront of…处在最前列；进入重要地位。",
+    "relatedPhrases": [
+      {
+        "phrase": "at a time",
+        "meaning": "每次；逐一；依次"
+      },
+      {
+        "phrase": "at one point",
+        "meaning": "在某个时刻"
+      },
+      {
+        "phrase": "at one's disposal",
+        "meaning": "任某人处理；供某人任意使用"
+      }
+    ]
+  },
+  "balance": {
+    "phonetic": "/'baebns/",
+    "pos": "n",
+    "meaning": "均衡；平衡；均势",
+    "example": "The balance is very important.",
+    "exampleTranslation": "这个均衡；平衡；均势很重要。",
+    "relatedPhrases": []
+  },
+  "bar": {
+    "phonetic": "/ba:(r)/",
+    "pos": "n",
+    "meaning": "(音乐）小节",
+    "example": "The bar is very important.",
+    "exampleTranslation": "这个(音乐）小节很重要。",
+    "relatedPhrases": []
+  },
+  "battle": {
+    "phonetic": "/'baetl/",
+    "pos": "",
+    "meaning": "(与...）搏斗；（与...）斗争",
+    "example": "I learned a new word: battle.",
+    "exampleTranslation": "我学了一个新单词：(与...）搏斗；（与...）斗争。",
+    "relatedPhrases": []
+  },
+  "befriend": {
+    "phonetic": "/biifrend/",
+    "pos": "v",
+    "meaning": "做（尤指需要帮助者的）朋友；友善相待",
+    "example": "I need to befriend this task.",
+    "exampleTranslation": "我需要做（尤指需要帮助者的）朋友；友善相待这个任务。",
+    "relatedPhrases": []
+  },
+  "belief": {
+    "phonetic": "/bi'liif/",
+    "pos": "n",
+    "meaning": "相信；偉。",
+    "example": "The belief is very important.",
+    "exampleTranslation": "这个相信；偉。很重要。",
+    "relatedPhrases": []
+  },
+  "betray": {
+    "phonetic": "/bi'trei/",
+    "pos": "v",
+    "meaning": "辜负；对...不忠",
+    "example": "I need to betray this task.",
+    "exampleTranslation": "我需要辜负；对...不忠这个任务。",
+    "relatedPhrases": []
+  },
+  "bewildering": {
+    "phonetic": "/bi'wilcbng/",
+    "pos": "adj",
+    "meaning": "令人困惑的；使人糊涂的",
+    "example": "This is a bewildering example.",
+    "exampleTranslation": "这是一个令人困惑的；使人糊涂的的例子。",
+    "relatedPhrases": []
+  },
+  "bias": {
+    "phonetic": "/'baiss/",
+    "pos": "",
+    "meaning": "偏见；偏心；偏向",
+    "example": "I learned a new word: bias.",
+    "exampleTranslation": "我学了一个新单词：偏见；偏心；偏向。",
+    "relatedPhrases": []
+  },
+  "billionaire": {
+    "phonetic": "/.bilja'neaCr)/",
+    "pos": "n",
+    "meaning": "巨富；亿万富翁",
+    "example": "The billionaire is very important.",
+    "exampleTranslation": "这个巨富；亿万富翁很重要。",
+    "relatedPhrases": []
+  },
+  "bitter": {
+    "phonetic": "/'bit9(r)/",
+    "pos": "adj",
+    "meaning": "激烈而不愉快的；充满愤怒与仇恨的",
+    "example": "This is a bitter example.",
+    "exampleTranslation": "这是一个激烈而不愉快的；充满愤怒与仇恨的的例子。",
+    "relatedPhrases": []
+  },
+  "bizarre": {
+    "phonetic": "/bi'za:(r)/",
+    "pos": "adj",
+    "meaning": "极冥怪诞的；异乎寻常的",
+    "example": "This is a bizarre example.",
+    "exampleTranslation": "这是一个极冥怪诞的；异乎寻常的的例子。",
+    "relatedPhrases": []
+  },
+  "blend": {
+    "phonetic": "/blend/",
+    "pos": "n",
+    "meaning": "(不同事物的）和谐结合，融合",
+    "example": "The blend is very important.",
+    "exampleTranslation": "这个(不同事物的）和谐结合，融合很重要。",
+    "relatedPhrases": []
+  },
+  "blender": {
+    "phonetic": "/'blend3(r)/",
+    "pos": "n",
+    "meaning": "(电动)食物攒拌器",
+    "example": "The blender is very important.",
+    "exampleTranslation": "这个(电动)食物攒拌器很重要。",
+    "relatedPhrases": []
+  },
+  "blessing": {
+    "phonetic": "/'blesi口/",
+    "pos": "",
+    "meaning": "好事；有益之事",
+    "example": "I learned a new word: blessing.",
+    "exampleTranslation": "我学了一个新单词：好事；有益之事。",
+    "relatedPhrases": []
+  },
+  "bloomer": {
+    "phonetic": "/'bluimaCr)/",
+    "pos": "n",
+    "meaning": "完全成熟的人",
+    "example": "The bloomer is very important.",
+    "exampleTranslation": "这个完全成熟的人很重要。",
+    "relatedPhrases": []
+  },
+  "boastfully": {
+    "phonetic": "/'baustfali/",
+    "pos": "adv",
+    "meaning": "自吹自撞地；自夸地",
+    "example": "She speaks boastfully.",
+    "exampleTranslation": "她自吹自撞地；自夸地地说话。",
+    "relatedPhrases": []
+  },
+  "bombard": {
+    "phonetic": "/bDm'baid/",
+    "pos": "v",
+    "meaning": "大肆节击；连珠炮似地质问；提供过多信息",
+    "example": "I need to bombard this task.",
+    "exampleTranslation": "我需要大肆节击；连珠炮似地质问；提供过多信息这个任务。",
+    "relatedPhrases": []
+  },
+  "boost": {
+    "phonetic": "/buist/",
+    "pos": "",
+    "meaning": "使增长；使兴旺 12目",
+    "example": "I learned a new word: boost.",
+    "exampleTranslation": "我学了一个新单词：使增长；使兴旺 12目。",
+    "relatedPhrases": []
+  },
+  "boredom": {
+    "phonetic": "/'boidam/",
+    "pos": "n",
+    "meaning": "厌烦；厌倦；无聊",
+    "example": "The boredom is very important.",
+    "exampleTranslation": "这个厌烦；厌倦；无聊很重要。",
+    "relatedPhrases": []
+  },
+  "boundary": {
+    "phonetic": "/'baundri/",
+    "pos": "n",
+    "meaning": "边界；界限；分界线",
+    "example": "The boundary is very important.",
+    "exampleTranslation": "这个边界；界限；分界线很重要。",
+    "relatedPhrases": []
+  },
+  "bow": {
+    "phonetic": "/bau/",
+    "pos": "n",
+    "meaning": "琴弓",
+    "example": "The bow is very important.",
+    "exampleTranslation": "这个琴弓很重要。",
+    "relatedPhrases": []
+  },
+  "brace": {
+    "phonetic": "/breis/",
+    "pos": "n",
+    "meaning": "双脚规形夹",
+    "example": "The brace is very important.",
+    "exampleTranslation": "这个双脚规形夹很重要。",
+    "relatedPhrases": []
+  },
+  "brick": {
+    "phonetic": "/brik/",
+    "pos": "n",
+    "meaning": "砖；砖块",
+    "example": "The brick is very important.",
+    "exampleTranslation": "这个砖；砖块很重要。",
+    "relatedPhrases": []
+  },
+  "brighten": {
+    "phonetic": "/'braitn/",
+    "pos": "v",
+    "meaning": "(使）快活起来",
+    "example": "I need to brighten this task.",
+    "exampleTranslation": "我需要(使）快活起来这个任务。",
+    "relatedPhrases": []
+  },
+  "brow": {
+    "phonetic": "/brau/",
+    "pos": "n",
+    "meaning": "额头",
+    "example": "The brow is very important.",
+    "exampleTranslation": "这个额头很重要。",
+    "relatedPhrases": []
+  },
+  "budget": {
+    "phonetic": "/'bAd3it/",
+    "pos": "",
+    "meaning": "谨慎花钱；把…编入预算",
+    "example": "I learned a new word: budget.",
+    "exampleTranslation": "我学了一个新单词：谨慎花钱；把…编入预算。",
+    "relatedPhrases": []
+  },
+  "bulked-": {
+    "phonetic": "/|b八Ikt I八p/",
+    "pos": "",
+    "meaning": "a曲.胀大的；发起来的",
+    "example": "I learned a new word: bulked-.",
+    "exampleTranslation": "我学了一个新单词：a曲.胀大的；发起来的。",
+    "relatedPhrases": []
+  },
+  "burden": {
+    "phonetic": "/'baidn/",
+    "pos": "n",
+    "meaning": "(义务、责任等的）重担，负担",
+    "example": "The burden is very important.",
+    "exampleTranslation": "这个(义务、责任等的）重担，负担很重要。",
+    "relatedPhrases": []
+  },
+  "calculator": {
+    "phonetic": "/'kaelkjuleit9(r)/",
+    "pos": "",
+    "meaning": "打.计算器",
+    "example": "I learned a new word: calculator.",
+    "exampleTranslation": "我学了一个新单词：打.计算器。",
+    "relatedPhrases": []
+  },
+  "campaign": {
+    "phonetic": "/kaem'pein/",
+    "pos": "",
+    "meaning": "运动（为社会、商业或政治目的而进行的_系列有计划的活动）",
+    "example": "I learned a new word: campaign.",
+    "exampleTranslation": "我学了一个新单词：运动（为社会、商业或政治目的而进行的_系列有计划的活动）。",
+    "relatedPhrases": []
+  },
+  "capable": {
+    "phonetic": "/'keipabl/",
+    "pos": "adj",
+    "meaning": "有能力的；有才能的",
+    "example": "This is a capable example.",
+    "exampleTranslation": "这是一个有能力的；有才能的的例子。",
+    "relatedPhrases": []
+  },
+  "captivate": {
+    "phonetic": "/'kaeptiveit/",
+    "pos": "v",
+    "meaning": "迷住；使着迷",
+    "example": "I need to captivate this task.",
+    "exampleTranslation": "我需要迷住；使着迷这个任务。",
+    "relatedPhrases": []
+  },
+  "carbon": {
+    "phonetic": "/'kaibgn/",
+    "pos": "",
+    "meaning": "化碳",
+    "example": "I learned a new word: carbon.",
+    "exampleTranslation": "我学了一个新单词：化碳。",
+    "relatedPhrases": []
+  },
+  "career": {
+    "phonetic": "/k9'ri9(r)/",
+    "pos": "n",
+    "meaning": "生涯；职业",
+    "example": "The career is very important.",
+    "exampleTranslation": "这个生涯；职业很重要。",
+    "relatedPhrases": []
+  },
+  "carpenter": {
+    "phonetic": "/'kaipantaCr)/",
+    "pos": "",
+    "meaning": "打.木工；木匠",
+    "example": "I learned a new word: carpenter.",
+    "exampleTranslation": "我学了一个新单词：打.木工；木匠。",
+    "relatedPhrases": []
+  },
+  "carpet": {
+    "phonetic": "/'kaipit/",
+    "pos": "n",
+    "meaning": "地毯",
+    "example": "The carpet is very important.",
+    "exampleTranslation": "这个地毯很重要。",
+    "relatedPhrases": []
+  },
+  "case": {
+    "phonetic": "/keis/",
+    "pos": "n",
+    "meaning": "具体情况；事例",
+    "example": "The case is very important.",
+    "exampleTranslation": "这个具体情况；事例很重要。",
+    "relatedPhrases": []
+  },
+  "cash": {
+    "phonetic": "/kaej/",
+    "pos": "n",
+    "meaning": "现金",
+    "example": "The cash is very important.",
+    "exampleTranslation": "这个现金很重要。",
+    "relatedPhrases": []
+  },
+  "catalyst": {
+    "phonetic": "/'kaetalist/",
+    "pos": "n",
+    "meaning": "催化剂",
+    "example": "The catalyst is very important.",
+    "exampleTranslation": "这个催化剂很重要。",
+    "relatedPhrases": []
+  },
+  "caution": {
+    "phonetic": "/'koijn/",
+    "pos": "",
+    "meaning": "警告；告诫",
+    "example": "I learned a new word: caution.",
+    "exampleTranslation": "我学了一个新单词：警告；告诫。",
+    "relatedPhrases": []
+  },
+  "cease": {
+    "phonetic": "/si;s/",
+    "pos": "v",
+    "meaning": "(使）停止，终止，结束",
+    "example": "I need to cease this task.",
+    "exampleTranslation": "我需要(使）停止，终止，结束这个任务。",
+    "relatedPhrases": []
+  },
+  "celeb": {
+    "phonetic": "/sa'leb/",
+    "pos": "",
+    "meaning": "名人",
+    "example": "I learned a new word: celeb.",
+    "exampleTranslation": "我学了一个新单词：名人。",
+    "relatedPhrases": []
+  },
+  "challenge": {
+    "phonetic": "/'t恃bnds/",
+    "pos": "",
+    "meaning": "化挑战；艰巨任务",
+    "example": "I learned a new word: challenge.",
+    "exampleTranslation": "我学了一个新单词：化挑战；艰巨任务。",
+    "relatedPhrases": []
+  },
+  "chamomile": {
+    "phonetic": "/'k^mamail/",
+    "pos": "n",
+    "meaning": "苹果菊；春黄菊；菊",
+    "example": "The chamomile is very important.",
+    "exampleTranslation": "这个苹果菊；春黄菊；菊很重要。",
+    "relatedPhrases": []
+  },
+  "characteristic": {
+    "phonetic": "/■kaei'sktairistik/",
+    "pos": "adj",
+    "meaning": "典型的；独特的；特有的",
+    "example": "This is a characteristic example.",
+    "exampleTranslation": "这是一个典型的；独特的；特有的的例子。",
+    "relatedPhrases": []
+  },
+  "charity": {
+    "phonetic": "/'tjaerati/",
+    "pos": "n",
+    "meaning": "慈善机构（或组织）",
+    "example": "The charity is very important.",
+    "exampleTranslation": "这个慈善机构（或组织）很重要。",
+    "relatedPhrases": []
+  },
+  "chatline": {
+    "phonetic": "/'t/",
+    "pos": "n",
+    "meaning": "(消遣性的）热线电话交谈服务",
+    "example": "The chatline is very important.",
+    "exampleTranslation": "这个(消遣性的）热线电话交谈服务很重要。",
+    "relatedPhrases": []
+  },
+  "cheerfully": {
+    "phonetic": "/'tjiafali/",
+    "pos": "adv",
+    "meaning": "快乐地；高兴地；兴高采烈地",
+    "example": "She speaks cheerfully.",
+    "exampleTranslation": "她快乐地；高兴地；兴高采烈地地说话。",
+    "relatedPhrases": []
+  },
+  "chin": {
+    "phonetic": "/tjm/",
+    "pos": "",
+    "meaning": "下己",
+    "example": "I learned a new word: chin.",
+    "exampleTranslation": "我学了一个新单词：下己。",
+    "relatedPhrases": []
+  },
+  "chore": {
+    "phonetic": "/tJo:(r)/",
+    "pos": "n",
+    "meaning": "令人厌烦的任务；乏味无聊的工作",
+    "example": "The chore is very important.",
+    "exampleTranslation": "这个令人厌烦的任务；乏味无聊的工作很重要。",
+    "relatedPhrases": []
+  },
+  "cinch": {
+    "phonetic": "/suit；/",
+    "pos": "n",
+    "meaning": "很容易的事；小菜",
+    "example": "The cinch is very important.",
+    "exampleTranslation": "这个很容易的事；小菜很重要。",
+    "relatedPhrases": []
+  },
+  "circumstance": {
+    "phonetic": "/'saiksmstans/",
+    "pos": "",
+    "meaning": "化命运；客XJW境",
+    "example": "I learned a new word: circumstance.",
+    "exampleTranslation": "我学了一个新单词：化命运；客XJW境。",
+    "relatedPhrases": []
+  },
+  "clasp": {
+    "phonetic": "/kla:sp/",
+    "pos": "",
+    "meaning": "化（包、皮带或首饰等的）搭扣，扣I环",
+    "example": "I learned a new word: clasp.",
+    "exampleTranslation": "我学了一个新单词：化（包、皮带或首饰等的）搭扣，扣I环。",
+    "relatedPhrases": []
+  },
+  "client": {
+    "phonetic": "/ikla口nt/",
+    "pos": "n",
+    "meaning": "客户；顾客",
+    "example": "The client is very important.",
+    "exampleTranslation": "这个客户；顾客很重要。",
+    "relatedPhrases": []
+  },
+  "clutter": {
+    "phonetic": "/'klAt9(r)/",
+    "pos": "n",
+    "meaning": "杂乱的东西（尤指不需要的或无用的）；綿^",
+    "example": "The clutter is very important.",
+    "exampleTranslation": "这个杂乱的东西（尤指不需要的或无用的）；綿^很重要。",
+    "relatedPhrases": []
+  },
+  "cofound": {
+    "phonetic": "/kau'faund/",
+    "pos": "v",
+    "meaning": "共同建立",
+    "example": "I need to cofound this task.",
+    "exampleTranslation": "我需要共同建立这个任务。",
+    "relatedPhrases": []
+  },
+  "combination": {
+    "phonetic": "/.kombi'nei/",
+    "pos": "",
+    "meaning": "n/ n.结合体；联合体；混合体",
+    "example": "I learned a new word: combination.",
+    "exampleTranslation": "我学了一个新单词：n/ n.结合体；联合体；混合体。",
+    "relatedPhrases": []
+  },
+  "comeback": {
+    "phonetic": "/'kAmbaek/",
+    "pos": "n",
+    "meaning": "复出；重返；再度受欢迎",
+    "example": "The comeback is very important.",
+    "exampleTranslation": "这个复出；重返；再度受欢迎很重要。",
+    "relatedPhrases": []
+  },
+  "command": {
+    "phonetic": "/ka'mamd/",
+    "pos": "",
+    "meaning": "打.（给人或动物的）命令",
+    "example": "I learned a new word: command.",
+    "exampleTranslation": "我学了一个新单词：打.（给人或动物的）命令。",
+    "relatedPhrases": []
+  },
+  "committed": {
+    "phonetic": "/ka'mitid/",
+    "pos": "adj",
+    "meaning": "尽私尽力的；坚信的；坚定的",
+    "example": "This is a committed example.",
+    "exampleTranslation": "这是一个尽私尽力的；坚信的；坚定的的例子。",
+    "relatedPhrases": []
+  },
+  "commonly": {
+    "phonetic": "/'komanli/",
+    "pos": "adv",
+    "meaning": "通窜；常常",
+    "example": "She speaks commonly.",
+    "exampleTranslation": "她通窜；常常地说话。",
+    "relatedPhrases": []
+  },
+  "commute": {
+    "phonetic": "/ka'mjuit/",
+    "pos": "n",
+    "meaning": "上T?狂路程 Iq",
+    "example": "The commute is very important.",
+    "exampleTranslation": "这个上T?狂路程 Iq很重要。",
+    "relatedPhrases": []
+  },
+  "compare": {
+    "phonetic": "/kgm'pea/",
+    "pos": "v",
+    "meaning": "比较；对比",
+    "example": "I need to compare this task.",
+    "exampleTranslation": "我需要比较；对比这个任务。",
+    "relatedPhrases": []
+  },
+  "competition": {
+    "phonetic": "/.kompa'tij'n/",
+    "pos": "",
+    "meaning": "化竞争；角逐",
+    "example": "I learned a new word: competition.",
+    "exampleTranslation": "我学了一个新单词：化竞争；角逐。",
+    "relatedPhrases": []
+  },
+  "competitor": {
+    "phonetic": "/kam'petitaCr)/",
+    "pos": "",
+    "meaning": "(尤指商业方面的）竞争者，对手",
+    "example": "I learned a new word: competitor.",
+    "exampleTranslation": "我学了一个新单词：(尤指商业方面的）竞争者，对手。",
+    "relatedPhrases": []
+  },
+  "complain": {
+    "phonetic": "/kam'plein/",
+    "pos": "",
+    "meaning": "抱怨；埋怨；发牢骚",
+    "example": "I learned a new word: complain.",
+    "exampleTranslation": "我学了一个新单词：抱怨；埋怨；发牢骚。",
+    "relatedPhrases": []
+  },
+  "complete": {
+    "phonetic": "/kam'pliit/",
+    "pos": "adj",
+    "meaning": "[用LU强调）完全的，彻底的",
+    "example": "This is a complete example.",
+    "exampleTranslation": "这是一个[用LU强调）完全的，彻底的的例子。",
+    "relatedPhrases": []
+  },
+  "conductor": {
+    "phonetic": "/k9n'dAkt9(r)/",
+    "pos": "n",
+    "meaning": "乐队指挥",
+    "example": "The conductor is very important.",
+    "exampleTranslation": "这个乐队指挥很重要。",
+    "relatedPhrases": []
+  },
+  "confession": {
+    "phonetic": "/kan'fejn/",
+    "pos": "n",
+    "meaning": "认罪；供认；坦白",
+    "example": "The confession is very important.",
+    "exampleTranslation": "这个认罪；供认；坦白很重要。",
+    "relatedPhrases": []
+  },
+  "confidence": {
+    "phonetic": "/'konfidans/",
+    "pos": "",
+    "meaning": "打.自信；把握",
+    "example": "I learned a new word: confidence.",
+    "exampleTranslation": "我学了一个新单词：打.自信；把握。",
+    "relatedPhrases": []
+  },
+  "confident": {
+    "phonetic": "/'konfidant/",
+    "pos": "adj",
+    "meaning": "自信的；有自信心的",
+    "example": "This is a confident example.",
+    "exampleTranslation": "这是一个自信的；有自信心的的例子。",
+    "relatedPhrases": []
+  },
+  "conflict": {
+    "phonetic": "/'konflikt/",
+    "pos": "",
+    "meaning": "沖突；争执；争论",
+    "example": "I learned a new word: conflict.",
+    "exampleTranslation": "我学了一个新单词：沖突；争执；争论。",
+    "relatedPhrases": []
+  },
+  "confront": {
+    "phonetic": "/ksn'frAnt/",
+    "pos": "v",
+    "meaning": "处理，解决（问题或困境）",
+    "example": "I need to confront this task.",
+    "exampleTranslation": "我需要处理，解决（问题或困境）这个任务。",
+    "relatedPhrases": []
+  },
+  "congregation": {
+    "phonetic": "/.kDggri'gei/",
+    "pos": "",
+    "meaning": "n/ (教堂的）会众",
+    "example": "I learned a new word: congregation.",
+    "exampleTranslation": "我学了一个新单词：n/ (教堂的）会众。",
+    "relatedPhrases": []
+  },
+  "consequence": {
+    "phonetic": "/'konsikwans/",
+    "pos": "n",
+    "meaning": "结果；后果",
+    "example": "The consequence is very important.",
+    "exampleTranslation": "这个结果；后果很重要。",
+    "relatedPhrases": []
+  },
+  "consequently": {
+    "phonetic": "/'konsikwantli/",
+    "pos": "adv",
+    "meaning": "因此；所乂",
+    "example": "She speaks consequently.",
+    "exampleTranslation": "她因此；所乂地说话。",
+    "relatedPhrases": []
+  },
+  "considerably": {
+    "phonetic": "/kan'sidarabli/",
+    "pos": "adv",
+    "meaning": "非常；很；相当多地",
+    "example": "She speaks considerably.",
+    "exampleTranslation": "她非常；很；相当多地地说话。",
+    "relatedPhrases": []
+  },
+  "consistent": {
+    "phonetic": "/kan'sistant/",
+    "pos": "adj",
+    "meaning": "相符的；符合的",
+    "example": "This is a consistent example.",
+    "exampleTranslation": "这是一个相符的；符合的的例子。",
+    "relatedPhrases": []
+  },
+  "constant": {
+    "phonetic": "/'konstant/",
+    "pos": "adj",
+    "meaning": "不变的；固定的；恒定的",
+    "example": "This is a constant example.",
+    "exampleTranslation": "这是一个不变的；固定的；恒定的的例子。",
+    "relatedPhrases": []
+  },
+  "constraint": {
+    "phonetic": "/kan'streint/",
+    "pos": "n",
+    "meaning": "限制；限定；约束",
+    "example": "The constraint is very important.",
+    "exampleTranslation": "这个限制；限定；约束很重要。",
+    "relatedPhrases": []
+  },
+  "consume": {
+    "phonetic": "/kan'sjuim/",
+    "pos": "v",
+    "meaning": "消耗，耗费（燃料、能量、时间等）",
+    "example": "I need to consume this task.",
+    "exampleTranslation": "我需要消耗，耗费（燃料、能量、时间等）这个任务。",
+    "relatedPhrases": []
+  },
+  "contact": {
+    "phonetic": "/'kontaekt/",
+    "pos": "v",
+    "meaning": "联系，联络（如用电话或信件）",
+    "example": "I need to contact this task.",
+    "exampleTranslation": "我需要联系，联络（如用电话或信件）这个任务。",
+    "relatedPhrases": []
+  },
+  "contagious": {
+    "phonetic": "/kan'teidsss/",
+    "pos": "adj",
+    "meaning": "患接触性传染病的",
+    "example": "This is a contagious example.",
+    "exampleTranslation": "这是一个患接触性传染病的的例子。",
+    "relatedPhrases": []
+  },
+  "contain": {
+    "phonetic": "/ksn'tein/",
+    "pos": "v",
+    "meaning": "控制，克制，抑制（感情）",
+    "example": "I need to contain this task.",
+    "exampleTranslation": "我需要控制，克制，抑制（感情）这个任务。",
+    "relatedPhrases": []
+  },
+  "content": {
+    "phonetic": "/'kontent/",
+    "pos": "",
+    "meaning": "所容纳之物；包含之物",
+    "example": "I learned a new word: content.",
+    "exampleTranslation": "我学了一个新单词：所容纳之物；包含之物。",
+    "relatedPhrases": []
+  },
+  "context": {
+    "phonetic": "/'kontekst/",
+    "pos": "n",
+    "meaning": "(事情发生的）背景，环境，来龙去脉",
+    "example": "The context is very important.",
+    "exampleTranslation": "这个(事情发生的）背景，环境，来龙去脉很重要。",
+    "relatedPhrases": []
+  },
+  "contribute": {
+    "phonetic": "/kan'tnbjuit/",
+    "pos": "v",
+    "meaning": "糟加；增进；添加（到某物）",
+    "example": "I need to contribute this task.",
+    "exampleTranslation": "我需要糟加；增进；添加（到某物）这个任务。",
+    "relatedPhrases": []
+  },
+  "convert": {
+    "phonetic": "/kan'vsit/",
+    "pos": "v",
+    "meaning": "(使）转变，转换，转化",
+    "example": "I need to convert this task.",
+    "exampleTranslation": "我需要(使）转变，转换，转化这个任务。",
+    "relatedPhrases": [
+      {
+        "phrase": "convert ... into",
+        "meaning": "（使）转变，转换，转化"
+      }
+    ]
+  },
+  "convey": {
+    "phonetic": "/kan'vei/",
+    "pos": "v",
+    "meaning": "表达，{雜（思想、感情等）",
+    "example": "I need to convey this task.",
+    "exampleTranslation": "我需要表达，{雜（思想、感情等）这个任务。",
+    "relatedPhrases": []
+  },
+  "convince": {
+    "phonetic": "/kan'vins/",
+    "pos": "v",
+    "meaning": "说服，舰兑（某人做某事）",
+    "example": "I need to convince this task.",
+    "exampleTranslation": "我需要说服，舰兑（某人做某事）这个任务。",
+    "relatedPhrases": []
+  },
+  "corn": {
+    "phonetic": "/koin/",
+    "pos": "n",
+    "meaning": "玉米",
+    "example": "The corn is very important.",
+    "exampleTranslation": "这个玉米很重要。",
+    "relatedPhrases": []
+  },
+  "correspondence": {
+    "phonetic": "/.kDra'spondsns/",
+    "pos": "n",
+    "meaning": "通信；通信联系",
+    "example": "The correspondence is very important.",
+    "exampleTranslation": "这个通信；通信联系很重要。",
+    "relatedPhrases": []
+  },
+  "counsel": {
+    "phonetic": "/'kaunsl/",
+    "pos": "n",
+    "meaning": "知告；忠告；建议",
+    "example": "The counsel is very important.",
+    "exampleTranslation": "这个知告；忠告；建议很重要。",
+    "relatedPhrases": []
+  },
+  "court": {
+    "phonetic": "/ko;t/",
+    "pos": "",
+    "meaning": "(男子向女子）求爱，追求",
+    "example": "I learned a new word: court.",
+    "exampleTranslation": "我学了一个新单词：(男子向女子）求爱，追求。",
+    "relatedPhrases": []
+  },
+  "crack": {
+    "phonetic": "/kraek/",
+    "pos": "v",
+    "meaning": "找到解决（难题等的）方法",
+    "example": "I need to crack this task.",
+    "exampleTranslation": "我需要找到解决（难题等的）方法这个任务。",
+    "relatedPhrases": []
+  },
+  "cranky": {
+    "phonetic": "/'kraegki/",
+    "pos": "adj",
+    "meaning": "脾气坏的",
+    "example": "This is a cranky example.",
+    "exampleTranslation": "这是一个脾气坏的的例子。",
+    "relatedPhrases": []
+  },
+  "creative": {
+    "phonetic": "/kri'eitiv/",
+    "pos": "adj",
+    "meaning": "创造（性）的；创作的",
+    "example": "This is a creative example.",
+    "exampleTranslation": "这是一个创造（性）的；创作的的例子。",
+    "relatedPhrases": []
+  },
+  "creativity": {
+    "phonetic": "/.kriiei'tivati/",
+    "pos": "",
+    "meaning": "化创造力",
+    "example": "I learned a new word: creativity.",
+    "exampleTranslation": "我学了一个新单词：化创造力。",
+    "relatedPhrases": []
+  },
+  "credible": {
+    "phonetic": "/'kredabl/",
+    "pos": "adj",
+    "meaning": "可信的；可靠的",
+    "example": "This is a credible example.",
+    "exampleTranslation": "这是一个可信的；可靠的的例子。",
+    "relatedPhrases": []
+  },
+  "critical": {
+    "phonetic": "/'kritikl/",
+    "pos": "adj",
+    "meaning": "有判断力的；判断公卫（或审慎）的",
+    "example": "This is a critical example.",
+    "exampleTranslation": "这是一个有判断力的；判断公卫（或审慎）的的例子。",
+    "relatedPhrases": []
+  },
+  "criticize": {
+    "phonetic": "/'kntisaiz/",
+    "pos": "v",
+    "meaning": "批评；批判；挑剔；指责",
+    "example": "I need to criticize this task.",
+    "exampleTranslation": "我需要批评；批判；挑剔；指责这个任务。",
+    "relatedPhrases": []
+  },
+  "crucial": {
+    "phonetic": "/'kruijl/",
+    "pos": "adj",
+    "meaning": "至关重要的；关键的",
+    "example": "This is a crucial example.",
+    "exampleTranslation": "这是一个至关重要的；关键的的例子。",
+    "relatedPhrases": []
+  },
+  "crutch": {
+    "phonetic": "/krAtJ/",
+    "pos": "n",
+    "meaning": "(腿脚受伤病人用的）蔽杖",
+    "example": "The crutch is very important.",
+    "exampleTranslation": "这个(腿脚受伤病人用的）蔽杖很重要。",
+    "relatedPhrases": []
+  },
+  "curly": {
+    "phonetic": "/'k3ili/",
+    "pos": "adj",
+    "meaning": "有馨发（或毛）的；卷曲状的",
+    "example": "This is a curly example.",
+    "exampleTranslation": "这是一个有馨发（或毛）的；卷曲状的的例子。",
+    "relatedPhrases": []
+  },
+  "current": {
+    "phonetic": "/'kArant/",
+    "pos": "adj",
+    "meaning": "现时发生的；当前的",
+    "example": "This is a current example.",
+    "exampleTranslation": "这是一个现时发生的；当前的的例子。",
+    "relatedPhrases": []
+  },
+  "dairy": {
+    "phonetic": "/•deari/",
+    "pos": "adj",
+    "meaning": "乳品业的；生产乳品的",
+    "example": "This is a dairy example.",
+    "exampleTranslation": "这是一个乳品业的；生产乳品的的例子。",
+    "relatedPhrases": []
+  },
+  "de-tune": {
+    "phonetic": "/山'tjuin/",
+    "pos": "v",
+    "meaning": "使改变调子",
+    "example": "I need to de-tune this task.",
+    "exampleTranslation": "我需要使改变调子这个任务。",
+    "relatedPhrases": []
+  },
+  "dealer": {
+    "phonetic": "/'di:l9(r)/",
+    "pos": "n",
+    "meaning": "贩毒者；毒品贩子",
+    "example": "The dealer is very important.",
+    "exampleTranslation": "这个贩毒者；毒品贩子很重要。",
+    "relatedPhrases": []
+  },
+  "debut": {
+    "phonetic": "/ide比ju:/",
+    "pos": "",
+    "meaning": "使（新产品）面世；首次广告推广",
+    "example": "I learned a new word: debut.",
+    "exampleTranslation": "我学了一个新单词：使（新产品）面世；首次广告推广。",
+    "relatedPhrases": []
+  },
+  "decline": {
+    "phonetic": "/di'klain/",
+    "pos": "v",
+    "meaning": "减少；下降；衰退",
+    "example": "I need to decline this task.",
+    "exampleTranslation": "我需要减少；下降；衰退这个任务。",
+    "relatedPhrases": []
+  },
+  "define": {
+    "phonetic": "/di'fain/",
+    "pos": "v",
+    "meaning": "阐明；明确；界定",
+    "example": "I need to define this task.",
+    "exampleTranslation": "我需要阐明；明确；界定这个任务。",
+    "relatedPhrases": []
+  },
+  "deliberately": {
+    "phonetic": "/di'hbaratli/",
+    "pos": "adv",
+    "meaning": "故意；蓄意；昏以",
+    "example": "She speaks deliberately.",
+    "exampleTranslation": "她故意；蓄意；昏以地说话。",
+    "relatedPhrases": []
+  },
+  "democrat": {
+    "phonetic": "/'demakraet/",
+    "pos": "n",
+    "meaning": "(美国）民主党党员，民主党支持者",
+    "example": "The Democrat is very important.",
+    "exampleTranslation": "这个(美国）民主党党员，民主党支持者很重要。",
+    "relatedPhrases": []
+  },
+  "demon": {
+    "phonetic": "/'diimon/",
+    "pos": "",
+    "meaning": "化恶魔;魔鬼",
+    "example": "I learned a new word: demon.",
+    "exampleTranslation": "我学了一个新单词：化恶魔;魔鬼。",
+    "relatedPhrases": []
+  },
+  "dependence": {
+    "phonetic": "/di'pendans/",
+    "pos": "n",
+    "meaning": "(生存或成功必需的）依靠，依赖，依存",
+    "example": "The dependence is very important.",
+    "exampleTranslation": "这个(生存或成功必需的）依靠，依赖，依存很重要。",
+    "relatedPhrases": []
+  },
+  "dependency": {
+    "phonetic": "/di'pendsnsi/",
+    "pos": "",
+    "meaning": "(尤指不正常或不必要的）依靠，依赖",
+    "example": "I learned a new word: dependency.",
+    "exampleTranslation": "我学了一个新单词：(尤指不正常或不必要的）依靠，依赖。",
+    "relatedPhrases": []
+  },
+  "deposit": {
+    "phonetic": "/di'pDzit/",
+    "pos": "",
+    "meaning": "存款",
+    "example": "I learned a new word: deposit.",
+    "exampleTranslation": "我学了一个新单词：存款。",
+    "relatedPhrases": []
+  },
+  "depression": {
+    "phonetic": "/di-prejn/",
+    "pos": "",
+    "meaning": "打.萧条期；经济衰退；不景气",
+    "example": "I learned a new word: depression.",
+    "exampleTranslation": "我学了一个新单词：打.萧条期；经济衰退；不景气。",
+    "relatedPhrases": []
+  },
+  "desert": {
+    "phonetic": "/di'zsit/",
+    "pos": "v",
+    "meaning": "抛弃，离弃，遗弃（某人）",
+    "example": "I need to desert this task.",
+    "exampleTranslation": "我需要抛弃，离弃，遗弃（某人）这个任务。",
+    "relatedPhrases": []
+  },
+  "deserve": {
+    "phonetic": "/di'zsiv/",
+    "pos": "v",
+    "meaning": "值得；应得；应受",
+    "example": "I need to deserve this task.",
+    "exampleTranslation": "我需要值得；应得；应受这个任务。",
+    "relatedPhrases": []
+  },
+  "desire": {
+    "phonetic": "/diiza口(r)/",
+    "pos": "v",
+    "meaning": "渴望；期望",
+    "example": "I need to desire this task.",
+    "exampleTranslation": "我需要渴望；期望这个任务。",
+    "relatedPhrases": []
+  },
+  "despair": {
+    "phonetic": "/di'spe9(r)/",
+    "pos": "",
+    "meaning": "绝望 .",
+    "example": "I learned a new word: despair.",
+    "exampleTranslation": "我学了一个新单词：绝望 .。",
+    "relatedPhrases": []
+  },
+  "desperation": {
+    "phonetic": "/.despa'reijn/",
+    "pos": "",
+    "meaning": "绝望；拼命；链而走险",
+    "example": "I learned a new word: desperation.",
+    "exampleTranslation": "我学了一个新单词：绝望；拼命；链而走险。",
+    "relatedPhrases": []
+  },
+  "despite": {
+    "phonetic": "/di'spait/",
+    "pos": "prep",
+    "meaning": "即使；尽管",
+    "example": "I learned a new word: despite.",
+    "exampleTranslation": "我学了一个新单词：即使；尽管。",
+    "relatedPhrases": []
+  },
+  "destination": {
+    "phonetic": "/.desti'neijn/",
+    "pos": "n",
+    "meaning": "巨的地；终点",
+    "example": "The destination is very important.",
+    "exampleTranslation": "这个巨的地；终点很重要。",
+    "relatedPhrases": []
+  },
+  "destiny": {
+    "phonetic": "/'destani/",
+    "pos": "n",
+    "meaning": "命运；天命；天数",
+    "example": "The destiny is very important.",
+    "exampleTranslation": "这个命运；天命；天数很重要。",
+    "relatedPhrases": []
+  },
+  "determine": {
+    "phonetic": "/di'taimm/",
+    "pos": "v",
+    "meaning": "决定",
+    "example": "I need to determine this task.",
+    "exampleTranslation": "我需要决定这个任务。",
+    "relatedPhrases": []
+  },
+  "differentiate": {
+    "phonetic": "/.difs'renjieit/",
+    "pos": "v",
+    "meaning": "区分；区别；辨别",
+    "example": "I need to differentiate this task.",
+    "exampleTranslation": "我需要区分；区别；辨别这个任务。",
+    "relatedPhrases": []
+  },
+  "dignity": {
+    "phonetic": "/'dignsti/",
+    "pos": "",
+    "meaning": "自豪；自尊；自重",
+    "example": "I learned a new word: dignity.",
+    "exampleTranslation": "我学了一个新单词：自豪；自尊；自重。",
+    "relatedPhrases": []
+  },
+  "directly": {
+    "phonetic": "/ds'rektli/",
+    "pos": "adv",
+    "meaning": "直接地；径直地",
+    "example": "She speaks directly.",
+    "exampleTranslation": "她直接地；径直地地说话。",
+    "relatedPhrases": []
+  },
+  "disability": {
+    "phonetic": "/,dis9'bibti/",
+    "pos": "n",
+    "meaning": "(某种）缺陷，障碍",
+    "example": "The disability is very important.",
+    "exampleTranslation": "这个(某种）缺陷，障碍很重要。",
+    "relatedPhrases": []
+  },
+  "disaster": {
+    "phonetic": "/di'za:st9(r)/",
+    "pos": "n",
+    "meaning": "灾难；不幸；彻底失败",
+    "example": "The disaster is very important.",
+    "exampleTranslation": "这个灾难；不幸；彻底失败很重要。",
+    "relatedPhrases": []
+  },
+  "discipline": {
+    "phonetic": "/'dissplm/",
+    "pos": "n",
+    "meaning": "自制力；遵守纪律",
+    "example": "The discipline is very important.",
+    "exampleTranslation": "这个自制力；遵守纪律很重要。",
+    "relatedPhrases": []
+  },
+  "discover": {
+    "phonetic": "/dis'kAV9(r)/",
+    "pos": "v",
+    "meaning": "了解至U ;认识到；查明",
+    "example": "I need to discover this task.",
+    "exampleTranslation": "我需要了解至U ;认识到；查明这个任务。",
+    "relatedPhrases": []
+  },
+  "disempower": {
+    "phonetic": "/,disim'pau9(r)/",
+    "pos": "v",
+    "meaning": "剥夺；使失去权禾ij",
+    "example": "I need to disempower this task.",
+    "exampleTranslation": "我需要剥夺；使失去权禾ij这个任务。",
+    "relatedPhrases": []
+  },
+  "distraught": {
+    "phonetic": "/di'stroit/",
+    "pos": "adj",
+    "meaning": "私烦意乱的；必急如焚的",
+    "example": "This is a distraught example.",
+    "exampleTranslation": "这是一个私烦意乱的；必急如焚的的例子。",
+    "relatedPhrases": []
+  },
+  "donate": {
+    "phonetic": "/dau'neit/",
+    "pos": "v",
+    "meaning": "(尤指向慈善机构）捐赠，赠送",
+    "example": "I need to donate this task.",
+    "exampleTranslation": "我需要(尤指向慈善机构）捐赠，赠送这个任务。",
+    "relatedPhrases": []
+  },
+  "downpayment": {
+    "phonetic": "/,daun 'peimant/",
+    "pos": "n",
+    "meaning": "(分期付款的）首期付款；预付金；定金",
+    "example": "The downpayment is very important.",
+    "exampleTranslation": "这个(分期付款的）首期付款；预付金；定金很重要。",
+    "relatedPhrases": []
+  },
+  "drain": {
+    "phonetic": "/drein/",
+    "pos": "n",
+    "meaning": "下水道；扫眯管",
+    "example": "The drain is very important.",
+    "exampleTranslation": "这个下水道；扫眯管很重要。",
+    "relatedPhrases": []
+  },
+  "dramatically": {
+    "phonetic": "/dra'maetikli/",
+    "pos": "adv",
+    "meaning": "巨大地；惊人地；显著地",
+    "example": "She speaks dramatically.",
+    "exampleTranslation": "她巨大地；惊人地；显著地地说话。",
+    "relatedPhrases": []
+  },
+  "dread": {
+    "phonetic": "/dred/",
+    "pos": "v",
+    "meaning": "非常害怕；极为担,。",
+    "example": "I need to dread this task.",
+    "exampleTranslation": "我需要非常害怕；极为担,。这个任务。",
+    "relatedPhrases": []
+  },
+  "dreaded": {
+    "phonetic": "/'dredid/",
+    "pos": "adj",
+    "meaning": "令人害怕的；可怕的",
+    "example": "This is a dreaded example.",
+    "exampleTranslation": "这是一个令人害怕的；可怕的的例子。",
+    "relatedPhrases": []
+  },
+  "ease": {
+    "phonetic": "/i：z/",
+    "pos": "n",
+    "meaning": "舒适；安逸；自在v.减轻；放松；缓和",
+    "example": "The ease is very important.",
+    "exampleTranslation": "这个舒适；安逸；自在v.减轻；放松；缓和很重要。",
+    "relatedPhrases": []
+  },
+  "economic": {
+    "phonetic": "/.iika'nomik/",
+    "pos": "adj",
+    "meaning": "经节的；经济上的；经济学的",
+    "example": "This is a economic example.",
+    "exampleTranslation": "这是一个经节的；经济上的；经济学的的例子。",
+    "relatedPhrases": []
+  },
+  "economical": {
+    "phonetic": "/.iika'nDmikl/",
+    "pos": "adj",
+    "meaning": "节俭的；节约的；简洁的",
+    "example": "This is a economical example.",
+    "exampleTranslation": "这是一个节俭的；节约的；简洁的的例子。",
+    "relatedPhrases": []
+  },
+  "economy": {
+    "phonetic": "/I'konami/",
+    "pos": "n",
+    "meaning": "经济；经济情况；经济结构",
+    "example": "The economy is very important.",
+    "exampleTranslation": "这个经济；经济情况；经济结构很重要。",
+    "relatedPhrases": []
+  },
+  "effective": {
+    "phonetic": "/I'fektiv/",
+    "pos": "adj",
+    "meaning": "产生预期结果的；有效的",
+    "example": "This is a effective example.",
+    "exampleTranslation": "这是一个产生预期结果的；有效的的例子。",
+    "relatedPhrases": []
+  },
+  "effectively": {
+    "phonetic": "/I'fektivli/",
+    "pos": "adv",
+    "meaning": "有效地",
+    "example": "She speaks effectively.",
+    "exampleTranslation": "她有效地地说话。",
+    "relatedPhrases": []
+  },
+  "electrical": {
+    "phonetic": "/iileklrikl/",
+    "pos": "adj",
+    "meaning": "电的；用电的；发电的",
+    "example": "This is a electrical example.",
+    "exampleTranslation": "这是一个电的；用电的；发电的的例子。",
+    "relatedPhrases": []
+  },
+  "electricity": {
+    "phonetic": "/i.lek'tnsati/",
+    "pos": "",
+    "meaning": "化电；电能",
+    "example": "I learned a new word: electricity.",
+    "exampleTranslation": "我学了一个新单词：化电；电能。",
+    "relatedPhrases": []
+  },
+  "eliminate": {
+    "phonetic": "/I'limineit/",
+    "pos": "v",
+    "meaning": "排除；清除；消除",
+    "example": "I need to eliminate this task.",
+    "exampleTranslation": "我需要排除；清除；消除这个任务。",
+    "relatedPhrases": []
+  },
+  "embarrassed": {
+    "phonetic": "/im'baersst/",
+    "pos": "adj",
+    "meaning": "(人或行为）（尤指在社交场合）窘迫的，尴尬的，害羞的",
+    "example": "This is a embarrassed example.",
+    "exampleTranslation": "这是一个(人或行为）（尤指在社交场合）窘迫的，尴尬的，害羞的的例子。",
+    "relatedPhrases": []
+  },
+  "embrace": {
+    "phonetic": "/im'breis/",
+    "pos": "n",
+    "meaning": "拥抱",
+    "example": "The embrace is very important.",
+    "exampleTranslation": "这个拥抱很重要。",
+    "relatedPhrases": []
+  },
+  "emerge": {
+    "phonetic": "/i'm3id3/",
+    "pos": "v",
+    "meaning": "露头；显现",
+    "example": "I need to emerge this task.",
+    "exampleTranslation": "我需要露头；显现这个任务。",
+    "relatedPhrases": []
+  },
+  "emotion": {
+    "phonetic": "/I'maujn/",
+    "pos": "n",
+    "meaning": "强烈的感情；情感；情绪",
+    "example": "The emotion is very important.",
+    "exampleTranslation": "这个强烈的感情；情感；情绪很重要。",
+    "relatedPhrases": []
+  },
+  "emotionally": {
+    "phonetic": "/I'maujanali/",
+    "pos": "adv",
+    "meaning": "感情上地；情感上地",
+    "example": "She speaks emotionally.",
+    "exampleTranslation": "她感情上地；情感上地地说话。",
+    "relatedPhrases": []
+  },
+  "empower": {
+    "phonetic": "/im'pau9(r)/",
+    "pos": "",
+    "meaning": "增加（某人的）自主权；使控制局势",
+    "example": "I learned a new word: empower.",
+    "exampleTranslation": "我学了一个新单词：增加（某人的）自主权；使控制局势。",
+    "relatedPhrases": []
+  },
+  "engagement": {
+    "phonetic": "/in'geidsmant/",
+    "pos": "",
+    "meaning": "打.约定；约会；预约",
+    "example": "I learned a new word: engagement.",
+    "exampleTranslation": "我学了一个新单词：打.约定；约会；预约。",
+    "relatedPhrases": []
+  },
+  "engender": {
+    "phonetic": "/in'dsencbOr)/",
+    "pos": "v",
+    "meaning": "引起（某种感觉或情况）",
+    "example": "I need to engender this task.",
+    "exampleTranslation": "我需要引起（某种感觉或情况）这个任务。",
+    "relatedPhrases": []
+  },
+  "enormity": {
+    "phonetic": "/I'noimati/",
+    "pos": "",
+    "meaning": "巨大；深远影响；严重性",
+    "example": "I learned a new word: enormity.",
+    "exampleTranslation": "我学了一个新单词：巨大；深远影响；严重性。",
+    "relatedPhrases": []
+  },
+  "entrepreneur": {
+    "phonetic": "/,Dntr9pr9'n3：(r)/",
+    "pos": "",
+    "meaning": "创业者；企业家",
+    "example": "I learned a new word: entrepreneur.",
+    "exampleTranslation": "我学了一个新单词：创业者；企业家。",
+    "relatedPhrases": []
+  },
+  "envision": {
+    "phonetic": "/in'vi3n/",
+    "pos": "v",
+    "meaning": "展望；想象",
+    "example": "I need to envision this task.",
+    "exampleTranslation": "我需要展望；想象这个任务。",
+    "relatedPhrases": []
+  },
+  "episode": {
+    "phonetic": "/'episaud/",
+    "pos": "",
+    "meaning": "(人生的）一段经历；（小说的）片段，插曲",
+    "example": "I learned a new word: episode.",
+    "exampleTranslation": "我学了一个新单词：(人生的）一段经历；（小说的）片段，插曲。",
+    "relatedPhrases": []
+  },
+  "equal": {
+    "phonetic": "/'iikwal/",
+    "pos": "v",
+    "meaning": "比得上；敌得过",
+    "example": "I need to equal this task.",
+    "exampleTranslation": "我需要比得上；敌得过这个任务。",
+    "relatedPhrases": []
+  },
+  "errand": {
+    "phonetic": "/'erand/",
+    "pos": "",
+    "meaning": "打.差事；差事",
+    "example": "I learned a new word: errand.",
+    "exampleTranslation": "我学了一个新单词：打.差事；差事。",
+    "relatedPhrases": []
+  },
+  "escort": {
+    "phonetic": "/'eskoit/",
+    "pos": "n",
+    "meaning": "护送者；护卫队",
+    "example": "The escort is very important.",
+    "exampleTranslation": "这个护送者；护卫队很重要。",
+    "relatedPhrases": []
+  },
+  "especially": {
+    "phonetic": "/I'spejali/",
+    "pos": "adv",
+    "meaning": "尤其；特别；格外 、",
+    "example": "She speaks especially.",
+    "exampleTranslation": "她尤其；特别；格外 、地说话。",
+    "relatedPhrases": []
+  },
+  "essence": {
+    "phonetic": "/'esns/",
+    "pos": "n",
+    "meaning": "本质；实质；精髓",
+    "example": "The essence is very important.",
+    "exampleTranslation": "这个本质；实质；精髓很重要。",
+    "relatedPhrases": []
+  },
+  "essential": {
+    "phonetic": "/I'senjl/",
+    "pos": "n",
+    "meaning": "必不可少的东西；必需品",
+    "example": "The essential is very important.",
+    "exampleTranslation": "这个必不可少的东西；必需品很重要。",
+    "relatedPhrases": []
+  },
+  "ethnic": {
+    "phonetic": "/'eGnik/",
+    "pos": "adj",
+    "meaning": "种族的；民族的",
+    "example": "This is a ethnic example.",
+    "exampleTranslation": "这是一个种族的；民族的的例子。",
+    "relatedPhrases": []
+  },
+  "evaluate": {
+    "phonetic": "/I'vaeljueit/",
+    "pos": "v",
+    "meaning": "估计；i种介；i利古",
+    "example": "I need to evaluate this task.",
+    "exampleTranslation": "我需要估计；i种介；i利古这个任务。",
+    "relatedPhrases": []
+  },
+  "eventually": {
+    "phonetic": "/I'ventjuali/",
+    "pos": "adv",
+    "meaning": "最后；终于",
+    "example": "She speaks eventually.",
+    "exampleTranslation": "她最后；终于地说话。",
+    "relatedPhrases": []
+  },
+  "evidence": {
+    "phonetic": "/'evidans/",
+    "pos": "v",
+    "meaning": "证明；表明",
+    "example": "I need to evidence this task.",
+    "exampleTranslation": "我需要证明；表明这个任务。",
+    "relatedPhrases": []
+  },
+  "evil": {
+    "phonetic": "/'iivl/",
+    "pos": "n",
+    "meaning": "邪恶；罪恶；恶行",
+    "example": "The evil is very important.",
+    "exampleTranslation": "这个邪恶；罪恶；恶行很重要。",
+    "relatedPhrases": []
+  },
+  "evoke": {
+    "phonetic": "/I'vauk/",
+    "pos": "v",
+    "meaning": "弓樞，喚起（感情、记忆或形象）",
+    "example": "I need to evoke this task.",
+    "exampleTranslation": "我需要弓樞，喚起（感情、记忆或形象）这个任务。",
+    "relatedPhrases": []
+  },
+  "evolve": {
+    "phonetic": "/I'vDlv/",
+    "pos": "v",
+    "meaning": "(使）遂渐形成，逐步发展",
+    "example": "I need to evolve this task.",
+    "exampleTranslation": "我需要(使）遂渐形成，逐步发展这个任务。",
+    "relatedPhrases": []
+  },
+  "exceed": {
+    "phonetic": "/ik'siid/",
+    "pos": "v",
+    "meaning": "超过（数量）",
+    "example": "I need to exceed this task.",
+    "exampleTranslation": "我需要超过（数量）这个任务。",
+    "relatedPhrases": []
+  },
+  "exception": {
+    "phonetic": "/ik'sepjn/",
+    "pos": "",
+    "meaning": "规则的例外；例外的事物",
+    "example": "I learned a new word: exception.",
+    "exampleTranslation": "我学了一个新单词：规则的例外；例外的事物。",
+    "relatedPhrases": []
+  },
+  "exclude": {
+    "phonetic": "/ik'skluid/",
+    "pos": "v",
+    "meaning": "把...排斥在外；防止...进入；阻止...参力口",
+    "example": "I need to exclude this task.",
+    "exampleTranslation": "我需要把...排斥在外；防止...进入；阻止...参力口这个任务。",
+    "relatedPhrases": []
+  },
+  "exhaustive": {
+    "phonetic": "/咕口:stiv/",
+    "pos": "adj",
+    "meaning": "详尽的；彻底的",
+    "example": "This is a exhaustive example.",
+    "exampleTranslation": "这是一个详尽的；彻底的的例子。",
+    "relatedPhrases": []
+  },
+  "expense": {
+    "phonetic": "/ik'spens/",
+    "pos": "n",
+    "meaning": "费用；价钱",
+    "example": "The expense is very important.",
+    "exampleTranslation": "这个费用；价钱很重要。",
+    "relatedPhrases": []
+  },
+  "explanation": {
+    "phonetic": "/.ekspb'neijn/",
+    "pos": "n",
+    "meaning": "解释；说明",
+    "example": "The explanation is very important.",
+    "exampleTranslation": "这个解释；说明很重要。",
+    "relatedPhrases": []
+  },
+  "explode": {
+    "phonetic": "/ik'splaud/",
+    "pos": "",
+    "meaning": "突然爆发，迸发（感情）",
+    "example": "I learned a new word: explode.",
+    "exampleTranslation": "我学了一个新单词：突然爆发，迸发（感情）。",
+    "relatedPhrases": []
+  },
+  "exploit": {
+    "phonetic": "/ik'spbit/",
+    "pos": "",
+    "meaning": "利用（..•为自己谋利）",
+    "example": "I learned a new word: exploit.",
+    "exampleTranslation": "我学了一个新单词：利用（..•为自己谋利）。",
+    "relatedPhrases": []
+  },
+  "expression": {
+    "phonetic": "/ik'sprejii/",
+    "pos": "n",
+    "meaning": "表情；神色",
+    "example": "The expression is very important.",
+    "exampleTranslation": "这个表情；神色很重要。",
+    "relatedPhrases": []
+  },
+  "extract": {
+    "phonetic": "/ik'straekt/",
+    "pos": "v",
+    "meaning": "选取；摘录；选录 •",
+    "example": "I need to extract this task.",
+    "exampleTranslation": "我需要选取；摘录；选录 •这个任务。",
+    "relatedPhrases": []
+  },
+  "fabulous": {
+    "phonetic": "/'faebjabs/",
+    "pos": "adj",
+    "meaning": "极好的；绝妙的",
+    "example": "This is a fabulous example.",
+    "exampleTranslation": "这是一个极好的；绝妙的的例子。",
+    "relatedPhrases": []
+  },
+  "faith": {
+    "phonetic": "/feiG/",
+    "pos": "n",
+    "meaning": "信任；相倍；偉。",
+    "example": "The faith is very important.",
+    "exampleTranslation": "这个信任；相倍；偉。很重要。",
+    "relatedPhrases": []
+  },
+  "faithful": {
+    "phonetic": "/'fei0fl/",
+    "pos": "adj",
+    "meaning": "忠实的；忠诚的",
+    "example": "This is a faithful example.",
+    "exampleTranslation": "这是一个忠实的；忠诚的的例子。",
+    "relatedPhrases": []
+  },
+  "familiarity": {
+    "phonetic": "/fa.mili'aerati/",
+    "pos": "n",
+    "meaning": "熟悉；通晓",
+    "example": "The familiarity is very important.",
+    "exampleTranslation": "这个熟悉；通晓很重要。",
+    "relatedPhrases": []
+  },
+  "fare": {
+    "phonetic": "/fe9(r)/",
+    "pos": "n",
+    "meaning": "车费；船费；飞机票价",
+    "example": "The fare is very important.",
+    "exampleTranslation": "这个车费；船费；飞机票价很重要。",
+    "relatedPhrases": []
+  },
+  "favorite": {
+    "phonetic": "/'feivarit/",
+    "pos": "adj",
+    "meaning": "最喜爱的",
+    "example": "This is a favorite example.",
+    "exampleTranslation": "这是一个最喜爱的的例子。",
+    "relatedPhrases": []
+  },
+  "feeble": {
+    "phonetic": "/'fiibl/",
+    "pos": "adj",
+    "meaning": "无效的；无力的",
+    "example": "This is a feeble example.",
+    "exampleTranslation": "这是一个无效的；无力的的例子。",
+    "relatedPhrases": []
+  },
+  "feed": {
+    "phonetic": "/fi;d/",
+    "pos": "",
+    "meaning": "满足愿望、愿望、欲望諷",
+    "example": "I learned a new word: feed.",
+    "exampleTranslation": "我学了一个新单词：满足愿望、愿望、欲望諷。",
+    "relatedPhrases": []
+  },
+  "ferry": {
+    "phonetic": "/'feri/",
+    "pos": "n",
+    "meaning": "渡船",
+    "example": "The ferry is very important.",
+    "exampleTranslation": "这个渡船很重要。",
+    "relatedPhrases": []
+  },
+  "fiercely": {
+    "phonetic": "/'fissli/",
+    "pos": "adv",
+    "meaning": "猛烈地",
+    "example": "She speaks fiercely.",
+    "exampleTranslation": "她猛烈地地说话。",
+    "relatedPhrases": []
+  },
+  "figure": {
+    "phonetic": "/|fig3(r)/",
+    "pos": "",
+    "meaning": "认为，认定（某事将发生或属实）",
+    "example": "I learned a new word: figure.",
+    "exampleTranslation": "我学了一个新单词：认为，认定（某事将发生或属实）。",
+    "relatedPhrases": []
+  },
+  "finance": {
+    "phonetic": "/'fainaens/",
+    "pos": "n",
+    "meaning": "finances [pi.](个人、组织、国家的）财力，财源，财务管理",
+    "example": "The finance is very important.",
+    "exampleTranslation": "这个finances [pi.](个人、组织、国家的）财力，财源，财务管理很重要。",
+    "relatedPhrases": []
+  },
+  "financially": {
+    "phonetic": "/fai'naenjali/",
+    "pos": "adv",
+    "meaning": "经济上",
+    "example": "She speaks financially.",
+    "exampleTranslation": "她经济上地说话。",
+    "relatedPhrases": []
+  },
+  "fixings": {
+    "phonetic": "/'fiksigz/",
+    "pos": "n",
+    "meaning": "(菜肴的）配料",
+    "example": "The fixings is very important.",
+    "exampleTranslation": "这个(菜肴的）配料很重要。",
+    "relatedPhrases": []
+  },
+  "fixture": {
+    "phonetic": "/'fikstj9(r)/",
+    "pos": "n",
+    "meaning": "固定设施",
+    "example": "The fixture is very important.",
+    "exampleTranslation": "这个固定设施很重要。",
+    "relatedPhrases": []
+  },
+  "flash": {
+    "phonetic": "/flae；/",
+    "pos": "",
+    "meaning": "|'闪光；|'闪耀",
+    "example": "I learned a new word: flash.",
+    "exampleTranslation": "我学了一个新单词：|'闪光；|'闪耀。",
+    "relatedPhrases": []
+  },
+  "flesh": {
+    "phonetic": "/flej/",
+    "pos": "n",
+    "meaning": "(动物或人的）肉",
+    "example": "The flesh is very important.",
+    "exampleTranslation": "这个(动物或人的）肉很重要。",
+    "relatedPhrases": []
+  },
+  "flip": {
+    "phonetic": "/flip/",
+    "pos": "",
+    "meaning": "按（开关）；按（按钮）",
+    "example": "I learned a new word: flip.",
+    "exampleTranslation": "我学了一个新单词：按（开关）；按（按钮）。",
+    "relatedPhrases": []
+  },
+  "flirtation": {
+    "phonetic": "/flsi'teijn/",
+    "pos": "n",
+    "meaning": "调情",
+    "example": "The flirtation is very important.",
+    "exampleTranslation": "这个调情很重要。",
+    "relatedPhrases": []
+  },
+  "formation": {
+    "phonetic": "/foi'mei/",
+    "pos": "n",
+    "meaning": "组成；开;成",
+    "example": "The formation is very important.",
+    "exampleTranslation": "这个组成；开;成很重要。",
+    "relatedPhrases": []
+  },
+  "fortune": {
+    "phonetic": "/'foit/",
+    "pos": "",
+    "meaning": "uin/ n.大笔的钱；巨款",
+    "example": "I learned a new word: fortune.",
+    "exampleTranslation": "我学了一个新单词：uin/ n.大笔的钱；巨款。",
+    "relatedPhrases": []
+  },
+  "foundation": {
+    "phonetic": "/faun'deijn/",
+    "pos": "",
+    "meaning": "基本原理；根据；基础",
+    "example": "I learned a new word: foundation.",
+    "exampleTranslation": "我学了一个新单词：基本原理；根据；基础。",
+    "relatedPhrases": []
+  },
+  "friendless": {
+    "phonetic": "/'frendbs/",
+    "pos": "adj",
+    "meaning": "没有朋友的",
+    "example": "This is a friendless example.",
+    "exampleTranslation": "这是一个没有朋友的的例子。",
+    "relatedPhrases": []
+  },
+  "frost": {
+    "phonetic": "/frost/",
+    "pos": "",
+    "meaning": "给（糕饼）覆上糖霜",
+    "example": "I learned a new word: frost.",
+    "exampleTranslation": "我学了一个新单词：给（糕饼）覆上糖霜。",
+    "relatedPhrases": []
+  },
+  "frosting": {
+    "phonetic": "/'frostig/",
+    "pos": "n",
+    "meaning": "糖霜（用义装饰糕饼等）",
+    "example": "The frosting is very important.",
+    "exampleTranslation": "这个糖霜（用义装饰糕饼等）很重要。",
+    "relatedPhrases": []
+  },
+  "frown": {
+    "phonetic": "/fraun/",
+    "pos": "v",
+    "meaning": "娘眉；醫额",
+    "example": "I need to frown this task.",
+    "exampleTranslation": "我需要娘眉；醫额这个任务。",
+    "relatedPhrases": []
+  },
+  "frustration": {
+    "phonetic": "/frA'streiJn/",
+    "pos": "",
+    "meaning": "令人懊丧（或懊恼、沮丧）的事物",
+    "example": "I learned a new word: frustration.",
+    "exampleTranslation": "我学了一个新单词：令人懊丧（或懊恼、沮丧）的事物。",
+    "relatedPhrases": []
+  },
+  "fulfill": {
+    "phonetic": "/ful'fil/",
+    "pos": "",
+    "meaning": "实现",
+    "example": "I learned a new word: fulfill.",
+    "exampleTranslation": "我学了一个新单词：实现。",
+    "relatedPhrases": []
+  },
+  "front": {
+    "phonetic": "/.Ap'frAnt/",
+    "pos": "adv",
+    "meaning": "预付地；预交地",
+    "example": "She speaks front.",
+    "exampleTranslation": "她预付地；预交地地说话。",
+    "relatedPhrases": []
+  },
+  "gang": {
+    "phonetic": "/gaer)/",
+    "pos": "n",
+    "meaning": "—帮，一群，佩事、斗殴的年轻人）",
+    "example": "The gang is very important.",
+    "exampleTranslation": "这个—帮，一群，佩事、斗殴的年轻人）很重要。",
+    "relatedPhrases": []
+  },
+  "gel": {
+    "phonetic": "/d3el/",
+    "pos": "n",
+    "meaning": "凝胶，冻胶（尤指用于头发或护肤的产品）",
+    "example": "The gel is very important.",
+    "exampleTranslation": "这个凝胶，冻胶（尤指用于头发或护肤的产品）很重要。",
+    "relatedPhrases": []
+  },
+  "gene": {
+    "phonetic": "/dsiin/",
+    "pos": "n",
+    "meaning": "基因",
+    "example": "The gene is very important.",
+    "exampleTranslation": "这个基因很重要。",
+    "relatedPhrases": []
+  },
+  "generation": {
+    "phonetic": "/,d3en9'reij'n/",
+    "pos": "n",
+    "meaning": "(统称）一ft人，同代人，同辈人",
+    "example": "The generation is very important.",
+    "exampleTranslation": "这个(统称）一ft人，同代人，同辈人很重要。",
+    "relatedPhrases": []
+  },
+  "gently": {
+    "phonetic": "/'dsentli/",
+    "pos": "adv",
+    "meaning": "温柔地；温和地；和缓地",
+    "example": "She speaks gently.",
+    "exampleTranslation": "她温柔地；温和地；和缓地地说话。",
+    "relatedPhrases": []
+  },
+  "germ": {
+    "phonetic": "/dsaim/",
+    "pos": "n",
+    "meaning": "微生物；细菌；病菌 ：",
+    "example": "The germ is very important.",
+    "exampleTranslation": "这个微生物；细菌；病菌 ：很重要。",
+    "relatedPhrases": []
+  },
+  "gesture": {
+    "phonetic": "/'d3estj9(r)/",
+    "pos": "v",
+    "meaning": "做手势；用手势表示",
+    "example": "I need to gesture this task.",
+    "exampleTranslation": "我需要做手势；用手势表示这个任务。",
+    "relatedPhrases": []
+  },
+  "gingerly": {
+    "phonetic": "/'d3md39li/",
+    "pos": "adv",
+    "meaning": "谨慎地；小心翼翼地；轻手轻脚地",
+    "example": "She speaks gingerly.",
+    "exampleTranslation": "她谨慎地；小心翼翼地；轻手轻脚地地说话。",
+    "relatedPhrases": []
+  },
+  "glance": {
+    "phonetic": "/glams/",
+    "pos": "v",
+    "meaning": "瞥一眼；匆匆一看；扫视",
+    "example": "I need to glance this task.",
+    "exampleTranslation": "我需要瞥一眼；匆匆一看；扫视这个任务。",
+    "relatedPhrases": []
+  },
+  "glum": {
+    "phonetic": "/glAm/",
+    "pos": "adj",
+    "meaning": "忧郁的；闷阔不乐的",
+    "example": "This is a glum example.",
+    "exampleTranslation": "这是一个忧郁的；闷阔不乐的的例子。",
+    "relatedPhrases": []
+  },
+  "goodwill": {
+    "phonetic": "/.gud'wil/",
+    "pos": "n",
+    "meaning": "友善；友好；善意",
+    "example": "The goodwill is very important.",
+    "exampleTranslation": "这个友善；友好；善意很重要。",
+    "relatedPhrases": []
+  },
+  "gossip": {
+    "phonetic": "/'gosip/",
+    "pos": "n",
+    "meaning": "流言斐语",
+    "example": "The gossip is very important.",
+    "exampleTranslation": "这个流言斐语很重要。",
+    "relatedPhrases": []
+  },
+  "grandly": {
+    "phonetic": "/'graendli/",
+    "pos": "adv",
+    "meaning": "骄傲地；自负地",
+    "example": "She speaks grandly.",
+    "exampleTranslation": "她骄傲地；自负地地说话。",
+    "relatedPhrases": []
+  },
+  "grasp": {
+    "phonetic": "/graisp/",
+    "pos": "v",
+    "meaning": "抓紧；抓牢",
+    "example": "I need to grasp this task.",
+    "exampleTranslation": "我需要抓紧；抓牢这个任务。",
+    "relatedPhrases": []
+  },
+  "grateful": {
+    "phonetic": "/'greitfl/",
+    "pos": "adj",
+    "meaning": "感激的；表示感谢的",
+    "example": "This is a grateful example.",
+    "exampleTranslation": "这是一个感激的；表示感谢的的例子。",
+    "relatedPhrases": []
+  },
+  "gratification": {
+    "phonetic": "/.graetifi'keijn/",
+    "pos": "n",
+    "meaning": "满足；满意",
+    "example": "The gratification is very important.",
+    "exampleTranslation": "这个满足；满意很重要。",
+    "relatedPhrases": []
+  },
+  "greedy": {
+    "phonetic": "/'griidi/",
+    "pos": "adj",
+    "meaning": "贪婪的；黄心的",
+    "example": "This is a greedy example.",
+    "exampleTranslation": "这是一个贪婪的；黄心的的例子。",
+    "relatedPhrases": []
+  },
+  "grief": {
+    "phonetic": "/griif/",
+    "pos": "n",
+    "meaning": "(尤指因某人去世引起的）悲伤，悲痛，伤心",
+    "example": "The grief is very important.",
+    "exampleTranslation": "这个(尤指因某人去世引起的）悲伤，悲痛，伤心很重要。",
+    "relatedPhrases": []
+  },
+  "grip": {
+    "phonetic": "/grip/",
+    "pos": "n",
+    "meaning": "紧握；紧抓",
+    "example": "The grip is very important.",
+    "exampleTranslation": "这个紧握；紧抓很重要。",
+    "relatedPhrases": []
+  },
+  "groceries": {
+    "phonetic": "/'grousariz/",
+    "pos": "n",
+    "meaning": "食品杂货",
+    "example": "The groceries is very important.",
+    "exampleTranslation": "这个食品杂货很重要。",
+    "relatedPhrases": []
+  },
+  "guard": {
+    "phonetic": "/ga;d/",
+    "pos": "",
+    "meaning": "警卫；守卫；保卫",
+    "example": "I learned a new word: guard.",
+    "exampleTranslation": "我学了一个新单词：警卫；守卫；保卫。",
+    "relatedPhrases": []
+  },
+  "guilt": {
+    "phonetic": "/gilt/",
+    "pos": "n",
+    "meaning": "内疚；悔恨",
+    "example": "The guilt is very important.",
+    "exampleTranslation": "这个内疚；悔恨很重要。",
+    "relatedPhrases": []
+  },
+  "guts": {
+    "phonetic": "/gAts/",
+    "pos": "n",
+    "meaning": "勇气；胆量；决必；毅力",
+    "example": "The guts is very important.",
+    "exampleTranslation": "这个勇气；胆量；决必；毅力很重要。",
+    "relatedPhrases": []
+  },
+  "god": {
+    "phonetic": "/Heaven/",
+    "pos": "",
+    "meaning": "Lord forbid (that...)但愿送事不发生",
+    "example": "I learned a new word: God.",
+    "exampleTranslation": "我学了一个新单词：Lord forbid (that...)但愿送事不发生。",
+    "relatedPhrases": []
+  },
+  "habitat": {
+    "phonetic": "/'haebitaet/",
+    "pos": "n",
+    "meaning": "(动植物的）生活环境，栖息地",
+    "example": "The habitat is very important.",
+    "exampleTranslation": "这个(动植物的）生活环境，栖息地很重要。",
+    "relatedPhrases": []
+  },
+  "hammer": {
+    "phonetic": "/'haemaCr)/",
+    "pos": "",
+    "meaning": "打.锤子；锤头",
+    "example": "I learned a new word: hammer.",
+    "exampleTranslation": "我学了一个新单词：打.锤子；锤头。",
+    "relatedPhrases": []
+  },
+  "harsh": {
+    "phonetic": "/haij/",
+    "pos": "adj",
+    "meaning": "残酷的；严酷的；严厉的",
+    "example": "This is a harsh example.",
+    "exampleTranslation": "这是一个残酷的；严酷的；严厉的的例子。",
+    "relatedPhrases": []
+  },
+  "heartbreaking": {
+    "phonetic": "/'haitbreikir)/",
+    "pos": "adj",
+    "meaning": "令人心碎的",
+    "example": "This is a heartbreaking example.",
+    "exampleTranslation": "这是一个令人心碎的的例子。",
+    "relatedPhrases": []
+  },
+  "hearty": {
+    "phonetic": "/'haiti/",
+    "pos": "adj",
+    "meaning": "大的；丰盛的 12八",
+    "example": "This is a hearty example.",
+    "exampleTranslation": "这是一个大的；丰盛的 12八的例子。",
+    "relatedPhrases": []
+  },
+  "heaven": {
+    "phonetic": "/'hevn/",
+    "pos": "n",
+    "meaning": "the heavens [pi.]天空",
+    "example": "The heaven is very important.",
+    "exampleTranslation": "这个the heavens [pi.]天空很重要。",
+    "relatedPhrases": []
+  },
+  "heed": {
+    "phonetic": "/hi;d/",
+    "pos": "v",
+    "meaning": "留必；注意；听从（劝告或警告）",
+    "example": "I need to heed this task.",
+    "exampleTranslation": "我需要留必；注意；听从（劝告或警告）这个任务。",
+    "relatedPhrases": []
+  },
+  "hermit": {
+    "phonetic": "/'haimit/",
+    "pos": "n",
+    "meaning": "隐± ;隐修者；遁世者 12八",
+    "example": "The hermit is very important.",
+    "exampleTranslation": "这个隐± ;隐修者；遁世者 12八很重要。",
+    "relatedPhrases": []
+  },
+  "hesitation": {
+    "phonetic": "/.hezi'leijn/",
+    "pos": "",
+    "meaning": "犹豫",
+    "example": "I learned a new word: hesitation.",
+    "exampleTranslation": "我学了一个新单词：犹豫。",
+    "relatedPhrases": []
+  },
+  "hit": {
+    "phonetic": "/hit/",
+    "pos": "n",
+    "meaning": "很受欢迎的人（或事物）",
+    "example": "The hit is very important.",
+    "exampleTranslation": "这个很受欢迎的人（或事物）很重要。",
+    "relatedPhrases": []
+  },
+  "hog": {
+    "phonetic": "/hog/",
+    "pos": "n",
+    "meaning": "猪",
+    "example": "The hog is very important.",
+    "exampleTranslation": "这个猪很重要。",
+    "relatedPhrases": []
+  },
+  "homeless": {
+    "phonetic": "/'haumbs/",
+    "pos": "adj",
+    "meaning": "无家的",
+    "example": "This is a homeless example.",
+    "exampleTranslation": "这是一个无家的的例子。",
+    "relatedPhrases": []
+  },
+  "hop": {
+    "phonetic": "/hop/",
+    "pos": "",
+    "meaning": "突然快速去某处",
+    "example": "I learned a new word: hop.",
+    "exampleTranslation": "我学了一个新单词：突然快速去某处。",
+    "relatedPhrases": []
+  },
+  "household": {
+    "phonetic": "/'haushguld/",
+    "pos": "",
+    "meaning": "打.—家人；家庭",
+    "example": "I learned a new word: household.",
+    "exampleTranslation": "我学了一个新单词：打.—家人；家庭。",
+    "relatedPhrases": []
+  },
+  "hurdbe": {
+    "phonetic": "/节过:姐/",
+    "pos": "",
+    "meaning": "化①hurdles [pi ]跨栏赛③栏架；跨栏⑤难关；障碍",
+    "example": "I learned a new word: hurdBe.",
+    "exampleTranslation": "我学了一个新单词：化①hurdles [pi ]跨栏赛③栏架；跨栏⑤难关；障碍。",
+    "relatedPhrases": []
+  },
+  "hurtful": {
+    "phonetic": "/'hsitfl/",
+    "pos": "adj",
+    "meaning": "伤感情的；伤害自尊的",
+    "example": "This is a hurtful example.",
+    "exampleTranslation": "这是一个伤感情的；伤害自尊的的例子。",
+    "relatedPhrases": []
+  },
+  "identify": {
+    "phonetic": "/ai'dentifai/",
+    "pos": "v",
+    "meaning": "找到；发现",
+    "example": "I need to identify this task.",
+    "exampleTranslation": "我需要找到；发现这个任务。",
+    "relatedPhrases": []
+  },
+  "ideology": {
+    "phonetic": "/.aidi'Dbdsi/",
+    "pos": "n",
+    "meaning": "意识开;态；观念开《态",
+    "example": "The ideology is very important.",
+    "exampleTranslation": "这个意识开;态；观念开《态很重要。",
+    "relatedPhrases": []
+  },
+  "ignorance": {
+    "phonetic": "/'ignarans/",
+    "pos": "n",
+    "meaning": "无知",
+    "example": "The ignorance is very important.",
+    "exampleTranslation": "这个无知很重要。",
+    "relatedPhrases": []
+  },
+  "illegal": {
+    "phonetic": "/I'liigl/",
+    "pos": "adj",
+    "meaning": "不合法的；非法的；违法的",
+    "example": "This is a illegal example.",
+    "exampleTranslation": "这是一个不合法的；非法的；违法的的例子。",
+    "relatedPhrases": []
+  },
+  "illustrate": {
+    "phonetic": "/'ibstreit/",
+    "pos": "v",
+    "meaning": "(用示例、图画等）说明，解释",
+    "example": "I need to illustrate this task.",
+    "exampleTranslation": "我需要(用示例、图画等）说明，解释这个任务。",
+    "relatedPhrases": []
+  },
+  "imagine": {
+    "phonetic": "/I'maedsm/",
+    "pos": "v",
+    "meaning": "料想；认为",
+    "example": "I need to imagine this task.",
+    "exampleTranslation": "我需要料想；认为这个任务。",
+    "relatedPhrases": []
+  },
+  "immense": {
+    "phonetic": "/I'mens/",
+    "pos": "adj",
+    "meaning": "极大的；巨大的",
+    "example": "This is a immense example.",
+    "exampleTranslation": "这是一个极大的；巨大的的例子。",
+    "relatedPhrases": []
+  },
+  "immigrant": {
+    "phonetic": "/'imigrant/",
+    "pos": "n",
+    "meaning": "(夕h来）移民；夕K乔",
+    "example": "The immigrant is very important.",
+    "exampleTranslation": "这个(夕h来）移民；夕K乔很重要。",
+    "relatedPhrases": []
+  },
+  "impact": {
+    "phonetic": "/'impaekt/",
+    "pos": "n",
+    "meaning": "巨大影响；强大作用",
+    "example": "The impact is very important.",
+    "exampleTranslation": "这个巨大影响；强大作用很重要。",
+    "relatedPhrases": []
+  },
+  "impatient": {
+    "phonetic": "/im'peijnt/",
+    "pos": "adj",
+    "meaning": "不而颇的；没有耐/心的",
+    "example": "This is a impatient example.",
+    "exampleTranslation": "这是一个不而颇的；没有耐/心的的例子。",
+    "relatedPhrases": []
+  },
+  "imperfect": {
+    "phonetic": "/im'paifikt/",
+    "pos": "adj",
+    "meaning": "有缺陷的；不完全的；不完美的",
+    "example": "This is a imperfect example.",
+    "exampleTranslation": "这是一个有缺陷的；不完全的；不完美的的例子。",
+    "relatedPhrases": []
+  },
+  "incessantly": {
+    "phonetic": "/m'sesntli/",
+    "pos": "adv",
+    "meaning": "不停地；持续不断地",
+    "example": "She speaks incessantly.",
+    "exampleTranslation": "她不停地；持续不断地地说话。",
+    "relatedPhrases": []
+  },
+  "incident": {
+    "phonetic": "/'msidant/",
+    "pos": "n",
+    "meaning": "发生的事廈（尤指不寻常的或讨厌的）",
+    "example": "The incident is very important.",
+    "exampleTranslation": "这个发生的事廈（尤指不寻常的或讨厌的）很重要。",
+    "relatedPhrases": []
+  },
+  "inclination": {
+    "phonetic": "/.mkli'neijn/",
+    "pos": "n",
+    "meaning": "倾向；意愿",
+    "example": "The inclination is very important.",
+    "exampleTranslation": "这个倾向；意愿很重要。",
+    "relatedPhrases": []
+  },
+  "inconsistency": {
+    "phonetic": "/.mkgn'sistansi/",
+    "pos": "n",
+    "meaning": "不一致",
+    "example": "The inconsistency is very important.",
+    "exampleTranslation": "这个不一致很重要。",
+    "relatedPhrases": []
+  },
+  "incredible": {
+    "phonetic": "/m'kredabl/",
+    "pos": "adj",
+    "meaning": "不能相信的；难lU置信的",
+    "example": "This is a incredible example.",
+    "exampleTranslation": "这是一个不能相信的；难lU置信的的例子。",
+    "relatedPhrases": []
+  },
+  "incredibly": {
+    "phonetic": "/in'kredabli/",
+    "pos": "adv",
+    "meaning": "极端地；极其",
+    "example": "She speaks incredibly.",
+    "exampleTranslation": "她极端地；极其地说话。",
+    "relatedPhrases": []
+  },
+  "inculcate": {
+    "phonetic": "/'inkAlkeit/",
+    "pos": "v",
+    "meaning": "反复灌输；淳淳教诲",
+    "example": "I need to inculcate this task.",
+    "exampleTranslation": "我需要反复灌输；淳淳教诲这个任务。",
+    "relatedPhrases": []
+  },
+  "indeed": {
+    "phonetic": "/in'diid/",
+    "pos": "adv",
+    "meaning": "其实；实际上",
+    "example": "She speaks indeed.",
+    "exampleTranslation": "她其实；实际上地说话。",
+    "relatedPhrases": []
+  },
+  "independent": {
+    "phonetic": "/.indi'pendant/",
+    "pos": "adj",
+    "meaning": "自立的；自食貸力的",
+    "example": "This is a independent example.",
+    "exampleTranslation": "这是一个自立的；自食貸力的的例子。",
+    "relatedPhrases": []
+  },
+  "individual": {
+    "phonetic": "/.indi'vidsugl/",
+    "pos": "adj",
+    "meaning": "—个人的；供一个人用的",
+    "example": "This is a individual example.",
+    "exampleTranslation": "这是一个—个人的；供一个人用的的例子。",
+    "relatedPhrases": []
+  },
+  "indulge": {
+    "phonetic": "/m d八 1啦/",
+    "pos": "",
+    "meaning": "沉湎，沉迷，沉溺（于…）",
+    "example": "I learned a new word: indulge.",
+    "exampleTranslation": "我学了一个新单词：沉湎，沉迷，沉溺（于…）。",
+    "relatedPhrases": []
+  },
+  "infinite": {
+    "phonetic": "/'mfinat/",
+    "pos": "adj",
+    "meaning": "极大的；无法衡量的",
+    "example": "This is a infinite example.",
+    "exampleTranslation": "这是一个极大的；无法衡量的的例子。",
+    "relatedPhrases": []
+  },
+  "influence": {
+    "phonetic": "/'mfluans/",
+    "pos": "v",
+    "meaning": "影响；对...起作用",
+    "example": "I need to influence this task.",
+    "exampleTranslation": "我需要影响；对...起作用这个任务。",
+    "relatedPhrases": []
+  },
+  "informed": {
+    "phonetic": "/in'foimd/",
+    "pos": "adj",
+    "meaning": "有学问的；有见识的",
+    "example": "This is a informed example.",
+    "exampleTranslation": "这是一个有学问的；有见识的的例子。",
+    "relatedPhrases": []
+  },
+  "inhabitant": {
+    "phonetic": "/in'haebitant/",
+    "pos": "n",
+    "meaning": "(某地的）居民，栖息动物",
+    "example": "The inhabitant is very important.",
+    "exampleTranslation": "这个(某地的）居民，栖息动物很重要。",
+    "relatedPhrases": []
+  },
+  "inherit": {
+    "phonetic": "/in'herit/",
+    "pos": "v",
+    "meaning": "继承（金钱、财物等）",
+    "example": "I need to inherit this task.",
+    "exampleTranslation": "我需要继承（金钱、财物等）这个任务。",
+    "relatedPhrases": []
+  },
+  "initial": {
+    "phonetic": "/I'nijl/",
+    "pos": "adj",
+    "meaning": "最初的；开始的",
+    "example": "This is a initial example.",
+    "exampleTranslation": "这是一个最初的；开始的的例子。",
+    "relatedPhrases": []
+  },
+  "initially": {
+    "phonetic": "/I'nijali/",
+    "pos": "adv",
+    "meaning": "开始；最初；起初",
+    "example": "She speaks initially.",
+    "exampleTranslation": "她开始；最初；起初地说话。",
+    "relatedPhrases": []
+  },
+  "inner": {
+    "phonetic": "/'in9(r)/",
+    "pos": "adj",
+    "meaning": "内心的；隐藏的",
+    "example": "This is a inner example.",
+    "exampleTranslation": "这是一个内心的；隐藏的的例子。",
+    "relatedPhrases": []
+  },
+  "innovation": {
+    "phonetic": "/.ina'veij'an/",
+    "pos": "",
+    "meaning": "丹.创造；创新；改革",
+    "example": "I learned a new word: innovation.",
+    "exampleTranslation": "我学了一个新单词：丹.创造；创新；改革。",
+    "relatedPhrases": []
+  },
+  "innovative": {
+    "phonetic": "/'inaveitiv/",
+    "pos": "adj",
+    "meaning": "革新的；创新的",
+    "example": "This is a innovative example.",
+    "exampleTranslation": "这是一个革新的；创新的的例子。",
+    "relatedPhrases": []
+  },
+  "inoculate": {
+    "phonetic": "/I'nokjuleit/",
+    "pos": "v",
+    "meaning": "(给...）接种，打预防针",
+    "example": "I need to inoculate this task.",
+    "exampleTranslation": "我需要(给...）接种，打预防针这个任务。",
+    "relatedPhrases": []
+  },
+  "insanely": {
+    "phonetic": "/in'seinli/",
+    "pos": "adv",
+    "meaning": "十分；非常",
+    "example": "She speaks insanely.",
+    "exampleTranslation": "她十分；非常地说话。",
+    "relatedPhrases": []
+  },
+  "insignificant": {
+    "phonetic": "/.insig'nifikant/",
+    "pos": "adj",
+    "meaning": "微不足道的；无足轻重的",
+    "example": "This is a insignificant example.",
+    "exampleTranslation": "这是一个微不足道的；无足轻重的的例子。",
+    "relatedPhrases": []
+  },
+  "inspection": {
+    "phonetic": "/in'spekjn/",
+    "pos": "n",
+    "meaning": "检查；查看；审视",
+    "example": "The inspection is very important.",
+    "exampleTranslation": "这个检查；查看；审视很重要。",
+    "relatedPhrases": []
+  },
+  "inspiration": {
+    "phonetic": "/.inspa'reijn/",
+    "pos": "",
+    "meaning": "鼓舞人物的人（或事物）",
+    "example": "I learned a new word: inspiration.",
+    "exampleTranslation": "我学了一个新单词：鼓舞人物的人（或事物）。",
+    "relatedPhrases": []
+  },
+  "inspire": {
+    "phonetic": "/in'spai9(r)/",
+    "pos": "v",
+    "meaning": "激励；鼓舞",
+    "example": "I need to inspire this task.",
+    "exampleTranslation": "我需要激励；鼓舞这个任务。",
+    "relatedPhrases": []
+  },
+  "instant": {
+    "phonetic": "/'instant/",
+    "pos": "adj",
+    "meaning": "立即的；立刻的",
+    "example": "This is a instant example.",
+    "exampleTranslation": "这是一个立即的；立刻的的例子。",
+    "relatedPhrases": []
+  },
+  "instruct": {
+    "phonetic": "/in'strAkt/",
+    "pos": "v",
+    "meaning": "教授；指导",
+    "example": "I need to instruct this task.",
+    "exampleTranslation": "我需要教授；指导这个任务。",
+    "relatedPhrases": []
+  },
+  "insurmountable": {
+    "phonetic": "/,ins9'maunt9bl/",
+    "pos": "adj",
+    "meaning": "(困难、问题等）无法克服的，难解决的，不可逾越的",
+    "example": "This is a insurmountable example.",
+    "exampleTranslation": "这是一个(困难、问题等）无法克服的，难解决的，不可逾越的的例子。",
+    "relatedPhrases": []
+  },
+  "integrate": {
+    "phonetic": "/'mtigreit/",
+    "pos": "v",
+    "meaning": "(使）合并，成为",
+    "example": "I need to integrate this task.",
+    "exampleTranslation": "我需要(使）合并，成为这个任务。",
+    "relatedPhrases": []
+  },
+  "intellect": {
+    "phonetic": "/'intalekt/",
+    "pos": "n",
+    "meaning": "(尤指高等的）智力，思维逻辑领悟力",
+    "example": "The intellect is very important.",
+    "exampleTranslation": "这个(尤指高等的）智力，思维逻辑领悟力很重要。",
+    "relatedPhrases": []
+  },
+  "intellectual": {
+    "phonetic": "/.mta'lektjual/",
+    "pos": "adj",
+    "meaning": "智力的；脑力的；理智的",
+    "example": "This is a intellectual example.",
+    "exampleTranslation": "这是一个智力的；脑力的；理智的的例子。",
+    "relatedPhrases": []
+  },
+  "intensity": {
+    "phonetic": "/in'tensati/",
+    "pos": "n",
+    "meaning": "强烈；紧张；剧烈",
+    "example": "The intensity is very important.",
+    "exampleTranslation": "这个强烈；紧张；剧烈很重要。",
+    "relatedPhrases": []
+  },
+  "intentionally": {
+    "phonetic": "/in'lenjanali/",
+    "pos": "adv",
+    "meaning": "有意地；故意地",
+    "example": "She speaks intentionally.",
+    "exampleTranslation": "她有意地；故意地地说话。",
+    "relatedPhrases": []
+  },
+  "interaction": {
+    "phonetic": "/.intQr'aek/",
+    "pos": "n",
+    "meaning": "相豆作用；相旦影响",
+    "example": "The interaction is very important.",
+    "exampleTranslation": "这个相豆作用；相旦影响很重要。",
+    "relatedPhrases": []
+  },
+  "interest": {
+    "phonetic": "/'intrsst/",
+    "pos": "",
+    "meaning": "利息",
+    "example": "I learned a new word: interest.",
+    "exampleTranslation": "我学了一个新单词：利息。",
+    "relatedPhrases": []
+  },
+  "interim": {
+    "phonetic": "/'mtarim/",
+    "pos": "adj",
+    "meaning": "暂时的；过渡的",
+    "example": "This is a interim example.",
+    "exampleTranslation": "这是一个暂时的；过渡的的例子。",
+    "relatedPhrases": []
+  },
+  "interject": {
+    "phonetic": "/.inta'dsekt/",
+    "pos": "v",
+    "meaning": "打断（别人的讲话）；插话 .",
+    "example": "I need to interject this task.",
+    "exampleTranslation": "我需要打断（别人的讲话）；插话 .这个任务。",
+    "relatedPhrases": []
+  },
+  "internal": {
+    "phonetic": "/in'tainl/",
+    "pos": "adj",
+    "meaning": "内心的；头脑中的",
+    "example": "This is a internal example.",
+    "exampleTranslation": "这是一个内心的；头脑中的的例子。",
+    "relatedPhrases": []
+  },
+  "interview": {
+    "phonetic": "/'mtavjui/",
+    "pos": "v",
+    "meaning": "(媒体）采访，访问",
+    "example": "I need to interview this task.",
+    "exampleTranslation": "我需要(媒体）采访，访问这个任务。",
+    "relatedPhrases": []
+  },
+  "intimacy": {
+    "phonetic": "/'intimasi/",
+    "pos": "n",
+    "meaning": "亲密；关系密节",
+    "example": "The intimacy is very important.",
+    "exampleTranslation": "这个亲密；关系密节很重要。",
+    "relatedPhrases": []
+  },
+  "introduce": {
+    "phonetic": "/.mtrg'djuis/",
+    "pos": "v",
+    "meaning": "推行；实施；采用",
+    "example": "I need to introduce this task.",
+    "exampleTranslation": "我需要推行；实施；采用这个任务。",
+    "relatedPhrases": []
+  },
+  "issue": {
+    "phonetic": "/'iju：/",
+    "pos": "n",
+    "meaning": "重要议题；争论的问题 ）d",
+    "example": "The issue is very important.",
+    "exampleTranslation": "这个重要议题；争论的问题 ）d很重要。",
+    "relatedPhrases": []
+  },
+  "joint": {
+    "phonetic": "/d30int/",
+    "pos": "n",
+    "meaning": "关节",
+    "example": "The joint is very important.",
+    "exampleTranslation": "这个关节很重要。",
+    "relatedPhrases": []
+  },
+  "journey": {
+    "phonetic": "/'d33：ni/",
+    "pos": "n",
+    "meaning": "(尤指长途）旅行，行程",
+    "example": "The journey is very important.",
+    "exampleTranslation": "这个(尤指长途）旅行，行程很重要。",
+    "relatedPhrases": []
+  },
+  "joyfully": {
+    "phonetic": "/'dsoifali/",
+    "pos": "adv",
+    "meaning": "快乐地",
+    "example": "She speaks joyfully.",
+    "exampleTranslation": "她快乐地地说话。",
+    "relatedPhrases": []
+  },
+  "justify": {
+    "phonetic": "/'dsAStifai/",
+    "pos": "",
+    "meaning": "对...作出解释；为...辩解（或辩护）",
+    "example": "I learned a new word: justify.",
+    "exampleTranslation": "我学了一个新单词：对...作出解释；为...辩解（或辩护）。",
+    "relatedPhrases": []
+  },
+  "kindergarten": {
+    "phonetic": "/'kindsgaitn/",
+    "pos": "n",
+    "meaning": "幼儿园",
+    "example": "The kindergarten is very important.",
+    "exampleTranslation": "这个幼儿园很重要。",
+    "relatedPhrases": []
+  },
+  "kitten": {
+    "phonetic": "/'kitn/",
+    "pos": "n",
+    "meaning": "小猫",
+    "example": "The kitten is very important.",
+    "exampleTranslation": "这个小猫很重要。",
+    "relatedPhrases": []
+  },
+  "knowingly": {
+    "phonetic": "/'nauigli/",
+    "pos": "adv",
+    "meaning": "故意地；蓄意地",
+    "example": "She speaks knowingly.",
+    "exampleTranslation": "她故意地；蓄意地地说话。",
+    "relatedPhrases": []
+  },
+  "landmark": {
+    "phonetic": "/'laendmaik/",
+    "pos": "n",
+    "meaning": "(标志重要阶段的）里程碑",
+    "example": "The landmark is very important.",
+    "exampleTranslation": "这个(标志重要阶段的）里程碑很重要。",
+    "relatedPhrases": []
+  },
+  "landscape": {
+    "phonetic": "/'laendskeip/",
+    "pos": "v",
+    "meaning": "对…做景观美化；美化…的环境",
+    "example": "I need to landscape this task.",
+    "exampleTranslation": "我需要对…做景观美化；美化…的环境这个任务。",
+    "relatedPhrases": []
+  },
+  "lane": {
+    "phonetic": "/lein/",
+    "pos": "",
+    "meaning": "化（比赛的）跑道，泳道",
+    "example": "I learned a new word: lane.",
+    "exampleTranslation": "我学了一个新单词：化（比赛的）跑道，泳道。",
+    "relatedPhrases": []
+  },
+  "lately": {
+    "phonetic": "/'leitli/",
+    "pos": "adv",
+    "meaning": "最近；新近；近来；不久前",
+    "example": "She speaks lately.",
+    "exampleTranslation": "她最近；新近；近来；不久前地说话。",
+    "relatedPhrases": []
+  },
+  "laundry": {
+    "phonetic": "/iloindri/",
+    "pos": "",
+    "meaning": "化要（或卫在）洗的衣物；刚洗好的衣物",
+    "example": "I learned a new word: laundry.",
+    "exampleTranslation": "我学了一个新单词：化要（或卫在）洗的衣物；刚洗好的衣物。",
+    "relatedPhrases": []
+  },
+  "layer": {
+    "phonetic": "/'lei9(r)/",
+    "pos": "",
+    "meaning": "打.层；表层",
+    "example": "I learned a new word: layer.",
+    "exampleTranslation": "我学了一个新单词：打.层；表层。",
+    "relatedPhrases": []
+  },
+  "leap": {
+    "phonetic": "/liip/",
+    "pos": "",
+    "meaning": "因厭",
+    "example": "I learned a new word: leap.",
+    "exampleTranslation": "我学了一个新单词：因厭。",
+    "relatedPhrases": []
+  },
+  "lecture": {
+    "phonetic": "/'lektj9(r)/",
+    "pos": "n",
+    "meaning": "(冗长的）教训，训斥，谴责",
+    "example": "The lecture is very important.",
+    "exampleTranslation": "这个(冗长的）教训，训斥，谴责很重要。",
+    "relatedPhrases": []
+  },
+  "lessen": {
+    "phonetic": "/'lesn/",
+    "pos": "v",
+    "meaning": "(使）变小，变少，减弱，",
+    "example": "I need to lessen this task.",
+    "exampleTranslation": "我需要(使）变小，变少，减弱，这个任务。",
+    "relatedPhrases": []
+  },
+  "license": {
+    "phonetic": "/'laisns/",
+    "pos": "n",
+    "meaning": "许可证；执照",
+    "example": "The license is very important.",
+    "exampleTranslation": "这个许可证；执照很重要。",
+    "relatedPhrases": []
+  },
+  "lick": {
+    "phonetic": "/Ilk/",
+    "pos": "",
+    "meaning": "歸",
+    "example": "I learned a new word: lick.",
+    "exampleTranslation": "我学了一个新单词：歸。",
+    "relatedPhrases": []
+  },
+  "life-threatening": {
+    "phonetic": "/'laif Gretnig/",
+    "pos": "adj",
+    "meaning": "可能致命的；威胁着生命的",
+    "example": "This is a life-threatening example.",
+    "exampleTranslation": "这是一个可能致命的；威胁着生命的的例子。",
+    "relatedPhrases": []
+  },
+  "lifestyle": {
+    "phonetic": "/'laifstail/",
+    "pos": "n",
+    "meaning": "生活方式;工作方式",
+    "example": "The lifestyle is very important.",
+    "exampleTranslation": "这个生活方式;工作方式很重要。",
+    "relatedPhrases": []
+  },
+  "limb": {
+    "phonetic": "/lim/",
+    "pos": "n",
+    "meaning": "肢；臂；腿",
+    "example": "The limb is very important.",
+    "exampleTranslation": "这个肢；臂；腿很重要。",
+    "relatedPhrases": []
+  },
+  "limbless": {
+    "phonetic": "/'iimbs/",
+    "pos": "adj",
+    "meaning": "无四肢的",
+    "example": "This is a limbless example.",
+    "exampleTranslation": "这是一个无四肢的的例子。",
+    "relatedPhrases": []
+  },
+  "limit": {
+    "phonetic": "/'limit/",
+    "pos": "v",
+    "meaning": "限制；限定",
+    "example": "I need to limit this task.",
+    "exampleTranslation": "我需要限制；限定这个任务。",
+    "relatedPhrases": []
+  },
+  "limited": {
+    "phonetic": "/'limitid/",
+    "pos": "adj",
+    "meaning": "有限的",
+    "example": "This is a limited example.",
+    "exampleTranslation": "这是一个有限的的例子。",
+    "relatedPhrases": []
+  },
+  "limp": {
+    "phonetic": "/limp/",
+    "pos": "",
+    "meaning": "瘤着走；破行；瞒删",
+    "example": "I learned a new word: limp.",
+    "exampleTranslation": "我学了一个新单词：瘤着走；破行；瞒删。",
+    "relatedPhrases": []
+  },
+  "lip": {
+    "phonetic": "/lip/",
+    "pos": "n",
+    "meaning": "(容器或凹陷地方的）边，边沿",
+    "example": "The lip is very important.",
+    "exampleTranslation": "这个(容器或凹陷地方的）边，边沿很重要。",
+    "relatedPhrases": []
+  },
+  "literary": {
+    "phonetic": "/'litarari/",
+    "pos": "adj",
+    "meaning": "文学的；文学上的",
+    "example": "This is a literary example.",
+    "exampleTranslation": "这是一个文学的；文学上的的例子。",
+    "relatedPhrases": []
+  },
+  "locally": {
+    "phonetic": "/'Isukali/",
+    "pos": "adv",
+    "meaning": "在本地",
+    "example": "She speaks locally.",
+    "exampleTranslation": "她在本地地说话。",
+    "relatedPhrases": []
+  },
+  "logistics": {
+    "phonetic": "/b'd3istiks/",
+    "pos": "n",
+    "meaning": "后勤；物流；组织工作",
+    "example": "The logistics is very important.",
+    "exampleTranslation": "这个后勤；物流；组织工作很重要。",
+    "relatedPhrases": []
+  },
+  "lost": {
+    "phonetic": "/lost/",
+    "pos": "adj",
+    "meaning": "不知所措的；一筹莫展的",
+    "example": "This is a lost example.",
+    "exampleTranslation": "这是一个不知所措的；一筹莫展的的例子。",
+    "relatedPhrases": []
+  },
+  "loyalty": {
+    "phonetic": "/'loialti/",
+    "pos": "n",
+    "meaning": "忠诚；忠实；忠心耿耿",
+    "example": "The loyalty is very important.",
+    "exampleTranslation": "这个忠诚；忠实；忠心耿耿很重要。",
+    "relatedPhrases": []
+  },
+  "lumpsum": {
+    "phonetic": "/.lAmp 'sAm/",
+    "pos": "n",
+    "meaning": "—次总付的钱款",
+    "example": "The lumpsum is very important.",
+    "exampleTranslation": "这个—次总付的钱款很重要。",
+    "relatedPhrases": []
+  },
+  "lumpy": {
+    "phonetic": "/'lAmpi/",
+    "pos": "adj",
+    "meaning": "多块状物的；为块状物覆盖的",
+    "example": "This is a lumpy example.",
+    "exampleTranslation": "这是一个多块状物的；为块状物覆盖的的例子。",
+    "relatedPhrases": []
+  },
+  "lyric": {
+    "phonetic": "/'link/",
+    "pos": "n",
+    "meaning": "歌词",
+    "example": "The lyric is very important.",
+    "exampleTranslation": "这个歌词很重要。",
+    "relatedPhrases": []
+  },
+  "maintenance": {
+    "phonetic": "/'memtanans/",
+    "pos": "n",
+    "meaning": "维护；保养",
+    "example": "The maintenance is very important.",
+    "exampleTranslation": "这个维护；保养很重要。",
+    "relatedPhrases": []
+  },
+  "majesticaily": {
+    "phonetic": "/ma'dsestikli/",
+    "pos": "adv",
+    "meaning": "威严地；壮丽地",
+    "example": "She speaks majesticaily.",
+    "exampleTranslation": "她威严地；壮丽地地说话。",
+    "relatedPhrases": []
+  },
+  "majority": {
+    "phonetic": "/ma'dsDrati/",
+    "pos": "n",
+    "meaning": "大部分；大多数",
+    "example": "The majority is very important.",
+    "exampleTranslation": "这个大部分；大多数很重要。",
+    "relatedPhrases": []
+  },
+  "makeshift": {
+    "phonetic": "/'meikjift/",
+    "pos": "adj",
+    "meaning": "临时替代的；权宜的",
+    "example": "This is a makeshift example.",
+    "exampleTranslation": "这是一个临时替代的；权宜的的例子。",
+    "relatedPhrases": []
+  },
+  "malice": {
+    "phonetic": "/'maelis/",
+    "pos": "n",
+    "meaning": "恶意；怨恨",
+    "example": "The malice is very important.",
+    "exampleTranslation": "这个恶意；怨恨很重要。",
+    "relatedPhrases": []
+  },
+  "manufacture": {
+    "phonetic": "/iinaenjui妃ktj3(r)/",
+    "pos": "v",
+    "meaning": "编造；捏造",
+    "example": "I need to manufacture this task.",
+    "exampleTranslation": "我需要编造；捏造这个任务。",
+    "relatedPhrases": []
+  },
+  "massive": {
+    "phonetic": "/'maesiv/",
+    "pos": "adj",
+    "meaning": "巨大的；非常严重的",
+    "example": "This is a massive example.",
+    "exampleTranslation": "这是一个巨大的；非常严重的的例子。",
+    "relatedPhrases": []
+  },
+  "mastery": {
+    "phonetic": "/'maistari/",
+    "pos": "n",
+    "meaning": "控制；驾驭",
+    "example": "The mastery is very important.",
+    "exampleTranslation": "这个控制；驾驭很重要。",
+    "relatedPhrases": []
+  },
+  "matter": {
+    "phonetic": "/'m2et3(r)/",
+    "pos": "v",
+    "meaning": "事关紧要；有重大影响",
+    "example": "I need to matter this task.",
+    "exampleTranslation": "我需要事关紧要；有重大影响这个任务。",
+    "relatedPhrases": []
+  },
+  "mature": {
+    "phonetic": "/ms'tJuaCr)/",
+    "pos": "v",
+    "meaning": "成熟；长成",
+    "example": "I need to mature this task.",
+    "exampleTranslation": "我需要成熟；长成这个任务。",
+    "relatedPhrases": []
+  },
+  "meditation": {
+    "phonetic": "/.medi'teijn/",
+    "pos": "n",
+    "meaning": "冥想；沉思；深思",
+    "example": "The meditation is very important.",
+    "exampleTranslation": "这个冥想；沉思；深思很重要。",
+    "relatedPhrases": []
+  },
+  "mentality": {
+    "phonetic": "/men'taelati/",
+    "pos": "n",
+    "meaning": "心态；思想状况；思想方法",
+    "example": "The mentality is very important.",
+    "exampleTranslation": "这个心态；思想状况；思想方法很重要。",
+    "relatedPhrases": []
+  },
+  "mentally": {
+    "phonetic": "/'mentali/",
+    "pos": "adv",
+    "meaning": "精神上；智力上；思想上",
+    "example": "She speaks mentally.",
+    "exampleTranslation": "她精神上；智力上；思想上地说话。",
+    "relatedPhrases": []
+  },
+  "mess": {
+    "phonetic": "/mes/",
+    "pos": "n",
+    "meaning": "航脏；杂乱；不整洁",
+    "example": "The mess is very important.",
+    "exampleTranslation": "这个航脏；杂乱；不整洁很重要。",
+    "relatedPhrases": []
+  },
+  "messenger": {
+    "phonetic": "/'mesind33(r)/",
+    "pos": "",
+    "meaning": "邮递员；信使",
+    "example": "I learned a new word: messenger.",
+    "exampleTranslation": "我学了一个新单词：邮递员；信使。",
+    "relatedPhrases": []
+  },
+  "mindset": {
+    "phonetic": "/'mamdset/",
+    "pos": "n",
+    "meaning": "观念模式；思维倾向",
+    "example": "The mindset is very important.",
+    "exampleTranslation": "这个观念模式；思维倾向很重要。",
+    "relatedPhrases": []
+  },
+  "moan": {
+    "phonetic": "/maun/",
+    "pos": "v",
+    "meaning": "抱怨 •",
+    "example": "I need to moan this task.",
+    "exampleTranslation": "我需要抱怨 •这个任务。",
+    "relatedPhrases": [
+      {
+        "phrase": "moan about",
+        "meaning": "抱怨"
+      }
+    ]
+  },
+  "modest": {
+    "phonetic": "/'modist/",
+    "pos": "adj",
+    "meaning": "些许的；不太大的",
+    "example": "This is a modest example.",
+    "exampleTranslation": "这是一个些许的；不太大的的例子。",
+    "relatedPhrases": []
+  },
+  "modulate": {
+    "phonetic": "/'modjuleit/",
+    "pos": "v",
+    "meaning": "变调；",
+    "example": "I need to modulate this task.",
+    "exampleTranslation": "我需要变调；这个任务。",
+    "relatedPhrases": []
+  },
+  "moist": {
+    "phonetic": "/moist/",
+    "pos": "adj",
+    "meaning": "微湿的；湿润的",
+    "example": "This is a moist example.",
+    "exampleTranslation": "这是一个微湿的；湿润的的例子。",
+    "relatedPhrases": []
+  },
+  "monthly": {
+    "phonetic": "/'mAnGli/",
+    "pos": "adj",
+    "meaning": "按月结算的；有效期为一个月的",
+    "example": "This is a monthly example.",
+    "exampleTranslation": "这是一个按月结算的；有效期为一个月的的例子。",
+    "relatedPhrases": []
+  },
+  "mortgage": {
+    "phonetic": "/'moigids/",
+    "pos": "n",
+    "meaning": "按揭；按揭贷款",
+    "example": "The mortgage is very important.",
+    "exampleTranslation": "这个按揭；按揭贷款很重要。",
+    "relatedPhrases": []
+  },
+  "motivation": {
+    "phonetic": "/.msuti'veijn/",
+    "pos": "",
+    "meaning": "动机；原因",
+    "example": "I learned a new word: motivation.",
+    "exampleTranslation": "我学了一个新单词：动机；原因。",
+    "relatedPhrases": []
+  },
+  "motivational": {
+    "phonetic": "/.mauti'veijanl/",
+    "pos": "adj",
+    "meaning": "鼓舞的",
+    "example": "This is a motivational example.",
+    "exampleTranslation": "这是一个鼓舞的的例子。",
+    "relatedPhrases": []
+  },
+  "multiple": {
+    "phonetic": "/'mAltipl/",
+    "pos": "adj",
+    "meaning": "数量多的；多种多样的",
+    "example": "This is a multiple example.",
+    "exampleTranslation": "这是一个数量多的；多种多样的的例子。",
+    "relatedPhrases": []
+  },
+  "multitude": {
+    "phonetic": "/'mAltitjuid/",
+    "pos": "",
+    "meaning": "化众多；大量",
+    "example": "I learned a new word: multitude.",
+    "exampleTranslation": "我学了一个新单词：化众多；大量。",
+    "relatedPhrases": []
+  },
+  "mutual": {
+    "phonetic": "/'mjuitjual/",
+    "pos": "adj",
+    "meaning": "共有的；共同的",
+    "example": "This is a mutual example.",
+    "exampleTranslation": "这是一个共有的；共同的的例子。",
+    "relatedPhrases": []
+  },
+  "namely": {
+    "phonetic": "/'neimli/",
+    "pos": "adv",
+    "meaning": "即；也就是",
+    "example": "She speaks namely.",
+    "exampleTranslation": "她即；也就是地说话。",
+    "relatedPhrases": []
+  },
+  "negative": {
+    "phonetic": "/'negativ/",
+    "pos": "",
+    "meaning": "否定词；否定；拒绝a却.坏的；有害的",
+    "example": "I learned a new word: negative.",
+    "exampleTranslation": "我学了一个新单词：否定词；否定；拒绝a却.坏的；有害的。",
+    "relatedPhrases": []
+  },
+  "niche": {
+    "phonetic": "/niij/",
+    "pos": "n",
+    "meaning": "(商品的）商机；市场定位",
+    "example": "The niche is very important.",
+    "exampleTranslation": "这个(商品的）商机；市场定位很重要。",
+    "relatedPhrases": []
+  },
+  "noisily": {
+    "phonetic": "/'noizili/",
+    "pos": "adv",
+    "meaning": "喧闹地",
+    "example": "She speaks noisily.",
+    "exampleTranslation": "她喧闹地地说话。",
+    "relatedPhrases": []
+  },
+  "non-fiction": {
+    "phonetic": "/.non 'fikjn/",
+    "pos": "n",
+    "meaning": "纪实文学",
+    "example": "The non-fiction is very important.",
+    "exampleTranslation": "这个纪实文学很重要。",
+    "relatedPhrases": []
+  },
+  "norm": {
+    "phonetic": "/noim/",
+    "pos": "n",
+    "meaning": "常态；卫常行为",
+    "example": "The norm is very important.",
+    "exampleTranslation": "这个常态；卫常行为很重要。",
+    "relatedPhrases": []
+  },
+  "notoriety": {
+    "phonetic": "/.nauto'raiati/",
+    "pos": "",
+    "meaning": "恶名；坏名声",
+    "example": "I learned a new word: notoriety.",
+    "exampleTranslation": "我学了一个新单词：恶名；坏名声。",
+    "relatedPhrases": []
+  },
+  "novelty": {
+    "phonetic": "/'novlti/",
+    "pos": "n",
+    "meaning": "新奇的事物（或人、环境）",
+    "example": "The novelty is very important.",
+    "exampleTranslation": "这个新奇的事物（或人、环境）很重要。",
+    "relatedPhrases": []
+  },
+  "nurture": {
+    "phonetic": "/'naitJaCr)/",
+    "pos": "v",
+    "meaning": "养育；养护；培养",
+    "example": "I need to nurture this task.",
+    "exampleTranslation": "我需要养育；养护；培养这个任务。",
+    "relatedPhrases": []
+  },
+  "obligation": {
+    "phonetic": "/.Dbli'geijn/",
+    "pos": "n",
+    "meaning": "(已承诺的或法律等规定的）义务，责任",
+    "example": "The obligation is very important.",
+    "exampleTranslation": "这个(已承诺的或法律等规定的）义务，责任很重要。",
+    "relatedPhrases": []
+  },
+  "obstacle": {
+    "phonetic": "/'obstakl/",
+    "pos": "n",
+    "meaning": "障碍；阻碍；鲜脚石",
+    "example": "The obstacle is very important.",
+    "exampleTranslation": "这个障碍；阻碍；鲜脚石很重要。",
+    "relatedPhrases": []
+  },
+  "occasional": {
+    "phonetic": "/a'keis^nl/",
+    "pos": "adj",
+    "meaning": "偶然的；临时的",
+    "example": "This is a occasional example.",
+    "exampleTranslation": "这是一个偶然的；临时的的例子。",
+    "relatedPhrases": []
+  },
+  "occasionally": {
+    "phonetic": "/s'keisnoli/",
+    "pos": "adv",
+    "meaning": "偶然；偶尔；有时候",
+    "example": "She speaks occasionally.",
+    "exampleTranslation": "她偶然；偶尔；有时候地说话。",
+    "relatedPhrases": []
+  },
+  "occur": {
+    "phonetic": "/9'k3：(r)/",
+    "pos": "v",
+    "meaning": "发生；出现",
+    "example": "I need to occur this task.",
+    "exampleTranslation": "我需要发生；出现这个任务。",
+    "relatedPhrases": []
+  },
+  "off-balance": {
+    "phonetic": "/,of 'baebns/",
+    "pos": "adj",
+    "meaning": "不平衡的；不穂定的",
+    "example": "This is a off-balance example.",
+    "exampleTranslation": "这是一个不平衡的；不穂定的的例子。",
+    "relatedPhrases": []
+  },
+  "offer": {
+    "phonetic": "/'Df9(r)/",
+    "pos": "v",
+    "meaning": "主动提出；自愿给予",
+    "example": "I need to offer this task.",
+    "exampleTranslation": "我需要主动提出；自愿给予这个任务。",
+    "relatedPhrases": []
+  },
+  "oftentimes": {
+    "phonetic": "/'Dfntaimz/",
+    "pos": "adv",
+    "meaning": "常常",
+    "example": "She speaks oftentimes.",
+    "exampleTranslation": "她常常地说话。",
+    "relatedPhrases": []
+  },
+  "opportunity": {
+    "phonetic": "/.Dpo'tjumsti/",
+    "pos": "n",
+    "meaning": "机会；晰几",
+    "example": "The opportunity is very important.",
+    "exampleTranslation": "这个机会；晰几很重要。",
+    "relatedPhrases": []
+  },
+  "opposite": {
+    "phonetic": "/'opszit/",
+    "pos": "",
+    "meaning": "对立的人（或物）；对立面；反面",
+    "example": "I learned a new word: opposite.",
+    "exampleTranslation": "我学了一个新单词：对立的人（或物）；对立面；反面。",
+    "relatedPhrases": []
+  },
+  "opt": {
+    "phonetic": "/opt/",
+    "pos": "",
+    "meaning": "选择；挑选",
+    "example": "I learned a new word: opt.",
+    "exampleTranslation": "我学了一个新单词：选择；挑选。",
+    "relatedPhrases": []
+  },
+  "optimistic": {
+    "phonetic": "/.opti'mistik/",
+    "pos": "adj",
+    "meaning": "乐观的；抱乐观看法的",
+    "example": "This is a optimistic example.",
+    "exampleTranslation": "这是一个乐观的；抱乐观看法的的例子。",
+    "relatedPhrases": []
+  },
+  "option": {
+    "phonetic": "/'Dpjn/",
+    "pos": "n",
+    "meaning": "可选择的事物",
+    "example": "The option is very important.",
+    "exampleTranslation": "这个可选择的事物很重要。",
+    "relatedPhrases": []
+  },
+  "orchard": {
+    "phonetic": "/'oitjad/",
+    "pos": "n",
+    "meaning": "果园",
+    "example": "The orchard is very important.",
+    "exampleTranslation": "这个果园很重要。",
+    "relatedPhrases": []
+  },
+  "orchestra": {
+    "phonetic": "/'oikistra/",
+    "pos": "n",
+    "meaning": "管弦乐队",
+    "example": "The orchestra is very important.",
+    "exampleTranslation": "这个管弦乐队很重要。",
+    "relatedPhrases": []
+  },
+  "originally": {
+    "phonetic": "/s'ridsanali/",
+    "pos": "adv",
+    "meaning": "原来；起初",
+    "example": "She speaks originally.",
+    "exampleTranslation": "她原来；起初地说话。",
+    "relatedPhrases": []
+  },
+  "outburst": {
+    "phonetic": "/'autbaist/",
+    "pos": "n",
+    "meaning": "(感情的）爆发，迸发",
+    "example": "The outburst is very important.",
+    "exampleTranslation": "这个(感情的）爆发，迸发很重要。",
+    "relatedPhrases": []
+  },
+  "outcast": {
+    "phonetic": "/'autkaist/",
+    "pos": "n",
+    "meaning": "被抛奔者；被排斥者",
+    "example": "The outcast is very important.",
+    "exampleTranslation": "这个被抛奔者；被排斥者很重要。",
+    "relatedPhrases": []
+  },
+  "outreach": {
+    "phonetic": "/'autriitj/",
+    "pos": "n",
+    "meaning": "夕h展服务",
+    "example": "The outreach is very important.",
+    "exampleTranslation": "这个夕h展服务很重要。",
+    "relatedPhrases": []
+  },
+  "overindulge": {
+    "phonetic": "/iWvwnidAlds/",
+    "pos": "v",
+    "meaning": "过多地享用（尤指食物或饮料）",
+    "example": "I need to overindulge this task.",
+    "exampleTranslation": "我需要过多地享用（尤指食物或饮料）这个任务。",
+    "relatedPhrases": []
+  },
+  "overspend": {
+    "phonetic": "/.auva'spend/",
+    "pos": "v",
+    "meaning": "花钱过多；比（预计的）花得多；超支",
+    "example": "I need to overspend this task.",
+    "exampleTranslation": "我需要花钱过多；比（预计的）花得多；超支这个任务。",
+    "relatedPhrases": []
+  },
+  "overwhelming": {
+    "phonetic": "/.auva'welmir)/",
+    "pos": "adj",
+    "meaning": "巨大的；压倒性的；无法抗拒的",
+    "example": "This is a overwhelming example.",
+    "exampleTranslation": "这是一个巨大的；压倒性的；无法抗拒的的例子。",
+    "relatedPhrases": []
+  },
+  "palm": {
+    "phonetic": "/paim/",
+    "pos": "n",
+    "meaning": "手掌；手心",
+    "example": "The palm is very important.",
+    "exampleTranslation": "这个手掌；手心很重要。",
+    "relatedPhrases": []
+  },
+  "pamper": {
+    "phonetic": "/'paempaCr)/",
+    "pos": "v",
+    "meaning": "细私照顾；精必护理；娇慑；纵容",
+    "example": "I need to pamper this task.",
+    "exampleTranslation": "我需要细私照顾；精必护理；娇慑；纵容这个任务。",
+    "relatedPhrases": []
+  },
+  "paradox": {
+    "phonetic": "/'pasrsdoks/",
+    "pos": "",
+    "meaning": "矛盾的人（或事情、情况）",
+    "example": "I learned a new word: paradox.",
+    "exampleTranslation": "我学了一个新单词：矛盾的人（或事情、情况）。",
+    "relatedPhrases": []
+  },
+  "paralyze": {
+    "phonetic": "/'paeralaiz/",
+    "pos": "v",
+    "meaning": "使痛痕；使麻疫",
+    "example": "I need to paralyze this task.",
+    "exampleTranslation": "我需要使痛痕；使麻疫这个任务。",
+    "relatedPhrases": []
+  },
+  "particularly": {
+    "phonetic": "/pa'tikjabli/",
+    "pos": "adv",
+    "meaning": "特别；尤其",
+    "example": "She speaks particularly.",
+    "exampleTranslation": "她特别；尤其地说话。",
+    "relatedPhrases": []
+  },
+  "passion": {
+    "phonetic": "/'pasjn/",
+    "pos": "n",
+    "meaning": "强烈情感；激情",
+    "example": "The passion is very important.",
+    "exampleTranslation": "这个强烈情感；激情很重要。",
+    "relatedPhrases": []
+  },
+  "paste": {
+    "phonetic": "/peist/",
+    "pos": "v",
+    "meaning": "粘贴；粘合",
+    "example": "I need to paste this task.",
+    "exampleTranslation": "我需要粘贴；粘合这个任务。",
+    "relatedPhrases": []
+  },
+  "pattern": {
+    "phonetic": "/'paetn/",
+    "pos": "n",
+    "meaning": "模式；方式",
+    "example": "The pattern is very important.",
+    "exampleTranslation": "这个模式；方式很重要。",
+    "relatedPhrases": []
+  },
+  "pauper": {
+    "phonetic": "/'po:p9(r)/",
+    "pos": "n",
+    "meaning": "穷人；贫民；S丐",
+    "example": "The pauper is very important.",
+    "exampleTranslation": "这个穷人；贫民；S丐很重要。",
+    "relatedPhrases": []
+  },
+  "paw": {
+    "phonetic": "/po：/",
+    "pos": "n",
+    "meaning": "(动物的）爪",
+    "example": "The paw is very important.",
+    "exampleTranslation": "这个(动物的）爪很重要。",
+    "relatedPhrases": []
+  },
+  "peer": {
+    "phonetic": "/p口(r)/",
+    "pos": "",
+    "meaning": "化身份（或地位）相同的人；同龄人；同辈",
+    "example": "I learned a new word: peer.",
+    "exampleTranslation": "我学了一个新单词：化身份（或地位）相同的人；同龄人；同辈。",
+    "relatedPhrases": []
+  },
+  "pensive": {
+    "phonetic": "/'pensiv/",
+    "pos": "adj",
+    "meaning": "沉思的；忧伤的",
+    "example": "This is a pensive example.",
+    "exampleTranslation": "这是一个沉思的；忧伤的的例子。",
+    "relatedPhrases": []
+  },
+  "perceive": {
+    "phonetic": "/ps'siiv/",
+    "pos": "v",
+    "meaning": "将...视为；认为",
+    "example": "I need to perceive this task.",
+    "exampleTranslation": "我需要将...视为；认为这个任务。",
+    "relatedPhrases": []
+  },
+  "perception": {
+    "phonetic": "/pa'sepjn/",
+    "pos": "n",
+    "meaning": "看法；见解",
+    "example": "The perception is very important.",
+    "exampleTranslation": "这个看法；见解很重要。",
+    "relatedPhrases": []
+  },
+  "perish": {
+    "phonetic": "/'pen；/",
+    "pos": "v",
+    "meaning": "丧失；運灭；毁灭",
+    "example": "I need to perish this task.",
+    "exampleTranslation": "我需要丧失；運灭；毁灭这个任务。",
+    "relatedPhrases": [
+      {
+        "phrase": "perish the thought",
+        "meaning": "别想了；但愿不会如此"
+      }
+    ]
+  },
+  "permanently": {
+    "phonetic": "/'paimansntli/",
+    "pos": "adv",
+    "meaning": "7禾久地； 7lcfl地；长久地 -",
+    "example": "She speaks permanently.",
+    "exampleTranslation": "她7禾久地； 7lcfl地；长久地 -地说话。",
+    "relatedPhrases": []
+  },
+  "permission": {
+    "phonetic": "/pa'mijn/",
+    "pos": "",
+    "meaning": "打.准许；许可；批准 12八",
+    "example": "I learned a new word: permission.",
+    "exampleTranslation": "我学了一个新单词：打.准许；许可；批准 12八。",
+    "relatedPhrases": []
+  },
+  "perseverance": {
+    "phonetic": "/.paisi'viarans/",
+    "pos": "",
+    "meaning": "化毅力；初性；不屈不烧的精神 8八",
+    "example": "I learned a new word: perseverance.",
+    "exampleTranslation": "我学了一个新单词：化毅力；初性；不屈不烧的精神 8八。",
+    "relatedPhrases": []
+  },
+  "persistence": {
+    "phonetic": "/ps'sistans/",
+    "pos": "",
+    "meaning": "坚持；澳而不舍",
+    "example": "I learned a new word: persistence.",
+    "exampleTranslation": "我学了一个新单词：坚持；澳而不舍。",
+    "relatedPhrases": []
+  },
+  "personality": {
+    "phonetic": "/.paisa'naebti/",
+    "pos": "",
+    "meaning": "打.性格；个性；人格",
+    "example": "I learned a new word: personality.",
+    "exampleTranslation": "我学了一个新单词：打.性格；个性；人格。",
+    "relatedPhrases": []
+  },
+  "perspective": {
+    "phonetic": "/pa'spektiv/",
+    "pos": "",
+    "meaning": "态度；观点；思考方法",
+    "example": "I learned a new word: perspective.",
+    "exampleTranslation": "我学了一个新单词：态度；观点；思考方法。",
+    "relatedPhrases": []
+  },
+  "petroleum": {
+    "phonetic": "/pa'trauliam/",
+    "pos": "n",
+    "meaning": "石油；原油",
+    "example": "The petroleum is very important.",
+    "exampleTranslation": "这个石油；原油很重要。",
+    "relatedPhrases": []
+  },
+  "petty": {
+    "phonetic": "/'peti/",
+    "pos": "adj",
+    "meaning": "小的；琐碎的；次要的",
+    "example": "This is a petty example.",
+    "exampleTranslation": "这是一个小的；琐碎的；次要的的例子。",
+    "relatedPhrases": []
+  },
+  "phoenix": {
+    "phonetic": "/'fimiks/",
+    "pos": "n",
+    "meaning": "(传说中的）凤凰，长生鸟",
+    "example": "The phoenix is very important.",
+    "exampleTranslation": "这个(传说中的）凤凰，长生鸟很重要。",
+    "relatedPhrases": []
+  },
+  "physical": {
+    "phonetic": "/'fizikl/",
+    "pos": "",
+    "meaning": "adJ.身体的；肉体的；身区体的",
+    "example": "I learned a new word: physical.",
+    "exampleTranslation": "我学了一个新单词：adJ.身体的；肉体的；身区体的。",
+    "relatedPhrases": []
+  },
+  "pillow": {
+    "phonetic": "/'pilau/",
+    "pos": "",
+    "meaning": "\".枕头",
+    "example": "I learned a new word: pillow.",
+    "exampleTranslation": "我学了一个新单词：\".枕头。",
+    "relatedPhrases": []
+  },
+  "please": {
+    "phonetic": "/pli;z/",
+    "pos": "v",
+    "meaning": "使满意；使愉快 .",
+    "example": "I need to please this task.",
+    "exampleTranslation": "我需要使满意；使愉快 .这个任务。",
+    "relatedPhrases": []
+  },
+  "pleasing": {
+    "phonetic": "/'pliizig/",
+    "pos": "adj",
+    "meaning": "令人高兴的；令人满意的",
+    "example": "This is a pleasing example.",
+    "exampleTranslation": "这是一个令人高兴的；令人满意的的例子。",
+    "relatedPhrases": []
+  },
+  "polio": {
+    "phonetic": "/'pauliau/",
+    "pos": "n",
+    "meaning": "小儿麻瘍症",
+    "example": "The polio is very important.",
+    "exampleTranslation": "这个小儿麻瘍症很重要。",
+    "relatedPhrases": []
+  },
+  "polish": {
+    "phonetic": "/'poll/",
+    "pos": "",
+    "meaning": "/ v.修改；润饰；润色",
+    "example": "I learned a new word: polish.",
+    "exampleTranslation": "我学了一个新单词：/ v.修改；润饰；润色。",
+    "relatedPhrases": []
+  },
+  "pose": {
+    "phonetic": "/psuz/",
+    "pos": "",
+    "meaning": "造成（威胁、问题等）；引起；产生",
+    "example": "I learned a new word: pose.",
+    "exampleTranslation": "我学了一个新单词：造成（威胁、问题等）；引起；产生。",
+    "relatedPhrases": []
+  },
+  "position": {
+    "phonetic": "/pa'zijn/",
+    "pos": "n",
+    "meaning": "观点；态度；立场",
+    "example": "The position is very important.",
+    "exampleTranslation": "这个观点；态度；立场很重要。",
+    "relatedPhrases": []
+  },
+  "positive": {
+    "phonetic": "/'pDZ9tiv/",
+    "pos": "adj",
+    "meaning": "良好的；卫面的",
+    "example": "This is a positive example.",
+    "exampleTranslation": "这是一个良好的；卫面的的例子。",
+    "relatedPhrases": []
+  },
+  "possession": {
+    "phonetic": "/ps'zejn/",
+    "pos": "",
+    "meaning": "打.具有；拥有",
+    "example": "I learned a new word: possession.",
+    "exampleTranslation": "我学了一个新单词：打.具有；拥有。",
+    "relatedPhrases": []
+  },
+  "potential": {
+    "phonetic": "/pa'tenjl/",
+    "pos": "adj",
+    "meaning": "潜在的；可能的",
+    "example": "This is a potential example.",
+    "exampleTranslation": "这是一个潜在的；可能的的例子。",
+    "relatedPhrases": []
+  },
+  "poverty": {
+    "phonetic": "/'povati/",
+    "pos": "n",
+    "meaning": "贫穷；贫困",
+    "example": "The poverty is very important.",
+    "exampleTranslation": "这个贫穷；贫困很重要。",
+    "relatedPhrases": []
+  },
+  "precisely": {
+    "phonetic": "/pn'saisli/",
+    "pos": "adv",
+    "meaning": "准确地；恰好地",
+    "example": "She speaks precisely.",
+    "exampleTranslation": "她准确地；恰好地地说话。",
+    "relatedPhrases": []
+  },
+  "pregnancy": {
+    "phonetic": "/'pregnansi/",
+    "pos": "n",
+    "meaning": "怀孕；妊娠；孕期",
+    "example": "The pregnancy is very important.",
+    "exampleTranslation": "这个怀孕；妊娠；孕期很重要。",
+    "relatedPhrases": []
+  },
+  "prejudice": {
+    "phonetic": "/'predsudis/",
+    "pos": "",
+    "meaning": "偏见；成见",
+    "example": "I learned a new word: prejudice.",
+    "exampleTranslation": "我学了一个新单词：偏见；成见。",
+    "relatedPhrases": []
+  },
+  "premise": {
+    "phonetic": "/'premis/",
+    "pos": "n",
+    "meaning": "前提；假定",
+    "example": "The premise is very important.",
+    "exampleTranslation": "这个前提；假定很重要。",
+    "relatedPhrases": []
+  },
+  "presence": {
+    "phonetic": "/'prezns/",
+    "pos": "n",
+    "meaning": "存在；出现",
+    "example": "The presence is very important.",
+    "exampleTranslation": "这个存在；出现很重要。",
+    "relatedPhrases": []
+  },
+  "present": {
+    "phonetic": "/pri'zent/",
+    "pos": "v",
+    "meaning": "JB--.交给；颁发；授予",
+    "example": "I need to present this task.",
+    "exampleTranslation": "我需要JB--.交给；颁发；授予这个任务。",
+    "relatedPhrases": []
+  },
+  "principle": {
+    "phonetic": "/'prmsapl/",
+    "pos": "n",
+    "meaning": "观念；（行动、思想的）理由，信条",
+    "example": "The principle is very important.",
+    "exampleTranslation": "这个观念；（行动、思想的）理由，信条很重要。",
+    "relatedPhrases": []
+  },
+  "prioritize": {
+    "phonetic": "/prai'orataiz/",
+    "pos": "v",
+    "meaning": "按重要脚咧；划分优剧鹏",
+    "example": "I need to prioritize this task.",
+    "exampleTranslation": "我需要按重要脚咧；划分优剧鹏这个任务。",
+    "relatedPhrases": []
+  },
+  "privileged": {
+    "phonetic": "/'privslidsd/",
+    "pos": "adj",
+    "meaning": "荣幸的；幸运的",
+    "example": "This is a privileged example.",
+    "exampleTranslation": "这是一个荣幸的；幸运的的例子。",
+    "relatedPhrases": []
+  },
+  "proceed": {
+    "phonetic": "/pra'siid/",
+    "pos": "v",
+    "meaning": "接着做；继而做",
+    "example": "I need to proceed this task.",
+    "exampleTranslation": "我需要接着做；继而做这个任务。",
+    "relatedPhrases": []
+  },
+  "process": {
+    "phonetic": "/'prauses/",
+    "pos": "",
+    "meaning": "\".(为达到某一目标的）过程；进程",
+    "example": "I learned a new word: process.",
+    "exampleTranslation": "我学了一个新单词：\".(为达到某一目标的）过程；进程。",
+    "relatedPhrases": []
+  },
+  "proclaim": {
+    "phonetic": "/pra'kleim/",
+    "pos": "v",
+    "meaning": "宣布；宣告；声明",
+    "example": "I need to proclaim this task.",
+    "exampleTranslation": "我需要宣布；宣告；声明这个任务。",
+    "relatedPhrases": []
+  },
+  "production": {
+    "phonetic": "/pra'dAkJn/",
+    "pos": "n",
+    "meaning": "生产；制造；制作",
+    "example": "The production is very important.",
+    "exampleTranslation": "这个生产；制造；制作很重要。",
+    "relatedPhrases": []
+  },
+  "professional": {
+    "phonetic": "/iprs'fejsnl/",
+    "pos": "",
+    "meaning": "幻斯职业的；专业的",
+    "example": "I learned a new word: professional.",
+    "exampleTranslation": "我学了一个新单词：幻斯职业的；专业的。",
+    "relatedPhrases": []
+  },
+  "profitability": {
+    "phonetic": "/.profita'bibti/",
+    "pos": "n",
+    "meaning": "盈禾脂旣]",
+    "example": "The profitability is very important.",
+    "exampleTranslation": "这个盈禾脂旣]很重要。",
+    "relatedPhrases": []
+  },
+  "profound": {
+    "phonetic": "/pra'faund/",
+    "pos": "adj",
+    "meaning": "巨大的；深t刀的；深远的",
+    "example": "This is a profound example.",
+    "exampleTranslation": "这是一个巨大的；深t刀的；深远的的例子。",
+    "relatedPhrases": []
+  },
+  "profusely": {
+    "phonetic": "/pra'fjuisli/",
+    "pos": "adv",
+    "meaning": "大量地；连连地",
+    "example": "She speaks profusely.",
+    "exampleTranslation": "她大量地；连连地地说话。",
+    "relatedPhrases": []
+  },
+  "program": {
+    "phonetic": "/'praugraem/",
+    "pos": "v",
+    "meaning": "训练；培养",
+    "example": "I need to program this task.",
+    "exampleTranslation": "我需要训练；培养这个任务。",
+    "relatedPhrases": []
+  },
+  "prompt": {
+    "phonetic": "/prompt/",
+    "pos": "v",
+    "meaning": "促使；导致；激起",
+    "example": "I need to prompt this task.",
+    "exampleTranslation": "我需要促使；导致；激起这个任务。",
+    "relatedPhrases": []
+  },
+  "prone": {
+    "phonetic": "/praun/",
+    "pos": "",
+    "meaning": "幻备易于发生某事的；很可能…的",
+    "example": "I learned a new word: prone.",
+    "exampleTranslation": "我学了一个新单词：幻备易于发生某事的；很可能…的。",
+    "relatedPhrases": []
+  },
+  "prosperity": {
+    "phonetic": "/pro'sperati/",
+    "pos": "n",
+    "meaning": "兴日王；繁荣；成功；昌盛",
+    "example": "The prosperity is very important.",
+    "exampleTranslation": "这个兴日王；繁荣；成功；昌盛很重要。",
+    "relatedPhrases": []
+  },
+  "puberty": {
+    "phonetic": "/'pjuibati/",
+    "pos": "n",
+    "meaning": "青春期",
+    "example": "The puberty is very important.",
+    "exampleTranslation": "这个青春期很重要。",
+    "relatedPhrases": []
+  },
+  "publicly": {
+    "phonetic": "/'pAblikli/",
+    "pos": "adv",
+    "meaning": "公开地",
+    "example": "She speaks publicly.",
+    "exampleTranslation": "她公开地地说话。",
+    "relatedPhrases": []
+  },
+  "puddle": {
+    "phonetic": "/'pAdl/",
+    "pos": "n",
+    "meaning": "水连；小水坑",
+    "example": "The puddle is very important.",
+    "exampleTranslation": "这个水连；小水坑很重要。",
+    "relatedPhrases": []
+  },
+  "purchase": {
+    "phonetic": "/'paitjgs/",
+    "pos": "v",
+    "meaning": "购买；采贿",
+    "example": "I need to purchase this task.",
+    "exampleTranslation": "我需要购买；采贿这个任务。",
+    "relatedPhrases": []
+  },
+  "purity": {
+    "phonetic": "/'pju9r9ti/",
+    "pos": "n",
+    "meaning": "纯洁；纯净；纯粹",
+    "example": "The purity is very important.",
+    "exampleTranslation": "这个纯洁；纯净；纯粹很重要。",
+    "relatedPhrases": []
+  },
+  "pursue": {
+    "phonetic": "/pa'sjui/",
+    "pos": "v",
+    "meaning": "追求；致力于",
+    "example": "I need to pursue this task.",
+    "exampleTranslation": "我需要追求；致力于这个任务。",
+    "relatedPhrases": []
+  },
+  "push": {
+    "phonetic": "/puj/",
+    "pos": "n",
+    "meaning": "矢志的追求；坚定的努力",
+    "example": "The push is very important.",
+    "exampleTranslation": "这个矢志的追求；坚定的努力很重要。",
+    "relatedPhrases": []
+  },
+  "quality": {
+    "phonetic": "/'kwobti/",
+    "pos": "n",
+    "meaning": "质量；品质",
+    "example": "The quality is very important.",
+    "exampleTranslation": "这个质量；品质很重要。",
+    "relatedPhrases": []
+  },
+  "question": {
+    "phonetic": "/'kwestjan/",
+    "pos": "v",
+    "meaning": "表示疑间；怀疑",
+    "example": "I need to question this task.",
+    "exampleTranslation": "我需要表示疑间；怀疑这个任务。",
+    "relatedPhrases": []
+  },
+  "quit": {
+    "phonetic": "/kwit/",
+    "pos": "",
+    "meaning": "停止；戒掉",
+    "example": "I learned a new word: quit.",
+    "exampleTranslation": "我学了一个新单词：停止；戒掉。",
+    "relatedPhrases": []
+  },
+  "quote": {
+    "phonetic": "/kw9ut/",
+    "pos": "v",
+    "meaning": "弓府；引述",
+    "example": "I need to quote this task.",
+    "exampleTranslation": "我需要弓府；引述这个任务。",
+    "relatedPhrases": []
+  },
+  "rage": {
+    "phonetic": "/'g^ra：3/",
+    "pos": "n",
+    "meaning": "停车房；车库",
+    "example": "The rage is very important.",
+    "exampleTranslation": "这个停车房；车库很重要。",
+    "relatedPhrases": []
+  },
+  "racial": {
+    "phonetic": "/'reijl/",
+    "pos": "adj",
+    "meaning": "种族的；种族间的",
+    "example": "This is a racial example.",
+    "exampleTranslation": "这是一个种族的；种族间的的例子。",
+    "relatedPhrases": []
+  },
+  "radiate": {
+    "phonetic": "/'reidieit/",
+    "pos": "v",
+    "meaning": "(使品质或感情）显出，流露",
+    "example": "I need to radiate this task.",
+    "exampleTranslation": "我需要(使品质或感情）显出，流露这个任务。",
+    "relatedPhrases": []
+  },
+  "radius": {
+    "phonetic": "/'reidbs/",
+    "pos": "n",
+    "meaning": "半径（长度）",
+    "example": "The radius is very important.",
+    "exampleTranslation": "这个半径（长度）很重要。",
+    "relatedPhrases": []
+  },
+  "rarely": {
+    "phonetic": "/'resli/",
+    "pos": "adv",
+    "meaning": "罕有；很少；不常",
+    "example": "She speaks rarely.",
+    "exampleTranslation": "她罕有；很少；不常地说话。",
+    "relatedPhrases": []
+  },
+  "rationing": {
+    "phonetic": "/'raejanig/",
+    "pos": "n",
+    "meaning": "定量配给政策；配给制",
+    "example": "The rationing is very important.",
+    "exampleTranslation": "这个定量配给政策；配给制很重要。",
+    "relatedPhrases": []
+  },
+  "readily": {
+    "phonetic": "/'redili/",
+    "pos": "adv",
+    "meaning": "快捷地；轻而易举地；便利地 .",
+    "example": "She speaks readily.",
+    "exampleTranslation": "她快捷地；轻而易举地；便利地 .地说话。",
+    "relatedPhrases": []
+  },
+  "realistically": {
+    "phonetic": "/.riia'listikli/",
+    "pos": "",
+    "meaning": "现实地；实际地",
+    "example": "I learned a new word: realistically.",
+    "exampleTranslation": "我学了一个新单词：现实地；实际地。",
+    "relatedPhrases": []
+  },
+  "rear": {
+    "phonetic": "/r口(r)/",
+    "pos": "v",
+    "meaning": "抚养；养育；培养",
+    "example": "I need to rear this task.",
+    "exampleTranslation": "我需要抚养；养育；培养这个任务。",
+    "relatedPhrases": []
+  },
+  "reception": {
+    "phonetic": "/n'sep/",
+    "pos": "n",
+    "meaning": "接待处",
+    "example": "The reception is very important.",
+    "exampleTranslation": "这个接待处很重要。",
+    "relatedPhrases": []
+  },
+  "receptionist": {
+    "phonetic": "/ri'sepjanist/",
+    "pos": "",
+    "meaning": "化接待员",
+    "example": "I learned a new word: receptionist.",
+    "exampleTranslation": "我学了一个新单词：化接待员。",
+    "relatedPhrases": []
+  },
+  "recess": {
+    "phonetic": "/ri'ses/",
+    "pos": "",
+    "meaning": "化课间休息",
+    "example": "I learned a new word: recess.",
+    "exampleTranslation": "我学了一个新单词：化课间休息。",
+    "relatedPhrases": []
+  },
+  "recognize": {
+    "phonetic": "/'rekggnaiz/",
+    "pos": "v",
+    "meaning": "承认；意识到 3八",
+    "example": "I need to recognize this task.",
+    "exampleTranslation": "我需要承认；意识到 3八这个任务。",
+    "relatedPhrases": []
+  },
+  "reconnect": {
+    "phonetic": "/.riikg'nekt/",
+    "pos": "v",
+    "meaning": "再联系；再联络",
+    "example": "I need to reconnect this task.",
+    "exampleTranslation": "我需要再联系；再联络这个任务。",
+    "relatedPhrases": []
+  },
+  "recovery": {
+    "phonetic": "/n'kAvari/",
+    "pos": "n",
+    "meaning": "恢复；痊愈 节",
+    "example": "The recovery is very important.",
+    "exampleTranslation": "这个恢复；痊愈 节很重要。",
+    "relatedPhrases": []
+  },
+  "recruit": {
+    "phonetic": "/n'kruit/",
+    "pos": "v",
+    "meaning": "吸收（新成员）",
+    "example": "I need to recruit this task.",
+    "exampleTranslation": "我需要吸收（新成员）这个任务。",
+    "relatedPhrases": []
+  },
+  "reflect": {
+    "phonetic": "/n'flekt/",
+    "pos": "v",
+    "meaning": "显示；表明；表达",
+    "example": "I need to reflect this task.",
+    "exampleTranslation": "我需要显示；表明；表达这个任务。",
+    "relatedPhrases": []
+  },
+  "reflection": {
+    "phonetic": "/ri'flekjn/",
+    "pos": "n",
+    "meaning": "(关于某主题的）思考，回忆",
+    "example": "The reflection is very important.",
+    "exampleTranslation": "这个(关于某主题的）思考，回忆很重要。",
+    "relatedPhrases": []
+  },
+  "refresh": {
+    "phonetic": "/ri'frej/",
+    "pos": "v",
+    "meaning": "使恢复精力；使凉爽 12八",
+    "example": "I need to refresh this task.",
+    "exampleTranslation": "我需要使恢复精力；使凉爽 12八这个任务。",
+    "relatedPhrases": []
+  },
+  "refrigerator": {
+    "phonetic": "/ri'frid39reit9(r)/",
+    "pos": "",
+    "meaning": "化冰箱 2八",
+    "example": "I learned a new word: refrigerator.",
+    "exampleTranslation": "我学了一个新单词：化冰箱 2八。",
+    "relatedPhrases": []
+  },
+  "relent": {
+    "phonetic": "/ri'lent/",
+    "pos": "v",
+    "meaning": "终于答应；不再拒绝",
+    "example": "I need to relent this task.",
+    "exampleTranslation": "我需要终于答应；不再拒绝这个任务。",
+    "relatedPhrases": []
+  },
+  "relevant": {
+    "phonetic": "/'rebvant/",
+    "pos": "adj",
+    "meaning": "紧密相关的；t刀题的",
+    "example": "This is a relevant example.",
+    "exampleTranslation": "这是一个紧密相关的；t刀题的的例子。",
+    "relatedPhrases": []
+  },
+  "reliant": {
+    "phonetic": "/n'laiant/",
+    "pos": "adj",
+    "meaning": "依赖性的；依靠的",
+    "example": "This is a reliant example.",
+    "exampleTranslation": "这是一个依赖性的；依靠的的例子。",
+    "relatedPhrases": []
+  },
+  "remark": {
+    "phonetic": "/ri'maik/",
+    "pos": "v",
+    "meaning": "谈论；评论",
+    "example": "I need to remark this task.",
+    "exampleTranslation": "我需要谈论；评论这个任务。",
+    "relatedPhrases": []
+  },
+  "remind": {
+    "phonetic": "/ri'mamd/",
+    "pos": "v",
+    "meaning": "提醒；使想起",
+    "example": "I need to remind this task.",
+    "exampleTranslation": "我需要提醒；使想起这个任务。",
+    "relatedPhrases": []
+  },
+  "remove": {
+    "phonetic": "/ri'muiv/",
+    "pos": "v",
+    "meaning": "移开；拿开；去掉",
+    "example": "I need to remove this task.",
+    "exampleTranslation": "我需要移开；拿开；去掉这个任务。",
+    "relatedPhrases": []
+  },
+  "renowned": {
+    "phonetic": "/n'naund/",
+    "pos": "adj",
+    "meaning": "有名的；闻名的；受尊敬的",
+    "example": "This is a renowned example.",
+    "exampleTranslation": "这是一个有名的；闻名的；受尊敬的的例子。",
+    "relatedPhrases": []
+  },
+  "represent": {
+    "phonetic": "/.repri'zent/",
+    "pos": "v",
+    "meaning": "描述；表现",
+    "example": "I need to represent this task.",
+    "exampleTranslation": "我需要描述；表现这个任务。",
+    "relatedPhrases": []
+  },
+  "republican": {
+    "phonetic": "/ri'pAblikan/",
+    "pos": "",
+    "meaning": "(美国）共和党党员，共和党支持者",
+    "example": "I learned a new word: Republican.",
+    "exampleTranslation": "我学了一个新单词：(美国）共和党党员，共和党支持者。",
+    "relatedPhrases": []
+  },
+  "reputation": {
+    "phonetic": "/.repju'teijn/",
+    "pos": "",
+    "meaning": "化名誉；名声",
+    "example": "I learned a new word: reputation.",
+    "exampleTranslation": "我学了一个新单词：化名誉；名声。",
+    "relatedPhrases": []
+  },
+  "request": {
+    "phonetic": "/ri'kwest/",
+    "pos": "v",
+    "meaning": "(化貌或卫式地）请求，要求",
+    "example": "I need to request this task.",
+    "exampleTranslation": "我需要(化貌或卫式地）请求，要求这个任务。",
+    "relatedPhrases": []
+  },
+  "requisite": {
+    "phonetic": "/'rekwizit/",
+    "pos": "",
+    "meaning": "口却.必需的；必备的；必不可少的",
+    "example": "I learned a new word: requisite.",
+    "exampleTranslation": "我学了一个新单词：口却.必需的；必备的；必不可少的。",
+    "relatedPhrases": []
+  },
+  "resemble": {
+    "phonetic": "/n'zembl/",
+    "pos": "v",
+    "meaning": "看起来像；显得像；像",
+    "example": "I need to resemble this task.",
+    "exampleTranslation": "我需要看起来像；显得像；像这个任务。",
+    "relatedPhrases": []
+  },
+  "resist": {
+    "phonetic": "/n'zist/",
+    "pos": "v",
+    "meaning": "忍住；节挡",
+    "example": "I need to resist this task.",
+    "exampleTranslation": "我需要忍住；节挡这个任务。",
+    "relatedPhrases": []
+  },
+  "resource": {
+    "phonetic": "/ri'sois/",
+    "pos": "n",
+    "meaning": "资源；财力",
+    "example": "The resource is very important.",
+    "exampleTranslation": "这个资源；财力很重要。",
+    "relatedPhrases": []
+  },
+  "resourceful": {
+    "phonetic": "/ri'soisfl/",
+    "pos": "adj",
+    "meaning": "机敏的；足智多谋的；随机应变的",
+    "example": "This is a resourceful example.",
+    "exampleTranslation": "这是一个机敏的；足智多谋的；随机应变的的例子。",
+    "relatedPhrases": []
+  },
+  "respectfully": {
+    "phonetic": "/ri'spektfali/",
+    "pos": "adv",
+    "meaning": "恭敬地",
+    "example": "She speaks respectfully.",
+    "exampleTranslation": "她恭敬地地说话。",
+    "relatedPhrases": []
+  },
+  "respite": {
+    "phonetic": "/'respait/",
+    "pos": "n",
+    "meaning": "暂停；暂缓",
+    "example": "The respite is very important.",
+    "exampleTranslation": "这个暂停；暂缓很重要。",
+    "relatedPhrases": []
+  },
+  "respond": {
+    "phonetic": "/ri'spend/",
+    "pos": "v",
+    "meaning": "作出反应；响应",
+    "example": "I need to respond this task.",
+    "exampleTranslation": "我需要作出反应；响应这个任务。",
+    "relatedPhrases": [
+      {
+        "phrase": "respond to",
+        "meaning": "作出反馈；响应"
+      }
+    ]
+  },
+  "responsibility": {
+    "phonetic": "/ri.spDnss'bibti/",
+    "pos": "",
+    "meaning": "化责任；负责",
+    "example": "I learned a new word: responsibility.",
+    "exampleTranslation": "我学了一个新单词：化责任；负责。",
+    "relatedPhrases": []
+  },
+  "restore": {
+    "phonetic": "/ri'stD：(r)/",
+    "pos": "v",
+    "meaning": "使复原；使复位；使复职",
+    "example": "I need to restore this task.",
+    "exampleTranslation": "我需要使复原；使复位；使复职这个任务。",
+    "relatedPhrases": []
+  },
+  "reverent": {
+    "phonetic": "/'revsrant/",
+    "pos": "adj",
+    "meaning": "非常尊敬的；深表崇敬的",
+    "example": "This is a reverent example.",
+    "exampleTranslation": "这是一个非常尊敬的；深表崇敬的的例子。",
+    "relatedPhrases": []
+  },
+  "reverently": {
+    "phonetic": "/'revsrantli/",
+    "pos": "adv",
+    "meaning": "恭敬地；虔诚地",
+    "example": "She speaks reverently.",
+    "exampleTranslation": "她恭敬地；虔诚地地说话。",
+    "relatedPhrases": []
+  },
+  "reverse": {
+    "phonetic": "/ri'vais/",
+    "pos": "v",
+    "meaning": "颠倒；彻底转变；使完全相反",
+    "example": "I need to reverse this task.",
+    "exampleTranslation": "我需要颠倒；彻底转变；使完全相反这个任务。",
+    "relatedPhrases": []
+  },
+  "revolution": {
+    "phonetic": "/.reva'luijn/",
+    "pos": "n",
+    "meaning": "巨变;大变革",
+    "example": "The revolution is very important.",
+    "exampleTranslation": "这个巨变;大变革很重要。",
+    "relatedPhrases": []
+  },
+  "reward": {
+    "phonetic": "/ri'woid/",
+    "pos": "n",
+    "meaning": "奖励；回报；报酬",
+    "example": "The reward is very important.",
+    "exampleTranslation": "这个奖励；回报；报酬很重要。",
+    "relatedPhrases": []
+  },
+  "ritual": {
+    "phonetic": "/'ritjual/",
+    "pos": "",
+    "meaning": "程序；仪规；礼节",
+    "example": "I learned a new word: ritual.",
+    "exampleTranslation": "我学了一个新单词：程序；仪规；礼节。",
+    "relatedPhrases": []
+  },
+  "roll": {
+    "phonetic": "/raul/",
+    "pos": "v",
+    "meaning": "(使）翻滚，滚动",
+    "example": "I need to roll this task.",
+    "exampleTranslation": "我需要(使）翻滚，滚动这个任务。",
+    "relatedPhrases": []
+  },
+  "romance": {
+    "phonetic": "/rau'maens/",
+    "pos": "n",
+    "meaning": "恋爱；爱情",
+    "example": "The romance is very important.",
+    "exampleTranslation": "这个恋爱；爱情很重要。",
+    "relatedPhrases": []
+  },
+  "room": {
+    "phonetic": "/ru:m/",
+    "pos": "",
+    "meaning": "化可能性；机会",
+    "example": "I learned a new word: room.",
+    "exampleTranslation": "我学了一个新单词：化可能性；机会。",
+    "relatedPhrases": []
+  },
+  "root": {
+    "phonetic": "/ruit/",
+    "pos": "n",
+    "meaning": "根源；起因",
+    "example": "The root is very important.",
+    "exampleTranslation": "这个根源；起因很重要。",
+    "relatedPhrases": []
+  },
+  "roughness": {
+    "phonetic": "/'rAfnis/",
+    "pos": "n",
+    "meaning": "艰辛；艰难",
+    "example": "The roughness is very important.",
+    "exampleTranslation": "这个艰辛；艰难很重要。",
+    "relatedPhrases": []
+  },
+  "routine": {
+    "phonetic": "/rui'tiin/",
+    "pos": "adj",
+    "meaning": "常规的；例行公事的；日窜的",
+    "example": "This is a routine example.",
+    "exampleTranslation": "这是一个常规的；例行公事的；日窜的的例子。",
+    "relatedPhrases": []
+  },
+  "sable": {
+    "phonetic": "/'seibl/",
+    "pos": "n",
+    "meaning": "貂皮",
+    "example": "The sable is very important.",
+    "exampleTranslation": "这个貂皮很重要。",
+    "relatedPhrases": []
+  },
+  "sacred": {
+    "phonetic": "/'seikrid/",
+    "pos": "adj",
+    "meaning": "上帝的；神的；神圣的",
+    "example": "This is a sacred example.",
+    "exampleTranslation": "这是一个上帝的；神的；神圣的的例子。",
+    "relatedPhrases": []
+  },
+  "sacrifice": {
+    "phonetic": "/'saeknfais/",
+    "pos": "",
+    "meaning": "化牺牲；舍弃",
+    "example": "I learned a new word: sacrifice.",
+    "exampleTranslation": "我学了一个新单词：化牺牲；舍弃。",
+    "relatedPhrases": []
+  },
+  "sag": {
+    "phonetic": "/saeg/",
+    "pos": "",
+    "meaning": "减弱；减少",
+    "example": "I learned a new word: sag.",
+    "exampleTranslation": "我学了一个新单词：减弱；减少。",
+    "relatedPhrases": []
+  },
+  "sanitation": {
+    "phonetic": "/iSaeni'teiJn/",
+    "pos": "",
+    "meaning": "打.环境卫生",
+    "example": "I learned a new word: sanitation.",
+    "exampleTranslation": "我学了一个新单词：打.环境卫生。",
+    "relatedPhrases": []
+  },
+  "scared": {
+    "phonetic": "/skead/",
+    "pos": "adj",
+    "meaning": "害怕的；恐惧的；畏惧的；担心的",
+    "example": "This is a scared example.",
+    "exampleTranslation": "这是一个害怕的；恐惧的；畏惧的；担心的的例子。",
+    "relatedPhrases": []
+  },
+  "scenario": {
+    "phonetic": "/sa'nairiau/",
+    "pos": "n",
+    "meaning": "设想；方案；预测",
+    "example": "The scenario is very important.",
+    "exampleTranslation": "这个设想；方案；预测很重要。",
+    "relatedPhrases": []
+  },
+  "scene": {
+    "phonetic": "/siin/",
+    "pos": "",
+    "meaning": "化事件；场面；情景",
+    "example": "I learned a new word: scene.",
+    "exampleTranslation": "我学了一个新单词：化事件；场面；情景。",
+    "relatedPhrases": []
+  },
+  "scheme": {
+    "phonetic": "/skiim/",
+    "pos": "n",
+    "meaning": "计划；方案；体系；体制",
+    "example": "The scheme is very important.",
+    "exampleTranslation": "这个计划；方案；体系；体制很重要。",
+    "relatedPhrases": []
+  },
+  "scientific": {
+    "phonetic": "/iSaniVtifik/",
+    "pos": "adj",
+    "meaning": "科学（上）的；关于科学的",
+    "example": "This is a scientific example.",
+    "exampleTranslation": "这是一个科学（上）的；关于科学的的例子。",
+    "relatedPhrases": []
+  },
+  "scowl": {
+    "phonetic": "/skaol/",
+    "pos": "",
+    "meaning": "怒视（某人或某事）",
+    "example": "I learned a new word: scowl.",
+    "exampleTranslation": "我学了一个新单词：怒视（某人或某事）。",
+    "relatedPhrases": []
+  },
+  "scream": {
+    "phonetic": "/skriim/",
+    "pos": "v",
+    "meaning": "高声喊，大声叫",
+    "example": "I need to scream this task.",
+    "exampleTranslation": "我需要高声喊，大声叫这个任务。",
+    "relatedPhrases": []
+  },
+  "script": {
+    "phonetic": "/skript/",
+    "pos": "",
+    "meaning": "剧本；广播（或讲话等）稿",
+    "example": "I learned a new word: script.",
+    "exampleTranslation": "我学了一个新单词：剧本；广播（或讲话等）稿。",
+    "relatedPhrases": []
+  },
+  "scrounge": {
+    "phonetic": "/skraunds/",
+    "pos": "v",
+    "meaning": "节取；搜寻",
+    "example": "I need to scrounge this task.",
+    "exampleTranslation": "我需要节取；搜寻这个任务。",
+    "relatedPhrases": []
+  },
+  "seasoned": {
+    "phonetic": "/'siiznd/",
+    "pos": "adj",
+    "meaning": "富有经验的；老于此道的",
+    "example": "This is a seasoned example.",
+    "exampleTranslation": "这是一个富有经验的；老于此道的的例子。",
+    "relatedPhrases": []
+  },
+  "sector": {
+    "phonetic": "/'sekt9(r)/",
+    "pos": "n",
+    "meaning": "(尤指一国经济的）部口，领域，行业",
+    "example": "The sector is very important.",
+    "exampleTranslation": "这个(尤指一国经济的）部口，领域，行业很重要。",
+    "relatedPhrases": []
+  },
+  "seek": {
+    "phonetic": "/silk/",
+    "pos": "",
+    "meaning": "寻找",
+    "example": "I learned a new word: seek.",
+    "exampleTranslation": "我学了一个新单词：寻找。",
+    "relatedPhrases": [
+      {
+        "phrase": "seek out",
+        "meaning": "寻求"
+      }
+    ]
+  },
+  "self-esteem": {
+    "phonetic": "/.self I'stiim/",
+    "pos": "n",
+    "meaning": "自尊（心） -",
+    "example": "The self-esteem is very important.",
+    "exampleTranslation": "这个自尊（心） -很重要。",
+    "relatedPhrases": []
+  },
+  "self-revealing": {
+    "phonetic": "/■self 口ivi;lig/",
+    "pos": "",
+    "meaning": "a却•.表白真情的",
+    "example": "I learned a new word: self-revealing.",
+    "exampleTranslation": "我学了一个新单词：a却•.表白真情的。",
+    "relatedPhrases": []
+  },
+  "selfish": {
+    "phonetic": "/'selfij/",
+    "pos": "adj",
+    "meaning": "自私的",
+    "example": "This is a selfish example.",
+    "exampleTranslation": "这是一个自私的的例子。",
+    "relatedPhrases": []
+  },
+  "sense": {
+    "phonetic": "/sens/",
+    "pos": "",
+    "meaning": "\".(对重大事情的）感觉，意识",
+    "example": "I learned a new word: sense.",
+    "exampleTranslation": "我学了一个新单词：\".(对重大事情的）感觉，意识。",
+    "relatedPhrases": []
+  },
+  "sequence": {
+    "phonetic": "/'siikwans/",
+    "pos": "n",
+    "meaning": "顺唐；次唐",
+    "example": "The sequence is very important.",
+    "exampleTranslation": "这个顺唐；次唐很重要。",
+    "relatedPhrases": []
+  },
+  "settle": {
+    "phonetic": "/'setl/",
+    "pos": "v",
+    "meaning": "把...放好；安放",
+    "example": "I need to settle this task.",
+    "exampleTranslation": "我需要把...放好；安放这个任务。",
+    "relatedPhrases": []
+  },
+  "shaky": {
+    "phonetic": "/'Jeiki/",
+    "pos": "adj",
+    "meaning": "不稳固的；不牢靠的；摇晃的；不确节的",
+    "example": "This is a shaky example.",
+    "exampleTranslation": "这是一个不稳固的；不牢靠的；摇晃的；不确节的的例子。",
+    "relatedPhrases": []
+  },
+  "short-sighted": {
+    "phonetic": "/.Joit saitid/",
+    "pos": "adj",
+    "meaning": "目光瓶吏的；没有远见的",
+    "example": "This is a short-sighted example.",
+    "exampleTranslation": "这是一个目光瓶吏的；没有远见的的例子。",
+    "relatedPhrases": []
+  },
+  "shuffle": {
+    "phonetic": "/|/",
+    "pos": "",
+    "meaning": "八£1/ v.拖着脚走",
+    "example": "I learned a new word: shuffle.",
+    "exampleTranslation": "我学了一个新单词：八£1/ v.拖着脚走。",
+    "relatedPhrases": []
+  },
+  "sibling": {
+    "phonetic": "/isibli口/",
+    "pos": "n",
+    "meaning": "兄；弟；姐；妹",
+    "example": "The sibling is very important.",
+    "exampleTranslation": "这个兄；弟；姐；妹很重要。",
+    "relatedPhrases": []
+  },
+  "sickness": {
+    "phonetic": "/'siknas/",
+    "pos": "",
+    "meaning": "丹.疾病；不健康",
+    "example": "I learned a new word: sickness.",
+    "exampleTranslation": "我学了一个新单词：丹.疾病；不健康。",
+    "relatedPhrases": []
+  },
+  "sight": {
+    "phonetic": "/salt/",
+    "pos": "n",
+    "meaning": "视力范围；视野",
+    "example": "The sight is very important.",
+    "exampleTranslation": "这个视力范围；视野很重要。",
+    "relatedPhrases": []
+  },
+  "significance": {
+    "phonetic": "/sig'nifikans/",
+    "pos": "n",
+    "meaning": "(尤指对将来有影响的）重要性，意义",
+    "example": "The significance is very important.",
+    "exampleTranslation": "这个(尤指对将来有影响的）重要性，意义很重要。",
+    "relatedPhrases": []
+  },
+  "silently": {
+    "phonetic": "/'saibntli/",
+    "pos": "adv",
+    "meaning": "悄悄地；静静地",
+    "example": "She speaks silently.",
+    "exampleTranslation": "她悄悄地；静静地地说话。",
+    "relatedPhrases": []
+  },
+  "simplify": {
+    "phonetic": "/'simplifai/",
+    "pos": "v",
+    "meaning": "使简化；使简易",
+    "example": "I need to simplify this task.",
+    "exampleTranslation": "我需要使简化；使简易这个任务。",
+    "relatedPhrases": []
+  },
+  "simultaneous": {
+    "phonetic": "/.simrteiniss/",
+    "pos": "adj",
+    "meaning": "同时发生（或进行）的；同步的",
+    "example": "This is a simultaneous example.",
+    "exampleTranslation": "这是一个同时发生（或进行）的；同步的的例子。",
+    "relatedPhrases": []
+  },
+  "site": {
+    "phonetic": "/salt/",
+    "pos": "n",
+    "meaning": "网站；站点",
+    "example": "The site is very important.",
+    "exampleTranslation": "这个网站；站点很重要。",
+    "relatedPhrases": []
+  },
+  "skinny": {
+    "phonetic": "/'skini/",
+    "pos": "adj",
+    "meaning": "极瘦的；干瘦的；皮包骨头的",
+    "example": "This is a skinny example.",
+    "exampleTranslation": "这是一个极瘦的；干瘦的；皮包骨头的的例子。",
+    "relatedPhrases": []
+  },
+  "slam": {
+    "phonetic": "/slaem/",
+    "pos": "v",
+    "meaning": "(使...）砰地关上",
+    "example": "I need to slam this task.",
+    "exampleTranslation": "我需要(使...）砰地关上这个任务。",
+    "relatedPhrases": []
+  },
+  "slide": {
+    "phonetic": "/slaid/",
+    "pos": "v",
+    "meaning": "(使）快捷而悄声地移动",
+    "example": "I need to slide this task.",
+    "exampleTranslation": "我需要(使）快捷而悄声地移动这个任务。",
+    "relatedPhrases": []
+  },
+  "slightly": {
+    "phonetic": "/'slaitli/",
+    "pos": "adv",
+    "meaning": "略微；稍微",
+    "example": "She speaks slightly.",
+    "exampleTranslation": "她略微；稍微地说话。",
+    "relatedPhrases": []
+  },
+  "slip": {
+    "phonetic": "/slip/",
+    "pos": "",
+    "meaning": "悄悄疾行；溜",
+    "example": "I learned a new word: slip.",
+    "exampleTranslation": "我学了一个新单词：悄悄疾行；溜。",
+    "relatedPhrases": [
+      {
+        "phrase": "slip away",
+        "meaning": "消失；消亡；死去"
+      }
+    ]
+  },
+  "slippery": {
+    "phonetic": "/'slipori/",
+    "pos": "adj",
+    "meaning": "滑的；滑得抓不住（或站不稳、难L乂行走）的",
+    "example": "This is a slippery example.",
+    "exampleTranslation": "这是一个滑的；滑得抓不住（或站不稳、难L乂行走）的的例子。",
+    "relatedPhrases": []
+  },
+  "smalltalk": {
+    "phonetic": "/'smoil toik/",
+    "pos": "n",
+    "meaning": "寒喧；闲谈；聊天",
+    "example": "The smalltalk is very important.",
+    "exampleTranslation": "这个寒喧；闲谈；聊天很重要。",
+    "relatedPhrases": []
+  },
+  "smartphone": {
+    "phonetic": "/'smaitfaun/",
+    "pos": "",
+    "meaning": "打.智能手机",
+    "example": "I learned a new word: smartphone.",
+    "exampleTranslation": "我学了一个新单词：打.智能手机。",
+    "relatedPhrases": []
+  },
+  "snap": {
+    "phonetic": "/snaep/",
+    "pos": "",
+    "meaning": "(使）断裂，測断",
+    "example": "I learned a new word: snap.",
+    "exampleTranslation": "我学了一个新单词：(使）断裂，測断。",
+    "relatedPhrases": []
+  },
+  "sniffle": {
+    "phonetic": "/'snifl/",
+    "pos": "n",
+    "meaning": "抽鼻子（声）",
+    "example": "The sniffle is very important.",
+    "exampleTranslation": "这个抽鼻子（声）很重要。",
+    "relatedPhrases": []
+  },
+  "solely": {
+    "phonetic": "/IS3她i/",
+    "pos": "",
+    "meaning": "幻如.仅；只；唯；单独地",
+    "example": "I learned a new word: solely.",
+    "exampleTranslation": "我学了一个新单词：幻如.仅；只；唯；单独地。",
+    "relatedPhrases": []
+  },
+  "sore": {
+    "phonetic": "/so;(r)/",
+    "pos": "",
+    "meaning": "n.痛处；伤处；疮",
+    "example": "I learned a new word: sore.",
+    "exampleTranslation": "我学了一个新单词：n.痛处；伤处；疮。",
+    "relatedPhrases": []
+  },
+  "sound": {
+    "phonetic": "/saund/",
+    "pos": "adj",
+    "meaning": "明智的；合理的；卫确的；可靠的",
+    "example": "This is a sound example.",
+    "exampleTranslation": "这是一个明智的；合理的；卫确的；可靠的的例子。",
+    "relatedPhrases": []
+  },
+  "sourness": {
+    "phonetic": "/'sauanas/",
+    "pos": "n",
+    "meaning": "阴郁；没好气；乖张的脾气",
+    "example": "The sourness is very important.",
+    "exampleTranslation": "这个阴郁；没好气；乖张的脾气很重要。",
+    "relatedPhrases": []
+  },
+  "spa": {
+    "phonetic": "/spa:/",
+    "pos": "n",
+    "meaning": "水疗",
+    "example": "The spa is very important.",
+    "exampleTranslation": "这个水疗很重要。",
+    "relatedPhrases": []
+  },
+  "species": {
+    "phonetic": "/ispi;Ji;z/",
+    "pos": "",
+    "meaning": "种，物种（分类上小于属）",
+    "example": "I learned a new word: species.",
+    "exampleTranslation": "我学了一个新单词：种，物种（分类上小于属）。",
+    "relatedPhrases": []
+  },
+  "spill": {
+    "phonetic": "/spil/",
+    "pos": "",
+    "meaning": "(使）洒出，泼出，溢出",
+    "example": "I learned a new word: spill.",
+    "exampleTranslation": "我学了一个新单词：(使）洒出，泼出，溢出。",
+    "relatedPhrases": []
+  },
+  "spiritually": {
+    "phonetic": "/'spiritJusli/",
+    "pos": "adv",
+    "meaning": "精神上；心灵上",
+    "example": "She speaks spiritually.",
+    "exampleTranslation": "她精神上；心灵上地说话。",
+    "relatedPhrases": []
+  },
+  "sponge": {
+    "phonetic": "/spAnd3/",
+    "pos": "n",
+    "meaning": "海绵块",
+    "example": "The sponge is very important.",
+    "exampleTranslation": "这个海绵块很重要。",
+    "relatedPhrases": []
+  },
+  "spot": {
+    "phonetic": "/spot/",
+    "pos": "",
+    "meaning": "n.地点；场所；处所",
+    "example": "I learned a new word: spot.",
+    "exampleTranslation": "我学了一个新单词：n.地点；场所；处所。",
+    "relatedPhrases": []
+  },
+  "spurt": {
+    "phonetic": "/sp3：t/",
+    "pos": "n",
+    "meaning": "(速度、干劲、活动或感情的）短时激增，迸发",
+    "example": "The spurt is very important.",
+    "exampleTranslation": "这个(速度、干劲、活动或感情的）短时激增，迸发很重要。",
+    "relatedPhrases": []
+  },
+  "squander": {
+    "phonetic": "/'skwDnd9(r)/",
+    "pos": "v",
+    "meaning": "浪费，挥霍（金钱、时间等）",
+    "example": "I need to squander this task.",
+    "exampleTranslation": "我需要浪费，挥霍（金钱、时间等）这个任务。",
+    "relatedPhrases": []
+  },
+  "stable": {
+    "phonetic": "/'steibl/",
+    "pos": "adj",
+    "meaning": "稳定的；稳固的；牢固的",
+    "example": "This is a stable example.",
+    "exampleTranslation": "这是一个稳定的；稳固的；牢固的的例子。",
+    "relatedPhrases": []
+  },
+  "stand": {
+    "phonetic": "/staend/",
+    "pos": "n",
+    "meaning": "停车处；站",
+    "example": "The stand is very important.",
+    "exampleTranslation": "这个停车处；站很重要。",
+    "relatedPhrases": [
+      {
+        "phrase": "stand ... in good stead",
+        "meaning": "（需要时）对某人有用，对某人有利"
+      },
+      {
+        "phrase": "stand by",
+        "meaning": "支持; 帮助；忠于"
+      }
+    ]
+  },
+  "standard": {
+    "phonetic": "/'staendsd/",
+    "pos": "n",
+    "meaning": "(品质的）标准，水平，规格",
+    "example": "The standard is very important.",
+    "exampleTranslation": "这个(品质的）标准，水平，规格很重要。",
+    "relatedPhrases": []
+  },
+  "statement": {
+    "phonetic": "/'steitmsnt/",
+    "pos": "n",
+    "meaning": "说明；说法；表态",
+    "example": "The statement is very important.",
+    "exampleTranslation": "这个说明；说法；表态很重要。",
+    "relatedPhrases": []
+  },
+  "stationery": {
+    "phonetic": "/'steijsnri/",
+    "pos": "",
+    "meaning": "文具",
+    "example": "I learned a new word: stationery.",
+    "exampleTranslation": "我学了一个新单词：文具。",
+    "relatedPhrases": []
+  },
+  "statistic": {
+    "phonetic": "/sta'tistik/",
+    "pos": "n",
+    "meaning": "statistics [pi.]统计数字；统计资料",
+    "example": "The statistic is very important.",
+    "exampleTranslation": "这个statistics [pi.]统计数字；统计资料很重要。",
+    "relatedPhrases": []
+  },
+  "stifle": {
+    "phonetic": "/istaifl/",
+    "pos": "",
+    "meaning": "任制；扼杀；阻止",
+    "example": "I learned a new word: stifle.",
+    "exampleTranslation": "我学了一个新单词：任制；扼杀；阻止。",
+    "relatedPhrases": []
+  },
+  "stimulate": {
+    "phonetic": "/'stimjuleit/",
+    "pos": "v",
+    "meaning": "iJEiS ；激发；激励",
+    "example": "I need to stimulate this task.",
+    "exampleTranslation": "我需要iJEiS ；激发；激励这个任务。",
+    "relatedPhrases": []
+  },
+  "stirring": {
+    "phonetic": "/'stsirig/",
+    "pos": "n",
+    "meaning": "(感情、想法或发展的）开始，出现，萌发",
+    "example": "The stirring is very important.",
+    "exampleTranslation": "这个(感情、想法或发展的）开始，出现，萌发很重要。",
+    "relatedPhrases": []
+  },
+  "storm": {
+    "phonetic": "/stoim/",
+    "pos": "v",
+    "meaning": "气呼呼地疾走",
+    "example": "I need to storm this task.",
+    "exampleTranslation": "我需要气呼呼地疾走这个任务。",
+    "relatedPhrases": []
+  },
+  "strategy": {
+    "phonetic": "/'straetadsi/",
+    "pos": "n",
+    "meaning": ":规划；部署；统筹安排",
+    "example": "The strategy is very important.",
+    "exampleTranslation": "这个:规划；部署；统筹安排很重要。",
+    "relatedPhrases": []
+  },
+  "strengthen": {
+    "phonetic": "/'stregGn/",
+    "pos": "v",
+    "meaning": "加强；增强；巩固",
+    "example": "I need to strengthen this task.",
+    "exampleTranslation": "我需要加强；增强；巩固这个任务。",
+    "relatedPhrases": []
+  },
+  "stricken": {
+    "phonetic": "/'striksn/",
+    "pos": "adj",
+    "meaning": "受煎熬的；患病的；遭受挫折的",
+    "example": "This is a stricken example.",
+    "exampleTranslation": "这是一个受煎熬的；患病的；遭受挫折的的例子。",
+    "relatedPhrases": []
+  },
+  "stuff": {
+    "phonetic": "/stAf/",
+    "pos": "n",
+    "meaning": "(事物名称不详、无关紧要或所指雜明显时用）东西，物品，玩意儿",
+    "example": "The stuff is very important.",
+    "exampleTranslation": "这个(事物名称不详、无关紧要或所指雜明显时用）东西，物品，玩意儿很重要。",
+    "relatedPhrases": []
+  },
+  "subconscious": {
+    "phonetic": "/.SAb'konJ'as/",
+    "pos": "adj",
+    "meaning": "下意识的；潜意识的",
+    "example": "This is a subconscious example.",
+    "exampleTranslation": "这是一个下意识的；潜意识的的例子。",
+    "relatedPhrases": []
+  },
+  "subject": {
+    "phonetic": "/'sAbd3ikt/",
+    "pos": "n",
+    "meaning": "主题；题目；题材",
+    "example": "The subject is very important.",
+    "exampleTranslation": "这个主题；题目；题材很重要。",
+    "relatedPhrases": []
+  },
+  "subside": {
+    "phonetic": "/ssb'said/",
+    "pos": "v",
+    "meaning": "庭于平静；平息；减弱；消退",
+    "example": "I need to subside this task.",
+    "exampleTranslation": "我需要庭于平静；平息；减弱；消退这个任务。",
+    "relatedPhrases": []
+  },
+  "subsistence": {
+    "phonetic": "/sab'sistsns/",
+    "pos": "n",
+    "meaning": "勉强维^活",
+    "example": "The subsistence is very important.",
+    "exampleTranslation": "这个勉强维^活很重要。",
+    "relatedPhrases": []
+  },
+  "subtly": {
+    "phonetic": "/'sAtli/",
+    "pos": "adv",
+    "meaning": "不易察觉地；不明显地；微妙地",
+    "example": "She speaks subtly.",
+    "exampleTranslation": "她不易察觉地；不明显地；微妙地地说话。",
+    "relatedPhrases": []
+  },
+  "successive": {
+    "phonetic": "/sak'sesiv/",
+    "pos": "adj",
+    "meaning": "连续的；接连的；相继的",
+    "example": "This is a successive example.",
+    "exampleTranslation": "这是一个连续的；接连的；相继的的例子。",
+    "relatedPhrases": []
+  },
+  "suffer": {
+    "phonetic": "/isAf3(r)/",
+    "pos": "",
+    "meaning": "(因疾病、痛苦、悲伤等）受苦，受难，受折磨",
+    "example": "I learned a new word: suffer.",
+    "exampleTranslation": "我学了一个新单词：(因疾病、痛苦、悲伤等）受苦，受难，受折磨。",
+    "relatedPhrases": []
+  },
+  "sufficient": {
+    "phonetic": "/s^'fi/",
+    "pos": "adj",
+    "meaning": "足够的；充足的",
+    "example": "This is a sufficient example.",
+    "exampleTranslation": "这是一个足够的；充足的的例子。",
+    "relatedPhrases": []
+  },
+  "surcane": {
+    "phonetic": "/'Jugs kem/",
+    "pos": "",
+    "meaning": "甘■庶",
+    "example": "I learned a new word: SUrcane.",
+    "exampleTranslation": "我学了一个新单词：甘■庶。",
+    "relatedPhrases": []
+  },
+  "sunburn": {
+    "phonetic": "/'sAnbain/",
+    "pos": "n",
+    "meaning": "B西斑；日西伤",
+    "example": "The sunburn is very important.",
+    "exampleTranslation": "这个B西斑；日西伤很重要。",
+    "relatedPhrases": []
+  },
+  "survive": {
+    "phonetic": "/sa'vaiv/",
+    "pos": "v",
+    "meaning": "生存；存活；继续存在",
+    "example": "I need to survive this task.",
+    "exampleTranslation": "我需要生存；存活；继续存在这个任务。",
+    "relatedPhrases": []
+  },
+  "suspect": {
+    "phonetic": "/sa'spekt/",
+    "pos": "v",
+    "meaning": "疑有，觉得（尤指坏事可能属实或发生）",
+    "example": "I need to suspect this task.",
+    "exampleTranslation": "我需要疑有，觉得（尤指坏事可能属实或发生）这个任务。",
+    "relatedPhrases": []
+  },
+  "sustain": {
+    "phonetic": "/sa'stein/",
+    "pos": "v",
+    "meaning": "使保持；使稳定持续",
+    "example": "I need to sustain this task.",
+    "exampleTranslation": "我需要使保持；使稳定持续这个任务。",
+    "relatedPhrases": []
+  },
+  "sweaty": {
+    "phonetic": "/'sweti/",
+    "pos": "adj",
+    "meaning": "满是汗的；汗津津的",
+    "example": "This is a sweaty example.",
+    "exampleTranslation": "这是一个满是汗的；汗津津的的例子。",
+    "relatedPhrases": []
+  },
+  "symbolize": {
+    "phonetic": "/'simbalaiz/",
+    "pos": "v",
+    "meaning": "象征；是…的象征；代表",
+    "example": "I need to symbolize this task.",
+    "exampleTranslation": "我需要象征；是…的象征；代表这个任务。",
+    "relatedPhrases": []
+  },
+  "symphonic": {
+    "phonetic": "/sim'fDnik/",
+    "pos": "adj",
+    "meaning": "交响乐的",
+    "example": "This is a symphonic example.",
+    "exampleTranslation": "这是一个交响乐的的例子。",
+    "relatedPhrases": []
+  },
+  "symptom": {
+    "phonetic": "/'simptam/",
+    "pos": "",
+    "meaning": "月.症状",
+    "example": "I learned a new word: symptom.",
+    "exampleTranslation": "我学了一个新单词：月.症状。",
+    "relatedPhrases": []
+  },
+  "set": {
+    "phonetic": "/.Ap'set/",
+    "pos": "adj",
+    "meaning": "难过的；不高兴的；沮丧的",
+    "example": "This is a set example.",
+    "exampleTranslation": "这是一个难过的；不高兴的；沮丧的的例子。",
+    "relatedPhrases": [
+      {
+        "phrase": "set ... apart from",
+        "meaning": "区别；使与众不同"
+      }
+    ]
+  },
+  "temporary": {
+    "phonetic": "/'temprari/",
+    "pos": "adj",
+    "meaning": "短暂的；暂时的；临时的",
+    "example": "This is a temporary example.",
+    "exampleTranslation": "这是一个短暂的；暂时的；临时的的例子。",
+    "relatedPhrases": []
+  },
+  "temptation": {
+    "phonetic": "/temp'teijn/",
+    "pos": "",
+    "meaning": "打.弓|诱；诱惑",
+    "example": "I learned a new word: temptation.",
+    "exampleTranslation": "我学了一个新单词：打.弓|诱；诱惑。",
+    "relatedPhrases": []
+  },
+  "tempting": {
+    "phonetic": "/'temptii]/",
+    "pos": "adj",
+    "meaning": "吸引人的；诱人的；有吸引力的",
+    "example": "This is a tempting example.",
+    "exampleTranslation": "这是一个吸引人的；诱人的；有吸引力的的例子。",
+    "relatedPhrases": []
+  },
+  "tender": {
+    "phonetic": "/'tendaCr)/",
+    "pos": "adj",
+    "meaning": "易损坏的；纤弱的；脆弱的",
+    "example": "This is a tender example.",
+    "exampleTranslation": "这是一个易损坏的；纤弱的；脆弱的的例子。",
+    "relatedPhrases": []
+  },
+  "tension": {
+    "phonetic": "/'tenjn/",
+    "pos": "n",
+    "meaning": "(情绪上的）紧张，烦躁",
+    "example": "The tension is very important.",
+    "exampleTranslation": "这个(情绪上的）紧张，烦躁很重要。",
+    "relatedPhrases": []
+  },
+  "term": {
+    "phonetic": "/t3;m/",
+    "pos": "",
+    "meaning": "化词语；术语；措辞",
+    "example": "I learned a new word: term.",
+    "exampleTranslation": "我学了一个新单词：化词语；术语；措辞。",
+    "relatedPhrases": []
+  },
+  "territory": {
+    "phonetic": "/'teratri/",
+    "pos": "n",
+    "meaning": "领十;版图；领地",
+    "example": "The territory is very important.",
+    "exampleTranslation": "这个领十;版图；领地很重要。",
+    "relatedPhrases": []
+  },
+  "terrorism": {
+    "phonetic": "/'terarizgm/",
+    "pos": "n",
+    "meaning": "恐怖主义",
+    "example": "The terrorism is very important.",
+    "exampleTranslation": "这个恐怖主义很重要。",
+    "relatedPhrases": []
+  },
+  "thought": {
+    "phonetic": "/目o;t/",
+    "pos": "",
+    "meaning": "化想法；看法；主意；记忆",
+    "example": "I learned a new word: thought.",
+    "exampleTranslation": "我学了一个新单词：化想法；看法；主意；记忆。",
+    "relatedPhrases": []
+  },
+  "throb": {
+    "phonetic": "/0rDb/",
+    "pos": "n",
+    "meaning": "(强烈有规律的）贸励；阵阵的疼痛",
+    "example": "The throb is very important.",
+    "exampleTranslation": "这个(强烈有规律的）贸励；阵阵的疼痛很重要。",
+    "relatedPhrases": []
+  },
+  "tiny": {
+    "phonetic": "/'taini/",
+    "pos": "adj",
+    "meaning": "极小的；微小的",
+    "example": "This is a tiny example.",
+    "exampleTranslation": "这是一个极小的；微小的的例子。",
+    "relatedPhrases": []
+  },
+  "tissue": {
+    "phonetic": "/'tiju:/",
+    "pos": "n",
+    "meaning": "(尤指用作手帕的）纸巾，手巾纸",
+    "example": "The tissue is very important.",
+    "exampleTranslation": "这个(尤指用作手帕的）纸巾，手巾纸很重要。",
+    "relatedPhrases": []
+  },
+  "touch": {
+    "phonetic": "/tAtJ/",
+    "pos": "n",
+    "meaning": "修饰；润色；装点",
+    "example": "The touch is very important.",
+    "exampleTranslation": "这个修饰；润色；装点很重要。",
+    "relatedPhrases": []
+  },
+  "tough": {
+    "phonetic": "/tAf/",
+    "pos": "adj",
+    "meaning": "艰苦的；艰难的；棘手的",
+    "example": "This is a tough example.",
+    "exampleTranslation": "这是一个艰苦的；艰难的；棘手的的例子。",
+    "relatedPhrases": []
+  },
+  "traditionally": {
+    "phonetic": "/tra'dijanali/",
+    "pos": "adv",
+    "meaning": "传统上；照惯例",
+    "example": "She speaks traditionally.",
+    "exampleTranslation": "她传统上；照惯例地说话。",
+    "relatedPhrases": []
+  },
+  "trafficking": {
+    "phonetic": "/'traefikig/",
+    "pos": "n",
+    "meaning": "非法交易；非法买卖",
+    "example": "The trafficking is very important.",
+    "exampleTranslation": "这个非法交易；非法买卖很重要。",
+    "relatedPhrases": []
+  },
+  "tragic": {
+    "phonetic": "/'traed3ik/",
+    "pos": "adj",
+    "meaning": "悲惨的；悲痛的；可悲的",
+    "example": "This is a tragic example.",
+    "exampleTranslation": "这是一个悲惨的；悲痛的；可悲的的例子。",
+    "relatedPhrases": []
+  },
+  "traitor": {
+    "phonetic": "/'treit地)/",
+    "pos": "",
+    "meaning": "化背叛者；叛徒；卖国贼",
+    "example": "I learned a new word: traitor.",
+    "exampleTranslation": "我学了一个新单词：化背叛者；叛徒；卖国贼。",
+    "relatedPhrases": []
+  },
+  "transcend": {
+    "phonetic": "/traen'send/",
+    "pos": "v",
+    "meaning": "超出，超越（通常的界限）",
+    "example": "I need to transcend this task.",
+    "exampleTranslation": "我需要超出，超越（通常的界限）这个任务。",
+    "relatedPhrases": []
+  },
+  "transit": {
+    "phonetic": "/'traenzit/",
+    "pos": "n",
+    "meaning": "运输；运送；搬运；载运",
+    "example": "The transit is very important.",
+    "exampleTranslation": "这个运输；运送；搬运；载运很重要。",
+    "relatedPhrases": []
+  },
+  "transport": {
+    "phonetic": "/'traenspoit/",
+    "pos": "n",
+    "meaning": "交通车辆；运输工具；旅行方式",
+    "example": "The transport is very important.",
+    "exampleTranslation": "这个交通车辆；运输工具；旅行方式很重要。",
+    "relatedPhrases": []
+  },
+  "trashcan": {
+    "phonetic": "/'traej kaen/",
+    "pos": "n",
+    "meaning": "垃圾楠",
+    "example": "The trashcan is very important.",
+    "exampleTranslation": "这个垃圾楠很重要。",
+    "relatedPhrases": []
+  },
+  "treacherous": {
+    "phonetic": "/'tretjaras/",
+    "pos": "adj",
+    "meaning": "不可信任的；背叛的；奸诈的",
+    "example": "This is a treacherous example.",
+    "exampleTranslation": "这是一个不可信任的；背叛的；奸诈的的例子。",
+    "relatedPhrases": []
+  },
+  "tremendous": {
+    "phonetic": "/tra'mendas/",
+    "pos": "adj",
+    "meaning": "巨大的；极大的",
+    "example": "This is a tremendous example.",
+    "exampleTranslation": "这是一个巨大的；极大的的例子。",
+    "relatedPhrases": []
+  },
+  "trend": {
+    "phonetic": "/trend/",
+    "pos": "n",
+    "meaning": "趋势；庭向；倾向；动态；动向",
+    "example": "The trend is very important.",
+    "exampleTranslation": "这个趋势；庭向；倾向；动态；动向很重要。",
+    "relatedPhrases": []
+  },
+  "trendy": {
+    "phonetic": "/'trendi/",
+    "pos": "adj",
+    "meaning": "时毫的；赶时雲的",
+    "example": "This is a trendy example.",
+    "exampleTranslation": "这是一个时毫的；赶时雲的的例子。",
+    "relatedPhrases": []
+  },
+  "tribe": {
+    "phonetic": "/traib/",
+    "pos": "",
+    "meaning": "打.部落",
+    "example": "I learned a new word: tribe.",
+    "exampleTranslation": "我学了一个新单词：打.部落。",
+    "relatedPhrases": []
+  },
+  "tribute": {
+    "phonetic": "/'tribjuit/",
+    "pos": "n",
+    "meaning": "(尤指对死者的）致敬；悼念；吊唁礼物",
+    "example": "The tribute is very important.",
+    "exampleTranslation": "这个(尤指对死者的）致敬；悼念；吊唁礼物很重要。",
+    "relatedPhrases": []
+  },
+  "trick": {
+    "phonetic": "/trik/",
+    "pos": "",
+    "meaning": "n.戏法；节戏",
+    "example": "I learned a new word: trick.",
+    "exampleTranslation": "我学了一个新单词：n.戏法；节戏。",
+    "relatedPhrases": []
+  },
+  "triumph": {
+    "phonetic": "/'tra口mf/",
+    "pos": "",
+    "meaning": "化巨大成功；伟大胜利",
+    "example": "I learned a new word: triumph.",
+    "exampleTranslation": "我学了一个新单词：化巨大成功；伟大胜利。",
+    "relatedPhrases": []
+  },
+  "troublesome": {
+    "phonetic": "/'trAblsam/",
+    "pos": "adj",
+    "meaning": "令人烦恼的；令人痛苦的",
+    "example": "This is a troublesome example.",
+    "exampleTranslation": "这是一个令人烦恼的；令人痛苦的的例子。",
+    "relatedPhrases": []
+  },
+  "trumpet": {
+    "phonetic": "/'trAmpit/",
+    "pos": "v",
+    "meaning": "发出刚日八声",
+    "example": "I need to trumpet this task.",
+    "exampleTranslation": "我需要发出刚日八声这个任务。",
+    "relatedPhrases": []
+  },
+  "tub": {
+    "phonetic": "/tAb/",
+    "pos": "n",
+    "meaning": "浴缸；浴盆",
+    "example": "The tub is very important.",
+    "exampleTranslation": "这个浴缸；浴盆很重要。",
+    "relatedPhrases": []
+  },
+  "tuck": {
+    "phonetic": "/tAk/",
+    "pos": "",
+    "meaning": "把\"•塞进狭窄的空间；把•‘ •藏入",
+    "example": "I learned a new word: tuck.",
+    "exampleTranslation": "我学了一个新单词：把\"•塞进狭窄的空间；把•‘ •藏入。",
+    "relatedPhrases": []
+  },
+  "ultimately": {
+    "phonetic": "/'八Itim^tli/",
+    "pos": "adv",
+    "meaning": "最终；最后；终归",
+    "example": "She speaks ultimately.",
+    "exampleTranslation": "她最终；最后；终归地说话。",
+    "relatedPhrases": []
+  },
+  "uncaring": {
+    "phonetic": "/An'kearir)/",
+    "pos": "adj",
+    "meaning": "冷漠的；无同情也俯",
+    "example": "This is a uncaring example.",
+    "exampleTranslation": "这是一个冷漠的；无同情也俯的例子。",
+    "relatedPhrases": []
+  },
+  "uncomfortable": {
+    "phonetic": "/An'kAmftabl/",
+    "pos": "adj",
+    "meaning": "(使）焦虑的，尴尬的，害怕的，不自在的",
+    "example": "This is a uncomfortable example.",
+    "exampleTranslation": "这是一个(使）焦虑的，尴尬的，害怕的，不自在的的例子。",
+    "relatedPhrases": []
+  },
+  "undisputed": {
+    "phonetic": "/,Andi'spju:tid/",
+    "pos": "adj",
+    "meaning": "不容置疑的；毫无疑问的；不可争辩的",
+    "example": "This is a undisputed example.",
+    "exampleTranslation": "这是一个不容置疑的；毫无疑问的；不可争辩的的例子。",
+    "relatedPhrases": []
+  },
+  "undo": {
+    "phonetic": "/An'du:/",
+    "pos": "v",
+    "meaning": "打开；解开；拆开",
+    "example": "I need to undo this task.",
+    "exampleTranslation": "我需要打开；解开；拆开这个任务。",
+    "relatedPhrases": []
+  },
+  "uneventful": {
+    "phonetic": "/.Ani'ventfl/",
+    "pos": "adj",
+    "meaning": "平淡无奇的；平凡的；缺乏刺激的",
+    "example": "This is a uneventful example.",
+    "exampleTranslation": "这是一个平淡无奇的；平凡的；缺乏刺激的的例子。",
+    "relatedPhrases": []
+  },
+  "unfortunately": {
+    "phonetic": "/An'foitjanatli/",
+    "pos": "adv",
+    "meaning": "不幸地；遗憾地",
+    "example": "She speaks unfortunately.",
+    "exampleTranslation": "她不幸地；遗憾地地说话。",
+    "relatedPhrases": []
+  },
+  "ungrateful": {
+    "phonetic": "/An'greitfl/",
+    "pos": "adj",
+    "meaning": "不领情的；忘恩负义的",
+    "example": "This is a ungrateful example.",
+    "exampleTranslation": "这是一个不领情的；忘恩负义的的例子。",
+    "relatedPhrases": []
+  },
+  "unique": {
+    "phonetic": "/ju'niik/",
+    "pos": "adj",
+    "meaning": "独特的；罕见的",
+    "example": "This is a unique example.",
+    "exampleTranslation": "这是一个独特的；罕见的的例子。",
+    "relatedPhrases": []
+  },
+  "universe": {
+    "phonetic": "/'jumivsis/",
+    "pos": "n",
+    "meaning": "宇宙；天地万物；万象",
+    "example": "The universe is very important.",
+    "exampleTranslation": "这个宇宙；天地万物；万象很重要。",
+    "relatedPhrases": []
+  },
+  "unnecessarily": {
+    "phonetic": "/An'nesasargli/",
+    "pos": "adv",
+    "meaning": "没必要地",
+    "example": "She speaks unnecessarily.",
+    "exampleTranslation": "她没必要地地说话。",
+    "relatedPhrases": []
+  },
+  "unparalleled": {
+    "phonetic": "/An'pasrgleld/",
+    "pos": "adj",
+    "meaning": "无比的；无双的；空前的；绝无仅有的",
+    "example": "This is a unparalleled example.",
+    "exampleTranslation": "这是一个无比的；无双的；空前的；绝无仅有的的例子。",
+    "relatedPhrases": []
+  },
+  "unreceptive": {
+    "phonetic": "/.Ann'septiv/",
+    "pos": "adj",
+    "meaning": "(对新观点、建议等）不愿倾听的，不愿接受的",
+    "example": "This is a unreceptive example.",
+    "exampleTranslation": "这是一个(对新观点、建议等）不愿倾听的，不愿接受的的例子。",
+    "relatedPhrases": []
+  },
+  "unrest": {
+    "phonetic": "/八n'rest/",
+    "pos": "",
+    "meaning": "化动荡；动乱；骚动",
+    "example": "I learned a new word: unrest.",
+    "exampleTranslation": "我学了一个新单词：化动荡；动乱；骚动。",
+    "relatedPhrases": []
+  },
+  "unselfish": {
+    "phonetic": "/ah'selfij/",
+    "pos": "adj",
+    "meaning": "无私的；忘我的；不谋末A利的",
+    "example": "This is a unselfish example.",
+    "exampleTranslation": "这是一个无私的；忘我的；不谋末A利的的例子。",
+    "relatedPhrases": []
+  },
+  "untoward": {
+    "phonetic": "/.Antg'woid/",
+    "pos": "adj",
+    "meaning": "异常的；意外的；棘手的；不幸的",
+    "example": "This is a untoward example.",
+    "exampleTranslation": "这是一个异常的；意外的；棘手的；不幸的的例子。",
+    "relatedPhrases": []
+  },
+  "unwed": {
+    "phonetic": "/An'wed/",
+    "pos": "adj",
+    "meaning": "未婚的",
+    "example": "This is a unwed example.",
+    "exampleTranslation": "这是一个未婚的的例子。",
+    "relatedPhrases": []
+  },
+  "utensil": {
+    "phonetic": "/jui'tensl/",
+    "pos": "",
+    "meaning": "(家庭）用具，器皿",
+    "example": "I learned a new word: utensil.",
+    "exampleTranslation": "我学了一个新单词：(家庭）用具，器皿。",
+    "relatedPhrases": []
+  },
+  "valid": {
+    "phonetic": "/'vaelid/",
+    "pos": "adj",
+    "meaning": "符合逻辑的；合理的；确酱的",
+    "example": "This is a valid example.",
+    "exampleTranslation": "这是一个符合逻辑的；合理的；确酱的的例子。",
+    "relatedPhrases": []
+  },
+  "value": {
+    "phonetic": "/'V蝴U;/",
+    "pos": "",
+    "meaning": "values [pi.]是非标准；价值观",
+    "example": "I learned a new word: value.",
+    "exampleTranslation": "我学了一个新单词：values [pi.]是非标准；价值观。",
+    "relatedPhrases": []
+  },
+  "vanilla-scented": {
+    "phonetic": "/va.nib 'sentid/",
+    "pos": "adj",
+    "meaning": "香草味的",
+    "example": "This is a vanilla-scented example.",
+    "exampleTranslation": "这是一个香草味的的例子。",
+    "relatedPhrases": []
+  },
+  "variety": {
+    "phonetic": "/v9'rai9ti/",
+    "pos": "n",
+    "meaning": "(同一事物的）不同种类，多种式样",
+    "example": "The variety is very important.",
+    "exampleTranslation": "这个(同一事物的）不同种类，多种式样很重要。",
+    "relatedPhrases": []
+  },
+  "various": {
+    "phonetic": "/'vesrias/",
+    "pos": "adj",
+    "meaning": "各种不同的；各种各样的",
+    "example": "This is a various example.",
+    "exampleTranslation": "这是一个各种不同的；各种各样的的例子。",
+    "relatedPhrases": []
+  },
+  "vary": {
+    "phonetic": "/'veari/",
+    "pos": "v",
+    "meaning": "相异；不同",
+    "example": "I need to vary this task.",
+    "exampleTranslation": "我需要相异；不同这个任务。",
+    "relatedPhrases": []
+  },
+  "veil": {
+    "phonetic": "/veil/",
+    "pos": "",
+    "meaning": "掩饰；掩盖",
+    "example": "I learned a new word: veil.",
+    "exampleTranslation": "我学了一个新单词：掩饰；掩盖。",
+    "relatedPhrases": []
+  },
+  "verify": {
+    "phonetic": "/'verifai/",
+    "pos": "v",
+    "meaning": "核实；查对；核准",
+    "example": "I need to verify this task.",
+    "exampleTranslation": "我需要核实；查对；核准这个任务。",
+    "relatedPhrases": []
+  },
+  "veritable": {
+    "phonetic": "/'veritabl/",
+    "pos": "adj",
+    "meaning": "十足的；名副其实的；不折不扣的",
+    "example": "This is a veritable example.",
+    "exampleTranslation": "这是一个十足的；名副其实的；不折不扣的的例子。",
+    "relatedPhrases": []
+  },
+  "verse": {
+    "phonetic": "/v3;s/",
+    "pos": "",
+    "meaning": "化诗；韵文",
+    "example": "I learned a new word: verse.",
+    "exampleTranslation": "我学了一个新单词：化诗；韵文。",
+    "relatedPhrases": []
+  },
+  "versus": {
+    "phonetic": "/'vsisas/",
+    "pos": "prep",
+    "meaning": "(表示两队或双方对陣）对，诉，对抗",
+    "example": "I learned a new word: versus.",
+    "exampleTranslation": "我学了一个新单词：(表示两队或双方对陣）对，诉，对抗。",
+    "relatedPhrases": []
+  },
+  "veterinarian": {
+    "phonetic": "/.vetari'nearbn/",
+    "pos": "",
+    "meaning": "兽医",
+    "example": "I learned a new word: veterinarian.",
+    "exampleTranslation": "我学了一个新单词：兽医。",
+    "relatedPhrases": []
+  },
+  "viability": {
+    "phonetic": "/iVaia'bilati/",
+    "pos": "n",
+    "meaning": "可行性",
+    "example": "The viability is very important.",
+    "exampleTranslation": "这个可行性很重要。",
+    "relatedPhrases": []
+  },
+  "victim": {
+    "phonetic": "/'viktim/",
+    "pos": "",
+    "meaning": "n.受害者；牺牲品",
+    "example": "I learned a new word: victim.",
+    "exampleTranslation": "我学了一个新单词：n.受害者；牺牲品。",
+    "relatedPhrases": []
+  },
+  "virtual": {
+    "phonetic": "/'V3itju9l/",
+    "pos": "adj",
+    "meaning": "(通过计算机软件，如节因特网上）模拟的，虚拟的",
+    "example": "This is a virtual example.",
+    "exampleTranslation": "这是一个(通过计算机软件，如节因特网上）模拟的，虚拟的的例子。",
+    "relatedPhrases": []
+  },
+  "virtue": {
+    "phonetic": "/'V3;tju;/",
+    "pos": "n",
+    "meaning": "高尚的道德；卫直的品性；德行",
+    "example": "The virtue is very important.",
+    "exampleTranslation": "这个高尚的道德；卫直的品性；德行很重要。",
+    "relatedPhrases": []
+  },
+  "vision": {
+    "phonetic": "/'V节n/",
+    "pos": "",
+    "meaning": "化想象力；眼力；远见卓识",
+    "example": "I learned a new word: vision.",
+    "exampleTranslation": "我学了一个新单词：化想象力；眼力；远见卓识。",
+    "relatedPhrases": []
+  },
+  "wand": {
+    "phonetic": "/wond/",
+    "pos": "",
+    "meaning": "魔杖",
+    "example": "I learned a new word: wand.",
+    "exampleTranslation": "我学了一个新单词：魔杖。",
+    "relatedPhrases": []
+  },
+  "warmth": {
+    "phonetic": "/woime/",
+    "pos": "",
+    "meaning": "热廈；友廈",
+    "example": "I learned a new word: warmth.",
+    "exampleTranslation": "我学了一个新单词：热廈；友廈。",
+    "relatedPhrases": []
+  },
+  "watchfulness": {
+    "phonetic": "/'wDtJflnas/",
+    "pos": "",
+    "meaning": "警惕",
+    "example": "I learned a new word: watchfulness.",
+    "exampleTranslation": "我学了一个新单词：警惕。",
+    "relatedPhrases": []
+  },
+  "wean": {
+    "phonetic": "/wiin/",
+    "pos": "v",
+    "meaning": "使逐渐戒除恶习（或避免依赖...）",
+    "example": "I need to wean this task.",
+    "exampleTranslation": "我需要使逐渐戒除恶习（或避免依赖...）这个任务。",
+    "relatedPhrases": []
+  },
+  "wear": {
+    "phonetic": "/we9(r)/",
+    "pos": "v",
+    "meaning": "流露；面带",
+    "example": "I need to wear this task.",
+    "exampleTranslation": "我需要流露；面带这个任务。",
+    "relatedPhrases": [
+      {
+        "phrase": "wear out",
+        "meaning": "使疲乏；使筋疲力尽；使厌烦"
+      }
+    ]
+  },
+  "welfare": {
+    "phonetic": "/'welfe9(r)/",
+    "pos": "n",
+    "meaning": "(个体或群体的）幸福，安全与健康",
+    "example": "The welfare is very important.",
+    "exampleTranslation": "这个(个体或群体的）幸福，安全与健康很重要。",
+    "relatedPhrases": []
+  },
+  "well-being": {
+    "phonetic": "/'wel bin口/",
+    "pos": "",
+    "meaning": "健康；安乐；康乐",
+    "example": "I learned a new word: well-being.",
+    "exampleTranslation": "我学了一个新单词：健康；安乐；康乐。",
+    "relatedPhrases": []
+  },
+  "whereby": {
+    "phonetic": "/wea'bai/",
+    "pos": "conj",
+    "meaning": "凭此；藉lU ;由于",
+    "example": "I learned a new word: whereby.",
+    "exampleTranslation": "我学了一个新单词：凭此；藉lU ;由于。",
+    "relatedPhrases": []
+  },
+  "wholeheartedly": {
+    "phonetic": "/.haul'haitidli/",
+    "pos": "adv",
+    "meaning": "全必全意地",
+    "example": "She speaks wholeheartedly.",
+    "exampleTranslation": "她全必全意地地说话。",
+    "relatedPhrases": []
+  },
+  "wiggle": {
+    "phonetic": "/'wigl/",
+    "pos": "",
+    "meaning": "(使）担动，摆动，摇动",
+    "example": "I learned a new word: wiggle.",
+    "exampleTranslation": "我学了一个新单词：(使）担动，摆动，摇动。",
+    "relatedPhrases": []
+  },
+  "wintry": {
+    "phonetic": "/'wintri/",
+    "pos": "adj",
+    "meaning": "冬天的；寒冷的",
+    "example": "This is a wintry example.",
+    "exampleTranslation": "这是一个冬天的；寒冷的的例子。",
+    "relatedPhrases": []
+  },
+  "wipe": {
+    "phonetic": "/waip/",
+    "pos": "",
+    "meaning": "(用布、手等）擦干净，抹掉",
+    "example": "I learned a new word: wipe.",
+    "exampleTranslation": "我学了一个新单词：(用布、手等）擦干净，抹掉。",
+    "relatedPhrases": []
+  },
+  "wisdom": {
+    "phonetic": "/'wizdam/",
+    "pos": "n",
+    "meaning": "智慧；才智；精明",
+    "example": "The wisdom is very important.",
+    "exampleTranslation": "这个智慧；才智；精明很重要。",
+    "relatedPhrases": []
+  },
+  "wonder": {
+    "phonetic": "/'wAndoCr)/",
+    "pos": "v",
+    "meaning": "想知道；想弄明白；琢磨",
+    "example": "I need to wonder this task.",
+    "exampleTranslation": "我需要想知道；想弄明白；琢磨这个任务。",
+    "relatedPhrases": []
+  },
+  "worthwhile": {
+    "phonetic": "/,w3：0'wail/",
+    "pos": "adj",
+    "meaning": "重要的；令人愉快的；有趣的；值得花时间（或花钱、努力等）的",
+    "example": "This is a worthwhile example.",
+    "exampleTranslation": "这是一个重要的；令人愉快的；有趣的；值得花时间（或花钱、努力等）的的例子。",
+    "relatedPhrases": []
+  },
+  "wound": {
+    "phonetic": "/wu:nd/",
+    "pos": "n",
+    "meaning": "(心灵上的）伤，创伤",
+    "example": "The wound is very important.",
+    "exampleTranslation": "这个(心灵上的）伤，创伤很重要。",
+    "relatedPhrases": []
+  },
+  "wrap": {
+    "phonetic": "/raep/",
+    "pos": "",
+    "meaning": "用...缠绕（或围紧）",
+    "example": "I learned a new word: wrap.",
+    "exampleTranslation": "我学了一个新单词：用...缠绕（或围紧）。",
+    "relatedPhrases": []
+  },
+  "yard": {
+    "phonetic": "/ja;d/",
+    "pos": "",
+    "meaning": "码",
+    "example": "I learned a new word: yard.",
+    "exampleTranslation": "我学了一个新单词：码。",
+    "relatedPhrases": []
+  },
+  "yell": {
+    "phonetic": "/jel/",
+    "pos": "v",
+    "meaning": "叫喊；大喊；节帅",
+    "example": "I need to yell this task.",
+    "exampleTranslation": "我需要叫喊；大喊；节帅这个任务。",
+    "relatedPhrases": []
+  }
+}

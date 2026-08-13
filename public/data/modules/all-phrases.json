@@ -1,0 +1,866 @@
+[
+  {
+    "phrase": "a multitude of",
+    "meaning": "众多的；大量的",
+    "example": "I learned a new word: a multitude of.",
+    "translation": "我学了一个新单词：众多的；大量的。"
+  },
+  {
+    "phrase": "a series of",
+    "meaning": "一系列；连续",
+    "example": "I learned a new word: a series of.",
+    "translation": "我学了一个新单词：一系列；连续。"
+  },
+  {
+    "phrase": "a walk of life",
+    "meaning": "行业；职业；地位；阶层",
+    "example": "I learned a new word: a walk of life.",
+    "translation": "我学了一个新单词：行业；职业；地位；阶层。"
+  },
+  {
+    "phrase": "accept/take ... at face value",
+    "meaning": "相信表面；信以为真",
+    "example": "I learned a new word: accept/take ... at face value.",
+    "translation": "我学了一个新单词：相信表面；信以为真。"
+  },
+  {
+    "phrase": "account for",
+    "meaning": "（数量上、比例上）占",
+    "example": "I learned a new word: account for.",
+    "translation": "我学了一个新单词：（数量上、比例上）占。"
+  },
+  {
+    "phrase": "all of a sudden",
+    "meaning": "突然；猛地",
+    "example": "I learned a new word: all of a sudden.",
+    "translation": "我学了一个新单词：突然；猛地。"
+  },
+  {
+    "phrase": "apply for",
+    "meaning": "（通常以书面形式）申请，请求",
+    "example": "I learned a new word: apply for.",
+    "translation": "我学了一个新单词：（通常以书面形式）申请，请求。"
+  },
+  {
+    "phrase": "apply to",
+    "meaning": "使用；应用",
+    "example": "I learned a new word: apply to.",
+    "translation": "我学了一个新单词：使用；应用。"
+  },
+  {
+    "phrase": "as luck would have it",
+    "meaning": "碰节；偶然；幸而",
+    "example": "I learned a new word: as luck would have it.",
+    "translation": "我学了一个新单词：碰节；偶然；幸而。"
+  },
+  {
+    "phrase": "as well as",
+    "meaning": "除…之外",
+    "example": "I learned a new word: as well as.",
+    "translation": "我学了一个新单词：除…之外。"
+  },
+  {
+    "phrase": "assure ... of ...",
+    "meaning": "使放心；向…保证",
+    "example": "I learned a new word: assure ... of ....",
+    "translation": "我学了一个新单词：使放心；向…保证。"
+  },
+  {
+    "phrase": "at a time",
+    "meaning": "每次；逐一；依次",
+    "example": "I learned a new word: at a time.",
+    "translation": "我学了一个新单词：每次；逐一；依次。"
+  },
+  {
+    "phrase": "at one point",
+    "meaning": "在某个时刻",
+    "example": "I learned a new word: at one point.",
+    "translation": "我学了一个新单词：在某个时刻。"
+  },
+  {
+    "phrase": "at one's disposal",
+    "meaning": "任某人处理；供某人任意使用",
+    "example": "I learned a new word: at one's disposal.",
+    "translation": "我学了一个新单词：任某人处理；供某人任意使用。"
+  },
+  {
+    "phrase": "at/in/to the forefront of ...",
+    "meaning": "处在最前列；进入重要地位",
+    "example": "I learned a new word: at/in/to the forefront of ....",
+    "translation": "我学了一个新单词：处在最前列；进入重要地位。"
+  },
+  {
+    "phrase": "bargain for",
+    "meaning": "预料到；料想到",
+    "example": "I learned a new word: bargain for.",
+    "translation": "我学了一个新单词：预料到；料想到。"
+  },
+  {
+    "phrase": "bask in",
+    "meaning": "晒太阳；取暖",
+    "example": "I learned a new word: bask in.",
+    "translation": "我学了一个新单词：晒太阳；取暖。"
+  },
+  {
+    "phrase": "be accustomed to ...",
+    "meaning": "习惯于",
+    "example": "I learned a new word: be accustomed to ....",
+    "translation": "我学了一个新单词：习惯于。"
+  },
+  {
+    "phrase": "be attributed to",
+    "meaning": "把…归因于；认为…是由于",
+    "example": "I learned a new word: be attributed to.",
+    "translation": "我学了一个新单词：把…归因于；认为…是由于。"
+  },
+  {
+    "phrase": "be characteristic of",
+    "meaning": "典型的；独特的；特有的",
+    "example": "I learned a new word: be characteristic of.",
+    "translation": "我学了一个新单词：典型的；独特的；特有的。"
+  },
+  {
+    "phrase": "be in control of",
+    "meaning": "掌管；管理；控制",
+    "example": "I learned a new word: be in control of.",
+    "translation": "我学了一个新单词：掌管；管理；控制。"
+  },
+  {
+    "phrase": "be linked to",
+    "meaning": "与…有联系",
+    "example": "I learned a new word: be linked to.",
+    "translation": "我学了一个新单词：与…有联系。"
+  },
+  {
+    "phrase": "be lost in one's thought",
+    "meaning": "陷入沉思",
+    "example": "I learned a new word: be lost in one's thought.",
+    "translation": "我学了一个新单词：陷入沉思。"
+  },
+  {
+    "phrase": "be prepared for",
+    "meaning": "准备好；有所准备",
+    "example": "I learned a new word: be prepared for.",
+    "translation": "我学了一个新单词：准备好；有所准备。"
+  },
+  {
+    "phrase": "be prone to",
+    "meaning": "易于",
+    "example": "I learned a new word: be prone to.",
+    "translation": "我学了一个新单词：易于。"
+  },
+  {
+    "phrase": "be reliant upon",
+    "meaning": "依赖；依靠",
+    "example": "I learned a new word: be reliant upon.",
+    "translation": "我学了一个新单词：依赖；依靠。"
+  },
+  {
+    "phrase": "be up to",
+    "meaning": "取决于",
+    "example": "I learned a new word: be up to.",
+    "translation": "我学了一个新单词：取决于。"
+  },
+  {
+    "phrase": "be/feel privileged to do",
+    "meaning": "荣幸地做某事",
+    "example": "I learned a new word: be/feel privileged to do.",
+    "translation": "我学了一个新单词：荣幸地做某事。"
+  },
+  {
+    "phrase": "because of",
+    "meaning": "因为",
+    "example": "I learned a new word: because of.",
+    "translation": "我学了一个新单词：因为。"
+  },
+  {
+    "phrase": "believe in",
+    "meaning": "认为某事好（对、可接受）",
+    "example": "I learned a new word: believe in.",
+    "translation": "我学了一个新单词：认为某事好（对、可接受）。"
+  },
+  {
+    "phrase": "biological mother",
+    "meaning": "生母",
+    "example": "I learned a new word: biological mother.",
+    "translation": "我学了一个新单词：生母。"
+  },
+  {
+    "phrase": "break down",
+    "meaning": "失败",
+    "example": "I learned a new word: break down.",
+    "translation": "我学了一个新单词：失败。"
+  },
+  {
+    "phrase": "bring ... to light",
+    "meaning": "揭露；披露；揭发",
+    "example": "I learned a new word: bring ... to light.",
+    "translation": "我学了一个新单词：揭露；披露；揭发。"
+  },
+  {
+    "phrase": "bring ... to the table",
+    "meaning": "带来好处",
+    "example": "I learned a new word: bring ... to the table.",
+    "translation": "我学了一个新单词：带来好处。"
+  },
+  {
+    "phrase": "bring about",
+    "meaning": "导致；引起",
+    "example": "I learned a new word: bring about.",
+    "translation": "我学了一个新单词：导致；引起。"
+  },
+  {
+    "phrase": "bring in",
+    "meaning": "赚得；挣",
+    "example": "I learned a new word: bring in.",
+    "translation": "我学了一个新单词：赚得；挣。"
+  },
+  {
+    "phrase": "butterflies in the stomach",
+    "meaning": "心里七上八下",
+    "example": "I learned a new word: butterflies in the stomach.",
+    "translation": "我学了一个新单词：心里七上八下。"
+  },
+  {
+    "phrase": "by and large",
+    "meaning": "大体上；总体上",
+    "example": "I learned a new word: by and large.",
+    "translation": "我学了一个新单词：大体上；总体上。"
+  },
+  {
+    "phrase": "call forth",
+    "meaning": "引起；使产生",
+    "example": "I learned a new word: call forth.",
+    "translation": "我学了一个新单词：引起；使产生。"
+  },
+  {
+    "phrase": "care about sb",
+    "meaning": "关心；关怀",
+    "example": "I learned a new word: care about sb.",
+    "translation": "我学了一个新单词：关心；关怀。"
+  },
+  {
+    "phrase": "care for",
+    "meaning": "照顾，照料（病、老、幼者等）",
+    "example": "I learned a new word: care for.",
+    "translation": "我学了一个新单词：照顾，照料（病、老、幼者等）。"
+  },
+  {
+    "phrase": "carry out",
+    "meaning": "完成（任务）",
+    "example": "I learned a new word: carry out.",
+    "translation": "我学了一个新单词：完成（任务）。"
+  },
+  {
+    "phrase": "come down with",
+    "meaning": "患，得，染上（小病）",
+    "example": "I learned a new word: come down with.",
+    "translation": "我学了一个新单词：患，得，染上（小病）。"
+  },
+  {
+    "phrase": "come up with",
+    "meaning": "找到（答案等）",
+    "example": "I learned a new word: come up with.",
+    "translation": "我学了一个新单词：找到（答案等）。"
+  },
+  {
+    "phrase": "conduct oneself",
+    "meaning": "举止；表现",
+    "example": "I learned a new word: conduct oneself.",
+    "translation": "我学了一个新单词：举止；表现。"
+  },
+  {
+    "phrase": "convert ... into",
+    "meaning": "（使）转变，转换，转化",
+    "example": "I learned a new word: convert ... into.",
+    "translation": "我学了一个新单词：（使）转变，转换，转化。"
+  },
+  {
+    "phrase": "cutting edge",
+    "meaning": "（处于某事物发展的）尖端，最前沿，领先阶段",
+    "example": "I learned a new word: cutting edge.",
+    "translation": "我学了一个新单词：（处于某事物发展的）尖端，最前沿，领先阶段。"
+  },
+  {
+    "phrase": "deep down",
+    "meaning": "实际上；在心底",
+    "example": "I learned a new word: deep down.",
+    "translation": "我学了一个新单词：实际上；在心底。"
+  },
+  {
+    "phrase": "deprive ... of ...",
+    "meaning": "剥夺；使丧失",
+    "example": "I learned a new word: deprive ... of ....",
+    "translation": "我学了一个新单词：剥夺；使丧失。"
+  },
+  {
+    "phrase": "drop ... off",
+    "meaning": "（顺路）把…放下",
+    "example": "I learned a new word: drop ... off.",
+    "translation": "我学了一个新单词：（顺路）把…放下。"
+  },
+  {
+    "phrase": "drop out",
+    "meaning": "退学；辍学",
+    "example": "I learned a new word: drop out.",
+    "translation": "我学了一个新单词：退学；辍学。"
+  },
+  {
+    "phrase": "dwell on",
+    "meaning": "老是想着（尤指最好忘记的事）",
+    "example": "I learned a new word: dwell on.",
+    "translation": "我学了一个新单词：老是想着（尤指最好忘记的事）。"
+  },
+  {
+    "phrase": "eke out a living",
+    "meaning": "竭力维持生计；勉强度日",
+    "example": "I learned a new word: eke out a living.",
+    "translation": "我学了一个新单词：竭力维持生计；勉强度日。"
+  },
+  {
+    "phrase": "end up",
+    "meaning": "最终成为；最后处于",
+    "example": "I learned a new word: end up.",
+    "translation": "我学了一个新单词：最终成为；最后处于。"
+  },
+  {
+    "phrase": "engage in",
+    "meaning": "（使）从事，参加",
+    "example": "I learned a new word: engage in.",
+    "translation": "我学了一个新单词：（使）从事，参加。"
+  },
+  {
+    "phrase": "fall over",
+    "meaning": "被…绊倒；几乎被…绊倒",
+    "example": "I learned a new word: fall over.",
+    "translation": "我学了一个新单词：被…绊倒；几乎被…绊倒。"
+  },
+  {
+    "phrase": "fall to pieces",
+    "meaning": "崩溃；倒塌；解体",
+    "example": "I learned a new word: fall to pieces.",
+    "translation": "我学了一个新单词：崩溃；倒塌；解体。"
+  },
+  {
+    "phrase": "feel good",
+    "meaning": "感到愉快（或有信心等）",
+    "example": "I learned a new word: feel good.",
+    "translation": "我学了一个新单词：感到愉快（或有信心等）。"
+  },
+  {
+    "phrase": "fight back",
+    "meaning": "奋力抵抗；还击",
+    "example": "I learned a new word: fight back.",
+    "translation": "我学了一个新单词：奋力抵抗；还击。"
+  },
+  {
+    "phrase": "fill out",
+    "meaning": "膨胀；扩张；长胖；长肥",
+    "example": "I learned a new word: fill out.",
+    "translation": "我学了一个新单词：膨胀；扩张；长胖；长肥。"
+  },
+  {
+    "phrase": "fit in",
+    "meaning": "（与…）合得来；适应",
+    "example": "I learned a new word: fit in.",
+    "translation": "我学了一个新单词：（与…）合得来；适应。"
+  },
+  {
+    "phrase": "from scratch",
+    "meaning": "从头开始；从零开始",
+    "example": "I learned a new word: from scratch.",
+    "translation": "我学了一个新单词：从头开始；从零开始。"
+  },
+  {
+    "phrase": "get ... up",
+    "meaning": "安排；组织",
+    "example": "I learned a new word: get ... up.",
+    "translation": "我学了一个新单词：安排；组织。"
+  },
+  {
+    "phrase": "get lost",
+    "meaning": "不知所措；一筹莫展",
+    "example": "I learned a new word: get lost.",
+    "translation": "我学了一个新单词：不知所措；一筹莫展。"
+  },
+  {
+    "phrase": "get over",
+    "meaning": "解决；克服；控制",
+    "example": "I learned a new word: get over.",
+    "translation": "我学了一个新单词：解决；克服；控制。"
+  },
+  {
+    "phrase": "give up ... to ...",
+    "meaning": "把…交给（或让与）…",
+    "example": "I learned a new word: give up ... to ....",
+    "translation": "我学了一个新单词：把…交给（或让与）…。"
+  },
+  {
+    "phrase": "go off",
+    "meaning": "突然发出巨响",
+    "example": "I learned a new word: go off.",
+    "translation": "我学了一个新单词：突然发出巨响。"
+  },
+  {
+    "phrase": "go through",
+    "meaning": "经历；遭受",
+    "example": "I learned a new word: go through.",
+    "translation": "我学了一个新单词：经历；遭受。"
+  },
+  {
+    "phrase": "God/Heaven/Lord forbid (that ...)",
+    "meaning": "但愿这事不发生",
+    "example": "I learned a new word: God/Heaven/Lord forbid (that ...).",
+    "translation": "我学了一个新单词：但愿这事不发生。"
+  },
+  {
+    "phrase": "have an impact on/upon",
+    "meaning": "对…产生巨大影响",
+    "example": "I learned a new word: have an impact on/upon.",
+    "translation": "我学了一个新单词：对…产生巨大影响。"
+  },
+  {
+    "phrase": "head over heels in love",
+    "meaning": "深深地爱着某人；迷恋",
+    "example": "I learned a new word: head over heels in love.",
+    "translation": "我学了一个新单词：深深地爱着某人；迷恋。"
+  },
+  {
+    "phrase": "in desperation",
+    "meaning": "在绝望中；走投无路",
+    "example": "I learned a new word: in desperation.",
+    "translation": "我学了一个新单词：在绝望中；走投无路。"
+  },
+  {
+    "phrase": "in essence",
+    "meaning": "本质上",
+    "example": "I learned a new word: in essence.",
+    "translation": "我学了一个新单词：本质上。"
+  },
+  {
+    "phrase": "in memory of",
+    "meaning": "作为对…的纪念",
+    "example": "I learned a new word: in memory of.",
+    "translation": "我学了一个新单词：作为对…的纪念。"
+  },
+  {
+    "phrase": "in place",
+    "meaning": "在工作；准备就绪",
+    "example": "I learned a new word: in place.",
+    "translation": "我学了一个新单词：在工作；准备就绪。"
+  },
+  {
+    "phrase": "in plain sight",
+    "meaning": "显而易见",
+    "example": "I learned a new word: in plain sight.",
+    "translation": "我学了一个新单词：显而易见。"
+  },
+  {
+    "phrase": "in public",
+    "meaning": "公开地；在别人（尤指生人）面前",
+    "example": "I learned a new word: in public.",
+    "translation": "我学了一个新单词：公开地；在别人（尤指生人）面前。"
+  },
+  {
+    "phrase": "in this manner",
+    "meaning": "用这种方式",
+    "example": "I learned a new word: in this manner.",
+    "translation": "我学了一个新单词：用这种方式。"
+  },
+  {
+    "phrase": "in this respect",
+    "meaning": "在这方面",
+    "example": "I learned a new word: in this respect.",
+    "translation": "我学了一个新单词：在这方面。"
+  },
+  {
+    "phrase": "inch by inch",
+    "meaning": "缓慢而谨慎地；一步一步",
+    "example": "I learned a new word: inch by inch.",
+    "translation": "我学了一个新单词：缓慢而谨慎地；一步一步。"
+  },
+  {
+    "phrase": "join in",
+    "meaning": "参加，加入（活动）",
+    "example": "I learned a new word: join in.",
+    "translation": "我学了一个新单词：参加，加入（活动）。"
+  },
+  {
+    "phrase": "jump out of one's skin",
+    "meaning": "欢喜雀跃；兴高采烈",
+    "example": "I learned a new word: jump out of one's skin.",
+    "translation": "我学了一个新单词：欢喜雀跃；兴高采烈。"
+  },
+  {
+    "phrase": "keep tabs on",
+    "meaning": "监视；密切注视",
+    "example": "I learned a new word: keep tabs on.",
+    "translation": "我学了一个新单词：监视；密切注视。"
+  },
+  {
+    "phrase": "keep track of",
+    "meaning": "了解…的情况（或动态）",
+    "example": "I learned a new word: keep track of.",
+    "translation": "我学了一个新单词：了解…的情况（或动态）。"
+  },
+  {
+    "phrase": "keep up with",
+    "meaning": "（与…）齐步前进；并驾齐驱；跟上",
+    "example": "I learned a new word: keep up with.",
+    "translation": "我学了一个新单词：（与…）齐步前进；并驾齐驱；跟上。"
+  },
+  {
+    "phrase": "lead to",
+    "meaning": "导致，造成（后果）",
+    "example": "I learned a new word: lead to.",
+    "translation": "我学了一个新单词：导致，造成（后果）。"
+  },
+  {
+    "phrase": "lie in",
+    "meaning": "存在；在于",
+    "example": "I learned a new word: lie in.",
+    "translation": "我学了一个新单词：存在；在于。"
+  },
+  {
+    "phrase": "line up",
+    "meaning": "排成一行；站队；排队（等候）",
+    "example": "I learned a new word: line up.",
+    "translation": "我学了一个新单词：排成一行；站队；排队（等候）。"
+  },
+  {
+    "phrase": "look back on",
+    "meaning": "回首（往事）；回忆；回顾",
+    "example": "I learned a new word: look back on.",
+    "translation": "我学了一个新单词：回首（往事）；回忆；回顾。"
+  },
+  {
+    "phrase": "look forward to",
+    "meaning": "（高兴地）盼望，期待",
+    "example": "I learned a new word: look forward to.",
+    "translation": "我学了一个新单词：（高兴地）盼望，期待。"
+  },
+  {
+    "phrase": "major in",
+    "meaning": "主修",
+    "example": "I learned a new word: major in.",
+    "translation": "我学了一个新单词：主修。"
+  },
+  {
+    "phrase": "make a difference",
+    "meaning": "有作用；产生影响",
+    "example": "I learned a new word: make a difference.",
+    "translation": "我学了一个新单词：有作用；产生影响。"
+  },
+  {
+    "phrase": "make a hit",
+    "meaning": "给（某人）留下很好的第一印象；使（某人）一见钟情",
+    "example": "I learned a new word: make a hit.",
+    "translation": "我学了一个新单词：给（某人）留下很好的第一印象；使（某人）一见钟情。"
+  },
+  {
+    "phrase": "make it",
+    "meaning": "获得成功",
+    "example": "I learned a new word: make it.",
+    "translation": "我学了一个新单词：获得成功。"
+  },
+  {
+    "phrase": "make one's way",
+    "meaning": "去；前往；到…地方去",
+    "example": "I learned a new word: make one's way.",
+    "translation": "我学了一个新单词：去；前往；到…地方去。"
+  },
+  {
+    "phrase": "meet one's expectations",
+    "meaning": "符合某人的期望",
+    "example": "I learned a new word: meet one's expectations.",
+    "translation": "我学了一个新单词：符合某人的期望。"
+  },
+  {
+    "phrase": "moan about",
+    "meaning": "抱怨",
+    "example": "I learned a new word: moan about.",
+    "translation": "我学了一个新单词：抱怨。"
+  },
+  {
+    "phrase": "on a daily basis",
+    "meaning": "每日地",
+    "example": "I learned a new word: on a daily basis.",
+    "translation": "我学了一个新单词：每日地。"
+  },
+  {
+    "phrase": "on one's feet",
+    "meaning": "（困境后）恢复，完全复原；（病后）痊愈",
+    "example": "I learned a new word: on one's feet.",
+    "translation": "我学了一个新单词：（困境后）恢复，完全复原；（病后）痊愈。"
+  },
+  {
+    "phrase": "open up",
+    "meaning": "（使某事物）成为可能，可得到，可达到",
+    "example": "I learned a new word: open up.",
+    "translation": "我学了一个新单词：（使某事物）成为可能，可得到，可达到。"
+  },
+  {
+    "phrase": "over and over again",
+    "meaning": "多次；反复地；一再",
+    "example": "I learned a new word: over and over again.",
+    "translation": "我学了一个新单词：多次；反复地；一再。"
+  },
+  {
+    "phrase": "pace oneself",
+    "meaning": "调整自己的工作（或活动）节奏",
+    "example": "I learned a new word: pace oneself.",
+    "translation": "我学了一个新单词：调整自己的工作（或活动）节奏。"
+  },
+  {
+    "phrase": "pay attention to",
+    "meaning": "注意",
+    "example": "I learned a new word: pay attention to.",
+    "translation": "我学了一个新单词：注意。"
+  },
+  {
+    "phrase": "pay off ...",
+    "meaning": "付清；偿清",
+    "example": "I learned a new word: pay off ....",
+    "translation": "我学了一个新单词：付清；偿清。"
+  },
+  {
+    "phrase": "perish the thought",
+    "meaning": "别想了；但愿不会如此",
+    "example": "I learned a new word: perish the thought.",
+    "translation": "我学了一个新单词：别想了；但愿不会如此。"
+  },
+  {
+    "phrase": "pick up",
+    "meaning": "让人乘车；搭载",
+    "example": "I learned a new word: pick up.",
+    "translation": "我学了一个新单词：让人乘车；搭载。"
+  },
+  {
+    "phrase": "pile up",
+    "meaning": "堆积；积压",
+    "example": "I learned a new word: pile up.",
+    "translation": "我学了一个新单词：堆积；积压。"
+  },
+  {
+    "phrase": "poke fun at",
+    "meaning": "拿…开心；奚落；嘲笑",
+    "example": "I learned a new word: poke fun at.",
+    "translation": "我学了一个新单词：拿…开心；奚落；嘲笑。"
+  },
+  {
+    "phrase": "put ... down",
+    "meaning": "使（当众）出丑；使出洋相；让某人现眼",
+    "example": "I learned a new word: put ... down.",
+    "translation": "我学了一个新单词：使（当众）出丑；使出洋相；让某人现眼。"
+  },
+  {
+    "phrase": "put forth",
+    "meaning": "提出；产生",
+    "example": "I learned a new word: put forth.",
+    "translation": "我学了一个新单词：提出；产生。"
+  },
+  {
+    "phrase": "respond to",
+    "meaning": "作出反馈；响应",
+    "example": "I learned a new word: respond to.",
+    "translation": "我学了一个新单词：作出反馈；响应。"
+  },
+  {
+    "phrase": "result in",
+    "meaning": "导致",
+    "example": "I learned a new word: result in.",
+    "translation": "我学了一个新单词：导致。"
+  },
+  {
+    "phrase": "rub ... out",
+    "meaning": "用橡皮擦掉（字迹等）",
+    "example": "I learned a new word: rub ... out.",
+    "translation": "我学了一个新单词：用橡皮擦掉（字迹等）。"
+  },
+  {
+    "phrase": "run out of",
+    "meaning": "用完；耗尽",
+    "example": "I learned a new word: run out of.",
+    "translation": "我学了一个新单词：用完；耗尽。"
+  },
+  {
+    "phrase": "save on",
+    "meaning": "节省；节约",
+    "example": "I learned a new word: save on.",
+    "translation": "我学了一个新单词：节省；节约。"
+  },
+  {
+    "phrase": "seek out",
+    "meaning": "寻求",
+    "example": "I learned a new word: seek out.",
+    "translation": "我学了一个新单词：寻求。"
+  },
+  {
+    "phrase": "set ... apart from",
+    "meaning": "区别；使与众不同",
+    "example": "I learned a new word: set ... apart from.",
+    "translation": "我学了一个新单词：区别；使与众不同。"
+  },
+  {
+    "phrase": "show off",
+    "meaning": "炫耀；卖弄",
+    "example": "I learned a new word: show off.",
+    "translation": "我学了一个新单词：炫耀；卖弄。"
+  },
+  {
+    "phrase": "sink in",
+    "meaning": "被完全理解；被充分意识到",
+    "example": "I learned a new word: sink in.",
+    "translation": "我学了一个新单词：被完全理解；被充分意识到。"
+  },
+  {
+    "phrase": "slip away",
+    "meaning": "消失；消亡；死去",
+    "example": "I learned a new word: slip away.",
+    "translation": "我学了一个新单词：消失；消亡；死去。"
+  },
+  {
+    "phrase": "stand ... in good stead",
+    "meaning": "（需要时）对某人有用，对某人有利",
+    "example": "I learned a new word: stand ... in good stead.",
+    "translation": "我学了一个新单词：（需要时）对某人有用，对某人有利。"
+  },
+  {
+    "phrase": "stand by",
+    "meaning": "支持; 帮助；忠于",
+    "example": "I learned a new word: stand by.",
+    "translation": "我学了一个新单词：支持; 帮助；忠于。"
+  },
+  {
+    "phrase": "start over",
+    "meaning": "重新开始",
+    "example": "I learned a new word: start over.",
+    "translation": "我学了一个新单词：重新开始。"
+  },
+  {
+    "phrase": "stay up",
+    "meaning": "熬夜",
+    "example": "I learned a new word: stay up.",
+    "translation": "我学了一个新单词：熬夜。"
+  },
+  {
+    "phrase": "stick by",
+    "meaning": "坚持忠于；不离不弃（某人）",
+    "example": "I learned a new word: stick by.",
+    "translation": "我学了一个新单词：坚持忠于；不离不弃（某人）。"
+  },
+  {
+    "phrase": "stress the importance of",
+    "meaning": "强调…的重要性",
+    "example": "I learned a new word: stress the importance of.",
+    "translation": "我学了一个新单词：强调…的重要性。"
+  },
+  {
+    "phrase": "strike up",
+    "meaning": "（和某人）建立友谊，开始来往，交谈起来",
+    "example": "I learned a new word: strike up.",
+    "translation": "我学了一个新单词：（和某人）建立友谊，开始来往，交谈起来。"
+  },
+  {
+    "phrase": "struggle with",
+    "meaning": "斗争；抗争",
+    "example": "I learned a new word: struggle with.",
+    "translation": "我学了一个新单词：斗争；抗争。"
+  },
+  {
+    "phrase": "take ... into account",
+    "meaning": "考虑到；顾及",
+    "example": "I learned a new word: take ... into account.",
+    "translation": "我学了一个新单词：考虑到；顾及。"
+  },
+  {
+    "phrase": "take a chance",
+    "meaning": "冒险",
+    "example": "I learned a new word: take a chance.",
+    "translation": "我学了一个新单词：冒险。"
+  },
+  {
+    "phrase": "take one's own life",
+    "meaning": "自杀",
+    "example": "I learned a new word: take one's own life.",
+    "translation": "我学了一个新单词：自杀。"
+  },
+  {
+    "phrase": "take up",
+    "meaning": "占去",
+    "example": "I learned a new word: take up.",
+    "translation": "我学了一个新单词：占去。"
+  },
+  {
+    "phrase": "take wings",
+    "meaning": "飞走",
+    "example": "I learned a new word: take wings.",
+    "translation": "我学了一个新单词：飞走。"
+  },
+  {
+    "phrase": "tend to",
+    "meaning": "照料；照管；护理",
+    "example": "I learned a new word: tend to.",
+    "translation": "我学了一个新单词：照料；照管；护理。"
+  },
+  {
+    "phrase": "through thick and thin",
+    "meaning": "不畏艰难险阻",
+    "example": "I learned a new word: through thick and thin.",
+    "translation": "我学了一个新单词：不畏艰难险阻。"
+  },
+  {
+    "phrase": "turn against",
+    "meaning": "背叛",
+    "example": "I learned a new word: turn against.",
+    "translation": "我学了一个新单词：背叛。"
+  },
+  {
+    "phrase": "turn out",
+    "meaning": "原来是；证明是；结果是",
+    "example": "I learned a new word: turn out.",
+    "translation": "我学了一个新单词：原来是；证明是；结果是。"
+  },
+  {
+    "phrase": "walk out on",
+    "meaning": "遗弃，抛弃，离开（某人）",
+    "example": "I learned a new word: walk out on.",
+    "translation": "我学了一个新单词：遗弃，抛弃，离开（某人）。"
+  },
+  {
+    "phrase": "warn ... of ...",
+    "meaning": "警告某人某事",
+    "example": "I learned a new word: warn ... of ....",
+    "translation": "我学了一个新单词：警告某人某事。"
+  },
+  {
+    "phrase": "wear out",
+    "meaning": "使疲乏；使筋疲力尽；使厌烦",
+    "example": "I learned a new word: wear out.",
+    "translation": "我学了一个新单词：使疲乏；使筋疲力尽；使厌烦。"
+  },
+  {
+    "phrase": "with a grain of salt",
+    "meaning": "有保留地；持怀疑态度地",
+    "example": "I learned a new word: with a grain of salt.",
+    "translation": "我学了一个新单词：有保留地；持怀疑态度地。"
+  },
+  {
+    "phrase": "with ease",
+    "meaning": "轻而易举地",
+    "example": "I learned a new word: with ease.",
+    "translation": "我学了一个新单词：轻而易举地。"
+  },
+  {
+    "phrase": "with the aid of",
+    "meaning": "在…的辅助下",
+    "example": "I learned a new word: with the aid of.",
+    "translation": "我学了一个新单词：在…的辅助下。"
+  },
+  {
+    "phrase": "within one's means",
+    "meaning": "量入为出",
+    "example": "I learned a new word: within one's means.",
+    "translation": "我学了一个新单词：量入为出。"
+  }
+]

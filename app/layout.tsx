@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import "./study/unit-modules/unit-study.css";
 
 export const metadata: Metadata = {
-  title: "Daily English · 阶段驱动英语学习",
-  description: "本地 Web 英语学习系统：阶段先于时长，保留真实学习记录和点词查询。",
+  title: "Daily English · 英语(二)自学教程",
+  description: "英语(二)自学教程 - 按单元学习单词、词组、语法、句子、练习、作文",
   icons: { icon: "/favicon.svg", shortcut: "/favicon.svg" },
 };
 

@@ -48,3 +48,17 @@ next-env.d.ts
 .vinext-final.*.log
 .vinext-start.*.log
 
+
+# OCR processing cache
+app/study/textbook-units/ocr/ocr_raw_pages.json
+app/study/textbook-units/ocr/DATA_OUTLINE.md
+
+# PDF source file (too large for git)
+*.pdf
+
+# PaddleOCR scripts (development only)
+scripts/ocr_pdf_chapters.py
+scripts/run_paddle_ocr_*.py
+
+# TypeScript build info
+tsconfig.tsbuildinfo
