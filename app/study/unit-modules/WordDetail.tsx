@@ -36,7 +36,10 @@ export function WordDetailSidebar({ word, entry, onClose }: Props) {
     return () => window.removeEventListener("keydown", handler);
   }, [handleClose]);
 
-  if (!entry) {
+  const isEmpty = !entry || (!entry.meaning && !entry.phonetic && !entry.pos);
+  const effective = entry || { phonetic: "", pos: "", meaning: "", example: "", exampleTranslation: "", relatedPhrases: [] };
+
+  if (isEmpty) {
     return (
       <>
         <div className={`wd-overlay ${visible ? "wd-show" : ""}`} onClick={handleClose} />
@@ -45,7 +48,12 @@ export function WordDetailSidebar({ word, entry, onClose }: Props) {
             <span className="wd-word-title">{word}</span>
             <button className="wd-close" onClick={handleClose}>✕</button>
           </div>
-          <div className="wd-empty">暂无该词的详细信息。</div>
+          <div className="wd-section">
+            <button className="wd-speak-btn" onClick={() => speak(word)} title="点击播放发音">
+              🔊 <span>播放发音</span>
+            </button>
+          </div>
+          <div className="wd-empty">该词暂未收录详细释义，请结合上下文理解。</div>
         </div>
       </>
     );
@@ -59,7 +67,7 @@ export function WordDetailSidebar({ word, entry, onClose }: Props) {
         <div className="wd-header">
           <div>
             <span className="wd-word-title">{word}</span>
-            {entry.pos && <span className="wd-pos">{entry.pos}</span>}
+            {effective.pos && <span className="wd-pos">{effective.pos}</span>}
           </div>
           <button className="wd-close" onClick={handleClose}>✕</button>
         </div>
@@ -69,35 +77,35 @@ export function WordDetailSidebar({ word, entry, onClose }: Props) {
           <button className="wd-speak-btn" onClick={() => speak(word)} title="点击播放发音">
             🔊 <span>播放发音</span>
           </button>
-          {entry.phonetic && <div className="wd-phonetic">{entry.phonetic}</div>}
+          {effective.phonetic && <div className="wd-phonetic">{effective.phonetic}</div>}
         </div>
 
         {/* Translation */}
         <div className="wd-section">
           <div className="wd-label">📖 释义</div>
-          <div className="wd-meaning">{entry.meaning}</div>
+          <div className="wd-meaning">{effective.meaning}</div>
         </div>
 
         {/* Example sentence */}
-        {entry.example && (
+        {effective.example && (
           <div className="wd-section">
             <div className="wd-label">💬 例句</div>
             <div className="wd-example-en">
-              <button className="wd-mini-speak" onClick={() => speak(entry.example)} title="播放例句发音">🔊</button>
-              {entry.example}
+              <button className="wd-mini-speak" onClick={() => speak(effective.example)} title="播放例句发音">🔊</button>
+              {effective.example}
             </div>
-            {entry.exampleTranslation && (
-              <div className="wd-example-zh">{entry.exampleTranslation}</div>
+            {effective.exampleTranslation && (
+              <div className="wd-example-zh">{effective.exampleTranslation}</div>
             )}
           </div>
         )}
 
         {/* Related phrases */}
-        {entry.relatedPhrases && entry.relatedPhrases.length > 0 && (
+        {effective.relatedPhrases && effective.relatedPhrases.length > 0 && (
           <div className="wd-section">
             <div className="wd-label">🔗 相关短语</div>
             <div className="wd-phrases">
-              {entry.relatedPhrases.map((p, i) => (
+              {effective.relatedPhrases.map((p, i) => (
                 <div key={i} className="wd-phrase-item">
                   <span className="wd-phrase-en" onClick={() => speak(p.phrase)}>{p.phrase}</span>
                   <span className="wd-phrase-zh">{p.meaning}</span>
@@ -111,8 +119,8 @@ export function WordDetailSidebar({ word, entry, onClose }: Props) {
         <div className="wd-section">
           <div className="wd-label">📐 用法提示</div>
           <div className="wd-grammar-hint">
-            {entry.pos ? (
-              <span>该词为 <strong>{entry.pos}</strong>，{posToGrammarHint(entry.pos)}</span>
+            {effective.pos ? (
+              <span>该词为 <strong>{effective.pos}</strong>，{posToGrammarHint(effective.pos)}</span>
             ) : (
               <span>请结合上下文理解该词的用法。</span>
             )}
